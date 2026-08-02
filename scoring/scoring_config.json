@@ -1,0 +1,48 @@
+{
+  "league_id": 294292,
+  "league_name": "Major League Dynasty",
+  "defense": {
+    "solo_tackle": 1.5,
+    "assisted_tackle": 0.75,
+    "tackle_for_loss": 1.0,
+    "sack": 2.0,
+    "sack_yard": 0.25,
+    "interception": 4.0,
+    "pass_defended": 1.5,
+    "forced_fumble": 3.0,
+    "fumble_recovered": 1.0,
+    "safety": 4.0,
+    "defensive_td": 6.0,
+    "qb_hit": 0.0,
+    "qb_hurry": 0.0
+  },
+  "offense": {
+    "pass_yard": 0.04,
+    "pass_td": 4.0,
+    "interception_thrown": -2.0,
+    "pass_2pc": 2.0,
+    "rush_yard": 0.1,
+    "rush_td": 6.0,
+    "rush_2pc": 2.0,
+    "reception": 0.1,
+    "rec_yard": 0.1,
+    "rec_td": 6.0,
+    "fumble": -1.0,
+    "fumble_lost": -1.0
+  },
+  "kicking": {
+    "fg_base": 3.0,
+    "fg_distance_bonus": {
+      "0-39": 0.0,
+      "40-49": 1.0,
+      "50-59": 2.0,
+      "60-69": 3.0,
+      "70+": 4.0
+    },
+    "xp": 1.0
+  },
+  "notes": {
+    "ppr_phase_in": "Receiving liegt aktuell bei 0.1/Catch, Liga-Beschluss bewegt sich schrittweise Richtung 0.5. Muss bei jeder Saison neu geprüft werden, nicht als Konstante annehmen.",
+    "source": "Fleaflicker FetchLeagueRules, verifiziert von Dominik"
+  }
+}

@@ -1,0 +1,72 @@
+| 1.1 #1 | [Bijan Robinson](url) RB ATL | Ragnitz Couchpotatos |
+| 1.2 #2 | [Jahmyr Gibbs](url) RB DET | St.Leonhard Sombreros |
+| 1.3 #3 | [Jaxon Smith-Njigba](url) WR SEA | Purple Cobras |
+| 1.4 #4 | [Zach Charbonnet](url) RB SEA | Mühlviertl Raiders |
+| 1.5 #5 | [Kendre Miller](url) RB NO | Vienna BBB |
+| 1.6 #6 | [De'Von Achane](url) RB MIA | Gries Goats |
+| 1.7 #7 | [Tank Bigsby](url) RB PHI | New Fernitz Dudemeisters |
+| 1.8 #8 | [Quentin Johnston](url) WR LAC | Lend Football Team |
+| 1.9 #9 | [Jordan Addison](url) WR MIN | Romo's Call |
+| 1.10 #10 | [Dalton Kincaid](url) TE BUF | Graz Trash Pandas |
+| 1.11 #11 | [Roschon Johnson](url) RB CHI | Semmel Warriors |
+| 1.12 #12 | [Zay Flowers](url) WR BAL | AlohaHe |
+| 1.13 #13 | [Bryce Young](url) QB CAR | Graz Moeflers |
+| 1.14 #14 | [Jonathan Mingo](url) WR DAL | Purple Cobras |
+| 1.15 #15 | [Chase Brown](url) RB CIN | Vienna Seahawks |
+| 1.16 #16 | [Sam LaPorta](url) TE DET | Tegetthoff Admirals |
+| 2.1 #17 | [Tyjae Spears](url) RB TEN | Graz Moeflers |
+| 2.2 #18 | [Anthony Richardson](url) QB IND | Tegetthoff Admirals |
+| 2.3 #19 | [Jack Campbell](url) LB DET | Purple Cobras |
+| 2.4 #20 | [Deuce Vaughn](url) RB FA | Vienna Seahawks |
+| 2.5 #21 | [Nolan Smith](url) EDR PHI | Vienna BBB |
+| 2.6 #22 | [Will Anderson](url) EDR HOU | Gries Goats |
+| 2.7 #23 | [Jalen Carter](url) IL PHI | Mühlviertl Raiders |
+| 2.8 #24 | [Trenton Simpson](url) LB BAL | Lend Football Team |
+| 2.9 #25 | [C.J. Stroud](url) QB HOU | Romo's Call |
+| 2.10 #26 | [Marvin Mims](url) WR DEN | Graz Trash Pandas |
+| 2.11 #27 | [Luke Musgrave](url) TE GB | Purple Cobras |
+| 2.12 #28 | [Brian Branch](url) DB DET | Purple Cobras |
+| 2.13 #29 | [Jayden Reed](url) WR GB | Tegetthoff Admirals |
+| 2.14 #30 | [Michael Mayer](url) TE LV | Pumpkin Seed Oilers |
+| 2.15 #31 | [Will Levis](url) QB TEN | Semmel Warriors |
+| 2.16 #32 | [Jalin Hyatt](url) WR NYG | Gries Goats |
+| 3.1 #33 | [Sydney Brown](url) S ATL | Tegetthoff Admirals |
+| 3.2 #34 | [Josh Downs](url) WR IND | Graz Moeflers |
+| 3.3 #35 | [Rashee Rice](url) WR KC | Semmel Warriors |
+| 3.4 #36 | [Evan Hull](url) RB HOU | New Fernitz Dudemeisters |
+| 3.5 #37 | [Tyree Wilson](url) EDR NO | Vienna BBB |
+| 3.6 #38 | [Zach Evans](url) RB FA | Gries Goats |
+| 3.7 #39 | [Tank Dell](url) WR HOU | St.Leonhard Sombreros |
+| 3.8 #40 | [Puka Nacua](url) WR LAR | Lend Football Team |
+| 3.9 #41 | [Michael Wilson](url) WR ARI | Romo's Call |
+| 3.10 #42 | [Lukas Van Ness](url) EDR GB | Graz Trash Pandas |
+| 3.11 #43 | [Sean Tucker](url) RB TB | Purple Cobras |
+| 3.12 #44 | [Israel Abanikanda](url) RB DAL | Mühlviertl Raiders |
+| 3.13 #45 | [Myles Murphy](url) EDR CIN | AlohaHe |
+| 3.14 #46 | [Xavier Hutchinson](url) WR HOU | Ragnitz Couchpotatos |
+| 3.15 #47 | [Kayshon Boutte](url) WR NE | New Fernitz Dudemeisters |
+| 3.16 #48 | [Luke Schoonmaker](url) TE DAL | Ragnitz Couchpotatos |
+| 4.1 #49 | [Felix Anudike-Uzomah](url) EDR KC | Graz Moeflers |
+| 4.2 #50 | [Cedric Tillman](url) WR CLE | New Fernitz Dudemeisters |
+| 4.3 #51 | [Drew Sanders](url) EDR DEN | AlohaHe |
+| 4.4 #52 | [BJ Ojulari](url) EDR ARI | Ragnitz Couchpotatos |
+| 4.5 #53 | [DeWayne McBride](url) RB FA | Vienna BBB |
+| 4.6 #54 | [Daiyan Henley](url) LB LAC | Purple Cobras |
+| 4.7 #55 | [Jordan Battle](url) S CIN | Pumpkin Seed Oilers |
+| 4.8 #56 | [Eric Gray](url) RB NYG | Lend Football Team |
+| 4.9 #57 | [Chris Rodriguez](url) RB JAC | Romo's Call |
+| 4.10 #58 | [Will McDonald](url) EDR NYJ | Purple Cobras |
+| 4.11 #59 | [Siaki Ika](url) IL FA | Ragnitz Couchpotatos |
+| 4.12 #60 | [Trey Palmer](url) WR NO | New Fernitz Dudemeisters |
+| 4.13 #61 | [A.T. Perry](url) WR PIT | Vienna Seahawks |
+| 4.14 #62 | [Chad Ryland](url) K ARI | New Fernitz Dudemeisters |
+| 5.1 #63 | [Aidan O'Connell](url) QB LV | Mühlviertl Raiders |
+| 5.2 #64 | [Jake Moody](url) K WAS | Graz Trash Pandas |
+| 5.3 #65 | [Mazi Smith](url) IL NYJ | Gries Goats |
+| 5.4 #66 | [Marte Mapu](url) LB HOU | St.Leonhard Sombreros |
+| 5.5 #67 | [Kenny McIntosh](url) RB FA | Lend Football Team |
+| 5.6 #68 | [Ji'Ayir Brown](url) S SF | Graz Trash Pandas |
+| 5.7 #69 | [Henry To'oTo'o](url) LB HOU | Gries Goats |
+| 5.8 #70 | [DeMarvion Overshown](url) LB DAL | AlohaHe |
+| 5.9 #71 | [Devon Witherspoon](url) CB SEA | New Fernitz Dudemeisters |
+| 5.10 #72 | [Tyler Lacy](url) EDR DET | Ragnitz Couchpotatos |

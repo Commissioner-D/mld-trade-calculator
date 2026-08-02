@@ -1,0 +1,27 @@
+{
+  "num_teams": 16,
+  "starting_slots": {
+    "QB": 1,
+    "RB": 2,
+    "WR": 2,
+    "TE": 1,
+    "FLEX_RB_WR_TE": 1,
+    "DB": 2,
+    "EDR_IL": 2,
+    "LB": 2,
+    "IDP_WILDCARD_DB_EDR_IL_LB": 1,
+    "K": 1
+  },
+  "position_groups": {
+    "DB": ["CB", "FS", "SS", "DB"],
+    "EDR_IL": ["DE", "DT", "NT"],
+    "LB": ["LB", "ILB", "OLB", "MLB"]
+  },
+  "flex_share_offense": {
+    "notes": "RB/WR/TE-Flex-Slot verzerrt Replacement-Level aller drei Positionen gemeinsam (Stolperstein A, noch nicht sauber geloest). Heuristische Default-Aufteilung des Flex-Slots, bis eine echte Cross-Positions-Loesung existiert.",
+    "RB": 0.40,
+    "WR": 0.45,
+    "TE": 0.15
+  },
+  "notes": "DB (CB+S) und EDR/IL teilen sich jeweils einen kombinierten Slot-Pool -> Replacement-Level muss auf Gruppenebene berechnet werden, nicht pro Einzelposition. Wildcard und RB/WR/TE-Flex ziehen Nachfrage zur staerksten Position -> Rang 30-40 als Puffer getestet, robust."
+}

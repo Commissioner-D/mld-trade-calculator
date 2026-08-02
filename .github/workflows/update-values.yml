@@ -1,0 +1,55 @@
+name: Update Dynasty Values
+
+on:
+  schedule:
+    # Jeden Mittwoch 09:00 UTC (nach Montag/Dienstag Verletzungsnews, vor den
+    # meisten Waiver-Runs). Waehrend der Offseason laeuft's einfach mit den
+    # gleichen (dann selteneren) Aenderungen mit -- kostet nichts extra.
+    - cron: "0 9 * * 3"
+  workflow_dispatch: {}   # manueller "Run workflow"-Button in GitHub
+
+permissions:
+  contents: write   # noetig, damit der Bot die aktualisierten Dateien committen darf
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Abhaengigkeiten installieren
+        run: pip install pandas numpy scipy
+
+      - name: nflverse-Rohdaten laden
+        run: python engine/fetch_data.py
+
+      - name: FantasyPros-Offense-Projektionen laden (falls Secret gesetzt ist)
+        env:
+          FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
+        run: python engine/fetch_projections.py 2026
+        continue-on-error: true   # fehlender/ungueltiger Key soll den Rebuild nicht blockieren
+                                  # (das Skript selbst wirft dann eine klare Fehlermeldung im Log)
+
+      - name: Value-Tabelle neu berechnen
+        run: python engine/build_value_table.py
+
+      - name: Calculator-Daten neu bauen
+        run: python engine/build_calculator_data.py
+
+      - name: Aenderungen committen (nur falls sich was geaendert hat)
+        run: |
+          git config user.name "dynasty-values-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add output/ data/*.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Automatischer Werte-Rebuild ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "Keine Aenderungen -- nichts zu committen."
+          fi

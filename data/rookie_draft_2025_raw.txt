@@ -1,0 +1,78 @@
+| 1.1 #1 | [Ashton Jeanty](url) RB LV | Graz Trash Pandas |
+| 1.2 #2 | [Travis Hunter](url) WR/CB JAC | New Fernitz Dudemeisters |
+| 1.3 #3 | [Omarion Hampton](url) RB LAC | Purple Cobras |
+| 1.4 #4 | [TreVeyon Henderson](url) RB NE | Graz Moeflers |
+| 1.5 #5 | [Tetairoa McMillan](url) WR CAR | Pumpkin Seed Oilers |
+| 1.6 #6 | [Quinshon Judkins](url) RB CLE | Purple Cobras |
+| 1.7 #7 | [Tyler Warren](url) TE IND | Graz Moeflers |
+| 1.8 #8 | [Emeka Egbuka](url) WR TB | Tegetthoff Admirals |
+| 1.9 #9 | [RJ Harvey](url) RB DEN | Vienna BBB |
+| 1.10 #10 | [Matthew Golden](url) WR GB | Ragnitz Couchpotatos |
+| 1.11 #11 | [Jacory Croskey-Merritt](url) RB WAS | Semmel Warriors |
+| 1.12 #12 | [Colston Loveland](url) TE CHI | Mühlviertl Raiders |
+| 1.13 #13 | [Cam Skattebo](url) RB NYG | Gries Goats |
+| 1.14 #14 | [Kaleb Johnson](url) RB PIT | New Fernitz Dudemeisters |
+| 1.15 #15 | [Cam Ward](url) QB TEN | Vienna Seahawks |
+| 1.16 #16 | [Jayden Higgins](url) WR HOU | Romo's Call |
+| 2.1 #17 | [Carson Schwesinger](url) LB CLE | Pumpkin Seed Oilers |
+| 2.2 #18 | [Luther Burden](url) WR CHI | Graz Trash Pandas |
+| 2.3 #19 | [Bhayshul Tuten](url) RB JAC | Purple Cobras |
+| 2.4 #20 | [Tre' Harris](url) WR LAC | Vienna BBB |
+| 2.5 #21 | [Mason Taylor](url) TE NYJ | Pumpkin Seed Oilers |
+| 2.6 #22 | [Kyle Williams](url) WR NE | Romo's Call |
+| 2.7 #23 | [Elijah Arroyo](url) TE SEA | Tegetthoff Admirals |
+| 2.8 #24 | [Jaxson Dart](url) QB NYG | Tegetthoff Admirals |
+| 2.9 #25 | [Abdul Carter](url) EDR NYG | Purple Cobras |
+| 2.10 #26 | [Tory Horton](url) WR SEA | Vienna Seahawks |
+| 2.11 #27 | [Jaydon Blue](url) RB DAL | Semmel Warriors |
+| 2.12 #28 | [Tyler Shough](url) QB NO | Mühlviertl Raiders |
+| 2.13 #29 | [Jack Bech](url) WR LV | Gries Goats |
+| 2.14 #30 | [Dylan Sampson](url) RB CLE | AlohaHe |
+| 2.15 #31 | [Ollie Gordon](url) RB MIA | Gries Goats |
+| 2.16 #32 | [Jaylin Noel](url) WR HOU | Romo's Call |
+| 3.1 #33 | [Terrance Ferguson](url) TE LAR | Graz Trash Pandas |
+| 3.2 #34 | [DJ Giddens](url) RB IND | Graz Moeflers |
+| 3.3 #35 | [Woody Marks](url) RB HOU | Purple Cobras |
+| 3.4 #36 | [Demetrius Knight](url) LB CIN | Gries Goats |
+| 3.5 #37 | [Jihaad Campbell](url) LB PHI | Graz Moeflers |
+| 3.6 #38 | [Tahj Brooks](url) RB CIN | Semmel Warriors |
+| 3.7 #39 | [Pat Bryant](url) WR DEN | Graz Moeflers |
+| 3.8 #40 | [Chris Paul](url) LB SEA | Ragnitz Couchpotatos |
+| 3.9 #41 | [Elic Ayomanor](url) WR TEN | New Fernitz Dudemeisters |
+| 3.10 #42 | [Dont'e Thornton](url) WR LV | Graz Moeflers |
+| 3.11 #43 | [Kyle Monangai](url) RB CHI | Semmel Warriors |
+| 3.12 #44 | [Jarquez Hunter](url) RB LAR | Mühlviertl Raiders |
+| 3.13 #45 | [Devin Neal](url) RB FA | Purple Cobras |
+| 3.14 #46 | [Jalen Royals](url) WR KC | Romo's Call |
+| 3.15 #47 | [Harold Fannin](url) TE CLE | Romo's Call |
+| 3.16 #48 | [Oronde Gadsden](url) TE LAC | Romo's Call |
+| 4.1 #49 | [Isaac TeSlaa](url) WR DET | Graz Trash Pandas |
+| 4.2 #50 | [Jalon Walker](url) EDR ATL | Tegetthoff Admirals |
+| 4.3 #51 | [Mike Green](url) EDR BAL | Vienna Seahawks |
+| 4.4 #52 | [James Pearce](url) EDR ATL | Graz Moeflers |
+| 4.5 #53 | [Trevor Etienne](url) RB CAR | Pumpkin Seed Oilers |
+| 4.6 #54 | [Elijhah Badger](url) WR FA | Ragnitz Couchpotatos |
+| 4.7 #55 | [Brashard Smith](url) RB KC | New Fernitz Dudemeisters |
+| 4.8 #56 | [Cody Simon](url) LB ARI | Vienna Seahawks |
+| 4.9 #57 | [Jordan James](url) RB SF | Styrian Sombreros |
+| 4.10 #58 | [Tez Johnson](url) WR TB | Ragnitz Couchpotatos |
+| 4.11 #59 | [Malaki Starks](url) S BAL | Purple Cobras |
+| 4.12 #60 | [Jaylin Lane](url) WR WAS | Mühlviertl Raiders |
+| 4.13 #61 | [Nick Emmanwori](url) S SEA | Gries Goats |
+| 4.14 #62 | [Nick Martin](url) LB SF | Graz Moeflers |
+| 4.15 #63 | [Damien Martinez](url) RB GB | Lend Football Team |
+| 4.16 #64 | [Xavier Restrepo](url) WR TEN | AlohaHe |
+| 5.1 #65 | [Mykel Williams](url) EDR/IL SF | Graz Trash Pandas |
+| 5.2 #66 | [Xavier Watts](url) S ATL | New Fernitz Dudemeisters |
+| 5.3 #67 | [Tyler Loop](url) K BAL | Purple Cobras |
+| 5.4 #68 | [Phil Mafah](url) RB DAL | Vienna BBB |
+| 5.5 #69 | [Shemar Stewart](url) EDR CIN | Pumpkin Seed Oilers |
+| 5.6 #70 | [Raheim Sanders](url) RB CLE | Lend Football Team |
+| 5.7 #71 | [Donovan Ezeiruaku](url) EDR DAL | Graz Moeflers |
+| 5.8 #72 | [Efton Chism](url) WR NE | Ragnitz Couchpotatos |
+| 5.9 #73 | [KeAndre Lambert-Smith](url) WR LAC | Styrian Sombreros |
+| 5.10 #74 | [Tai Felton](url) WR MIN | Pumpkin Seed Oilers |
+| 5.11 #75 | [Kevin Winston](url) S TEN | Semmel Warriors |
+| 5.12 #76 | [Danny Stutsman](url) LB NO | Mühlviertl Raiders |
+| 5.13 #77 | [Kalel Mullings](url) RB TEN | Gries Goats |
+| 5.14 #78 | [Isaiah Bond](url) WR CLE | Lend Football Team |

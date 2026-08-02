@@ -1,0 +1,4322 @@
+[
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 1,
+    "overall": 1,
+    "position": "RB",
+    "name": "Clyde Edwards-Helaire",
+    "value": -6.804
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 2,
+    "overall": 2,
+    "position": "WR",
+    "name": "CeeDee Lamb",
+    "value": 2.959
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 3,
+    "overall": 3,
+    "position": "RB",
+    "name": "Jonathan Taylor",
+    "value": 8.997
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 4,
+    "overall": 4,
+    "position": "RB",
+    "name": "Cam Akers",
+    "value": -4.68
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 5,
+    "overall": 5,
+    "position": "RB",
+    "name": "D'Andre Swift",
+    "value": 2.622
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 6,
+    "overall": 6,
+    "position": "RB",
+    "name": "J.K. Dobbins",
+    "value": 2.145
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 7,
+    "overall": 7,
+    "position": "RB",
+    "name": "Zack Moss",
+    "value": -1.337
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 8,
+    "overall": 8,
+    "position": "RB",
+    "name": "Ke'Shawn Vaughn",
+    "value": -8.462
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 9,
+    "overall": 9,
+    "position": "RB",
+    "name": "AJ Dillon",
+    "value": -7.795
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 10,
+    "overall": 10,
+    "position": "WR",
+    "name": "Jalen Reagor",
+    "value": -6.485
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 11,
+    "overall": 11,
+    "position": "LB",
+    "name": "Patrick Queen",
+    "value": -0.858
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 12,
+    "overall": 12,
+    "position": "WR",
+    "name": "Jerry Jeudy",
+    "value": -1.581
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 13,
+    "overall": 13,
+    "position": "RB",
+    "name": "Antonio Gibson",
+    "value": -5.328
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 14,
+    "overall": 14,
+    "position": null,
+    "name": "WR Henry Ruggs",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 15,
+    "overall": 15,
+    "position": "WR",
+    "name": "Justin Jefferson",
+    "value": 1.61
+  },
+  {
+    "season": 2020,
+    "round": 1,
+    "slot": 16,
+    "overall": 16,
+    "position": "RB",
+    "name": "Sandro Platzgummer",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 1,
+    "overall": 17,
+    "position": "LB",
+    "name": "Kenneth Murray",
+    "value": -3.082
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 2,
+    "overall": 18,
+    "position": "LB",
+    "name": "Willie Gay",
+    "value": -6.365
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 3,
+    "overall": 19,
+    "position": "S",
+    "name": "Isaiah Simmons",
+    "value": -8.443
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 4,
+    "overall": 20,
+    "position": "WR",
+    "name": "Brandon Aiyuk",
+    "value": -1.985
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 5,
+    "overall": 21,
+    "position": "RB",
+    "name": "Joshua Kelley",
+    "value": -8.662
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 6,
+    "overall": 22,
+    "position": "WR",
+    "name": "Michael Pittman",
+    "value": -0.446
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 7,
+    "overall": 23,
+    "position": "RB",
+    "name": "Darrynton Evans",
+    "value": -8.562
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 8,
+    "overall": 24,
+    "position": "QB",
+    "name": "Joe Burrow",
+    "value": 1.331
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 9,
+    "overall": 25,
+    "position": "WR",
+    "name": "Laviska Shenault",
+    "value": -6.985
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 10,
+    "overall": 26,
+    "position": "RB",
+    "name": "Anthony McFarland",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 11,
+    "overall": 27,
+    "position": "RB",
+    "name": "DeeJay Dallas",
+    "value": -7.564
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 12,
+    "overall": 28,
+    "position": "EDR/LB",
+    "name": "Chase Young",
+    "value": -2.285
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 13,
+    "overall": 29,
+    "position": "WR",
+    "name": "Tee Higgins",
+    "value": 3.73
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 14,
+    "overall": 30,
+    "position": "WR",
+    "name": "Lynn Bowden",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 15,
+    "overall": 31,
+    "position": "LB",
+    "name": "Logan Wilson",
+    "value": -2.579
+  },
+  {
+    "season": 2020,
+    "round": 2,
+    "slot": 16,
+    "overall": 32,
+    "position": "RB",
+    "name": "La'Mical Perine",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 16,
+    "overall": 48,
+    "position": "TE",
+    "name": "Devin Asiasi",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 15,
+    "overall": 47,
+    "position": "S",
+    "name": "Antoine Winfield",
+    "value": 0.153
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 14,
+    "overall": 46,
+    "position": "QB",
+    "name": "Justin Herbert",
+    "value": -0.293
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 13,
+    "overall": 45,
+    "position": "S",
+    "name": "Kyle Dugger",
+    "value": -1.92
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 12,
+    "overall": 44,
+    "position": "WR",
+    "name": "Antonio Gandy-Golden",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 11,
+    "overall": 43,
+    "position": "RB",
+    "name": "Eno Benjamin",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 10,
+    "overall": 42,
+    "position": "WR",
+    "name": "KJ Hamler",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 9,
+    "overall": 41,
+    "position": "S",
+    "name": "Grant Delpit",
+    "value": -1.013
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 8,
+    "overall": 40,
+    "position": "WR",
+    "name": "Bryan Edwards",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 7,
+    "overall": 39,
+    "position": "S",
+    "name": "Xavier McKinney",
+    "value": 0.154
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 6,
+    "overall": 38,
+    "position": "S",
+    "name": "Jeremy Chinn",
+    "value": 0.685
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 5,
+    "overall": 37,
+    "position": "QB",
+    "name": "Tua Tagovailoa",
+    "value": -4.285
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 4,
+    "overall": 36,
+    "position": "WR",
+    "name": "Denzel Mims",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 3,
+    "overall": 35,
+    "position": "WR",
+    "name": "Van Jefferson",
+    "value": -4.511
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 2,
+    "overall": 34,
+    "position": "WR",
+    "name": "Chase Claypool",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 3,
+    "slot": 1,
+    "overall": 33,
+    "position": "EDR/LB",
+    "name": "K'Lavon Chaisson",
+    "value": -3.992
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 1,
+    "overall": 49,
+    "position": "DE/IL",
+    "name": "Derrick Brown",
+    "value": -0.632
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 2,
+    "overall": 50,
+    "position": "LB",
+    "name": "Jordyn Brooks",
+    "value": 2.747
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 3,
+    "overall": 51,
+    "position": "LB",
+    "name": "Jacob Phillips",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 4,
+    "overall": 52,
+    "position": "WR",
+    "name": "Devin Duvernay",
+    "value": -7.067
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 5,
+    "overall": 53,
+    "position": "TE",
+    "name": "Cole Kmet",
+    "value": -1.997
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 6,
+    "overall": 54,
+    "position": "QB",
+    "name": "Jordan Love",
+    "value": -1.372
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 7,
+    "overall": 55,
+    "position": "CB",
+    "name": "Noah Igbinoghene",
+    "value": -3.903
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 8,
+    "overall": 56,
+    "position": "EDR/LB",
+    "name": "Anfernee Jennings",
+    "value": -5.082
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 9,
+    "overall": 57,
+    "position": "CB",
+    "name": "C.J. Henderson",
+    "value": -0.816
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 10,
+    "overall": 58,
+    "position": "CB",
+    "name": "Jeff Gladney",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 11,
+    "overall": 59,
+    "position": "RB",
+    "name": "Raymond Calais",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 12,
+    "overall": 60,
+    "position": "LB",
+    "name": "Mykal Walker",
+    "value": -7.895
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 13,
+    "overall": 61,
+    "position": "EDR/LB",
+    "name": "Yetur Gross-Matos",
+    "value": -2.955
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 14,
+    "overall": 62,
+    "position": "WR",
+    "name": "KJ Hill",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 15,
+    "overall": 63,
+    "position": "CB",
+    "name": "Jeff Okudah",
+    "value": -5.76
+  },
+  {
+    "season": 2020,
+    "round": 4,
+    "slot": 16,
+    "overall": 64,
+    "position": "K",
+    "name": "Justin Rohrwasser",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 14,
+    "overall": 78,
+    "position": "EDR/DE",
+    "name": "Josh Uche",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 13,
+    "overall": 77,
+    "position": "WR",
+    "name": "Donovan Peoples-Jones",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 12,
+    "overall": 76,
+    "position": "LB",
+    "name": "Malik Harrison",
+    "value": -5.602
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 11,
+    "overall": 75,
+    "position": "EDR/LB",
+    "name": "A.J. Epenesa",
+    "value": -1.267
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 10,
+    "overall": 74,
+    "position": "CB",
+    "name": "Trevon Diggs",
+    "value": -4.021
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 9,
+    "overall": 73,
+    "position": "DE/IL",
+    "name": "Javon Kinlaw",
+    "value": -1.666
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 8,
+    "overall": 72,
+    "position": "TE",
+    "name": "Harrison Bryant",
+    "value": -4.944
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 7,
+    "overall": 71,
+    "position": "IL/DT",
+    "name": "Ross Blacklock",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 6,
+    "overall": 70,
+    "position": "RB",
+    "name": "Malcolm Perry",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 5,
+    "overall": 69,
+    "position": "WR",
+    "name": "Tyler Johnson",
+    "value": -4.543
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 4,
+    "overall": 68,
+    "position": "CB",
+    "name": "A.J. Terrell",
+    "value": -1.68
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 3,
+    "overall": 67,
+    "position": "LB",
+    "name": "Akeem Davis-Gaither",
+    "value": -2.291
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 2,
+    "overall": 66,
+    "position": "LB",
+    "name": "Zack Baun",
+    "value": 1.508
+  },
+  {
+    "season": 2020,
+    "round": 5,
+    "slot": 1,
+    "overall": 65,
+    "position": "TE",
+    "name": "Adam Trautman",
+    "value": -3.738
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 1,
+    "overall": 81,
+    "position": "TE",
+    "name": "Dalton Keene",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 2,
+    "overall": 82,
+    "position": "TE",
+    "name": "Thaddeus Moss",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 3,
+    "overall": 83,
+    "position": "WR",
+    "name": "Quintez Cephus",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 4,
+    "overall": 84,
+    "position": "WR",
+    "name": "Gabe Davis",
+    "value": -4.274
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 5,
+    "overall": 85,
+    "position": "TE",
+    "name": "Albert Okwuegbunam",
+    "value": -1.938
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 6,
+    "overall": 86,
+    "position": "WR",
+    "name": "James Proche",
+    "value": -6.496
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 7,
+    "overall": 87,
+    "position": "RB",
+    "name": "Michael Warren",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 8,
+    "overall": 88,
+    "position": "WR",
+    "name": "Joe Reed",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 9,
+    "overall": 89,
+    "position": "WR",
+    "name": "Isaiah Coulter",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 10,
+    "overall": 90,
+    "position": "WR",
+    "name": "John Hightower",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 11,
+    "overall": 91,
+    "position": "LB",
+    "name": "Terrell Lewis",
+    "value": 0.0
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 12,
+    "overall": 92,
+    "position": "EDR/DE",
+    "name": "Darrell Taylor",
+    "value": -3.895
+  },
+  {
+    "season": 2020,
+    "round": 6,
+    "slot": 13,
+    "overall": 93,
+    "position": "EDR/DE",
+    "name": "Julian Okwara",
+    "value": -6.996
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 1,
+    "overall": 1,
+    "position": "RB",
+    "name": "Najee Harris",
+    "value": -3.467
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 2,
+    "overall": 2,
+    "position": "TE",
+    "name": "Kyle Pitts",
+    "value": 0.86
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 3,
+    "overall": 3,
+    "position": "RB",
+    "name": "Javonte Williams",
+    "value": 2.026
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 4,
+    "overall": 4,
+    "position": "WR",
+    "name": "Ja'Marr Chase",
+    "value": 6.593
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 5,
+    "overall": 5,
+    "position": "WR",
+    "name": "DeVonta Smith",
+    "value": 0.764
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 6,
+    "overall": 6,
+    "position": "RB",
+    "name": "Trey Sermon",
+    "value": -6.048
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 7,
+    "overall": 7,
+    "position": null,
+    "name": "Trevor Lawrence",
+    "value": 0.79
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 8,
+    "overall": 8,
+    "position": "RB",
+    "name": "Michael Carter",
+    "value": -5.492
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 9,
+    "overall": 9,
+    "position": "WR",
+    "name": "Jaylen Waddle",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 10,
+    "overall": 10,
+    "position": "RB",
+    "name": "Travis Etienne",
+    "value": 1.958
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 11,
+    "overall": 11,
+    "position": null,
+    "name": "Elijah Moore",
+    "value": -4.961
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 12,
+    "overall": 12,
+    "position": "WR",
+    "name": "Rashod Bateman",
+    "value": -2.842
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 13,
+    "overall": 13,
+    "position": null,
+    "name": "Micah Parsons",
+    "value": -2.185
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 14,
+    "overall": 14,
+    "position": "LB",
+    "name": "Jamin Davis",
+    "value": -7.056
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 15,
+    "overall": 15,
+    "position": "EDR/LB",
+    "name": "Zaven Collins",
+    "value": -5.383
+  },
+  {
+    "season": 2021,
+    "round": 1,
+    "slot": 16,
+    "overall": 16,
+    "position": null,
+    "name": "Jeremiah Owusu-Koramoah",
+    "value": 1.748
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 1,
+    "overall": 17,
+    "position": "WR",
+    "name": "Terrace Marshall",
+    "value": -6.805
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 2,
+    "overall": 18,
+    "position": "RB",
+    "name": "Kenny Gainwell",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 3,
+    "overall": 19,
+    "position": "WR",
+    "name": "Rondale Moore",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 4,
+    "overall": 20,
+    "position": null,
+    "name": "Chuba Hubbard",
+    "value": 0.585
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 5,
+    "overall": 21,
+    "position": "RB",
+    "name": "Rhamondre Stevenson",
+    "value": 1.171
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 6,
+    "overall": 22,
+    "position": null,
+    "name": "Nick Bolton",
+    "value": 0.746
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 7,
+    "overall": 23,
+    "position": null,
+    "name": "Amon-Ra St. Brown",
+    "value": 5.167
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 8,
+    "overall": 24,
+    "position": null,
+    "name": "Justin Fields",
+    "value": -3.182
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 9,
+    "overall": 25,
+    "position": "WR",
+    "name": "Kadarius Toney",
+    "value": -7.885
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 10,
+    "overall": 26,
+    "position": "WR",
+    "name": "Joshua Palmer",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 11,
+    "overall": 27,
+    "position": "QB",
+    "name": "Trey Lance",
+    "value": -13.706
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 12,
+    "overall": 28,
+    "position": "QB",
+    "name": "Mac Jones",
+    "value": -5.221
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 13,
+    "overall": 29,
+    "position": "WR",
+    "name": "Amari Rodgers",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 14,
+    "overall": 30,
+    "position": "RB",
+    "name": "Javian Hawkins",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 15,
+    "overall": 31,
+    "position": "RB",
+    "name": "Larry Rountree",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 2,
+    "slot": 16,
+    "overall": 32,
+    "position": "TE",
+    "name": "Pat Freiermuth",
+    "value": -0.694
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 1,
+    "overall": 33,
+    "position": "RB",
+    "name": "Jake Funk",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 2,
+    "overall": 34,
+    "position": "QB",
+    "name": "Zach Wilson",
+    "value": -16.526
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 3,
+    "overall": 35,
+    "position": "S",
+    "name": "Richie Grant",
+    "value": -6.682
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 4,
+    "overall": 36,
+    "position": "RB",
+    "name": "Jermar Jefferson",
+    "value": -7.212
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 5,
+    "overall": 37,
+    "position": "WR",
+    "name": "Nico Collins",
+    "value": 3.332
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 6,
+    "overall": 38,
+    "position": "WR",
+    "name": "Dee Eskridge",
+    "value": -6.538
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 7,
+    "overall": 39,
+    "position": "LB",
+    "name": "Ernest Jones",
+    "value": 1.09
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 8,
+    "overall": 40,
+    "position": "WR",
+    "name": "Dyami Brown",
+    "value": -4.495
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 9,
+    "overall": 41,
+    "position": null,
+    "name": "Pete Werner",
+    "value": -2.813
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 10,
+    "overall": 42,
+    "position": "WR",
+    "name": "Seth Williams",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 11,
+    "overall": 43,
+    "position": null,
+    "name": "Tylan Wallace",
+    "value": -5.44
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 12,
+    "overall": 44,
+    "position": "RB",
+    "name": "Elijah Mitchell",
+    "value": -8.862
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 13,
+    "overall": 45,
+    "position": "S",
+    "name": "Tre'von Moehrig",
+    "value": 0.037
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 14,
+    "overall": 46,
+    "position": null,
+    "name": "Kwity Paye",
+    "value": -1.13
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 15,
+    "overall": 47,
+    "position": "RB",
+    "name": "Jaret Patterson",
+    "value": -5.029
+  },
+  {
+    "season": 2021,
+    "round": 3,
+    "slot": 16,
+    "overall": 48,
+    "position": "RB",
+    "name": "Khalil Herbert",
+    "value": -6.686
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 1,
+    "overall": 49,
+    "position": "RB",
+    "name": "Chris Evans",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 2,
+    "overall": 50,
+    "position": null,
+    "name": "Kylin Hill",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 3,
+    "overall": 51,
+    "position": "S",
+    "name": "Talanoa Hufanga",
+    "value": -0.418
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 4,
+    "overall": 52,
+    "position": "RB",
+    "name": "Gerrid Doaks",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 5,
+    "overall": 53,
+    "position": "S",
+    "name": "Jevon Holland",
+    "value": -2.379
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 6,
+    "overall": 54,
+    "position": "LB",
+    "name": "Hamsah Nasirildeen",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 7,
+    "overall": 55,
+    "position": "WR",
+    "name": "Dez Fitzpatrick",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 8,
+    "overall": 56,
+    "position": "S",
+    "name": "Jaquiski Tartt",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 9,
+    "overall": 57,
+    "position": "CB",
+    "name": "Jaycee Horn",
+    "value": -2.474
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 10,
+    "overall": 58,
+    "position": null,
+    "name": "Divine Deablo",
+    "value": -3.164
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 11,
+    "overall": 59,
+    "position": "LB",
+    "name": "Derrick Barnes",
+    "value": -4.608
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 12,
+    "overall": 60,
+    "position": "EDR/LB",
+    "name": "Azeez Ojulari",
+    "value": -5.922
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 13,
+    "overall": 61,
+    "position": "WR",
+    "name": "Tutu Atwell",
+    "value": -4.21
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 14,
+    "overall": 62,
+    "position": null,
+    "name": "Demetric Felton",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 15,
+    "overall": 63,
+    "position": "TE",
+    "name": "Brevin Jordan",
+    "value": -5.588
+  },
+  {
+    "season": 2021,
+    "round": 4,
+    "slot": 16,
+    "overall": 64,
+    "position": "LB",
+    "name": "Jabril Cox",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 1,
+    "overall": 65,
+    "position": null,
+    "name": "Payton Turner",
+    "value": -2.256
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 2,
+    "overall": 66,
+    "position": "EDR/LB",
+    "name": "Baron Browning",
+    "value": -7.063
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 3,
+    "overall": 67,
+    "position": null,
+    "name": "Odafe Oweh",
+    "value": -4.243
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 4,
+    "overall": 68,
+    "position": null,
+    "name": "Andre Cisco",
+    "value": -2.576
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 5,
+    "overall": 69,
+    "position": "IL/DT",
+    "name": "Alim McNeill",
+    "value": -1.731
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 6,
+    "overall": 70,
+    "position": "EDR/LB",
+    "name": "Jaelan Phillips",
+    "value": -4.804
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 7,
+    "overall": 71,
+    "position": "CB",
+    "name": "Pat Surtain",
+    "value": -2.725
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 8,
+    "overall": 72,
+    "position": "EDR/LB",
+    "name": "Greg Rousseau",
+    "value": 0.523
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 9,
+    "overall": 73,
+    "position": "WR",
+    "name": "Anthony Schwartz",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 10,
+    "overall": 74,
+    "position": "DE/IL",
+    "name": "Christian Barmore",
+    "value": -2.305
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 11,
+    "overall": 75,
+    "position": "LB",
+    "name": "Chazz Surratt",
+    "value": -8.366
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 12,
+    "overall": 76,
+    "position": "LB",
+    "name": "Monty Rice",
+    "value": -8.718
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 13,
+    "overall": 77,
+    "position": null,
+    "name": "Jamien Sherwood",
+    "value": 1.003
+  },
+  {
+    "season": 2021,
+    "round": 5,
+    "slot": 14,
+    "overall": 78,
+    "position": "WR",
+    "name": "Ihmir Smith-Marsette",
+    "value": -7.685
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 1,
+    "overall": 81,
+    "position": "WR",
+    "name": "Cornell Powell",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 2,
+    "overall": 82,
+    "position": "K",
+    "name": "Evan McPherson",
+    "value": -0.082
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 3,
+    "overall": 83,
+    "position": "QB",
+    "name": "Kellen Mond",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 4,
+    "overall": 84,
+    "position": "K",
+    "name": "Matt Ammendola",
+    "value": 0.0
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 5,
+    "overall": 85,
+    "position": "CB",
+    "name": "Caleb Farley",
+    "value": -6.525
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 6,
+    "overall": 86,
+    "position": "TE",
+    "name": "Kenny Yeboah",
+    "value": -4.171
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 7,
+    "overall": 87,
+    "position": "EDR/LB",
+    "name": "Joe Tryon-Shoyinka",
+    "value": -2.9
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 8,
+    "overall": 88,
+    "position": null,
+    "name": "Kyle Trask",
+    "value": -17.12
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 9,
+    "overall": 89,
+    "position": "TE",
+    "name": "Hunter Long",
+    "value": -3.761
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 10,
+    "overall": 90,
+    "position": "TE",
+    "name": "Tommy Tremble",
+    "value": -3.078
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 11,
+    "overall": 91,
+    "position": "WR",
+    "name": "Jaelon Darden",
+    "value": -6.985
+  },
+  {
+    "season": 2021,
+    "round": 6,
+    "slot": 12,
+    "overall": 92,
+    "position": "CB",
+    "name": "Asante Samuel",
+    "value": -5.004
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 1,
+    "overall": 1,
+    "position": "RB",
+    "name": "Breece Hall",
+    "value": 2.461
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 2,
+    "overall": 2,
+    "position": "RB",
+    "name": "Kenneth Walker",
+    "value": 3.148
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 3,
+    "overall": 3,
+    "position": "RB",
+    "name": "Dameon Pierce",
+    "value": -6.707
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 4,
+    "overall": 4,
+    "position": null,
+    "name": "Drake London",
+    "value": 4.01
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 5,
+    "overall": 5,
+    "position": "WR",
+    "name": "Treylon Burks",
+    "value": -5.787
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 6,
+    "overall": 6,
+    "position": null,
+    "name": "Chris Olave",
+    "value": 1.699
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 7,
+    "overall": 7,
+    "position": "WR",
+    "name": "George Pickens",
+    "value": 3.164
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 8,
+    "overall": 8,
+    "position": "RB",
+    "name": "James Cook",
+    "value": 6.37
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 9,
+    "overall": 9,
+    "position": "WR",
+    "name": "Garrett Wilson",
+    "value": 1.733
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 10,
+    "overall": 10,
+    "position": "WR",
+    "name": "Skyy Moore",
+    "value": -7.177
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 11,
+    "overall": 11,
+    "position": "RB",
+    "name": "Tyler Allgeier",
+    "value": -2.695
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 12,
+    "overall": 12,
+    "position": "RB",
+    "name": "Rachaad White",
+    "value": -1.371
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 13,
+    "overall": 13,
+    "position": null,
+    "name": "Aidan Hutchinson",
+    "value": 5.089
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 14,
+    "overall": 14,
+    "position": "WR",
+    "name": "Jameson Williams",
+    "value": 2.35
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 15,
+    "overall": 15,
+    "position": "RB",
+    "name": "Isiah Pacheco",
+    "value": -3.539
+  },
+  {
+    "season": 2022,
+    "round": 1,
+    "slot": 16,
+    "overall": 16,
+    "position": null,
+    "name": "Jahan Dotson",
+    "value": -5.415
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 1,
+    "overall": 17,
+    "position": "EDR/LB",
+    "name": "Kayvon Thibodeaux",
+    "value": -5.662
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 2,
+    "overall": 18,
+    "position": "WR",
+    "name": "Christian Watson",
+    "value": 0.734
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 3,
+    "overall": 19,
+    "position": "RB",
+    "name": "Brian Robinson",
+    "value": -3.231
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 4,
+    "overall": 20,
+    "position": "RB",
+    "name": "Zamir White",
+    "value": -7.036
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 5,
+    "overall": 21,
+    "position": "S",
+    "name": "Kyle Hamilton",
+    "value": 0.708
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 6,
+    "overall": 22,
+    "position": null,
+    "name": "Isaiah Spiller",
+    "value": 0.0
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 7,
+    "overall": 23,
+    "position": null,
+    "name": "Kenny Pickett",
+    "value": -15.045
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 8,
+    "overall": 24,
+    "position": "S",
+    "name": "Jaquan Brisker",
+    "value": 0.833
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 9,
+    "overall": 25,
+    "position": null,
+    "name": "Tyrion Davis-Price",
+    "value": -8.162
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 10,
+    "overall": 26,
+    "position": "LB",
+    "name": "Devin Lloyd",
+    "value": -1.125
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 11,
+    "overall": 27,
+    "position": "WR",
+    "name": "Wan'Dale Robinson",
+    "value": -0.199
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 12,
+    "overall": 28,
+    "position": "LB",
+    "name": "Quay Walker",
+    "value": 0.492
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 13,
+    "overall": 29,
+    "position": "RB",
+    "name": "Kyren Williams",
+    "value": 5.615
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 14,
+    "overall": 30,
+    "position": "WR",
+    "name": "Jalen Tolbert",
+    "value": -3.803
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 15,
+    "overall": 31,
+    "position": null,
+    "name": "Alec Pierce",
+    "value": 1.266
+  },
+  {
+    "season": 2022,
+    "round": 2,
+    "slot": 16,
+    "overall": 32,
+    "position": "RB",
+    "name": "Hassan Haskins",
+    "value": -7.137
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 1,
+    "overall": 33,
+    "position": "LB",
+    "name": "Nakobe Dean",
+    "value": 0.63
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 2,
+    "overall": 34,
+    "position": "WR",
+    "name": "Romeo Doubs",
+    "value": -0.379
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 3,
+    "overall": 35,
+    "position": "TE",
+    "name": "Trey McBride",
+    "value": 4.933
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 4,
+    "overall": 36,
+    "position": null,
+    "name": "Lewis Cine",
+    "value": 0.0
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 5,
+    "overall": 37,
+    "position": null,
+    "name": "Micah McFadden",
+    "value": -4.624
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 6,
+    "overall": 38,
+    "position": "WR",
+    "name": "David Bell",
+    "value": -4.685
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 7,
+    "overall": 39,
+    "position": null,
+    "name": "Malik Willis",
+    "value": -5.812
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 8,
+    "overall": 40,
+    "position": null,
+    "name": "Travon Walker",
+    "value": 0.177
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 9,
+    "overall": 41,
+    "position": "TE",
+    "name": "Isaiah Likely",
+    "value": -1.721
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 10,
+    "overall": 42,
+    "position": "S",
+    "name": "Nick Cross",
+    "value": 1.437
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 11,
+    "overall": 43,
+    "position": "RB",
+    "name": "Pierre Strong",
+    "value": -6.807
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 12,
+    "overall": 44,
+    "position": null,
+    "name": "Velus Jones",
+    "value": -7.147
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 13,
+    "overall": 45,
+    "position": "WR",
+    "name": "Tyquan Thornton",
+    "value": -3.474
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 14,
+    "overall": 46,
+    "position": null,
+    "name": "Desmond Ridder",
+    "value": -12.869
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 15,
+    "overall": 47,
+    "position": null,
+    "name": "Jordan Davis",
+    "value": -0.243
+  },
+  {
+    "season": 2022,
+    "round": 3,
+    "slot": 16,
+    "overall": 48,
+    "position": "TE",
+    "name": "Drew Ogletree",
+    "value": 0.0
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 1,
+    "overall": 49,
+    "position": "WR",
+    "name": "Kyle Philips",
+    "value": 0.0
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 2,
+    "overall": 50,
+    "position": null,
+    "name": "Christian Harris",
+    "value": -6.374
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 3,
+    "overall": 51,
+    "position": "RB",
+    "name": "Jaylen Warren",
+    "value": 0.213
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 4,
+    "overall": 52,
+    "position": "TE",
+    "name": "Daniel Bellinger",
+    "value": -3.041
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 5,
+    "overall": 53,
+    "position": "RB",
+    "name": "Keaontay Ingram",
+    "value": 0.0
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 6,
+    "overall": 54,
+    "position": null,
+    "name": "Snoop Conner",
+    "value": 0.0
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 7,
+    "overall": 55,
+    "position": "TE",
+    "name": "Greg Dulcich",
+    "value": -2.807
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 8,
+    "overall": 56,
+    "position": "RB",
+    "name": "Jerome Ford",
+    "value": -5.334
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 9,
+    "overall": 57,
+    "position": "WR",
+    "name": "Khalil Shakir",
+    "value": -0.84
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 10,
+    "overall": 58,
+    "position": "LB",
+    "name": "Leo Chenal",
+    "value": -4.959
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 11,
+    "overall": 59,
+    "position": "EDR/DE",
+    "name": "George Karlaftis",
+    "value": 0.0
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 12,
+    "overall": 60,
+    "position": null,
+    "name": "Cade Otton",
+    "value": -0.946
+  },
+  {
+    "season": 2022,
+    "round": 4,
+    "slot": 13,
+    "overall": 61,
+    "position": null,
+    "name": "Justyn Ross",
+    "value": -7.685
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 1,
+    "overall": 65,
+    "position": "S",
+    "name": "Jalen Pitre",
+    "value": -0.317
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 2,
+    "overall": 66,
+    "position": "WR",
+    "name": "Danny Gray",
+    "value": 0.0
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 3,
+    "overall": 67,
+    "position": "CB",
+    "name": "Sauce Gardner",
+    "value": -3.158
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 4,
+    "overall": 68,
+    "position": "RB",
+    "name": "Tyler Badie",
+    "value": -7.413
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 5,
+    "overall": 69,
+    "position": null,
+    "name": "Jordan Mason",
+    "value": -1.211
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 6,
+    "overall": 70,
+    "position": "TE",
+    "name": "Jelani Woods",
+    "value": -5.788
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 7,
+    "overall": 71,
+    "position": "EDR/DE",
+    "name": "Jermaine Johnson",
+    "value": -6.145
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 8,
+    "overall": 72,
+    "position": "S",
+    "name": "Bryan Cook",
+    "value": -2.074
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 9,
+    "overall": 73,
+    "position": "EDR/DE",
+    "name": "David Ojabo",
+    "value": -8.453
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 10,
+    "overall": 74,
+    "position": "LB",
+    "name": "Troy Andersen",
+    "value": -0.51
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 11,
+    "overall": 75,
+    "position": "LB",
+    "name": "Channing Tindall",
+    "value": -7.968
+  },
+  {
+    "season": 2022,
+    "round": 5,
+    "slot": 12,
+    "overall": 76,
+    "position": null,
+    "name": "Derek Stingley",
+    "value": -2.271
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 1,
+    "overall": 1,
+    "position": "RB",
+    "name": "Bijan Robinson",
+    "value": 9.148
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 2,
+    "overall": 2,
+    "position": "RB",
+    "name": "Jahmyr Gibbs",
+    "value": 9.817
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 3,
+    "overall": 3,
+    "position": "WR",
+    "name": "Jaxon Smith-Njigba",
+    "value": 5.297
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 4,
+    "overall": 4,
+    "position": "RB",
+    "name": "Zach Charbonnet",
+    "value": 0.497
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 5,
+    "overall": 5,
+    "position": "RB",
+    "name": "Kendre Miller",
+    "value": -4.753
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 6,
+    "overall": 6,
+    "position": "RB",
+    "name": "De'Von Achane",
+    "value": 6.915
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 7,
+    "overall": 7,
+    "position": "RB",
+    "name": "Tank Bigsby",
+    "value": -3.175
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 8,
+    "overall": 8,
+    "position": "WR",
+    "name": "Quentin Johnston",
+    "value": 1.047
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 9,
+    "overall": 9,
+    "position": "WR",
+    "name": "Jordan Addison",
+    "value": 0.336
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 10,
+    "overall": 10,
+    "position": "TE",
+    "name": "Dalton Kincaid",
+    "value": 0.75
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 11,
+    "overall": 11,
+    "position": "RB",
+    "name": "Roschon Johnson",
+    "value": -6.472
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 12,
+    "overall": 12,
+    "position": "WR",
+    "name": "Zay Flowers",
+    "value": 1.665
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 13,
+    "overall": 13,
+    "position": "QB",
+    "name": "Bryce Young",
+    "value": -3.156
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 14,
+    "overall": 14,
+    "position": "WR",
+    "name": "Jonathan Mingo",
+    "value": -6.924
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 15,
+    "overall": 15,
+    "position": "RB",
+    "name": "Chase Brown",
+    "value": 3.919
+  },
+  {
+    "season": 2023,
+    "round": 1,
+    "slot": 16,
+    "overall": 16,
+    "position": "TE",
+    "name": "Sam LaPorta",
+    "value": 1.901
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 1,
+    "overall": 17,
+    "position": "RB",
+    "name": "Tyjae Spears",
+    "value": -2.776
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 2,
+    "overall": 18,
+    "position": "QB",
+    "name": "Anthony Richardson",
+    "value": -11.568
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 3,
+    "overall": 19,
+    "position": "LB",
+    "name": "Jack Campbell",
+    "value": 2.341
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 4,
+    "overall": 20,
+    "position": "RB",
+    "name": "Deuce Vaughn",
+    "value": -7.042
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 5,
+    "overall": 21,
+    "position": "EDR",
+    "name": "Nolan Smith",
+    "value": -5.319
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 6,
+    "overall": 22,
+    "position": "EDR",
+    "name": "Will Anderson",
+    "value": 4.261
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 7,
+    "overall": 23,
+    "position": "IL",
+    "name": "Jalen Carter",
+    "value": 0.253
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 8,
+    "overall": 24,
+    "position": "LB",
+    "name": "Trenton Simpson",
+    "value": -3.968
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 9,
+    "overall": 25,
+    "position": "QB",
+    "name": "C.J. Stroud",
+    "value": -3.606
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 10,
+    "overall": 26,
+    "position": "WR",
+    "name": "Marvin Mims",
+    "value": -2.848
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 11,
+    "overall": 27,
+    "position": "TE",
+    "name": "Luke Musgrave",
+    "value": -4.496
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 12,
+    "overall": 28,
+    "position": "DB",
+    "name": "Brian Branch",
+    "value": 2.115
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 13,
+    "overall": 29,
+    "position": "WR",
+    "name": "Jayden Reed",
+    "value": -0.007
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 14,
+    "overall": 30,
+    "position": "TE",
+    "name": "Michael Mayer",
+    "value": -3.238
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 15,
+    "overall": 31,
+    "position": "QB",
+    "name": "Will Levis",
+    "value": -7.391
+  },
+  {
+    "season": 2023,
+    "round": 2,
+    "slot": 16,
+    "overall": 32,
+    "position": "WR",
+    "name": "Jalin Hyatt",
+    "value": -6.92
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 1,
+    "overall": 33,
+    "position": "S",
+    "name": "Sydney Brown",
+    "value": -6.01
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 2,
+    "overall": 34,
+    "position": "WR",
+    "name": "Josh Downs",
+    "value": -1.406
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 3,
+    "overall": 35,
+    "position": "WR",
+    "name": "Rashee Rice",
+    "value": 5.515
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 4,
+    "overall": 36,
+    "position": "RB",
+    "name": "Evan Hull",
+    "value": -7.945
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 5,
+    "overall": 37,
+    "position": "EDR",
+    "name": "Tyree Wilson",
+    "value": -0.719
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 6,
+    "overall": 38,
+    "position": "RB",
+    "name": "Zach Evans",
+    "value": 0.0
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 7,
+    "overall": 39,
+    "position": "WR",
+    "name": "Tank Dell",
+    "value": -0.963
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 8,
+    "overall": 40,
+    "position": "WR",
+    "name": "Puka Nacua",
+    "value": 7.605
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 9,
+    "overall": 41,
+    "position": "WR",
+    "name": "Michael Wilson",
+    "value": -0.136
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 10,
+    "overall": 42,
+    "position": "EDR",
+    "name": "Lukas Van Ness",
+    "value": -0.802
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 11,
+    "overall": 43,
+    "position": "RB",
+    "name": "Sean Tucker",
+    "value": -3.149
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 12,
+    "overall": 44,
+    "position": "RB",
+    "name": "Israel Abanikanda",
+    "value": 0.0
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 13,
+    "overall": 45,
+    "position": "EDR",
+    "name": "Myles Murphy",
+    "value": -1.213
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 14,
+    "overall": 46,
+    "position": "WR",
+    "name": "Xavier Hutchinson",
+    "value": -4.546
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 15,
+    "overall": 47,
+    "position": "WR",
+    "name": "Kayshon Boutte",
+    "value": -1.525
+  },
+  {
+    "season": 2023,
+    "round": 3,
+    "slot": 16,
+    "overall": 48,
+    "position": "TE",
+    "name": "Luke Schoonmaker",
+    "value": -4.212
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 1,
+    "overall": 49,
+    "position": "EDR",
+    "name": "Felix Anudike-Uzomah",
+    "value": -2.126
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 2,
+    "overall": 50,
+    "position": "WR",
+    "name": "Cedric Tillman",
+    "value": -3.425
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 3,
+    "overall": 51,
+    "position": "EDR",
+    "name": "Drew Sanders",
+    "value": -6.301
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 4,
+    "overall": 52,
+    "position": "EDR",
+    "name": "BJ Ojulari",
+    "value": -7.018
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 5,
+    "overall": 53,
+    "position": "RB",
+    "name": "DeWayne McBride",
+    "value": 0.0
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 6,
+    "overall": 54,
+    "position": "LB",
+    "name": "Daiyan Henley",
+    "value": 0.222
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 7,
+    "overall": 55,
+    "position": "S",
+    "name": "Jordan Battle",
+    "value": -0.348
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 8,
+    "overall": 56,
+    "position": "RB",
+    "name": "Eric Gray",
+    "value": -7.832
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 9,
+    "overall": 57,
+    "position": "RB",
+    "name": "Chris Rodriguez",
+    "value": -2.24
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 10,
+    "overall": 58,
+    "position": "EDR",
+    "name": "Will McDonald",
+    "value": 0.402
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 11,
+    "overall": 59,
+    "position": "IL",
+    "name": "Siaki Ika",
+    "value": 0.0
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 12,
+    "overall": 60,
+    "position": "WR",
+    "name": "Trey Palmer",
+    "value": -5.245
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 13,
+    "overall": 61,
+    "position": "WR",
+    "name": "A.T. Perry",
+    "value": 0.0
+  },
+  {
+    "season": 2023,
+    "round": 4,
+    "slot": 14,
+    "overall": 62,
+    "position": "K",
+    "name": "Chad Ryland",
+    "value": -0.133
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 1,
+    "overall": 63,
+    "position": "QB",
+    "name": "Aidan O'Connell",
+    "value": -10.311
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 2,
+    "overall": 64,
+    "position": "K",
+    "name": "Jake Moody",
+    "value": 0.046
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 3,
+    "overall": 65,
+    "position": "IL",
+    "name": "Mazi Smith",
+    "value": -3.954
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 4,
+    "overall": 66,
+    "position": "LB",
+    "name": "Marte Mapu",
+    "value": -5.784
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 5,
+    "overall": 67,
+    "position": "RB",
+    "name": "Kenny McIntosh",
+    "value": -6.048
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 6,
+    "overall": 68,
+    "position": "S",
+    "name": "Ji'Ayir Brown",
+    "value": -2.153
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 7,
+    "overall": 69,
+    "position": "LB",
+    "name": "Henry To'oTo'o",
+    "value": -2.216
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 8,
+    "overall": 70,
+    "position": "LB",
+    "name": "DeMarvion Overshown",
+    "value": -2.631
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 9,
+    "overall": 71,
+    "position": "CB",
+    "name": "Devon Witherspoon",
+    "value": 0.108
+  },
+  {
+    "season": 2023,
+    "round": 5,
+    "slot": 10,
+    "overall": 72,
+    "position": "EDR",
+    "name": "Tyler Lacy",
+    "value": -3.209
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 1,
+    "overall": 1,
+    "position": "WR",
+    "name": "Marvin Harrison",
+    "value": 0.03
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 2,
+    "overall": 2,
+    "position": "WR",
+    "name": "Malik Nabers",
+    "value": 3.367
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 3,
+    "overall": 3,
+    "position": "QB",
+    "name": "Caleb Williams",
+    "value": 0.0
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 4,
+    "overall": 4,
+    "position": "WR",
+    "name": "Rome Odunze",
+    "value": -0.3
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 5,
+    "overall": 5,
+    "position": "RB",
+    "name": "Jonathon Brooks",
+    "value": -7.262
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 6,
+    "overall": 6,
+    "position": "WR",
+    "name": "Xavier Worthy",
+    "value": -0.957
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 7,
+    "overall": 7,
+    "position": "RB",
+    "name": "Trey Benson",
+    "value": -3.826
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 8,
+    "overall": 8,
+    "position": "QB",
+    "name": "Jayden Daniels",
+    "value": 0.769
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 9,
+    "overall": 9,
+    "position": "TE",
+    "name": "Brock Bowers",
+    "value": 4.007
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 10,
+    "overall": 10,
+    "position": "WR",
+    "name": "Keon Coleman",
+    "value": -2.18
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 11,
+    "overall": 11,
+    "position": "WR",
+    "name": "Ladd McConkey",
+    "value": 1.077
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 12,
+    "overall": 12,
+    "position": "WR",
+    "name": "Brian Thomas",
+    "value": 1.071
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 13,
+    "overall": 13,
+    "position": "RB",
+    "name": "Ray Davis",
+    "value": -4.758
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 14,
+    "overall": 14,
+    "position": "QB",
+    "name": "Drake Maye",
+    "value": 0.351
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 15,
+    "overall": 15,
+    "position": "QB",
+    "name": "J.J. McCarthy",
+    "value": -4.815
+  },
+  {
+    "season": 2024,
+    "round": 1,
+    "slot": 16,
+    "overall": 16,
+    "position": "LB",
+    "name": "Junior Colson",
+    "value": -6.809
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 1,
+    "overall": 17,
+    "position": "RB",
+    "name": "Tyrone Tracy",
+    "value": -0.29
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 2,
+    "overall": 18,
+    "position": "RB",
+    "name": "Blake Corum",
+    "value": -3.921
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 3,
+    "overall": 19,
+    "position": "RB",
+    "name": "MarShawn Lloyd",
+    "value": -6.962
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 4,
+    "overall": 20,
+    "position": "TE",
+    "name": "Ben Sinnott",
+    "value": -3.716
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 5,
+    "overall": 21,
+    "position": "RB",
+    "name": "Jaylen Wright",
+    "value": -5.132
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 6,
+    "overall": 22,
+    "position": "LB",
+    "name": "Edgerrin Cooper",
+    "value": -0.806
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 7,
+    "overall": 23,
+    "position": "WR",
+    "name": "Ja'Lynn Polk",
+    "value": -6.0
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 8,
+    "overall": 24,
+    "position": "WR",
+    "name": "Adonai Mitchell",
+    "value": -4.66
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 9,
+    "overall": 25,
+    "position": "RB",
+    "name": "Bucky Irving",
+    "value": 2.837
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 10,
+    "overall": 26,
+    "position": "WR",
+    "name": "Ricky Pearsall",
+    "value": -1.606
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 11,
+    "overall": 27,
+    "position": "RB",
+    "name": "Braelon Allen",
+    "value": -5.266
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 12,
+    "overall": 28,
+    "position": "WR",
+    "name": "Xavier Legette",
+    "value": -3.451
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 13,
+    "overall": 29,
+    "position": "WR",
+    "name": "Roman Wilson",
+    "value": -4.596
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 14,
+    "overall": 30,
+    "position": "EDR",
+    "name": "Dallas Turner",
+    "value": -4.046
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 15,
+    "overall": 31,
+    "position": "RB",
+    "name": "Audric Estime",
+    "value": 0.0
+  },
+  {
+    "season": 2024,
+    "round": 2,
+    "slot": 16,
+    "overall": 32,
+    "position": "S",
+    "name": "Tyler Nubin",
+    "value": -0.354
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 1,
+    "overall": 33,
+    "position": "LB",
+    "name": "Payton Wilson",
+    "value": -1.51
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 2,
+    "overall": 34,
+    "position": "EDR",
+    "name": "Laiatu Latu",
+    "value": 0.422
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 3,
+    "overall": 35,
+    "position": "WR",
+    "name": "Troy Franklin",
+    "value": -2.278
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 4,
+    "overall": 36,
+    "position": "TE",
+    "name": "Ja'Tavion Sanders",
+    "value": -3.397
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 5,
+    "overall": 37,
+    "position": "EDR",
+    "name": "Marist Liufau",
+    "value": -6.242
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 6,
+    "overall": 38,
+    "position": "EDR",
+    "name": "Chop Robinson",
+    "value": -6.493
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 7,
+    "overall": 39,
+    "position": "TE",
+    "name": "Theo Johnson",
+    "value": -0.785
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 8,
+    "overall": 40,
+    "position": "RB",
+    "name": "Kimani Vidal",
+    "value": -2.414
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 9,
+    "overall": 41,
+    "position": "EDR",
+    "name": "Jared Verse",
+    "value": -3.129
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 10,
+    "overall": 42,
+    "position": "RB",
+    "name": "Will Shipley",
+    "value": -6.81
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 11,
+    "overall": 43,
+    "position": "WR",
+    "name": "Jermaine Burton",
+    "value": -4.91
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 12,
+    "overall": 44,
+    "position": "WR",
+    "name": "Javon Baker",
+    "value": -7.36
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 13,
+    "overall": 45,
+    "position": "IL",
+    "name": "Darius Robinson",
+    "value": -2.694
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 14,
+    "overall": 46,
+    "position": "WR",
+    "name": "Malachi Corley",
+    "value": -6.151
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 15,
+    "overall": 47,
+    "position": "QB",
+    "name": "Bo Nix",
+    "value": 1.186
+  },
+  {
+    "season": 2024,
+    "round": 3,
+    "slot": 16,
+    "overall": 48,
+    "position": "WR",
+    "name": "Devontez Walker",
+    "value": -2.064
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 1,
+    "overall": 49,
+    "position": "LB",
+    "name": "Trevin Wallace",
+    "value": -2.837
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 2,
+    "overall": 50,
+    "position": "CB",
+    "name": "Quinyon Mitchell",
+    "value": -2.892
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 3,
+    "overall": 51,
+    "position": "QB",
+    "name": "Michael Penix",
+    "value": -5.513
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 4,
+    "overall": 52,
+    "position": "RB",
+    "name": "Dylan Laube",
+    "value": -9.432
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 5,
+    "overall": 53,
+    "position": "WR",
+    "name": "Jalen McMillan",
+    "value": -1.921
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 6,
+    "overall": 54,
+    "position": "CB",
+    "name": "Terrion Arnold",
+    "value": -2.281
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 7,
+    "overall": 55,
+    "position": "QB",
+    "name": "Spencer Rattler",
+    "value": -6.831
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 8,
+    "overall": 56,
+    "position": "RB",
+    "name": "Isaac Guerendo",
+    "value": -2.577
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 9,
+    "overall": 57,
+    "position": "TE",
+    "name": "Jared Wiley",
+    "value": -5.433
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 10,
+    "overall": 58,
+    "position": "LB",
+    "name": "Cedric Gray",
+    "value": 0.166
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 11,
+    "overall": 59,
+    "position": "WR",
+    "name": "Luke McCaffrey",
+    "value": -3.525
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 12,
+    "overall": 60,
+    "position": "LB",
+    "name": "Tommy Eichenberg",
+    "value": -7.505
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 13,
+    "overall": 61,
+    "position": "S",
+    "name": "Cole Bishop",
+    "value": -1.33
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 14,
+    "overall": 62,
+    "position": "RB",
+    "name": "Louis Rees-Zammit",
+    "value": 0.0
+  },
+  {
+    "season": 2024,
+    "round": 4,
+    "slot": 15,
+    "overall": 63,
+    "position": "WR",
+    "name": "Brenden Rice",
+    "value": 0.0
+  },
+  {
+    "season": 2024,
+    "round": 5,
+    "slot": 1,
+    "overall": 64,
+    "position": "LB",
+    "name": "Jeremiah Trotter",
+    "value": -7.356
+  },
+  {
+    "season": 2024,
+    "round": 5,
+    "slot": 2,
+    "overall": 65,
+    "position": "RB",
+    "name": "Rasheen Ali",
+    "value": -7.283
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 1,
+    "overall": 66,
+    "position": "S",
+    "name": "Javon Bullard",
+    "value": -2.543
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 2,
+    "overall": 67,
+    "position": "DB",
+    "name": "Cooper DeJean",
+    "value": -0.069
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 3,
+    "overall": 68,
+    "position": "TE",
+    "name": "Erick All",
+    "value": -3.813
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 4,
+    "overall": 69,
+    "position": "WR",
+    "name": "Jacob Cowing",
+    "value": -4.652
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 5,
+    "overall": 70,
+    "position": "IL",
+    "name": "Byron Murphy",
+    "value": -1.487
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 6,
+    "overall": 71,
+    "position": "WR",
+    "name": "Malik Washington",
+    "value": -4.034
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 7,
+    "overall": 72,
+    "position": "CB",
+    "name": "Nate Wiggins",
+    "value": -2.09
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 8,
+    "overall": 73,
+    "position": "RB",
+    "name": "Frank Gore",
+    "value": -8.162
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 9,
+    "overall": 74,
+    "position": "RB",
+    "name": "Blake Watson",
+    "value": -6.462
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 10,
+    "overall": 75,
+    "position": "TE",
+    "name": "Cade Stover",
+    "value": -4.471
+  },
+  {
+    "season": 2024,
+    "round": 6,
+    "slot": 11,
+    "overall": 76,
+    "position": "EDR",
+    "name": "Marshawn Kneeland",
+    "value": -2.516
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 1,
+    "overall": 1,
+    "position": "RB",
+    "name": "Ashton Jeanty",
+    "value": 2.938
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 2,
+    "overall": 2,
+    "position": "WR/CB",
+    "name": "Travis Hunter",
+    "value": -2.313
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 3,
+    "overall": 3,
+    "position": "RB",
+    "name": "Omarion Hampton",
+    "value": 1.917
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 4,
+    "overall": 4,
+    "position": "RB",
+    "name": "TreVeyon Henderson",
+    "value": 0.0
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 5,
+    "overall": 5,
+    "position": "WR",
+    "name": "Tetairoa McMillan",
+    "value": 1.154
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 6,
+    "overall": 6,
+    "position": "RB",
+    "name": "Quinshon Judkins",
+    "value": 1.824
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 7,
+    "overall": 7,
+    "position": "TE",
+    "name": "Tyler Warren",
+    "value": 1.057
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 8,
+    "overall": 8,
+    "position": "WR",
+    "name": "Emeka Egbuka",
+    "value": 0.413
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 9,
+    "overall": 9,
+    "position": "RB",
+    "name": "RJ Harvey",
+    "value": 0.516
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 10,
+    "overall": 10,
+    "position": "WR",
+    "name": "Matthew Golden",
+    "value": -3.772
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 11,
+    "overall": 11,
+    "position": "RB",
+    "name": "Jacory Croskey-Merritt",
+    "value": -1.203
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 12,
+    "overall": 12,
+    "position": "TE",
+    "name": "Colston Loveland",
+    "value": 1.635
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 13,
+    "overall": 13,
+    "position": "RB",
+    "name": "Cam Skattebo",
+    "value": 4.791
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 14,
+    "overall": 14,
+    "position": "RB",
+    "name": "Kaleb Johnson",
+    "value": -8.172
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 15,
+    "overall": 15,
+    "position": "QB",
+    "name": "Cam Ward",
+    "value": -6.25
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "slot": 16,
+    "overall": 16,
+    "position": "WR",
+    "name": "Jayden Higgins",
+    "value": -2.248
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 1,
+    "overall": 17,
+    "position": "LB",
+    "name": "Carson Schwesinger",
+    "value": 1.744
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 2,
+    "overall": 18,
+    "position": "WR",
+    "name": "Luther Burden",
+    "value": -2.226
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 3,
+    "overall": 19,
+    "position": "RB",
+    "name": "Bhayshul Tuten",
+    "value": -3.631
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 4,
+    "overall": 20,
+    "position": "WR",
+    "name": "Tre' Harris",
+    "value": -5.061
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 5,
+    "overall": 21,
+    "position": "TE",
+    "name": "Mason Taylor",
+    "value": -2.399
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 6,
+    "overall": 22,
+    "position": "WR",
+    "name": "Kyle Williams",
+    "value": -5.072
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 7,
+    "overall": 23,
+    "position": "TE",
+    "name": "Elijah Arroyo",
+    "value": -4.238
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 8,
+    "overall": 24,
+    "position": "QB",
+    "name": "Jaxson Dart",
+    "value": 0.027
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 9,
+    "overall": 25,
+    "position": "EDR",
+    "name": "Abdul Carter",
+    "value": -4.745
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 10,
+    "overall": 26,
+    "position": "WR",
+    "name": "Tory Horton",
+    "value": -0.913
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 11,
+    "overall": 27,
+    "position": "RB",
+    "name": "Jaydon Blue",
+    "value": -5.162
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 12,
+    "overall": 28,
+    "position": "QB",
+    "name": "Tyler Shough",
+    "value": -2.666
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 13,
+    "overall": 29,
+    "position": "WR",
+    "name": "Jack Bech",
+    "value": -5.652
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 14,
+    "overall": 30,
+    "position": "RB",
+    "name": "Dylan Sampson",
+    "value": -5.002
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 15,
+    "overall": 31,
+    "position": "RB",
+    "name": "Ollie Gordon",
+    "value": -5.874
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "slot": 16,
+    "overall": 32,
+    "position": "WR",
+    "name": "Jaylin Noel",
+    "value": -4.872
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 1,
+    "overall": 33,
+    "position": "TE",
+    "name": "Terrance Ferguson",
+    "value": -2.638
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 2,
+    "overall": 34,
+    "position": "RB",
+    "name": "DJ Giddens",
+    "value": -6.942
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 3,
+    "overall": 35,
+    "position": "RB",
+    "name": "Woody Marks",
+    "value": -1.001
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 4,
+    "overall": 36,
+    "position": "LB",
+    "name": "Demetrius Knight",
+    "value": -1.189
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 5,
+    "overall": 37,
+    "position": "LB",
+    "name": "Jihaad Campbell",
+    "value": -3.687
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 6,
+    "overall": 38,
+    "position": "RB",
+    "name": "Tahj Brooks",
+    "value": -7.945
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 7,
+    "overall": 39,
+    "position": "WR",
+    "name": "Pat Bryant",
+    "value": -4.056
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 8,
+    "overall": 40,
+    "position": "LB",
+    "name": "Chris Paul",
+    "value": 0.0
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 9,
+    "overall": 41,
+    "position": "WR",
+    "name": "Elic Ayomanor",
+    "value": -2.71
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 10,
+    "overall": 42,
+    "position": "WR",
+    "name": "Dont'e Thornton",
+    "value": -6.367
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 11,
+    "overall": 43,
+    "position": "RB",
+    "name": "Kyle Monangai",
+    "value": -1.309
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 12,
+    "overall": 44,
+    "position": "RB",
+    "name": "Jarquez Hunter",
+    "value": 0.0
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 13,
+    "overall": 45,
+    "position": "RB",
+    "name": "Devin Neal",
+    "value": -3.895
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 14,
+    "overall": 46,
+    "position": "WR",
+    "name": "Jalen Royals",
+    "value": -7.085
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 15,
+    "overall": 47,
+    "position": "TE",
+    "name": "Harold Fannin",
+    "value": 1.808
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "slot": 16,
+    "overall": 48,
+    "position": "TE",
+    "name": "Oronde Gadsden",
+    "value": -0.375
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 1,
+    "overall": 49,
+    "position": "WR",
+    "name": "Isaac TeSlaa",
+    "value": -3.292
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 2,
+    "overall": 50,
+    "position": "EDR",
+    "name": "Jalon Walker",
+    "value": -4.575
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 3,
+    "overall": 51,
+    "position": "EDR",
+    "name": "Mike Green",
+    "value": -6.615
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 4,
+    "overall": 52,
+    "position": "EDR",
+    "name": "James Pearce",
+    "value": -3.191
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 5,
+    "overall": 53,
+    "position": "RB",
+    "name": "Trevor Etienne",
+    "value": -8.28
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 6,
+    "overall": 54,
+    "position": "WR",
+    "name": "Elijhah Badger",
+    "value": 0.0
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 7,
+    "overall": 55,
+    "position": "RB",
+    "name": "Brashard Smith",
+    "value": -6.209
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 8,
+    "overall": 56,
+    "position": "LB",
+    "name": "Cody Simon",
+    "value": -3.932
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 9,
+    "overall": 57,
+    "position": "RB",
+    "name": "Jordan James",
+    "value": -5.262
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 10,
+    "overall": 58,
+    "position": "WR",
+    "name": "Tez Johnson",
+    "value": -3.205
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 11,
+    "overall": 59,
+    "position": "S",
+    "name": "Malaki Starks",
+    "value": -2.238
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 12,
+    "overall": 60,
+    "position": "WR",
+    "name": "Jaylin Lane",
+    "value": -6.085
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 13,
+    "overall": 61,
+    "position": "S",
+    "name": "Nick Emmanwori",
+    "value": 0.736
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 14,
+    "overall": 62,
+    "position": "LB",
+    "name": "Nick Martin",
+    "value": -5.906
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 15,
+    "overall": 63,
+    "position": "RB",
+    "name": "Damien Martinez",
+    "value": 0.0
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "slot": 16,
+    "overall": 64,
+    "position": "WR",
+    "name": "Xavier Restrepo",
+    "value": -5.485
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 1,
+    "overall": 65,
+    "position": "EDR/IL",
+    "name": "Mykel Williams",
+    "value": -1.954
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 2,
+    "overall": 66,
+    "position": "S",
+    "name": "Xavier Watts",
+    "value": -0.032
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 3,
+    "overall": 67,
+    "position": "K",
+    "name": "Tyler Loop",
+    "value": -0.113
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 4,
+    "overall": 68,
+    "position": "RB",
+    "name": "Phil Mafah",
+    "value": 0.263
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 5,
+    "overall": 69,
+    "position": "EDR",
+    "name": "Shemar Stewart",
+    "value": -2.631
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 6,
+    "overall": 70,
+    "position": "RB",
+    "name": "Raheim Sanders",
+    "value": -4.462
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 7,
+    "overall": 71,
+    "position": "EDR",
+    "name": "Donovan Ezeiruaku",
+    "value": -1.594
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 8,
+    "overall": 72,
+    "position": "WR",
+    "name": "Efton Chism",
+    "value": -2.385
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 9,
+    "overall": 73,
+    "position": "WR",
+    "name": "KeAndre Lambert-Smith",
+    "value": -6.028
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 10,
+    "overall": 74,
+    "position": "WR",
+    "name": "Tai Felton",
+    "value": -6.752
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 11,
+    "overall": 75,
+    "position": "S",
+    "name": "Kevin Winston",
+    "value": -2.681
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 12,
+    "overall": 76,
+    "position": "LB",
+    "name": "Danny Stutsman",
+    "value": -6.562
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 13,
+    "overall": 77,
+    "position": "RB",
+    "name": "Kalel Mullings",
+    "value": -8.629
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "slot": 14,
+    "overall": 78,
+    "position": "WR",
+    "name": "Isaiah Bond",
+    "value": -5.258
+  }
+]
