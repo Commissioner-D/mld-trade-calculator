@@ -52,19 +52,10 @@ def fetch_all_players() -> list:
     all_players = []
     offset = 0
     seen_offsets = set()
-    first_page = True
 
     while True:
         print(f"Lade FetchPlayerListing offset={offset} ...")
         data = fetch_page(offset)
-
-        if first_page:
-            print("--- DEBUG: echte Rohstruktur der ersten Antwort (Top-Level-Keys) ---")
-            print(list(data.keys()))
-            if data.get("players"):
-                print("--- DEBUG: erster Spieler-Eintrag komplett ---")
-                print(json.dumps(data["players"][0], indent=2, ensure_ascii=False)[:3000])
-            first_page = False
 
         players = data.get("players", [])
         total = _get(data, "result_total", "resultTotal") or 0
