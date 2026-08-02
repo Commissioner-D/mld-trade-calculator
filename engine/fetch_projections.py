@@ -36,21 +36,34 @@ STAT_MAP = {
 }
 
 
-def fetch_projections(season: int, week: int = 0, api_key: str = None) -> dict:
-    """week=0 -> Season-Projektion (kein einzelner Spieltag)."""
+def fetch_projections(season: int, week: int = 0, api_key: str = None,
+                       positions=("QB", "RB", "WR", "TE", "K")) -> dict:
+    """week=0 -> Season-Projektion (kein einzelner Spieltag).
+
+    Ruft pro Position einzeln ab und fuegt zusammen -- ein Call ohne
+    position-Parameter liefert offenbar nur eine Default-Position (beobachtet:
+    ausschliesslich RB), nicht alle Positionen wie in der 2017er Doku-Beispiel-
+    Response angedeutet."""
     api_key = api_key or os.environ.get("FANTASYPROS_API_KEY")
     if not api_key:
         raise RuntimeError(
             "Kein API-Key gefunden. Erwartet in Umgebungsvariable FANTASYPROS_API_KEY "
             "(lokal per `export FANTASYPROS_API_KEY=...`, in der GitHub Action als Secret)."
         )
-    url = f"{API_BASE}/{season}/projections?week={week}"
-    req = urllib.request.Request(url, headers={"x-api-key": api_key})
-    try:
-        with urllib.request.urlopen(req) as resp:
-            return json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        raise RuntimeError(f"FantasyPros API Fehler {e.code}: {e.read().decode()}") from e
+    all_players = []
+    for pos in positions:
+        url = f"{API_BASE}/{season}/projections?week={week}&position={pos}"
+        print(f"Rufe ab: {url}")
+        req = urllib.request.Request(url, headers={"x-api-key": api_key})
+        try:
+            with urllib.request.urlopen(req) as resp:
+                data = json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            raise RuntimeError(f"FantasyPros API Fehler {e.code}: {e.read().decode()}") from e
+        players = data.get("players", [])
+        print(f"  {pos}: {len(players)} Spieler")
+        all_players.extend(players)
+    return {"season": str(season), "players": all_players}
 
 
 def to_raw_categories(api_response: dict) -> list:
