@@ -23,7 +23,7 @@ import json
 import urllib.request
 import urllib.error
 
-API_BASE = "https://api.fantasypros.com/v2/json/nfl"
+API_BASE = "https://api.fantasypros.com/public/v2/json/nfl"
 
 # FantasyPros-Rohkategorie -> unser Schema (siehe engine/aggregate_offense.py)
 STAT_MAP = {
