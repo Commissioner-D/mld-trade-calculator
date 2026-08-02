@@ -102,7 +102,45 @@ def assign_group(pos, groups):
             return g
     return None
 
-idp["idp_group"] = idp["fine_position"].apply(lambda p: assign_group(p, groups))
+# Fleaflicker-eigene Positions-Zuordnung ist AUTORITATIV fuer die Gruppierung (nicht
+# nflverse depth_chart_position) -- massgeblich ist, welchen Slot ein Spieler in DIESER
+# Liga belegen darf, das entscheidet ausschliesslich Fleaflicker (Dominiks Vorgabe).
+# Fleaflicker-Labels: CB/S/DB -> DB, EDR/IL/EDR-IL -> EDR_IL, LB -> LB.
+# Fallback auf nflverse depth_chart_position, wenn kein Fleaflicker-Match existiert
+# (z.B. Namens-Mismatch, oder Spieler nicht im Fleaflicker-Pool).
+FLEA_TO_GROUP = {
+    "CB": "DB", "S": "DB", "DB": "DB",
+    "EDR": "EDR_IL", "IL": "EDR_IL", "EDR/IL": "EDR_IL",
+    "LB": "LB",
+}
+
+def norm_name(n):
+    return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip()
+
+flea_group_by_name = {}
+flea_path = "data/fleaflicker_players.json"
+if os.path.exists(flea_path):
+    with open(flea_path, encoding="utf-8") as f:
+        flea_players = json.load(f)
+    for p in flea_players:
+        if not p.get("name"):
+            continue
+        # Hybrid-Labels (z.B. "WR/CB", "S/EDR"): ersten IDP-relevanten Teil nehmen
+        parts = (p.get("position") or "").split("/")
+        group = next((FLEA_TO_GROUP[part] for part in parts if part in FLEA_TO_GROUP), None)
+        if group:
+            flea_group_by_name[norm_name(p["name"])] = group
+    print(f"Fleaflicker-Positionsdaten geladen: {len(flea_group_by_name)} IDP-Spieler-Zuordnungen")
+else:
+    print(f"Keine Fleaflicker-Positionsdatei unter {flea_path} gefunden -- Fallback auf nflverse-Positionen.")
+
+idp["norm_name"] = idp["full_name"].apply(norm_name)
+idp["idp_group"] = idp["norm_name"].map(flea_group_by_name)
+fallback_mask = idp["idp_group"].isna()
+idp.loc[fallback_mask, "idp_group"] = idp.loc[fallback_mask, "fine_position"].apply(lambda p: assign_group(p, groups))
+print(f"IDP-Gruppierung: {(~fallback_mask).sum()} von {len(idp)} ueber Fleaflicker, "
+      f"{fallback_mask.sum()} ueber nflverse-Fallback")
+idp = idp.drop(columns=["norm_name"])
 idp = idp.dropna(subset=["idp_group"])
 
 repl_levels = {}
@@ -172,6 +210,14 @@ if os.path.exists(fp_path):
     proj = build_projected_vorp(fp_path, roster_cfg)
     proj["norm_name"] = proj["name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip())
     value_table["norm_name"] = value_table["full_name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip())
+    # Nach norm_name deduplizieren (kann trotz vorherigem Dedup noch Kollisionen
+    # geben, z.B. Spieler, die FantasyPros unter zwei Positionen fuehrt) --
+    # hoechster proj_vorp gewinnt, sonst crasht der Lookup unten.
+    dupe_names = proj[proj.duplicated("norm_name", keep=False)]
+    if len(dupe_names):
+        print(f"  {dupe_names['norm_name'].nunique()} Namens-Kollisionen im Projektions-Datensatz "
+              f"(z.B. Spieler unter mehreren Positionen) -- behalte jeweils den hoechsten proj_vorp")
+    proj = proj.sort_values("proj_vorp", ascending=False).drop_duplicates(subset=["norm_name"], keep="first")
     proj_lookup = proj.set_index("norm_name")[["proj_ppg", "proj_vorp"]]
     value_table["proj_ppg"] = value_table["norm_name"].map(proj_lookup["proj_ppg"])
     value_table["proj_vorp"] = value_table["norm_name"].map(proj_lookup["proj_vorp"])
