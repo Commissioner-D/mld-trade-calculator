@@ -36,6 +36,10 @@ jobs:
         continue-on-error: true   # fehlender/ungueltiger Key soll den Rebuild nicht blockieren
                                   # (das Skript selbst wirft dann eine klare Fehlermeldung im Log)
 
+      - name: Fleaflicker-Spielerpositionen laden
+        run: python engine/fetch_fleaflicker_players.py
+        continue-on-error: true   # optionale Verfeinerung, kein Blocker fuer den Rest der Pipeline
+
       - name: Value-Tabelle neu berechnen
         run: python engine/build_value_table.py
 
