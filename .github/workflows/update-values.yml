@@ -36,6 +36,12 @@ jobs:
         continue-on-error: true   # fehlender/ungueltiger Key soll den Rebuild nicht blockieren
                                   # (das Skript selbst wirft dann eine klare Fehlermeldung im Log)
 
+      - name: FantasyPros-Dynasty-Rankings laden (Kalibrierungs-Ziel)
+        env:
+          FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
+        run: python engine/fetch_dynasty_rankings.py 2026
+        continue-on-error: true
+
       - name: Fleaflicker-Spielerpositionen laden
         run: python engine/fetch_fleaflicker_players.py
         continue-on-error: true   # optionale Verfeinerung, kein Blocker fuer den Rest der Pipeline
