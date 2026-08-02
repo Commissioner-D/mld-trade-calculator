@@ -53,36 +53,40 @@ def fetch_league_rosters() -> dict:
 
 
 def parse_rosters(data: dict) -> list:
-    """Gibt eine flache Liste [{team, player_name, position, group}] zurueck.
-    group = START/BENCH/INJURED/TAXI, aus der Roster-Slot-Zuordnung."""
+    """Gibt eine flache Liste [{team, player_name, position, group}] zurueck."""
     out = []
     rosters = _get(data, "rosters") or []
 
     if not rosters:
         return out
 
-    # Debug: Struktur des ersten Rosters zeigen, falls das erwartete Schema nicht passt
     print("--- DEBUG: Top-Level-Keys erstes Roster ---")
     print(list(rosters[0].keys()))
+    first_players = _get(rosters[0], "players") or []
+    if first_players:
+        print("--- DEBUG: erster Spieler-Eintrag komplett ---")
+        print(json.dumps(first_players[0], indent=2, ensure_ascii=False)[:2000])
 
     for roster in rosters:
         team = _get(roster, "team") or {}
         team_name = _get(team, "name")
-        groups = _get(roster, "groups") or []
-        for group in groups:
-            group_name = _get(group, "group")
-            slots = _get(group, "slots") or []
-            for slot in slots:
-                league_player = _get(slot, "league_player", "leaguePlayer") or {}
-                pro = _get(league_player, "pro_player", "proPlayer") or {}
-                if not pro:
-                    continue
-                out.append({
-                    "team": team_name,
-                    "player_name": _get(pro, "name_full", "nameFull"),
-                    "position": _get(pro, "position"),
-                    "roster_group": group_name,
-                })
+        players = _get(roster, "players") or []
+        for entry in players:
+            # Unklar ob 'entry' direkt der Spieler ist oder ein Slot-Wrapper --
+            # beides versuchen: erst verschachtelt (league_player/pro_player),
+            # sonst direkt als pro_player-artiges Objekt behandeln.
+            league_player = _get(entry, "league_player", "leaguePlayer")
+            pro = _get(league_player, "pro_player", "proPlayer") if league_player else None
+            if not pro:
+                pro = _get(entry, "pro_player", "proPlayer") or entry
+            if not pro or not _get(pro, "name_full", "nameFull"):
+                continue
+            out.append({
+                "team": team_name,
+                "player_name": _get(pro, "name_full", "nameFull"),
+                "position": _get(pro, "position"),
+                "roster_group": _get(entry, "group") or _get(entry, "position", "positionLabel"),
+            })
     return out
 
 
