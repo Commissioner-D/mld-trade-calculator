@@ -2537,7 +2537,7 @@
     "fleaflicker_id": 10235,
     "name": "Jadeveon Clowney",
     "position": "EDR",
-    "team": "FA",
+    "team": "HOU",
     "is_rookie": false
   },
   {
@@ -7017,7 +7017,7 @@
     "fleaflicker_id": 14676,
     "name": "Darnell Savage",
     "position": "S",
-    "team": "PIT",
+    "team": "FA",
     "is_rookie": false
   },
   {
@@ -7360,7 +7360,7 @@
     "fleaflicker_id": 11848,
     "name": "Mario Edwards",
     "position": "IL",
-    "team": "FA",
+    "team": "HOU",
     "is_rookie": false
   },
   {
@@ -8465,8 +8465,8 @@
   {
     "fleaflicker_id": 14724,
     "name": "Khalen Saunders",
-    "position": "IL",
-    "team": "FA",
+    "position": "EDR/IL",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -8970,7 +8970,7 @@
     "fleaflicker_id": 17728,
     "name": "Evan Hull",
     "position": "RB",
-    "team": "HOU",
+    "team": "FA",
     "is_rookie": false
   },
   {

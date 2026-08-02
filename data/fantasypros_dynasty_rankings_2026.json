@@ -1738,7 +1738,7 @@
   {
     "name": "Evan Hull",
     "position": "RB",
-    "team": "HOU",
+    "team": "FA",
     "rank_ecr": 128,
     "pos_rank": "RB128",
     "tier": 10
@@ -1810,7 +1810,7 @@
   {
     "name": "Khalil Herbert",
     "position": "RB",
-    "team": "FA",
+    "team": "SF",
     "rank_ecr": 137,
     "pos_rank": "RB137",
     "tier": 10
@@ -3282,7 +3282,7 @@
   {
     "name": "Ja'Lynn Polk",
     "position": "WR",
-    "team": "NO",
+    "team": "FA",
     "rank_ecr": 140,
     "pos_rank": "WR140",
     "tier": 10
