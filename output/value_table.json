@@ -81,11 +81,11 @@
     "full_name":"James Cook",
     "position":"RB",
     "team":"BUF",
-    "age":26.8,
+    "age":26.9,
     "weighted_ppg":15.1473684211,
     "replacement_level":8.8619047619,
     "vorp":6.2854636591,
-    "dynasty_trailing_value":6.37
+    "dynasty_trailing_value":6.351
   },
   {
     "player_id":"00-0034844",
@@ -103,11 +103,11 @@
     "full_name":"Christian McCaffrey",
     "position":"RB",
     "team":"SF",
-    "age":30.1,
+    "age":30.2,
     "weighted_ppg":15.0673026316,
     "replacement_level":8.8619047619,
     "vorp":6.2053978697,
-    "dynasty_trailing_value":5.675
+    "dynasty_trailing_value":5.656
   },
   {
     "player_id":"00-0033897",
@@ -202,11 +202,11 @@
     "full_name":"Jacoby Windmon",
     "position":"LB",
     "team":"CAR",
-    "age":24.9,
+    "age":25.0,
     "weighted_ppg":14.875,
     "replacement_level":10.2180555556,
     "vorp":4.6569444444,
-    "dynasty_trailing_value":4.985
+    "dynasty_trailing_value":4.971
   },
   {
     "player_id":"00-0037744",
@@ -477,11 +477,11 @@
     "full_name":"Bucky Irving",
     "position":"RB",
     "team":"TB",
-    "age":23.9,
+    "age":24.0,
     "weighted_ppg":11.4397222222,
     "replacement_level":8.8619047619,
     "vorp":2.5778174603,
-    "dynasty_trailing_value":2.837
+    "dynasty_trailing_value":2.829
   },
   {
     "player_id":"00-0036409",
@@ -543,11 +543,11 @@
     "full_name":"Jameson Williams",
     "position":"WR",
     "team":"DET",
-    "age":25.3,
+    "age":25.4,
     "weighted_ppg":9.9052757353,
     "replacement_level":7.6848333333,
     "vorp":2.220442402,
-    "dynasty_trailing_value":2.35
+    "dynasty_trailing_value":2.344
   },
   {
     "player_id":"00-0039018",
@@ -653,11 +653,11 @@
     "full_name":"Keidron Smith",
     "position":"FS",
     "team":"NYJ",
-    "age":26.7,
+    "age":26.8,
     "weighted_ppg":10.9,
     "replacement_level":8.899609375,
     "vorp":2.000390625,
-    "dynasty_trailing_value":2.033
+    "dynasty_trailing_value":2.027
   },
   {
     "player_id":"00-0036997",
@@ -693,17 +693,6 @@
     "dynasty_trailing_value":1.989
   },
   {
-    "player_id":"00-0034373",
-    "full_name":"Dorance Armstrong",
-    "position":"DE",
-    "team":"WAS",
-    "age":29.1,
-    "weighted_ppg":7.8979166667,
-    "replacement_level":5.7974342105,
-    "vorp":2.1004824561,
-    "dynasty_trailing_value":1.984
-  },
-  {
     "player_id":"00-0034796",
     "full_name":"Lamar Jackson",
     "position":"QB",
@@ -712,6 +701,17 @@
     "weighted_ppg":19.1871578947,
     "replacement_level":17.0531145511,
     "vorp":2.1340433437,
+    "dynasty_trailing_value":1.984
+  },
+  {
+    "player_id":"00-0034373",
+    "full_name":"Dorance Armstrong",
+    "position":"DE",
+    "team":"WAS",
+    "age":29.1,
+    "weighted_ppg":7.8979166667,
+    "replacement_level":5.7974342105,
+    "vorp":2.1004824561,
     "dynasty_trailing_value":1.984
   },
   {
@@ -763,11 +763,11 @@
     "full_name":"Sam LaPorta",
     "position":"TE",
     "team":"DET",
-    "age":25.5,
+    "age":25.6,
     "weighted_ppg":7.844379085,
     "replacement_level":6.0377708978,
     "vorp":1.8066081871,
-    "dynasty_trailing_value":1.901
+    "dynasty_trailing_value":1.896
   },
   {
     "player_id":"00-0031610",
@@ -983,11 +983,11 @@
     "full_name":"Alec Pierce",
     "position":"WR",
     "team":"IND",
-    "age":26.2,
+    "age":26.3,
     "weighted_ppg":8.9121875,
     "replacement_level":7.6848333333,
     "vorp":1.2273541667,
-    "dynasty_trailing_value":1.266
+    "dynasty_trailing_value":1.262
   },
   {
     "player_id":"00-0036139",
@@ -1188,17 +1188,6 @@
     "dynasty_trailing_value":1.004
   },
   {
-    "player_id":"00-0036500",
-    "full_name":"Jamien Sherwood",
-    "position":"MLB",
-    "team":"NYJ",
-    "age":26.5,
-    "weighted_ppg":11.1985294118,
-    "replacement_level":10.2180555556,
-    "vorp":0.9804738562,
-    "dynasty_trailing_value":1.003
-  },
-  {
     "player_id":"00-0033553",
     "full_name":"James Conner",
     "position":"RB",
@@ -1210,15 +1199,26 @@
     "dynasty_trailing_value":1.003
   },
   {
+    "player_id":"00-0036500",
+    "full_name":"Jamien Sherwood",
+    "position":"MLB",
+    "team":"NYJ",
+    "age":26.6,
+    "weighted_ppg":11.1985294118,
+    "replacement_level":10.2180555556,
+    "vorp":0.9804738562,
+    "dynasty_trailing_value":1.0
+  },
+  {
     "player_id":"00-0035685",
     "full_name":"David Montgomery",
     "position":"RB",
     "team":"DET",
-    "age":29.1,
+    "age":29.2,
     "weighted_ppg":9.9197803922,
     "replacement_level":8.8619047619,
     "vorp":1.0578756303,
-    "dynasty_trailing_value":0.999
+    "dynasty_trailing_value":0.996
   },
   {
     "player_id":"00-0035640",
@@ -1511,11 +1511,11 @@
     "full_name":"Josh Hines-Allen",
     "position":"DE",
     "team":"JAX",
-    "age":29.0,
+    "age":29.1,
     "weighted_ppg":6.4825367647,
     "replacement_level":5.7974342105,
     "vorp":0.6851025542,
-    "dynasty_trailing_value":0.649
+    "dynasty_trailing_value":0.647
   },
   {
     "player_id":"00-0037615",
@@ -1749,17 +1749,6 @@
     "dynasty_trailing_value":0.406
   },
   {
-    "player_id":"00-0035647",
-    "full_name":"Montez Sweat",
-    "position":"DE",
-    "team":"CHI",
-    "age":29.9,
-    "weighted_ppg":6.2373464912,
-    "replacement_level":5.7974342105,
-    "vorp":0.4399122807,
-    "dynasty_trailing_value":0.405
-  },
-  {
     "player_id":"00-0036204",
     "full_name":"LaCale London",
     "position":"DT",
@@ -1768,6 +1757,17 @@
     "weighted_ppg":6.225,
     "replacement_level":5.7974342105,
     "vorp":0.4275657895,
+    "dynasty_trailing_value":0.405
+  },
+  {
+    "player_id":"00-0035647",
+    "full_name":"Montez Sweat",
+    "position":"DE",
+    "team":"CHI",
+    "age":29.9,
+    "weighted_ppg":6.2373464912,
+    "replacement_level":5.7974342105,
+    "vorp":0.4399122807,
     "dynasty_trailing_value":0.405
   },
   {
@@ -1841,11 +1841,11 @@
     "full_name":"Tykee Smith",
     "position":"SS",
     "team":"TB",
-    "age":25.4,
+    "age":25.5,
     "weighted_ppg":9.2156850962,
     "replacement_level":8.899609375,
     "vorp":0.3160757212,
-    "dynasty_trailing_value":0.334
+    "dynasty_trailing_value":0.333
   },
   {
     "player_id":"00-0035542",
@@ -1863,22 +1863,22 @@
     "full_name":"Alex Singleton",
     "position":"ILB",
     "team":"DEN",
-    "age":32.6,
+    "age":32.7,
     "weighted_ppg":10.5979166667,
     "replacement_level":10.2180555556,
     "vorp":0.3798611111,
-    "dynasty_trailing_value":0.319
+    "dynasty_trailing_value":0.318
   },
   {
     "player_id":"00-0034673",
     "full_name":"Tremaine Edmunds",
     "position":"MLB",
     "team":"CHI",
-    "age":28.2,
+    "age":28.3,
     "weighted_ppg":10.5428431373,
     "replacement_level":10.2180555556,
     "vorp":0.3247875817,
-    "dynasty_trailing_value":0.316
+    "dynasty_trailing_value":0.315
   },
   {
     "player_id":"00-0037692",
@@ -1962,11 +1962,11 @@
     "full_name":"Hunter Henry",
     "position":"TE",
     "team":"NE",
-    "age":31.6,
+    "age":31.7,
     "weighted_ppg":6.3043452381,
     "replacement_level":6.0377708978,
     "vorp":0.2665743403,
-    "dynasty_trailing_value":0.232
+    "dynasty_trailing_value":0.231
   },
   {
     "player_id":"00-0038553",
@@ -2006,11 +2006,11 @@
     "full_name":"Jaylen Warren",
     "position":"RB",
     "team":"PIT",
-    "age":27.7,
+    "age":27.8,
     "weighted_ppg":9.0778308824,
     "replacement_level":8.8619047619,
     "vorp":0.2159261204,
-    "dynasty_trailing_value":0.213
+    "dynasty_trailing_value":0.212
   },
   {
     "player_id":"00-0037275",
@@ -2237,7 +2237,7 @@
     "full_name":"Harrison Mevis",
     "position":"K",
     "team":"LA",
-    "age":24.3,
+    "age":24.4,
     "weighted_ppg":9.5833333333,
     "replacement_level":9.225,
     "vorp":0.3583333333,
@@ -2248,7 +2248,7 @@
     "full_name":"Demario Davis",
     "position":"ILB",
     "team":"NO",
-    "age":37.5,
+    "age":37.6,
     "weighted_ppg":10.2884650735,
     "replacement_level":10.2180555556,
     "vorp":0.070409518,
@@ -2365,35 +2365,13 @@
     "dynasty_trailing_value":0.004
   },
   {
-    "player_id":"00-0035942",
-    "full_name":"Christian Rozeboom",
-    "position":"ILB",
-    "team":"CAR",
-    "age":29.5,
-    "weighted_ppg":10.2180555556,
-    "replacement_level":10.2180555556,
-    "vorp":0.0,
-    "dynasty_trailing_value":0.0
-  },
-  {
-    "player_id":"00-0036613",
-    "full_name":"Jaylen Waddle",
-    "position":"WR",
-    "team":"MIA",
-    "age":27.7,
-    "weighted_ppg":7.6848333333,
-    "replacement_level":7.6848333333,
-    "vorp":0.0,
-    "dynasty_trailing_value":0.0
-  },
-  {
-    "player_id":"00-0037192",
-    "full_name":"George Karlaftis",
-    "position":"DE",
-    "team":"KC",
-    "age":25.3,
-    "weighted_ppg":5.7974342105,
-    "replacement_level":5.7974342105,
+    "player_id":"00-0039918",
+    "full_name":"Caleb Williams",
+    "position":"QB",
+    "team":"CHI",
+    "age":24.7,
+    "weighted_ppg":17.0531145511,
+    "replacement_level":17.0531145511,
     "vorp":0.0,
     "dynasty_trailing_value":0.0
   },
@@ -2405,17 +2383,6 @@
     "age":30.9,
     "weighted_ppg":6.0377708978,
     "replacement_level":6.0377708978,
-    "vorp":0.0,
-    "dynasty_trailing_value":0.0
-  },
-  {
-    "player_id":"00-0039918",
-    "full_name":"Caleb Williams",
-    "position":"QB",
-    "team":"CHI",
-    "age":24.7,
-    "weighted_ppg":17.0531145511,
-    "replacement_level":17.0531145511,
     "vorp":0.0,
     "dynasty_trailing_value":0.0
   },
@@ -2449,6 +2416,39 @@
     "age":27.9,
     "weighted_ppg":8.899609375,
     "replacement_level":8.899609375,
+    "vorp":0.0,
+    "dynasty_trailing_value":0.0
+  },
+  {
+    "player_id":"00-0037192",
+    "full_name":"George Karlaftis",
+    "position":"DE",
+    "team":"KC",
+    "age":25.3,
+    "weighted_ppg":5.7974342105,
+    "replacement_level":5.7974342105,
+    "vorp":0.0,
+    "dynasty_trailing_value":0.0
+  },
+  {
+    "player_id":"00-0035942",
+    "full_name":"Christian Rozeboom",
+    "position":"ILB",
+    "team":"CAR",
+    "age":29.5,
+    "weighted_ppg":10.2180555556,
+    "replacement_level":10.2180555556,
+    "vorp":0.0,
+    "dynasty_trailing_value":0.0
+  },
+  {
+    "player_id":"00-0036613",
+    "full_name":"Jaylen Waddle",
+    "position":"WR",
+    "team":"MIA",
+    "age":27.7,
+    "weighted_ppg":7.6848333333,
+    "replacement_level":7.6848333333,
     "vorp":0.0,
     "dynasty_trailing_value":0.0
   },
@@ -2523,7 +2523,7 @@
     "full_name":"Zach Allen",
     "position":"DE",
     "team":"DEN",
-    "age":28.9,
+    "age":29.0,
     "weighted_ppg":5.7631535948,
     "replacement_level":5.7974342105,
     "vorp":-0.0342806158,
@@ -2618,17 +2618,6 @@
     "dynasty_trailing_value":-0.064
   },
   {
-    "player_id":"00-0033964",
-    "full_name":"Al-Quadin Muhammad",
-    "position":"DE",
-    "team":"DET",
-    "age":31.3,
-    "weighted_ppg":5.73125,
-    "replacement_level":5.7974342105,
-    "vorp":-0.0661842105,
-    "dynasty_trailing_value":-0.066
-  },
-  {
     "player_id":"00-0035693",
     "full_name":"Johnathan Abram",
     "position":"SS",
@@ -2637,6 +2626,17 @@
     "weighted_ppg":8.8333333333,
     "replacement_level":8.899609375,
     "vorp":-0.0662760417,
+    "dynasty_trailing_value":-0.066
+  },
+  {
+    "player_id":"00-0033964",
+    "full_name":"Al-Quadin Muhammad",
+    "position":"DE",
+    "team":"DET",
+    "age":31.3,
+    "weighted_ppg":5.73125,
+    "replacement_level":5.7974342105,
+    "vorp":-0.0661842105,
     "dynasty_trailing_value":-0.066
   },
   {
@@ -2666,7 +2666,7 @@
     "full_name":"Harrison Butker",
     "position":"K",
     "team":"KC",
-    "age":31.0,
+    "age":31.1,
     "weighted_ppg":8.6220588235,
     "replacement_level":9.225,
     "vorp":-0.6029411765,
@@ -2717,17 +2717,6 @@
     "dynasty_trailing_value":-0.127
   },
   {
-    "player_id":"00-0038567",
-    "full_name":"Chad Ryland",
-    "position":"K",
-    "team":"ARI",
-    "age":26.8,
-    "weighted_ppg":8.3359728507,
-    "replacement_level":9.225,
-    "vorp":-0.8890271493,
-    "dynasty_trailing_value":-0.133
-  },
-  {
     "player_id":"00-0035192",
     "full_name":"Joey Slye",
     "position":"K",
@@ -2736,6 +2725,17 @@
     "weighted_ppg":8.3411764706,
     "replacement_level":9.225,
     "vorp":-0.8838235294,
+    "dynasty_trailing_value":-0.133
+  },
+  {
+    "player_id":"00-0038567",
+    "full_name":"Chad Ryland",
+    "position":"K",
+    "team":"ARI",
+    "age":26.8,
+    "weighted_ppg":8.3359728507,
+    "replacement_level":9.225,
+    "vorp":-0.8890271493,
     "dynasty_trailing_value":-0.133
   },
   {
@@ -2798,7 +2798,7 @@
     "full_name":"Devin White",
     "position":"OLB",
     "team":"LV",
-    "age":28.4,
+    "age":28.5,
     "weighted_ppg":10.0555147059,
     "replacement_level":10.2180555556,
     "vorp":-0.1625408497,
@@ -2952,7 +2952,7 @@
     "full_name":"Jordan Davis",
     "position":"DT",
     "team":"PHI",
-    "age":26.5,
+    "age":26.6,
     "weighted_ppg":5.5545138889,
     "replacement_level":5.7974342105,
     "vorp":-0.2429203216,
@@ -3135,17 +3135,6 @@
     "dynasty_trailing_value":-0.317
   },
   {
-    "player_id":"00-0034333",
-    "full_name":"Daron Payne",
-    "position":"DT",
-    "team":"WAS",
-    "age":29.2,
-    "weighted_ppg":5.4805147059,
-    "replacement_level":5.7974342105,
-    "vorp":-0.3169195046,
-    "dynasty_trailing_value":-0.317
-  },
-  {
     "player_id":"00-0037246",
     "full_name":"Jalen Pitre",
     "position":"FS",
@@ -3154,6 +3143,17 @@
     "weighted_ppg":8.5822916667,
     "replacement_level":8.899609375,
     "vorp":-0.3173177083,
+    "dynasty_trailing_value":-0.317
+  },
+  {
+    "player_id":"00-0034333",
+    "full_name":"Daron Payne",
+    "position":"DT",
+    "team":"WAS",
+    "age":29.2,
+    "weighted_ppg":5.4805147059,
+    "replacement_level":5.7974342105,
+    "vorp":-0.3169195046,
     "dynasty_trailing_value":-0.317
   },
   {
@@ -3311,17 +3311,6 @@
     "dynasty_trailing_value":-0.422
   },
   {
-    "player_id":"00-0038778",
-    "full_name":"Jalen Redmond",
-    "position":"DE",
-    "team":"MIN",
-    "age":27.4,
-    "weighted_ppg":5.3515374332,
-    "replacement_level":5.7974342105,
-    "vorp":-0.4458967774,
-    "dynasty_trailing_value":-0.446
-  },
-  {
     "player_id":"00-0036252",
     "full_name":"Michael Pittman",
     "position":"WR",
@@ -3330,6 +3319,17 @@
     "weighted_ppg":7.2390257353,
     "replacement_level":7.6848333333,
     "vorp":-0.445807598,
+    "dynasty_trailing_value":-0.446
+  },
+  {
+    "player_id":"00-0038778",
+    "full_name":"Jalen Redmond",
+    "position":"DE",
+    "team":"MIN",
+    "age":27.4,
+    "weighted_ppg":5.3515374332,
+    "replacement_level":5.7974342105,
+    "vorp":-0.4458967774,
     "dynasty_trailing_value":-0.446
   },
   {
@@ -3425,7 +3425,7 @@
     "full_name":"Dane Belton",
     "position":"SS",
     "team":"NYG",
-    "age":25.6,
+    "age":25.7,
     "weighted_ppg":8.3779977376,
     "replacement_level":8.899609375,
     "vorp":-0.5216116374,
@@ -3597,17 +3597,6 @@
     "dynasty_trailing_value":-0.623
   },
   {
-    "player_id":"00-0039840",
-    "full_name":"Austin Booker",
-    "position":"DE",
-    "team":"CHI",
-    "age":23.6,
-    "weighted_ppg":5.165224359,
-    "replacement_level":5.7974342105,
-    "vorp":-0.6322098516,
-    "dynasty_trailing_value":-0.632
-  },
-  {
     "player_id":"00-0036220",
     "full_name":"Derrick Brown",
     "position":"DE",
@@ -3616,6 +3605,17 @@
     "weighted_ppg":5.1658088235,
     "replacement_level":5.7974342105,
     "vorp":-0.631625387,
+    "dynasty_trailing_value":-0.632
+  },
+  {
+    "player_id":"00-0039840",
+    "full_name":"Austin Booker",
+    "position":"DE",
+    "team":"CHI",
+    "age":23.6,
+    "weighted_ppg":5.165224359,
+    "replacement_level":5.7974342105,
+    "vorp":-0.6322098516,
     "dynasty_trailing_value":-0.632
   },
   {
@@ -3667,7 +3667,7 @@
     "full_name":"Tonka Hemingway",
     "position":"DT",
     "team":"LV",
-    "age":24.7,
+    "age":24.8,
     "weighted_ppg":5.1071428571,
     "replacement_level":5.7974342105,
     "vorp":-0.6902913534,
@@ -3707,17 +3707,6 @@
     "dynasty_trailing_value":-0.712
   },
   {
-    "player_id":"00-0038541",
-    "full_name":"Tyree Wilson",
-    "position":"DE",
-    "team":"LV",
-    "age":26.2,
-    "weighted_ppg":5.0785897436,
-    "replacement_level":5.7974342105,
-    "vorp":-0.7188444669,
-    "dynasty_trailing_value":-0.719
-  },
-  {
     "player_id":"00-0036916",
     "full_name":"Milton Williams",
     "position":"DT",
@@ -3729,15 +3718,15 @@
     "dynasty_trailing_value":-0.719
   },
   {
-    "player_id":"00-0035525",
-    "full_name":"Devin Bush",
-    "position":"MLB",
-    "team":"CLE",
-    "age":28.0,
-    "weighted_ppg":9.4911764706,
-    "replacement_level":10.2180555556,
-    "vorp":-0.726879085,
-    "dynasty_trailing_value":-0.727
+    "player_id":"00-0038541",
+    "full_name":"Tyree Wilson",
+    "position":"DE",
+    "team":"LV",
+    "age":26.2,
+    "weighted_ppg":5.0785897436,
+    "replacement_level":5.7974342105,
+    "vorp":-0.7188444669,
+    "dynasty_trailing_value":-0.719
   },
   {
     "player_id":"00-0033523",
@@ -3751,11 +3740,22 @@
     "dynasty_trailing_value":-0.727
   },
   {
+    "player_id":"00-0035525",
+    "full_name":"Devin Bush",
+    "position":"MLB",
+    "team":"CLE",
+    "age":28.0,
+    "weighted_ppg":9.4911764706,
+    "replacement_level":10.2180555556,
+    "vorp":-0.726879085,
+    "dynasty_trailing_value":-0.727
+  },
+  {
     "player_id":"00-0039372",
     "full_name":"Jarvis Brownlee Jr.",
     "position":"CB",
     "team":"NYJ",
-    "age":25.0,
+    "age":25.1,
     "weighted_ppg":8.1490808824,
     "replacement_level":8.899609375,
     "vorp":-0.7505284926,
@@ -4041,7 +4041,7 @@
     "full_name":"Billy Bowman Jr.",
     "position":"CB",
     "team":"ATL",
-    "age":23.5,
+    "age":23.6,
     "weighted_ppg":7.9583333333,
     "replacement_level":8.899609375,
     "vorp":-0.9412760417,
@@ -4624,7 +4624,7 @@
     "full_name":"Charles Snowden",
     "position":"DE",
     "team":"LV",
-    "age":28.3,
+    "age":28.4,
     "weighted_ppg":4.4771590909,
     "replacement_level":5.7974342105,
     "vorp":-1.3202751196,
@@ -4723,7 +4723,7 @@
     "full_name":"Rachaad White",
     "position":"RB",
     "team":"TB",
-    "age":27.5,
+    "age":27.6,
     "weighted_ppg":7.4905514706,
     "replacement_level":8.8619047619,
     "vorp":-1.3713532913,
@@ -4811,7 +4811,7 @@
     "full_name":"Sam Okuayinonu",
     "position":"DE",
     "team":"SF",
-    "age":28.2,
+    "age":28.3,
     "weighted_ppg":4.34765625,
     "replacement_level":5.7974342105,
     "vorp":-1.4497779605,
@@ -5130,7 +5130,7 @@
     "full_name":"Shemar Bartholomew",
     "position":"CB",
     "team":"GB",
-    "age":26.1,
+    "age":26.2,
     "weighted_ppg":7.2625,
     "replacement_level":8.899609375,
     "vorp":-1.637109375,
@@ -5181,17 +5181,6 @@
     "dynasty_trailing_value":-1.661
   },
   {
-    "player_id":"00-0036260",
-    "full_name":"Javon Kinlaw",
-    "position":"DT",
-    "team":"WAS",
-    "age":28.8,
-    "weighted_ppg":4.1309895833,
-    "replacement_level":5.7974342105,
-    "vorp":-1.6664446272,
-    "dynasty_trailing_value":-1.666
-  },
-  {
     "player_id":"00-0033579",
     "full_name":"Xavier Woods",
     "position":"FS",
@@ -5200,6 +5189,17 @@
     "weighted_ppg":7.2333823529,
     "replacement_level":8.899609375,
     "vorp":-1.6662270221,
+    "dynasty_trailing_value":-1.666
+  },
+  {
+    "player_id":"00-0036260",
+    "full_name":"Javon Kinlaw",
+    "position":"DT",
+    "team":"WAS",
+    "age":28.8,
+    "weighted_ppg":4.1309895833,
+    "replacement_level":5.7974342105,
+    "vorp":-1.6664446272,
     "dynasty_trailing_value":-1.666
   },
   {
@@ -5306,7 +5306,7 @@
     "full_name":"Charles Omenihu",
     "position":"DE",
     "team":"KC",
-    "age":28.9,
+    "age":29.0,
     "weighted_ppg":4.0940656566,
     "replacement_level":5.7974342105,
     "vorp":-1.703368554,
@@ -5335,22 +5335,22 @@
     "dynasty_trailing_value":-1.709
   },
   {
-    "player_id":"00-0040694",
-    "full_name":"Darius Alexander",
-    "position":"DT",
-    "team":"NYG",
-    "age":25.9,
+    "player_id":"00-0037083",
+    "full_name":"Kingsley Enagbare",
+    "position":"DE",
+    "team":"GB",
+    "age":26.5,
     "weighted_ppg":4.0875,
     "replacement_level":5.7974342105,
     "vorp":-1.7099342105,
     "dynasty_trailing_value":-1.71
   },
   {
-    "player_id":"00-0037083",
-    "full_name":"Kingsley Enagbare",
-    "position":"DE",
-    "team":"GB",
-    "age":26.5,
+    "player_id":"00-0040694",
+    "full_name":"Darius Alexander",
+    "position":"DT",
+    "team":"NYG",
+    "age":25.9,
     "weighted_ppg":4.0875,
     "replacement_level":5.7974342105,
     "vorp":-1.7099342105,
@@ -5368,17 +5368,6 @@
     "dynasty_trailing_value":-1.717
   },
   {
-    "player_id":"00-0037838",
-    "full_name":"Isaiah Likely",
-    "position":"TE",
-    "team":"BAL",
-    "age":26.3,
-    "weighted_ppg":4.3167914439,
-    "replacement_level":6.0377708978,
-    "vorp":-1.720979454,
-    "dynasty_trailing_value":-1.721
-  },
-  {
     "player_id":"00-0033945",
     "full_name":"Samson Ebukam",
     "position":"DE",
@@ -5387,6 +5376,17 @@
     "weighted_ppg":4.0769230769,
     "replacement_level":5.7974342105,
     "vorp":-1.7205111336,
+    "dynasty_trailing_value":-1.721
+  },
+  {
+    "player_id":"00-0037838",
+    "full_name":"Isaiah Likely",
+    "position":"TE",
+    "team":"BAL",
+    "age":26.3,
+    "weighted_ppg":4.3167914439,
+    "replacement_level":6.0377708978,
+    "vorp":-1.720979454,
     "dynasty_trailing_value":-1.721
   },
   {
@@ -5412,17 +5412,6 @@
     "dynasty_trailing_value":-1.738
   },
   {
-    "player_id":"00-0034829",
-    "full_name":"Mike Gesicki",
-    "position":"TE",
-    "team":"CIN",
-    "age":30.8,
-    "weighted_ppg":4.2802083333,
-    "replacement_level":6.0377708978,
-    "vorp":-1.7575625645,
-    "dynasty_trailing_value":-1.758
-  },
-  {
     "player_id":"00-0035301",
     "full_name":"Donovan Wilson",
     "position":"FS",
@@ -5431,6 +5420,17 @@
     "weighted_ppg":7.1419607843,
     "replacement_level":8.899609375,
     "vorp":-1.7576485907,
+    "dynasty_trailing_value":-1.758
+  },
+  {
+    "player_id":"00-0034829",
+    "full_name":"Mike Gesicki",
+    "position":"TE",
+    "team":"CIN",
+    "age":30.8,
+    "weighted_ppg":4.2802083333,
+    "replacement_level":6.0377708978,
+    "vorp":-1.7575625645,
     "dynasty_trailing_value":-1.758
   },
   {
@@ -5581,7 +5581,7 @@
     "full_name":"Tre Brown",
     "position":"CB",
     "team":"NYJ",
-    "age":28.8,
+    "age":28.9,
     "weighted_ppg":7.0166666667,
     "replacement_level":8.899609375,
     "vorp":-1.8829427083,
@@ -5669,7 +5669,7 @@
     "full_name":"Jalen McMillan",
     "position":"WR",
     "team":"TB",
-    "age":24.6,
+    "age":24.7,
     "weighted_ppg":5.76375,
     "replacement_level":7.6848333333,
     "vorp":-1.9210833333,
@@ -5856,7 +5856,7 @@
     "full_name":"Nik Bonitto",
     "position":"OLB",
     "team":"DEN",
-    "age":26.8,
+    "age":26.9,
     "weighted_ppg":8.2159722222,
     "replacement_level":10.2180555556,
     "vorp":-2.0020833333,
@@ -6105,17 +6105,6 @@
     "dynasty_trailing_value":-2.126
   },
   {
-    "player_id":"00-0037288",
-    "full_name":"Christian Benford",
-    "position":"CB",
-    "team":"BUF",
-    "age":25.9,
-    "weighted_ppg":6.7722222222,
-    "replacement_level":8.899609375,
-    "vorp":-2.1273871528,
-    "dynasty_trailing_value":-2.127
-  },
-  {
     "player_id":"00-0034371",
     "full_name":"Da'Shawn Hand",
     "position":"DE",
@@ -6124,6 +6113,17 @@
     "weighted_ppg":3.6703983516,
     "replacement_level":5.7974342105,
     "vorp":-2.1270358589,
+    "dynasty_trailing_value":-2.127
+  },
+  {
+    "player_id":"00-0037288",
+    "full_name":"Christian Benford",
+    "position":"CB",
+    "team":"BUF",
+    "age":25.9,
+    "weighted_ppg":6.7722222222,
+    "replacement_level":8.899609375,
+    "vorp":-2.1273871528,
     "dynasty_trailing_value":-2.127
   },
   {
@@ -6428,7 +6428,7 @@
     "full_name":"Chris Rodriguez Jr.",
     "position":"RB",
     "team":"WAS",
-    "age":26.8,
+    "age":26.9,
     "weighted_ppg":6.6220833333,
     "replacement_level":8.8619047619,
     "vorp":-2.2398214286,
@@ -6479,22 +6479,22 @@
     "dynasty_trailing_value":-2.249
   },
   {
-    "player_id":"00-0032574",
-    "full_name":"Michael Pierce",
-    "position":"NT",
-    "team":"BAL",
-    "age":33.7,
+    "player_id":"00-0036926",
+    "full_name":"Payton Turner",
+    "position":"DE",
+    "team":"DAL",
+    "age":27.6,
     "weighted_ppg":3.5416666667,
     "replacement_level":5.7974342105,
     "vorp":-2.2557675439,
     "dynasty_trailing_value":-2.256
   },
   {
-    "player_id":"00-0036926",
-    "full_name":"Payton Turner",
-    "position":"DE",
-    "team":"DAL",
-    "age":27.6,
+    "player_id":"00-0032574",
+    "full_name":"Michael Pierce",
+    "position":"NT",
+    "team":"BAL",
+    "age":33.7,
     "weighted_ppg":3.5416666667,
     "replacement_level":5.7974342105,
     "vorp":-2.2557675439,
@@ -6721,17 +6721,6 @@
     "dynasty_trailing_value":-2.375
   },
   {
-    "player_id":"00-0039366",
-    "full_name":"Tarheeb Still",
-    "position":"CB",
-    "team":"LAC",
-    "age":24.1,
-    "weighted_ppg":6.5203125,
-    "replacement_level":8.899609375,
-    "vorp":-2.379296875,
-    "dynasty_trailing_value":-2.379
-  },
-  {
     "player_id":"00-0036998",
     "full_name":"Jevon Holland",
     "position":"FS",
@@ -6740,6 +6729,17 @@
     "weighted_ppg":6.5208333333,
     "replacement_level":8.899609375,
     "vorp":-2.3787760417,
+    "dynasty_trailing_value":-2.379
+  },
+  {
+    "player_id":"00-0039366",
+    "full_name":"Tarheeb Still",
+    "position":"CB",
+    "team":"LAC",
+    "age":24.1,
+    "weighted_ppg":6.5203125,
+    "replacement_level":8.899609375,
+    "vorp":-2.379296875,
     "dynasty_trailing_value":-2.379
   },
   {
@@ -6754,17 +6754,6 @@
     "dynasty_trailing_value":-2.38
   },
   {
-    "player_id":"00-0040195",
-    "full_name":"Denzel Burke",
-    "position":"CB",
-    "team":"ARI",
-    "age":23.7,
-    "weighted_ppg":6.5178571429,
-    "replacement_level":8.899609375,
-    "vorp":-2.3817522321,
-    "dynasty_trailing_value":-2.382
-  },
-  {
     "player_id":"00-0032265",
     "full_name":"Mario Edwards",
     "position":"DT",
@@ -6773,6 +6762,17 @@
     "weighted_ppg":3.4155729167,
     "replacement_level":5.7974342105,
     "vorp":-2.3818612939,
+    "dynasty_trailing_value":-2.382
+  },
+  {
+    "player_id":"00-0040195",
+    "full_name":"Denzel Burke",
+    "position":"CB",
+    "team":"ARI",
+    "age":23.7,
+    "weighted_ppg":6.5178571429,
+    "replacement_level":8.899609375,
+    "vorp":-2.3817522321,
     "dynasty_trailing_value":-2.382
   },
   {
@@ -6956,7 +6956,7 @@
     "full_name":"Rylie Mills",
     "position":"DE",
     "team":"SEA",
-    "age":24.9,
+    "age":25.0,
     "weighted_ppg":3.3333333333,
     "replacement_level":5.7974342105,
     "vorp":-2.4641008772,
@@ -7315,22 +7315,22 @@
     "dynasty_trailing_value":-2.631
   },
   {
-    "player_id":"00-0040737",
-    "full_name":"Terrance Ferguson",
+    "player_id":"00-0038498",
+    "full_name":"E.J. Jenkins",
     "position":"TE",
-    "team":"LA",
-    "age":23.4,
+    "team":"PHI",
+    "age":27.7,
     "weighted_ppg":3.4,
     "replacement_level":6.0377708978,
     "vorp":-2.6377708978,
     "dynasty_trailing_value":-2.638
   },
   {
-    "player_id":"00-0038498",
-    "full_name":"E.J. Jenkins",
+    "player_id":"00-0040737",
+    "full_name":"Terrance Ferguson",
     "position":"TE",
-    "team":"PHI",
-    "age":27.7,
+    "team":"LA",
+    "age":23.4,
     "weighted_ppg":3.4,
     "replacement_level":6.0377708978,
     "vorp":-2.6377708978,
@@ -7480,17 +7480,6 @@
     "dynasty_trailing_value":-2.709
   },
   {
-    "player_id":"00-0033294",
-    "full_name":"Chuck Clark",
-    "position":"SS",
-    "team":"PIT",
-    "age":31.3,
-    "weighted_ppg":6.1897321429,
-    "replacement_level":8.899609375,
-    "vorp":-2.7098772321,
-    "dynasty_trailing_value":-2.71
-  },
-  {
     "player_id":"00-0040170",
     "full_name":"Elic Ayomanor",
     "position":"WR",
@@ -7499,6 +7488,17 @@
     "weighted_ppg":4.975,
     "replacement_level":7.6848333333,
     "vorp":-2.7098333333,
+    "dynasty_trailing_value":-2.71
+  },
+  {
+    "player_id":"00-0033294",
+    "full_name":"Chuck Clark",
+    "position":"SS",
+    "team":"PIT",
+    "age":31.3,
+    "weighted_ppg":6.1897321429,
+    "replacement_level":8.899609375,
+    "vorp":-2.7098772321,
     "dynasty_trailing_value":-2.71
   },
   {
@@ -7513,17 +7513,6 @@
     "dynasty_trailing_value":-2.713
   },
   {
-    "player_id":"00-0038398",
-    "full_name":"Karl Brooks",
-    "position":"DT",
-    "team":"GB",
-    "age":26.2,
-    "weighted_ppg":3.0815340909,
-    "replacement_level":5.7974342105,
-    "vorp":-2.7159001196,
-    "dynasty_trailing_value":-2.716
-  },
-  {
     "player_id":"00-0037270",
     "full_name":"Otito Ogbonnia",
     "position":"DT",
@@ -7532,6 +7521,17 @@
     "weighted_ppg":3.0811764706,
     "replacement_level":5.7974342105,
     "vorp":-2.7162577399,
+    "dynasty_trailing_value":-2.716
+  },
+  {
+    "player_id":"00-0038398",
+    "full_name":"Karl Brooks",
+    "position":"DT",
+    "team":"GB",
+    "age":26.2,
+    "weighted_ppg":3.0815340909,
+    "replacement_level":5.7974342105,
+    "vorp":-2.7159001196,
     "dynasty_trailing_value":-2.716
   },
   {
@@ -7711,11 +7711,11 @@
     "dynasty_trailing_value":-2.782
   },
   {
-    "player_id":"00-0039400",
-    "full_name":"Zion Logue",
-    "position":"DT",
-    "team":"BUF",
-    "age":25.0,
+    "player_id":"00-0031938",
+    "full_name":"Carl Davis",
+    "position":"NT",
+    "team":"WAS",
+    "age":34.4,
     "weighted_ppg":3.0,
     "replacement_level":5.7974342105,
     "vorp":-2.7974342105,
@@ -7733,11 +7733,11 @@
     "dynasty_trailing_value":-2.797
   },
   {
-    "player_id":"00-0031938",
-    "full_name":"Carl Davis",
-    "position":"NT",
-    "team":"WAS",
-    "age":34.4,
+    "player_id":"00-0039400",
+    "full_name":"Zion Logue",
+    "position":"DT",
+    "team":"BUF",
+    "age":25.1,
     "weighted_ppg":3.0,
     "replacement_level":5.7974342105,
     "vorp":-2.7974342105,
@@ -7748,7 +7748,7 @@
     "full_name":"Andrew Mukuba",
     "position":"SS",
     "team":"PHI",
-    "age":23.6,
+    "age":23.7,
     "weighted_ppg":6.1022727273,
     "replacement_level":8.899609375,
     "vorp":-2.7973366477,
@@ -7770,7 +7770,7 @@
     "full_name":"Greg Dulcich",
     "position":"TE",
     "team":"MIA",
-    "age":26.3,
+    "age":26.4,
     "weighted_ppg":3.2305555556,
     "replacement_level":6.0377708978,
     "vorp":-2.8072153423,
@@ -8012,7 +8012,7 @@
     "full_name":"Tyrus Wheat",
     "position":"DE",
     "team":"DET",
-    "age":26.6,
+    "age":26.7,
     "weighted_ppg":2.8645833333,
     "replacement_level":5.7974342105,
     "vorp":-2.9328508772,
@@ -8078,22 +8078,11 @@
     "full_name":"Josh Tupou",
     "position":"NT",
     "team":"BAL",
-    "age":32.2,
+    "age":32.3,
     "weighted_ppg":2.81875,
     "replacement_level":5.7974342105,
     "vorp":-2.9786842105,
     "dynasty_trailing_value":-2.979
-  },
-  {
-    "player_id":"00-0040010",
-    "full_name":"Barryn Sorrell",
-    "position":"DE",
-    "team":"GB",
-    "age":23.6,
-    "weighted_ppg":2.8125,
-    "replacement_level":5.7974342105,
-    "vorp":-2.9849342105,
-    "dynasty_trailing_value":-2.985
   },
   {
     "player_id":"00-0040624",
@@ -8101,6 +8090,17 @@
     "position":"DT",
     "team":"MIN",
     "age":23.9,
+    "weighted_ppg":2.8125,
+    "replacement_level":5.7974342105,
+    "vorp":-2.9849342105,
+    "dynasty_trailing_value":-2.985
+  },
+  {
+    "player_id":"00-0040010",
+    "full_name":"Barryn Sorrell",
+    "position":"DE",
+    "team":"GB",
+    "age":23.6,
     "weighted_ppg":2.8125,
     "replacement_level":5.7974342105,
     "vorp":-2.9849342105,
@@ -8210,7 +8210,7 @@
     "full_name":"Daniel Ekuale",
     "position":"DT",
     "team":"PIT",
-    "age":32.5,
+    "age":32.6,
     "weighted_ppg":2.7429166667,
     "replacement_level":5.7974342105,
     "vorp":-3.0545175439,
@@ -8298,7 +8298,7 @@
     "full_name":"Jackson Hawes",
     "position":"TE",
     "team":"BUF",
-    "age":25.6,
+    "age":25.7,
     "weighted_ppg":2.9461538462,
     "replacement_level":6.0377708978,
     "vorp":-3.0916170517,
@@ -8397,7 +8397,7 @@
     "full_name":"Dalvin Tomlinson",
     "position":"NT",
     "team":"ARI",
-    "age":32.4,
+    "age":32.5,
     "weighted_ppg":2.66484375,
     "replacement_level":5.7974342105,
     "vorp":-3.1325904605,
@@ -8584,7 +8584,7 @@
     "full_name":"Darius Slayton",
     "position":"WR",
     "team":"NYG",
-    "age":29.5,
+    "age":29.6,
     "weighted_ppg":4.4937946429,
     "replacement_level":7.6848333333,
     "vorp":-3.1910386905,
@@ -8943,17 +8943,6 @@
     "dynasty_trailing_value":-3.337
   },
   {
-    "player_id":"00-0035674",
-    "full_name":"Jerry Tillery",
-    "position":"DT",
-    "team":"KC",
-    "age":29.8,
-    "weighted_ppg":2.4579924242,
-    "replacement_level":5.7974342105,
-    "vorp":-3.3394417863,
-    "dynasty_trailing_value":-3.339
-  },
-  {
     "player_id":"00-0040672",
     "full_name":"Tyleik Williams",
     "position":"DT",
@@ -8962,6 +8951,17 @@
     "weighted_ppg":2.4583333333,
     "replacement_level":5.7974342105,
     "vorp":-3.3391008772,
+    "dynasty_trailing_value":-3.339
+  },
+  {
+    "player_id":"00-0035674",
+    "full_name":"Jerry Tillery",
+    "position":"DT",
+    "team":"KC",
+    "age":29.8,
+    "weighted_ppg":2.4579924242,
+    "replacement_level":5.7974342105,
+    "vorp":-3.3394417863,
     "dynasty_trailing_value":-3.339
   },
   {
@@ -9145,22 +9145,11 @@
     "full_name":"Ja'Tavion Sanders",
     "position":"TE",
     "team":"CAR",
-    "age":23.3,
+    "age":23.4,
     "weighted_ppg":2.6403030303,
     "replacement_level":6.0377708978,
     "vorp":-3.3974678675,
     "dynasty_trailing_value":-3.397
-  },
-  {
-    "player_id":"00-0040251",
-    "full_name":"Trikweze Bridges",
-    "position":"CB",
-    "team":"DAL",
-    "age":25.9,
-    "weighted_ppg":5.5,
-    "replacement_level":8.899609375,
-    "vorp":-3.399609375,
-    "dynasty_trailing_value":-3.4
   },
   {
     "player_id":"00-0032971",
@@ -9179,6 +9168,17 @@
     "position":"CB",
     "team":"MIA",
     "age":27.7,
+    "weighted_ppg":5.5,
+    "replacement_level":8.899609375,
+    "vorp":-3.399609375,
+    "dynasty_trailing_value":-3.4
+  },
+  {
+    "player_id":"00-0040251",
+    "full_name":"Trikweze Bridges",
+    "position":"CB",
+    "team":"DAL",
+    "age":25.9,
     "weighted_ppg":5.5,
     "replacement_level":8.899609375,
     "vorp":-3.399609375,
@@ -9240,17 +9240,6 @@
     "dynasty_trailing_value":-3.42
   },
   {
-    "player_id":"00-0039176",
-    "full_name":"Basil Okoye",
-    "position":"DT",
-    "team":"BAL",
-    "age":24.8,
-    "weighted_ppg":2.375,
-    "replacement_level":5.7974342105,
-    "vorp":-3.4224342105,
-    "dynasty_trailing_value":-3.422
-  },
-  {
     "player_id":"00-0040342",
     "full_name":"Danny Striggow",
     "position":"DE",
@@ -9262,11 +9251,22 @@
     "dynasty_trailing_value":-3.422
   },
   {
+    "player_id":"00-0039176",
+    "full_name":"Basil Okoye",
+    "position":"DT",
+    "team":"BAL",
+    "age":24.8,
+    "weighted_ppg":2.375,
+    "replacement_level":5.7974342105,
+    "vorp":-3.4224342105,
+    "dynasty_trailing_value":-3.422
+  },
+  {
     "player_id":"00-0037079",
     "full_name":"Riq Woolen",
     "position":"CB",
     "team":"SEA",
-    "age":27.2,
+    "age":27.3,
     "weighted_ppg":5.4763888889,
     "replacement_level":8.899609375,
     "vorp":-3.4232204861,
@@ -9350,17 +9350,6 @@
     "dynasty_trailing_value":-3.444
   },
   {
-    "player_id":"00-0040724",
-    "full_name":"T.J. Sanders",
-    "position":"DT",
-    "team":"BUF",
-    "age":23.0,
-    "weighted_ppg":2.35,
-    "replacement_level":5.7974342105,
-    "vorp":-3.4474342105,
-    "dynasty_trailing_value":-3.447
-  },
-  {
     "player_id":"00-0034975",
     "full_name":"Justice Hill",
     "position":"RB",
@@ -9369,6 +9358,17 @@
     "weighted_ppg":5.4149019608,
     "replacement_level":8.8619047619,
     "vorp":-3.4470028011,
+    "dynasty_trailing_value":-3.447
+  },
+  {
+    "player_id":"00-0040724",
+    "full_name":"T.J. Sanders",
+    "position":"DT",
+    "team":"BUF",
+    "age":23.0,
+    "weighted_ppg":2.35,
+    "replacement_level":5.7974342105,
+    "vorp":-3.4474342105,
     "dynasty_trailing_value":-3.447
   },
   {
@@ -9383,17 +9383,6 @@
     "dynasty_trailing_value":-3.45
   },
   {
-    "player_id":"00-0039815",
-    "full_name":"Tyrice Knight",
-    "position":"ILB",
-    "team":"SEA",
-    "age":26.6,
-    "weighted_ppg":6.7670036765,
-    "replacement_level":10.2180555556,
-    "vorp":-3.4510518791,
-    "dynasty_trailing_value":-3.451
-  },
-  {
     "player_id":"00-0039342",
     "full_name":"Xavier Legette",
     "position":"WR",
@@ -9402,6 +9391,17 @@
     "weighted_ppg":4.2340625,
     "replacement_level":7.6848333333,
     "vorp":-3.4507708333,
+    "dynasty_trailing_value":-3.451
+  },
+  {
+    "player_id":"00-0039815",
+    "full_name":"Tyrice Knight",
+    "position":"ILB",
+    "team":"SEA",
+    "age":26.6,
+    "weighted_ppg":6.7670036765,
+    "replacement_level":10.2180555556,
+    "vorp":-3.4510518791,
     "dynasty_trailing_value":-3.451
   },
   {
@@ -9658,17 +9658,6 @@
     "dynasty_trailing_value":-3.546
   },
   {
-    "player_id":"00-0039743",
-    "full_name":"Jordan Jefferson",
-    "position":"DT",
-    "team":"CIN",
-    "age":24.8,
-    "weighted_ppg":2.25,
-    "replacement_level":5.7974342105,
-    "vorp":-3.5474342105,
-    "dynasty_trailing_value":-3.547
-  },
-  {
     "player_id":"00-0039207",
     "full_name":"Durell Nchami",
     "position":"DE",
@@ -9680,11 +9669,11 @@
     "dynasty_trailing_value":-3.547
   },
   {
-    "player_id":"00-0040642",
-    "full_name":"Vernon Broughton",
-    "position":"DT",
-    "team":"NO",
-    "age":25.0,
+    "player_id":"00-0040604",
+    "full_name":"Jahfari Harvey",
+    "position":"DE",
+    "team":"LV",
+    "age":25.3,
     "weighted_ppg":2.25,
     "replacement_level":5.7974342105,
     "vorp":-3.5474342105,
@@ -9702,11 +9691,22 @@
     "dynasty_trailing_value":-3.547
   },
   {
-    "player_id":"00-0040604",
-    "full_name":"Jahfari Harvey",
-    "position":"DE",
-    "team":"LV",
-    "age":25.2,
+    "player_id":"00-0039743",
+    "full_name":"Jordan Jefferson",
+    "position":"DT",
+    "team":"CIN",
+    "age":24.9,
+    "weighted_ppg":2.25,
+    "replacement_level":5.7974342105,
+    "vorp":-3.5474342105,
+    "dynasty_trailing_value":-3.547
+  },
+  {
+    "player_id":"00-0040642",
+    "full_name":"Vernon Broughton",
+    "position":"DT",
+    "team":"NO",
+    "age":25.0,
     "weighted_ppg":2.25,
     "replacement_level":5.7974342105,
     "vorp":-3.5474342105,
@@ -9988,17 +9988,6 @@
     "dynasty_trailing_value":-3.629
   },
   {
-    "player_id":"00-0034657",
-    "full_name":"Matt Dickerson",
-    "position":"DT",
-    "team":"JAX",
-    "age":30.7,
-    "weighted_ppg":2.1666666667,
-    "replacement_level":5.7974342105,
-    "vorp":-3.6307675439,
-    "dynasty_trailing_value":-3.631
-  },
-  {
     "player_id":"00-0040719",
     "full_name":"Bhayshul Tuten",
     "position":"RB",
@@ -10010,15 +9999,15 @@
     "dynasty_trailing_value":-3.631
   },
   {
-    "player_id":"00-0039823",
-    "full_name":"Elijah Jones",
-    "position":"CB",
-    "team":"ARI",
-    "age":26.6,
-    "weighted_ppg":5.25,
-    "replacement_level":8.899609375,
-    "vorp":-3.649609375,
-    "dynasty_trailing_value":-3.65
+    "player_id":"00-0034657",
+    "full_name":"Matt Dickerson",
+    "position":"DT",
+    "team":"JAX",
+    "age":30.7,
+    "weighted_ppg":2.1666666667,
+    "replacement_level":5.7974342105,
+    "vorp":-3.6307675439,
+    "dynasty_trailing_value":-3.631
   },
   {
     "player_id":"00-0036299",
@@ -10026,6 +10015,17 @@
     "position":"CB",
     "team":"IND",
     "age":28.5,
+    "weighted_ppg":5.25,
+    "replacement_level":8.899609375,
+    "vorp":-3.649609375,
+    "dynasty_trailing_value":-3.65
+  },
+  {
+    "player_id":"00-0039823",
+    "full_name":"Elijah Jones",
+    "position":"CB",
+    "team":"ARI",
+    "age":26.6,
     "weighted_ppg":5.25,
     "replacement_level":8.899609375,
     "vorp":-3.649609375,
@@ -10087,17 +10087,6 @@
     "dynasty_trailing_value":-3.661
   },
   {
-    "player_id":"00-0036337",
-    "full_name":"James Lynch",
-    "position":"DE",
-    "team":"TEN",
-    "age":27.5,
-    "weighted_ppg":2.1335069444,
-    "replacement_level":5.7974342105,
-    "vorp":-3.6639272661,
-    "dynasty_trailing_value":-3.664
-  },
-  {
     "player_id":"00-0034357",
     "full_name":"Isaiah Oliver",
     "position":"FS",
@@ -10106,6 +10095,17 @@
     "weighted_ppg":5.2358333333,
     "replacement_level":8.899609375,
     "vorp":-3.6637760417,
+    "dynasty_trailing_value":-3.664
+  },
+  {
+    "player_id":"00-0036337",
+    "full_name":"James Lynch",
+    "position":"DE",
+    "team":"TEN",
+    "age":27.5,
+    "weighted_ppg":2.1335069444,
+    "replacement_level":5.7974342105,
+    "vorp":-3.6639272661,
     "dynasty_trailing_value":-3.664
   },
   {
@@ -10212,7 +10212,7 @@
     "full_name":"Darrell Baker Jr.",
     "position":"CB",
     "team":"TEN",
-    "age":28.3,
+    "age":28.4,
     "weighted_ppg":5.195,
     "replacement_level":8.899609375,
     "vorp":-3.704609375,
@@ -10421,7 +10421,7 @@
     "full_name":"Hunter Long",
     "position":"TE",
     "team":"JAX",
-    "age":27.9,
+    "age":28.0,
     "weighted_ppg":2.2765178571,
     "replacement_level":6.0377708978,
     "vorp":-3.7612530407,
@@ -10439,17 +10439,6 @@
     "dynasty_trailing_value":-3.77
   },
   {
-    "player_id":"00-0040667",
-    "full_name":"Matthew Golden",
-    "position":"WR",
-    "team":"GB",
-    "age":23.0,
-    "weighted_ppg":3.9133333333,
-    "replacement_level":7.6848333333,
-    "vorp":-3.7715,
-    "dynasty_trailing_value":-3.772
-  },
-  {
     "player_id":"00-0038603",
     "full_name":"Robert Beal Jr.",
     "position":"DE",
@@ -10461,37 +10450,26 @@
     "dynasty_trailing_value":-3.772
   },
   {
+    "player_id":"00-0040667",
+    "full_name":"Matthew Golden",
+    "position":"WR",
+    "team":"GB",
+    "age":23.0,
+    "weighted_ppg":3.9133333333,
+    "replacement_level":7.6848333333,
+    "vorp":-3.7715,
+    "dynasty_trailing_value":-3.772
+  },
+  {
     "player_id":"00-0033595",
     "full_name":"Pat O'Connor",
     "position":"DE",
     "team":"DET",
-    "age":32.7,
+    "age":32.8,
     "weighted_ppg":2.0151785714,
     "replacement_level":5.7974342105,
     "vorp":-3.7822556391,
     "dynasty_trailing_value":-3.782
-  },
-  {
-    "player_id":"00-0038634",
-    "full_name":"Nesta Jade Silvera",
-    "position":"DT",
-    "team":"LAC",
-    "age":26.5,
-    "weighted_ppg":2.0,
-    "replacement_level":5.7974342105,
-    "vorp":-3.7974342105,
-    "dynasty_trailing_value":-3.797
-  },
-  {
-    "player_id":"00-0039783",
-    "full_name":"Anthony Goodlow",
-    "position":"DE",
-    "team":"PIT",
-    "age":26.0,
-    "weighted_ppg":2.0,
-    "replacement_level":5.7974342105,
-    "vorp":-3.7974342105,
-    "dynasty_trailing_value":-3.797
   },
   {
     "player_id":"00-0039425",
@@ -10505,11 +10483,33 @@
     "dynasty_trailing_value":-3.797
   },
   {
+    "player_id":"00-0038634",
+    "full_name":"Nesta Jade Silvera",
+    "position":"DT",
+    "team":"LAC",
+    "age":26.5,
+    "weighted_ppg":2.0,
+    "replacement_level":5.7974342105,
+    "vorp":-3.7974342105,
+    "dynasty_trailing_value":-3.797
+  },
+  {
     "player_id":"00-0040662",
     "full_name":"Ty Robinson",
     "position":"DT",
     "team":"PHI",
     "age":25.2,
+    "weighted_ppg":2.0,
+    "replacement_level":5.7974342105,
+    "vorp":-3.7974342105,
+    "dynasty_trailing_value":-3.797
+  },
+  {
+    "player_id":"00-0039783",
+    "full_name":"Anthony Goodlow",
+    "position":"DE",
+    "team":"PIT",
+    "age":26.0,
     "weighted_ppg":2.0,
     "replacement_level":5.7974342105,
     "vorp":-3.7974342105,
@@ -10626,17 +10626,6 @@
     "dynasty_trailing_value":-3.847
   },
   {
-    "player_id":"00-0037711",
-    "full_name":"Jeremiah Pharms Jr.",
-    "position":"DT",
-    "team":"NE",
-    "age":29.8,
-    "weighted_ppg":1.9416666667,
-    "replacement_level":5.7974342105,
-    "vorp":-3.8557675439,
-    "dynasty_trailing_value":-3.856
-  },
-  {
     "player_id":"00-0037242",
     "full_name":"Kaiir Elam",
     "position":"CB",
@@ -10645,6 +10634,17 @@
     "weighted_ppg":5.0432291667,
     "replacement_level":8.899609375,
     "vorp":-3.8563802083,
+    "dynasty_trailing_value":-3.856
+  },
+  {
+    "player_id":"00-0037711",
+    "full_name":"Jeremiah Pharms Jr.",
+    "position":"DT",
+    "team":"NE",
+    "age":29.8,
+    "weighted_ppg":1.9416666667,
+    "replacement_level":5.7974342105,
+    "vorp":-3.8557675439,
     "dynasty_trailing_value":-3.856
   },
   {
@@ -10696,7 +10696,7 @@
     "full_name":"Ifeatu Melifonwu",
     "position":"SS",
     "team":"MIA",
-    "age":27.2,
+    "age":27.3,
     "weighted_ppg":5.0196428571,
     "replacement_level":8.899609375,
     "vorp":-3.8799665179,
@@ -10714,17 +10714,6 @@
     "dynasty_trailing_value":-3.885
   },
   {
-    "player_id":"00-0034145",
-    "full_name":"Chris Lammons",
-    "position":"CB",
-    "team":"IND",
-    "age":30.5,
-    "weighted_ppg":5.0098214286,
-    "replacement_level":8.899609375,
-    "vorp":-3.8897879464,
-    "dynasty_trailing_value":-3.89
-  },
-  {
     "player_id":"00-0037323",
     "full_name":"Rodney Thomas",
     "position":"FS",
@@ -10733,6 +10722,17 @@
     "weighted_ppg":5.0097222222,
     "replacement_level":8.899609375,
     "vorp":-3.8898871528,
+    "dynasty_trailing_value":-3.89
+  },
+  {
+    "player_id":"00-0034145",
+    "full_name":"Chris Lammons",
+    "position":"CB",
+    "team":"IND",
+    "age":30.5,
+    "weighted_ppg":5.0098214286,
+    "replacement_level":8.899609375,
+    "vorp":-3.8897879464,
     "dynasty_trailing_value":-3.89
   },
   {
@@ -10769,17 +10769,6 @@
     "dynasty_trailing_value":-3.895
   },
   {
-    "player_id":"00-0036871",
-    "full_name":"Nate Hobbs",
-    "position":"CB",
-    "team":"GB",
-    "age":27.1,
-    "weighted_ppg":5.0046875,
-    "replacement_level":8.899609375,
-    "vorp":-3.894921875,
-    "dynasty_trailing_value":-3.895
-  },
-  {
     "player_id":"00-0036413",
     "full_name":"Darrell Taylor",
     "position":"DE",
@@ -10788,6 +10777,17 @@
     "weighted_ppg":1.90234375,
     "replacement_level":5.7974342105,
     "vorp":-3.8950904605,
+    "dynasty_trailing_value":-3.895
+  },
+  {
+    "player_id":"00-0036871",
+    "full_name":"Nate Hobbs",
+    "position":"CB",
+    "team":"GB",
+    "age":27.1,
+    "weighted_ppg":5.0046875,
+    "replacement_level":8.899609375,
+    "vorp":-3.894921875,
     "dynasty_trailing_value":-3.895
   },
   {
@@ -10846,17 +10846,6 @@
     "dynasty_trailing_value":-3.906
   },
   {
-    "player_id":"00-0039041",
-    "full_name":"Elijah Higgins",
-    "position":"TE",
-    "team":"ARI",
-    "age":25.8,
-    "weighted_ppg":2.1276666667,
-    "replacement_level":6.0377708978,
-    "vorp":-3.9101042312,
-    "dynasty_trailing_value":-3.91
-  },
-  {
     "player_id":"00-0036920",
     "full_name":"Marlon Tuipulotu",
     "position":"DT",
@@ -10865,6 +10854,17 @@
     "weighted_ppg":1.8875,
     "replacement_level":5.7974342105,
     "vorp":-3.9099342105,
+    "dynasty_trailing_value":-3.91
+  },
+  {
+    "player_id":"00-0039041",
+    "full_name":"Elijah Higgins",
+    "position":"TE",
+    "team":"ARI",
+    "age":25.8,
+    "weighted_ppg":2.1276666667,
+    "replacement_level":6.0377708978,
+    "vorp":-3.9101042312,
     "dynasty_trailing_value":-3.91
   },
   {
@@ -10890,22 +10890,22 @@
     "dynasty_trailing_value":-3.921
   },
   {
-    "player_id":"00-0039450",
-    "full_name":"Isaac Ukwu",
-    "position":"DE",
-    "team":"DET",
-    "age":27.5,
+    "player_id":"00-0036843",
+    "full_name":"Isaiahh Loudermilk",
+    "position":"DT",
+    "team":"PIT",
+    "age":28.8,
     "weighted_ppg":1.875,
     "replacement_level":5.7974342105,
     "vorp":-3.9224342105,
     "dynasty_trailing_value":-3.922
   },
   {
-    "player_id":"00-0036843",
-    "full_name":"Isaiahh Loudermilk",
-    "position":"DT",
-    "team":"PIT",
-    "age":28.8,
+    "player_id":"00-0039450",
+    "full_name":"Isaac Ukwu",
+    "position":"DE",
+    "team":"DET",
+    "age":27.5,
     "weighted_ppg":1.875,
     "replacement_level":5.7974342105,
     "vorp":-3.9224342105,
@@ -10949,7 +10949,7 @@
     "full_name":"DeAndre Hopkins",
     "position":"WR",
     "team":"BAL",
-    "age":34.1,
+    "age":34.2,
     "weighted_ppg":3.7352321981,
     "replacement_level":7.6848333333,
     "vorp":-3.9496011352,
@@ -10971,7 +10971,7 @@
     "full_name":"Miles Sanders",
     "position":"RB",
     "team":"DAL",
-    "age":29.2,
+    "age":29.3,
     "weighted_ppg":4.9092045455,
     "replacement_level":8.8619047619,
     "vorp":-3.9527002165,
@@ -11033,17 +11033,6 @@
     "dynasty_trailing_value":-3.964
   },
   {
-    "player_id":"00-0035984",
-    "full_name":"Blake Lynch",
-    "position":"OLB",
-    "team":"TEN",
-    "age":29.5,
-    "weighted_ppg":6.25,
-    "replacement_level":10.2180555556,
-    "vorp":-3.9680555556,
-    "dynasty_trailing_value":-3.968
-  },
-  {
     "player_id":"00-0038504",
     "full_name":"Trenton Simpson",
     "position":"ILB",
@@ -11052,6 +11041,17 @@
     "weighted_ppg":6.2504464286,
     "replacement_level":10.2180555556,
     "vorp":-3.967609127,
+    "dynasty_trailing_value":-3.968
+  },
+  {
+    "player_id":"00-0035984",
+    "full_name":"Blake Lynch",
+    "position":"OLB",
+    "team":"TEN",
+    "age":29.5,
+    "weighted_ppg":6.25,
+    "replacement_level":10.2180555556,
+    "vorp":-3.9680555556,
     "dynasty_trailing_value":-3.968
   },
   {
@@ -11165,6 +11165,17 @@
     "dynasty_trailing_value":-4.021
   },
   {
+    "player_id":"00-0033103",
+    "full_name":"Artie Burns",
+    "position":"CB",
+    "team":"MIA",
+    "age":31.3,
+    "weighted_ppg":4.875,
+    "replacement_level":8.899609375,
+    "vorp":-4.024609375,
+    "dynasty_trailing_value":-4.025
+  },
+  {
     "player_id":"00-0038922",
     "full_name":"Drake Thomas",
     "position":"ILB",
@@ -11192,17 +11203,6 @@
     "position":"SS",
     "team":"DET",
     "age":25.5,
-    "weighted_ppg":4.875,
-    "replacement_level":8.899609375,
-    "vorp":-4.024609375,
-    "dynasty_trailing_value":-4.025
-  },
-  {
-    "player_id":"00-0033103",
-    "full_name":"Artie Burns",
-    "position":"CB",
-    "team":"MIA",
-    "age":31.2,
     "weighted_ppg":4.875,
     "replacement_level":8.899609375,
     "vorp":-4.024609375,
@@ -11297,17 +11297,6 @@
     "dynasty_trailing_value":-4.054
   },
   {
-    "player_id":"00-0040133",
-    "full_name":"Azareye'h Thomas",
-    "position":"CB",
-    "team":"NYJ",
-    "age":22.1,
-    "weighted_ppg":4.84375,
-    "replacement_level":8.899609375,
-    "vorp":-4.055859375,
-    "dynasty_trailing_value":-4.056
-  },
-  {
     "player_id":"00-0040134",
     "full_name":"Pat Bryant",
     "position":"WR",
@@ -11316,6 +11305,17 @@
     "weighted_ppg":3.6285714286,
     "replacement_level":7.6848333333,
     "vorp":-4.0562619048,
+    "dynasty_trailing_value":-4.056
+  },
+  {
+    "player_id":"00-0040133",
+    "full_name":"Azareye'h Thomas",
+    "position":"CB",
+    "team":"NYJ",
+    "age":22.1,
+    "weighted_ppg":4.84375,
+    "replacement_level":8.899609375,
+    "vorp":-4.055859375,
     "dynasty_trailing_value":-4.056
   },
   {
@@ -11473,17 +11473,6 @@
     "dynasty_trailing_value":-4.097
   },
   {
-    "player_id":"00-0036996",
-    "full_name":"Greg Newsome II",
-    "position":"CB",
-    "team":"JAX",
-    "age":26.2,
-    "weighted_ppg":4.7838541667,
-    "replacement_level":8.899609375,
-    "vorp":-4.1157552083,
-    "dynasty_trailing_value":-4.116
-  },
-  {
     "player_id":"00-0040171",
     "full_name":"Joshua Farmer",
     "position":"DT",
@@ -11492,6 +11481,17 @@
     "weighted_ppg":1.6818181818,
     "replacement_level":5.7974342105,
     "vorp":-4.1156160287,
+    "dynasty_trailing_value":-4.116
+  },
+  {
+    "player_id":"00-0036996",
+    "full_name":"Greg Newsome II",
+    "position":"CB",
+    "team":"JAX",
+    "age":26.2,
+    "weighted_ppg":4.7838541667,
+    "replacement_level":8.899609375,
+    "vorp":-4.1157552083,
     "dynasty_trailing_value":-4.116
   },
   {
@@ -11572,22 +11572,22 @@
     "dynasty_trailing_value":-4.145
   },
   {
-    "player_id":"00-0034746",
-    "full_name":"Maurice Hurst",
+    "player_id":"00-0039332",
+    "full_name":"C.J. Ravenell",
     "position":"DT",
-    "team":"CLE",
-    "age":31.2,
+    "team":"TEN",
+    "age":26.1,
     "weighted_ppg":1.65,
     "replacement_level":5.7974342105,
     "vorp":-4.1474342105,
     "dynasty_trailing_value":-4.147
   },
   {
-    "player_id":"00-0039332",
-    "full_name":"C.J. Ravenell",
+    "player_id":"00-0034746",
+    "full_name":"Maurice Hurst",
     "position":"DT",
-    "team":"TEN",
-    "age":26.1,
+    "team":"CLE",
+    "age":31.2,
     "weighted_ppg":1.65,
     "replacement_level":5.7974342105,
     "vorp":-4.1474342105,
@@ -11616,17 +11616,6 @@
     "dynasty_trailing_value":-4.152
   },
   {
-    "player_id":"00-0037280",
-    "full_name":"Matthew Butler",
-    "position":"DT",
-    "team":"MIA",
-    "age":27.1,
-    "weighted_ppg":1.6265625,
-    "replacement_level":5.7974342105,
-    "vorp":-4.1708717105,
-    "dynasty_trailing_value":-4.171
-  },
-  {
     "player_id":"00-0036510",
     "full_name":"Kenny Yeboah",
     "position":"TE",
@@ -11635,6 +11624,17 @@
     "weighted_ppg":1.8666666667,
     "replacement_level":6.0377708978,
     "vorp":-4.1711042312,
+    "dynasty_trailing_value":-4.171
+  },
+  {
+    "player_id":"00-0037280",
+    "full_name":"Matthew Butler",
+    "position":"DT",
+    "team":"MIA",
+    "age":27.1,
+    "weighted_ppg":1.6265625,
+    "replacement_level":5.7974342105,
+    "vorp":-4.1708717105,
     "dynasty_trailing_value":-4.171
   },
   {
@@ -11891,17 +11891,6 @@
     "dynasty_trailing_value":-4.294
   },
   {
-    "player_id":"00-0039389",
-    "full_name":"Logan Lee",
-    "position":"DT",
-    "team":"PIT",
-    "age":26.1,
-    "weighted_ppg":1.5,
-    "replacement_level":5.7974342105,
-    "vorp":-4.2974342105,
-    "dynasty_trailing_value":-4.297
-  },
-  {
     "player_id":"00-0033064",
     "full_name":"Adam Gotsis",
     "position":"DE",
@@ -11913,22 +11902,11 @@
     "dynasty_trailing_value":-4.297
   },
   {
-    "player_id":"00-0036788",
-    "full_name":"Jack Heflin",
-    "position":"DT",
-    "team":"LA",
-    "age":28.4,
-    "weighted_ppg":1.5,
-    "replacement_level":5.7974342105,
-    "vorp":-4.2974342105,
-    "dynasty_trailing_value":-4.297
-  },
-  {
-    "player_id":"00-0038126",
-    "full_name":"Perrion Winfrey",
-    "position":"DT",
-    "team":"DAL",
-    "age":26.0,
+    "player_id":"00-0039640",
+    "full_name":"Khalid Duke",
+    "position":"DE",
+    "team":"TEN",
+    "age":25.4,
     "weighted_ppg":1.5,
     "replacement_level":5.7974342105,
     "vorp":-4.2974342105,
@@ -11957,11 +11935,44 @@
     "dynasty_trailing_value":-4.297
   },
   {
-    "player_id":"00-0032107",
-    "full_name":"Angelo Blackson",
+    "player_id":"00-0033746",
+    "full_name":"Alex Barrett",
+    "position":"DE",
+    "team":"SF",
+    "age":32.4,
+    "weighted_ppg":1.5,
+    "replacement_level":5.7974342105,
+    "vorp":-4.2974342105,
+    "dynasty_trailing_value":-4.297
+  },
+  {
+    "player_id":"00-0039389",
+    "full_name":"Logan Lee",
     "position":"DT",
-    "team":"ARI",
-    "age":33.7,
+    "team":"PIT",
+    "age":26.1,
+    "weighted_ppg":1.5,
+    "replacement_level":5.7974342105,
+    "vorp":-4.2974342105,
+    "dynasty_trailing_value":-4.297
+  },
+  {
+    "player_id":"00-0036788",
+    "full_name":"Jack Heflin",
+    "position":"DT",
+    "team":"LA",
+    "age":28.4,
+    "weighted_ppg":1.5,
+    "replacement_level":5.7974342105,
+    "vorp":-4.2974342105,
+    "dynasty_trailing_value":-4.297
+  },
+  {
+    "player_id":"00-0033598",
+    "full_name":"Eli Ankou",
+    "position":"DT",
+    "team":"BUF",
+    "age":32.2,
     "weighted_ppg":1.5,
     "replacement_level":5.7974342105,
     "vorp":-4.2974342105,
@@ -11990,33 +12001,22 @@
     "dynasty_trailing_value":-4.297
   },
   {
-    "player_id":"00-0033746",
-    "full_name":"Alex Barrett",
-    "position":"DE",
-    "team":"SF",
-    "age":32.4,
-    "weighted_ppg":1.5,
-    "replacement_level":5.7974342105,
-    "vorp":-4.2974342105,
-    "dynasty_trailing_value":-4.297
-  },
-  {
-    "player_id":"00-0039640",
-    "full_name":"Khalid Duke",
-    "position":"DE",
-    "team":"TEN",
-    "age":25.4,
-    "weighted_ppg":1.5,
-    "replacement_level":5.7974342105,
-    "vorp":-4.2974342105,
-    "dynasty_trailing_value":-4.297
-  },
-  {
-    "player_id":"00-0033598",
-    "full_name":"Eli Ankou",
+    "player_id":"00-0032107",
+    "full_name":"Angelo Blackson",
     "position":"DT",
-    "team":"BUF",
-    "age":32.1,
+    "team":"ARI",
+    "age":33.7,
+    "weighted_ppg":1.5,
+    "replacement_level":5.7974342105,
+    "vorp":-4.2974342105,
+    "dynasty_trailing_value":-4.297
+  },
+  {
+    "player_id":"00-0038126",
+    "full_name":"Perrion Winfrey",
+    "position":"DT",
+    "team":"DAL",
+    "age":26.0,
     "weighted_ppg":1.5,
     "replacement_level":5.7974342105,
     "vorp":-4.2974342105,
@@ -12192,7 +12192,7 @@
     "full_name":"Brandin Cooks",
     "position":"WR",
     "team":"BUF",
-    "age":32.8,
+    "age":32.9,
     "weighted_ppg":3.2896666667,
     "replacement_level":7.6848333333,
     "vorp":-4.3951666667,
@@ -12232,17 +12232,6 @@
     "dynasty_trailing_value":-4.415
   },
   {
-    "player_id":"00-0035406",
-    "full_name":"Lil'Jordan Humphrey",
-    "position":"WR",
-    "team":"DEN",
-    "age":28.3,
-    "weighted_ppg":3.2683333333,
-    "replacement_level":7.6848333333,
-    "vorp":-4.4165,
-    "dynasty_trailing_value":-4.417
-  },
-  {
     "player_id":"00-0033941",
     "full_name":"Rayshawn Jenkins",
     "position":"SS",
@@ -12251,6 +12240,17 @@
     "weighted_ppg":4.4830528846,
     "replacement_level":8.899609375,
     "vorp":-4.4165564904,
+    "dynasty_trailing_value":-4.417
+  },
+  {
+    "player_id":"00-0035406",
+    "full_name":"Lil'Jordan Humphrey",
+    "position":"WR",
+    "team":"DEN",
+    "age":28.3,
+    "weighted_ppg":3.2683333333,
+    "replacement_level":7.6848333333,
+    "vorp":-4.4165,
     "dynasty_trailing_value":-4.417
   },
   {
@@ -12276,17 +12276,6 @@
     "dynasty_trailing_value":-4.422
   },
   {
-    "player_id":"00-0033119",
-    "full_name":"Jacoby Brissett",
-    "position":"QB",
-    "team":"ARI",
-    "age":33.6,
-    "weighted_ppg":12.6299285714,
-    "replacement_level":17.0531145511,
-    "vorp":-4.4231859797,
-    "dynasty_trailing_value":-4.423
-  },
-  {
     "player_id":"00-0036587",
     "full_name":"Ar'Darius Washington",
     "position":"FS",
@@ -12295,6 +12284,17 @@
     "weighted_ppg":4.4763157895,
     "replacement_level":8.899609375,
     "vorp":-4.4232935855,
+    "dynasty_trailing_value":-4.423
+  },
+  {
+    "player_id":"00-0033119",
+    "full_name":"Jacoby Brissett",
+    "position":"QB",
+    "team":"ARI",
+    "age":33.6,
+    "weighted_ppg":12.6299285714,
+    "replacement_level":17.0531145511,
+    "vorp":-4.4231859797,
     "dynasty_trailing_value":-4.423
   },
   {
@@ -12390,7 +12390,7 @@
     "full_name":"Isaiah Foskey",
     "position":"DE",
     "team":"CIN",
-    "age":25.7,
+    "age":25.8,
     "weighted_ppg":1.3425,
     "replacement_level":5.7974342105,
     "vorp":-4.4549342105,
@@ -12412,7 +12412,7 @@
     "full_name":"Raheim Sanders",
     "position":"RB",
     "team":"CLE",
-    "age":24.1,
+    "age":24.2,
     "weighted_ppg":4.4,
     "replacement_level":8.8619047619,
     "vorp":-4.4619047619,
@@ -12467,7 +12467,7 @@
     "full_name":"D.J. Wonnum",
     "position":"OLB",
     "team":"CAR",
-    "age":28.7,
+    "age":28.8,
     "weighted_ppg":5.7236213235,
     "replacement_level":10.2180555556,
     "vorp":-4.494434232,
@@ -12478,22 +12478,11 @@
     "full_name":"Dyami Brown",
     "position":"WR",
     "team":"JAX",
-    "age":26.7,
+    "age":26.8,
     "weighted_ppg":3.1895707071,
     "replacement_level":7.6848333333,
     "vorp":-4.4952626263,
     "dynasty_trailing_value":-4.495
-  },
-  {
-    "player_id":"00-0039144",
-    "full_name":"Luke Musgrave",
-    "position":"TE",
-    "team":"GB",
-    "age":25.9,
-    "weighted_ppg":1.5414285714,
-    "replacement_level":6.0377708978,
-    "vorp":-4.4963423264,
-    "dynasty_trailing_value":-4.496
   },
   {
     "player_id":"00-0036628",
@@ -12507,15 +12496,15 @@
     "dynasty_trailing_value":-4.496
   },
   {
-    "player_id":"00-0036415",
-    "full_name":"Van Jefferson",
-    "position":"WR",
-    "team":"TEN",
-    "age":30.0,
-    "weighted_ppg":3.1735267857,
-    "replacement_level":7.6848333333,
-    "vorp":-4.5113065476,
-    "dynasty_trailing_value":-4.511
+    "player_id":"00-0039144",
+    "full_name":"Luke Musgrave",
+    "position":"TE",
+    "team":"GB",
+    "age":25.9,
+    "weighted_ppg":1.5414285714,
+    "replacement_level":6.0377708978,
+    "vorp":-4.4963423264,
+    "dynasty_trailing_value":-4.496
   },
   {
     "player_id":"00-0033591",
@@ -12526,6 +12515,17 @@
     "weighted_ppg":3.1736363636,
     "replacement_level":7.6848333333,
     "vorp":-4.5111969697,
+    "dynasty_trailing_value":-4.511
+  },
+  {
+    "player_id":"00-0036415",
+    "full_name":"Van Jefferson",
+    "position":"WR",
+    "team":"TEN",
+    "age":30.0,
+    "weighted_ppg":3.1735267857,
+    "replacement_level":7.6848333333,
+    "vorp":-4.5113065476,
     "dynasty_trailing_value":-4.511
   },
   {
@@ -12540,22 +12540,22 @@
     "dynasty_trailing_value":-4.52
   },
   {
-    "player_id":"00-0037842",
-    "full_name":"Derion Kendrick",
+    "player_id":"00-0040166",
+    "full_name":"Quincy Riley",
     "position":"CB",
-    "team":"LA",
-    "age":25.9,
+    "team":"NO",
+    "age":25.2,
     "weighted_ppg":4.375,
     "replacement_level":8.899609375,
     "vorp":-4.524609375,
     "dynasty_trailing_value":-4.525
   },
   {
-    "player_id":"00-0040166",
-    "full_name":"Quincy Riley",
+    "player_id":"00-0037842",
+    "full_name":"Derion Kendrick",
     "position":"CB",
-    "team":"NO",
-    "age":25.2,
+    "team":"LA",
+    "age":25.9,
     "weighted_ppg":4.375,
     "replacement_level":8.899609375,
     "vorp":-4.524609375,
@@ -12617,22 +12617,22 @@
     "dynasty_trailing_value":-4.546
   },
   {
-    "player_id":"00-0036213",
-    "full_name":"Raekwon Davis",
-    "position":"NT",
-    "team":"IND",
-    "age":29.1,
+    "player_id":"00-0039401",
+    "full_name":"Khristian Boyd",
+    "position":"DT",
+    "team":"NO",
+    "age":26.4,
     "weighted_ppg":1.25,
     "replacement_level":5.7974342105,
     "vorp":-4.5474342105,
     "dynasty_trailing_value":-4.547
   },
   {
-    "player_id":"00-0039401",
-    "full_name":"Khristian Boyd",
-    "position":"DT",
-    "team":"NO",
-    "age":26.4,
+    "player_id":"00-0036213",
+    "full_name":"Raekwon Davis",
+    "position":"NT",
+    "team":"IND",
+    "age":29.1,
     "weighted_ppg":1.25,
     "replacement_level":5.7974342105,
     "vorp":-4.5474342105,
@@ -12716,17 +12716,6 @@
     "dynasty_trailing_value":-4.591
   },
   {
-    "player_id":"00-0031296",
-    "full_name":"C.J. Mosley",
-    "position":"ILB",
-    "team":"NYJ",
-    "age":34.1,
-    "weighted_ppg":5.625,
-    "replacement_level":10.2180555556,
-    "vorp":-4.5930555556,
-    "dynasty_trailing_value":-4.593
-  },
-  {
     "player_id":"00-0032442",
     "full_name":"Elandon Roberts",
     "position":"MLB",
@@ -12735,6 +12724,17 @@
     "weighted_ppg":5.6252757353,
     "replacement_level":10.2180555556,
     "vorp":-4.5927798203,
+    "dynasty_trailing_value":-4.593
+  },
+  {
+    "player_id":"00-0031296",
+    "full_name":"C.J. Mosley",
+    "position":"ILB",
+    "team":"NYJ",
+    "age":34.1,
+    "weighted_ppg":5.625,
+    "replacement_level":10.2180555556,
+    "vorp":-4.5930555556,
     "dynasty_trailing_value":-4.593
   },
   {
@@ -12914,17 +12914,6 @@
     "dynasty_trailing_value":-4.66
   },
   {
-    "player_id":"00-0037578",
-    "full_name":"Juanyeh Thomas",
-    "position":"FS",
-    "team":"DAL",
-    "age":26.1,
-    "weighted_ppg":4.234375,
-    "replacement_level":8.899609375,
-    "vorp":-4.665234375,
-    "dynasty_trailing_value":-4.665
-  },
-  {
     "player_id":"00-0037843",
     "full_name":"Daniel Hardy",
     "position":"DE",
@@ -12936,15 +12925,15 @@
     "dynasty_trailing_value":-4.665
   },
   {
-    "player_id":"00-0027881",
-    "full_name":"Jerry Hughes",
-    "position":"DE",
-    "team":"HOU",
-    "age":38.0,
-    "weighted_ppg":1.125,
-    "replacement_level":5.7974342105,
-    "vorp":-4.6724342105,
-    "dynasty_trailing_value":-4.672
+    "player_id":"00-0037578",
+    "full_name":"Juanyeh Thomas",
+    "position":"FS",
+    "team":"DAL",
+    "age":26.1,
+    "weighted_ppg":4.234375,
+    "replacement_level":8.899609375,
+    "vorp":-4.665234375,
+    "dynasty_trailing_value":-4.665
   },
   {
     "player_id":"00-0040585",
@@ -12963,6 +12952,17 @@
     "position":"DE",
     "team":"TEN",
     "age":29.8,
+    "weighted_ppg":1.125,
+    "replacement_level":5.7974342105,
+    "vorp":-4.6724342105,
+    "dynasty_trailing_value":-4.672
+  },
+  {
+    "player_id":"00-0027881",
+    "full_name":"Jerry Hughes",
+    "position":"DE",
+    "team":"HOU",
+    "age":38.0,
     "weighted_ppg":1.125,
     "replacement_level":5.7974342105,
     "vorp":-4.6724342105,
@@ -13061,7 +13061,7 @@
     "full_name":"Ian Thomas",
     "position":"TE",
     "team":"LV",
-    "age":30.1,
+    "age":30.2,
     "weighted_ppg":1.295952381,
     "replacement_level":6.0377708978,
     "vorp":-4.7418185169,
@@ -13116,7 +13116,7 @@
     "full_name":"Arthur Maulet",
     "position":"CB",
     "team":"DET",
-    "age":33.0,
+    "age":33.1,
     "weighted_ppg":4.135,
     "replacement_level":8.899609375,
     "vorp":-4.764609375,
@@ -13204,7 +13204,7 @@
     "full_name":"Kylen Granson",
     "position":"TE",
     "team":"PHI",
-    "age":28.3,
+    "age":28.4,
     "weighted_ppg":1.25375,
     "replacement_level":6.0377708978,
     "vorp":-4.7840208978,
@@ -13220,6 +13220,17 @@
     "replacement_level":5.7974342105,
     "vorp":-4.7849342105,
     "dynasty_trailing_value":-4.785
+  },
+  {
+    "player_id":"00-0040019",
+    "full_name":"Jay Toia",
+    "position":"DT",
+    "team":"DAL",
+    "age":23.0,
+    "weighted_ppg":1.0,
+    "replacement_level":5.7974342105,
+    "vorp":-4.7974342105,
+    "dynasty_trailing_value":-4.797
   },
   {
     "player_id":"00-0040153",
@@ -13249,17 +13260,6 @@
     "position":"DE",
     "team":"WAS",
     "age":25.3,
-    "weighted_ppg":1.0,
-    "replacement_level":5.7974342105,
-    "vorp":-4.7974342105,
-    "dynasty_trailing_value":-4.797
-  },
-  {
-    "player_id":"00-0040019",
-    "full_name":"Jay Toia",
-    "position":"DT",
-    "team":"DAL",
-    "age":23.0,
     "weighted_ppg":1.0,
     "replacement_level":5.7974342105,
     "vorp":-4.7974342105,
@@ -13332,22 +13332,22 @@
     "dynasty_trailing_value":-4.825
   },
   {
-    "player_id":"00-0040244",
-    "full_name":"Moliki Matavao",
+    "player_id":"00-0039613",
+    "full_name":"Dallin Holker",
     "position":"TE",
     "team":"NO",
-    "age":23.4,
+    "age":26.3,
     "weighted_ppg":1.2,
     "replacement_level":6.0377708978,
     "vorp":-4.8377708978,
     "dynasty_trailing_value":-4.838
   },
   {
-    "player_id":"00-0039613",
-    "full_name":"Dallin Holker",
+    "player_id":"00-0040244",
+    "full_name":"Moliki Matavao",
     "position":"TE",
     "team":"NO",
-    "age":26.3,
+    "age":23.4,
     "weighted_ppg":1.2,
     "replacement_level":6.0377708978,
     "vorp":-4.8377708978,
@@ -13453,22 +13453,22 @@
     "dynasty_trailing_value":-4.892
   },
   {
-    "player_id":"00-0040397",
-    "full_name":"Jordan Clark",
+    "player_id":"00-0033930",
+    "full_name":"Cameron Sutton",
     "position":"CB",
-    "team":"NYJ",
-    "age":25.3,
+    "team":"PIT",
+    "age":31.4,
     "weighted_ppg":4.0,
     "replacement_level":8.899609375,
     "vorp":-4.899609375,
     "dynasty_trailing_value":-4.9
   },
   {
-    "player_id":"00-0033930",
-    "full_name":"Cameron Sutton",
+    "player_id":"00-0040397",
+    "full_name":"Jordan Clark",
     "position":"CB",
-    "team":"PIT",
-    "age":31.4,
+    "team":"NYJ",
+    "age":25.3,
     "weighted_ppg":4.0,
     "replacement_level":8.899609375,
     "vorp":-4.899609375,
@@ -13563,17 +13563,6 @@
     "dynasty_trailing_value":-4.937
   },
   {
-    "player_id":"00-0033783",
-    "full_name":"Ahkello Witherspoon",
-    "position":"CB",
-    "team":"LA",
-    "age":31.4,
-    "weighted_ppg":3.9564102564,
-    "replacement_level":8.899609375,
-    "vorp":-4.9431991186,
-    "dynasty_trailing_value":-4.943
-  },
-  {
     "player_id":"00-0035359",
     "full_name":"David Sills",
     "position":"WR",
@@ -13582,6 +13571,17 @@
     "weighted_ppg":2.7416666667,
     "replacement_level":7.6848333333,
     "vorp":-4.9431666667,
+    "dynasty_trailing_value":-4.943
+  },
+  {
+    "player_id":"00-0033783",
+    "full_name":"Ahkello Witherspoon",
+    "position":"CB",
+    "team":"LA",
+    "age":31.4,
+    "weighted_ppg":3.9564102564,
+    "replacement_level":8.899609375,
+    "vorp":-4.9431991186,
     "dynasty_trailing_value":-4.943
   },
   {
@@ -13728,17 +13728,6 @@
     "dynasty_trailing_value":-5.002
   },
   {
-    "player_id":"00-0036617",
-    "full_name":"Asante Samuel Jr.",
-    "position":"CB",
-    "team":"PIT",
-    "age":26.8,
-    "weighted_ppg":3.8958333333,
-    "replacement_level":8.899609375,
-    "vorp":-5.0037760417,
-    "dynasty_trailing_value":-5.004
-  },
-  {
     "player_id":"00-0037282",
     "full_name":"James Mitchell",
     "position":"TE",
@@ -13747,6 +13736,17 @@
     "weighted_ppg":1.0333333333,
     "replacement_level":6.0377708978,
     "vorp":-5.0044375645,
+    "dynasty_trailing_value":-5.004
+  },
+  {
+    "player_id":"00-0036617",
+    "full_name":"Asante Samuel Jr.",
+    "position":"CB",
+    "team":"PIT",
+    "age":26.8,
+    "weighted_ppg":3.8958333333,
+    "replacement_level":8.899609375,
+    "vorp":-5.0037760417,
     "dynasty_trailing_value":-5.004
   },
   {
@@ -13783,17 +13783,6 @@
     "dynasty_trailing_value":-5.023
   },
   {
-    "player_id":"00-0036755",
-    "full_name":"Jaret Patterson",
-    "position":"RB",
-    "team":"LAC",
-    "age":26.6,
-    "weighted_ppg":3.8333333333,
-    "replacement_level":8.8619047619,
-    "vorp":-5.0285714286,
-    "dynasty_trailing_value":-5.029
-  },
-  {
     "player_id":"00-0035020",
     "full_name":"Demetrius Flannigan-Fowles",
     "position":"ILB",
@@ -13802,6 +13791,17 @@
     "weighted_ppg":5.1889285714,
     "replacement_level":10.2180555556,
     "vorp":-5.0291269841,
+    "dynasty_trailing_value":-5.029
+  },
+  {
+    "player_id":"00-0036755",
+    "full_name":"Jaret Patterson",
+    "position":"RB",
+    "team":"LAC",
+    "age":26.6,
+    "weighted_ppg":3.8333333333,
+    "replacement_level":8.8619047619,
+    "vorp":-5.0285714286,
     "dynasty_trailing_value":-5.029
   },
   {
@@ -13838,25 +13838,14 @@
     "dynasty_trailing_value":-5.047
   },
   {
-    "player_id":"00-0037041",
-    "full_name":"Haggai Ndubuisi",
-    "position":"DT",
-    "team":"HOU",
-    "age":25.8,
+    "player_id":"00-0031500",
+    "full_name":"Efe Obada",
+    "position":"DE",
+    "team":"WAS",
+    "age":34.3,
     "weighted_ppg":0.75,
     "replacement_level":5.7974342105,
     "vorp":-5.0474342105,
-    "dynasty_trailing_value":-5.047
-  },
-  {
-    "player_id":"00-0035254",
-    "full_name":"Anthony Nelson",
-    "position":"OLB",
-    "team":"TB",
-    "age":29.4,
-    "weighted_ppg":5.1705882353,
-    "replacement_level":10.2180555556,
-    "vorp":-5.0474673203,
     "dynasty_trailing_value":-5.047
   },
   {
@@ -13871,11 +13860,11 @@
     "dynasty_trailing_value":-5.047
   },
   {
-    "player_id":"00-0036291",
-    "full_name":"Marlon Davidson",
+    "player_id":"00-0028171",
+    "full_name":"Lawrence Guy",
     "position":"DT",
-    "team":"HOU",
-    "age":28.2,
+    "team":"CIN",
+    "age":36.4,
     "weighted_ppg":0.75,
     "replacement_level":5.7974342105,
     "vorp":-5.0474342105,
@@ -13893,17 +13882,6 @@
     "dynasty_trailing_value":-5.047
   },
   {
-    "player_id":"00-0031500",
-    "full_name":"Efe Obada",
-    "position":"DE",
-    "team":"WAS",
-    "age":34.3,
-    "weighted_ppg":0.75,
-    "replacement_level":5.7974342105,
-    "vorp":-5.0474342105,
-    "dynasty_trailing_value":-5.047
-  },
-  {
     "player_id":"00-0040004",
     "full_name":"T.J. Maguranyanga",
     "position":"DE",
@@ -13915,22 +13893,44 @@
     "dynasty_trailing_value":-5.047
   },
   {
-    "player_id":"00-0038939",
-    "full_name":"Brodric Martin",
+    "player_id":"00-0035254",
+    "full_name":"Anthony Nelson",
+    "position":"OLB",
+    "team":"TB",
+    "age":29.4,
+    "weighted_ppg":5.1705882353,
+    "replacement_level":10.2180555556,
+    "vorp":-5.0474673203,
+    "dynasty_trailing_value":-5.047
+  },
+  {
+    "player_id":"00-0037041",
+    "full_name":"Haggai Ndubuisi",
     "position":"DT",
-    "team":"LV",
-    "age":27.2,
+    "team":"HOU",
+    "age":25.8,
     "weighted_ppg":0.75,
     "replacement_level":5.7974342105,
     "vorp":-5.0474342105,
     "dynasty_trailing_value":-5.047
   },
   {
-    "player_id":"00-0028171",
-    "full_name":"Lawrence Guy",
+    "player_id":"00-0036291",
+    "full_name":"Marlon Davidson",
     "position":"DT",
-    "team":"CIN",
-    "age":36.4,
+    "team":"HOU",
+    "age":28.2,
+    "weighted_ppg":0.75,
+    "replacement_level":5.7974342105,
+    "vorp":-5.0474342105,
+    "dynasty_trailing_value":-5.047
+  },
+  {
+    "player_id":"00-0038939",
+    "full_name":"Brodric Martin",
+    "position":"DT",
+    "team":"LV",
+    "age":27.2,
     "weighted_ppg":0.75,
     "replacement_level":5.7974342105,
     "vorp":-5.0474342105,
@@ -14029,7 +14029,7 @@
     "full_name":"Anfernee Jennings",
     "position":"OLB",
     "team":"NE",
-    "age":29.2,
+    "age":29.3,
     "weighted_ppg":5.136328125,
     "replacement_level":10.2180555556,
     "vorp":-5.0817274306,
@@ -14080,33 +14080,11 @@
     "dynasty_trailing_value":-5.132
   },
   {
-    "player_id":"00-0034527",
-    "full_name":"Ryan Neal",
-    "position":"SS",
-    "team":"TB",
-    "age":30.6,
-    "weighted_ppg":3.75,
-    "replacement_level":8.899609375,
-    "vorp":-5.149609375,
-    "dynasty_trailing_value":-5.15
-  },
-  {
-    "player_id":"00-0040372",
-    "full_name":"Bralyn Lux",
-    "position":"CB",
-    "team":"CIN",
-    "age":25.9,
-    "weighted_ppg":3.75,
-    "replacement_level":8.899609375,
-    "vorp":-5.149609375,
-    "dynasty_trailing_value":-5.15
-  },
-  {
-    "player_id":"00-0039453",
-    "full_name":"Morice Norris Jr.",
-    "position":"DB",
-    "team":"DET",
-    "age":25.8,
+    "player_id":"00-0036638",
+    "full_name":"Darrick Forrest",
+    "position":"FS",
+    "team":"SF",
+    "age":27.2,
     "weighted_ppg":3.75,
     "replacement_level":8.899609375,
     "vorp":-5.149609375,
@@ -14124,11 +14102,33 @@
     "dynasty_trailing_value":-5.15
   },
   {
-    "player_id":"00-0036638",
-    "full_name":"Darrick Forrest",
-    "position":"FS",
-    "team":"SF",
-    "age":27.2,
+    "player_id":"00-0039453",
+    "full_name":"Morice Norris Jr.",
+    "position":"DB",
+    "team":"DET",
+    "age":25.8,
+    "weighted_ppg":3.75,
+    "replacement_level":8.899609375,
+    "vorp":-5.149609375,
+    "dynasty_trailing_value":-5.15
+  },
+  {
+    "player_id":"00-0034527",
+    "full_name":"Ryan Neal",
+    "position":"SS",
+    "team":"TB",
+    "age":30.6,
+    "weighted_ppg":3.75,
+    "replacement_level":8.899609375,
+    "vorp":-5.149609375,
+    "dynasty_trailing_value":-5.15
+  },
+  {
+    "player_id":"00-0040372",
+    "full_name":"Bralyn Lux",
+    "position":"CB",
+    "team":"CIN",
+    "age":25.9,
     "weighted_ppg":3.75,
     "replacement_level":8.899609375,
     "vorp":-5.149609375,
@@ -14289,17 +14289,6 @@
     "dynasty_trailing_value":-5.238
   },
   {
-    "player_id":"00-0040509",
-    "full_name":"Ben Yurosek",
-    "position":"TE",
-    "team":"MIN",
-    "age":24.4,
-    "weighted_ppg":0.8,
-    "replacement_level":6.0377708978,
-    "vorp":-5.2377708978,
-    "dynasty_trailing_value":-5.238
-  },
-  {
     "player_id":"00-0038920",
     "full_name":"John Shenker",
     "position":"TE",
@@ -14311,15 +14300,15 @@
     "dynasty_trailing_value":-5.238
   },
   {
-    "player_id":"00-0040746",
-    "full_name":"Nic Scourton",
-    "position":"OLB",
-    "team":"CAR",
-    "age":21.9,
-    "weighted_ppg":4.9765625,
-    "replacement_level":10.2180555556,
-    "vorp":-5.2414930556,
-    "dynasty_trailing_value":-5.241
+    "player_id":"00-0040509",
+    "full_name":"Ben Yurosek",
+    "position":"TE",
+    "team":"MIN",
+    "age":24.4,
+    "weighted_ppg":0.8,
+    "replacement_level":6.0377708978,
+    "vorp":-5.2377708978,
+    "dynasty_trailing_value":-5.238
   },
   {
     "player_id":"00-0035637",
@@ -14330,6 +14319,17 @@
     "weighted_ppg":3.6589285714,
     "replacement_level":8.899609375,
     "vorp":-5.2406808036,
+    "dynasty_trailing_value":-5.241
+  },
+  {
+    "player_id":"00-0040746",
+    "full_name":"Nic Scourton",
+    "position":"OLB",
+    "team":"CAR",
+    "age":21.9,
+    "weighted_ppg":4.9765625,
+    "replacement_level":10.2180555556,
+    "vorp":-5.2414930556,
     "dynasty_trailing_value":-5.241
   },
   {
@@ -14399,17 +14399,6 @@
     "dynasty_trailing_value":-5.273
   },
   {
-    "player_id":"00-0038570",
-    "full_name":"Ventrell Miller",
-    "position":"MLB",
-    "team":"JAX",
-    "age":27.5,
-    "weighted_ppg":4.9433333333,
-    "replacement_level":10.2180555556,
-    "vorp":-5.2747222222,
-    "dynasty_trailing_value":-5.275
-  },
-  {
     "player_id":"00-0033050",
     "full_name":"Xavien Howard",
     "position":"CB",
@@ -14418,6 +14407,17 @@
     "weighted_ppg":3.625,
     "replacement_level":8.899609375,
     "vorp":-5.274609375,
+    "dynasty_trailing_value":-5.275
+  },
+  {
+    "player_id":"00-0038570",
+    "full_name":"Ventrell Miller",
+    "position":"MLB",
+    "team":"JAX",
+    "age":27.5,
+    "weighted_ppg":4.9433333333,
+    "replacement_level":10.2180555556,
+    "vorp":-5.2747222222,
     "dynasty_trailing_value":-5.275
   },
   {
@@ -14520,17 +14520,6 @@
     "dynasty_trailing_value":-5.306
   },
   {
-    "player_id":"00-0036677",
-    "full_name":"Zayne Anderson",
-    "position":"FS",
-    "team":"GB",
-    "age":29.6,
-    "weighted_ppg":3.5895833333,
-    "replacement_level":8.899609375,
-    "vorp":-5.3100260417,
-    "dynasty_trailing_value":-5.31
-  },
-  {
     "player_id":"00-0037431",
     "full_name":"Kingsley Jonathan",
     "position":"DE",
@@ -14539,6 +14528,17 @@
     "weighted_ppg":0.4875,
     "replacement_level":5.7974342105,
     "vorp":-5.3099342105,
+    "dynasty_trailing_value":-5.31
+  },
+  {
+    "player_id":"00-0036677",
+    "full_name":"Zayne Anderson",
+    "position":"FS",
+    "team":"GB",
+    "age":29.6,
+    "weighted_ppg":3.5895833333,
+    "replacement_level":8.899609375,
+    "vorp":-5.3100260417,
     "dynasty_trailing_value":-5.31
   },
   {
@@ -14689,7 +14689,7 @@
     "full_name":"Nick Whiteside",
     "position":"CB",
     "team":"DET",
-    "age":26.2,
+    "age":26.3,
     "weighted_ppg":3.5,
     "replacement_level":8.899609375,
     "vorp":-5.399609375,
@@ -14700,7 +14700,7 @@
     "full_name":"Zaire Mitchell-Paden",
     "position":"TE",
     "team":"NO",
-    "age":26.9,
+    "age":27.0,
     "weighted_ppg":0.6333333333,
     "replacement_level":6.0377708978,
     "vorp":-5.4044375645,
@@ -14784,17 +14784,6 @@
     "dynasty_trailing_value":-5.44
   },
   {
-    "player_id":"00-0036646",
-    "full_name":"Simi Fehoko",
-    "position":"WR",
-    "team":"ARI",
-    "age":28.7,
-    "weighted_ppg":2.24,
-    "replacement_level":7.6848333333,
-    "vorp":-5.4448333333,
-    "dynasty_trailing_value":-5.445
-  },
-  {
     "player_id":"00-0033955",
     "full_name":"Jeremy McNichols",
     "position":"RB",
@@ -14803,6 +14792,17 @@
     "weighted_ppg":3.416875,
     "replacement_level":8.8619047619,
     "vorp":-5.4450297619,
+    "dynasty_trailing_value":-5.445
+  },
+  {
+    "player_id":"00-0036646",
+    "full_name":"Simi Fehoko",
+    "position":"WR",
+    "team":"ARI",
+    "age":28.7,
+    "weighted_ppg":2.24,
+    "replacement_level":7.6848333333,
+    "vorp":-5.4448333333,
     "dynasty_trailing_value":-5.445
   },
   {
@@ -14949,17 +14949,6 @@
     "dynasty_trailing_value":-5.524
   },
   {
-    "player_id":"00-0039390",
-    "full_name":"Marcellas Dial Jr.",
-    "position":"CB",
-    "team":"NE",
-    "age":25.6,
-    "weighted_ppg":3.375,
-    "replacement_level":8.899609375,
-    "vorp":-5.524609375,
-    "dynasty_trailing_value":-5.525
-  },
-  {
     "player_id":"00-0040258",
     "full_name":"Dom Jones",
     "position":"CB",
@@ -14971,11 +14960,22 @@
     "dynasty_trailing_value":-5.525
   },
   {
+    "player_id":"00-0039390",
+    "full_name":"Marcellas Dial Jr.",
+    "position":"CB",
+    "team":"NE",
+    "age":25.7,
+    "weighted_ppg":3.375,
+    "replacement_level":8.899609375,
+    "vorp":-5.524609375,
+    "dynasty_trailing_value":-5.525
+  },
+  {
     "player_id":"00-0027940",
     "full_name":"Von Miller",
     "position":"OLB",
     "team":"WAS",
-    "age":37.3,
+    "age":37.4,
     "weighted_ppg":4.6866071429,
     "replacement_level":10.2180555556,
     "vorp":-5.5314484127,
@@ -15103,17 +15103,6 @@
     "dynasty_trailing_value":-5.618
   },
   {
-    "player_id":"00-0037205",
-    "full_name":"Brenden Schooler",
-    "position":"FS",
-    "team":"NE",
-    "age":29.2,
-    "weighted_ppg":3.2666666667,
-    "replacement_level":8.899609375,
-    "vorp":-5.6329427083,
-    "dynasty_trailing_value":-5.633
-  },
-  {
     "player_id":"00-0034073",
     "full_name":"Ross Dwelley",
     "position":"TE",
@@ -15122,6 +15111,17 @@
     "weighted_ppg":0.405,
     "replacement_level":6.0377708978,
     "vorp":-5.6327708978,
+    "dynasty_trailing_value":-5.633
+  },
+  {
+    "player_id":"00-0037205",
+    "full_name":"Brenden Schooler",
+    "position":"FS",
+    "team":"NE",
+    "age":29.2,
+    "weighted_ppg":3.2666666667,
+    "replacement_level":8.899609375,
+    "vorp":-5.6329427083,
     "dynasty_trailing_value":-5.633
   },
   {
@@ -15147,17 +15147,6 @@
     "dynasty_trailing_value":-5.638
   },
   {
-    "player_id":"00-0036683",
-    "full_name":"Devon Key",
-    "position":"FS",
-    "team":"DEN",
-    "age":28.8,
-    "weighted_ppg":3.2475183824,
-    "replacement_level":8.899609375,
-    "vorp":-5.6520909926,
-    "dynasty_trailing_value":-5.652
-  },
-  {
     "player_id":"00-0040729",
     "full_name":"Jack Bech",
     "position":"WR",
@@ -15166,6 +15155,17 @@
     "weighted_ppg":2.0333333333,
     "replacement_level":7.6848333333,
     "vorp":-5.6515,
+    "dynasty_trailing_value":-5.652
+  },
+  {
+    "player_id":"00-0036683",
+    "full_name":"Devon Key",
+    "position":"FS",
+    "team":"DEN",
+    "age":28.8,
+    "weighted_ppg":3.2475183824,
+    "replacement_level":8.899609375,
+    "vorp":-5.6520909926,
     "dynasty_trailing_value":-5.652
   },
   {
@@ -15312,17 +15312,6 @@
     "dynasty_trailing_value":-5.703
   },
   {
-    "player_id":"00-0037106",
-    "full_name":"Jaylon Jones",
-    "position":"CB",
-    "team":"CHI",
-    "age":28.8,
-    "weighted_ppg":3.1875,
-    "replacement_level":8.899609375,
-    "vorp":-5.712109375,
-    "dynasty_trailing_value":-5.712
-  },
-  {
     "player_id":"00-0038984",
     "full_name":"Kei'Trel Clark",
     "position":"CB",
@@ -15345,15 +15334,15 @@
     "dynasty_trailing_value":-5.712
   },
   {
-    "player_id":"00-0031360",
-    "full_name":"Kyle Van Noy",
-    "position":"OLB",
-    "team":"BAL",
-    "age":35.3,
-    "weighted_ppg":4.4963293651,
-    "replacement_level":10.2180555556,
-    "vorp":-5.7217261905,
-    "dynasty_trailing_value":-5.722
+    "player_id":"00-0037106",
+    "full_name":"Jaylon Jones",
+    "position":"CB",
+    "team":"CHI",
+    "age":28.8,
+    "weighted_ppg":3.1875,
+    "replacement_level":8.899609375,
+    "vorp":-5.712109375,
+    "dynasty_trailing_value":-5.712
   },
   {
     "player_id":"00-0038493",
@@ -15364,6 +15353,17 @@
     "weighted_ppg":4.49625,
     "replacement_level":10.2180555556,
     "vorp":-5.7218055556,
+    "dynasty_trailing_value":-5.722
+  },
+  {
+    "player_id":"00-0031360",
+    "full_name":"Kyle Van Noy",
+    "position":"OLB",
+    "team":"BAL",
+    "age":35.4,
+    "weighted_ppg":4.4963293651,
+    "replacement_level":10.2180555556,
+    "vorp":-5.7217261905,
     "dynasty_trailing_value":-5.722
   },
   {
@@ -15422,22 +15422,22 @@
     "dynasty_trailing_value":-5.738
   },
   {
-    "player_id":"00-0034970",
-    "full_name":"Irv Smith",
+    "player_id":"00-0024243",
+    "full_name":"Marcedes Lewis",
     "position":"TE",
-    "team":"HOU",
-    "age":28.0,
+    "team":"DEN",
+    "age":42.2,
     "weighted_ppg":0.3,
     "replacement_level":6.0377708978,
     "vorp":-5.7377708978,
     "dynasty_trailing_value":-5.738
   },
   {
-    "player_id":"00-0024243",
-    "full_name":"Marcedes Lewis",
+    "player_id":"00-0034970",
+    "full_name":"Irv Smith",
     "position":"TE",
-    "team":"DEN",
-    "age":42.2,
+    "team":"HOU",
+    "age":28.0,
     "weighted_ppg":0.3,
     "replacement_level":6.0377708978,
     "vorp":-5.7377708978,
@@ -15624,7 +15624,7 @@
     "full_name":"Joseph Fortson",
     "position":"TE",
     "team":"KC",
-    "age":30.6,
+    "age":30.7,
     "weighted_ppg":0.2,
     "replacement_level":6.0377708978,
     "vorp":-5.8377708978,
@@ -15646,7 +15646,7 @@
     "full_name":"River Cracraft",
     "position":"WR",
     "team":"WAS",
-    "age":31.7,
+    "age":31.8,
     "weighted_ppg":1.825,
     "replacement_level":7.6848333333,
     "vorp":-5.8598333333,
@@ -15697,33 +15697,11 @@
     "dynasty_trailing_value":-5.892
   },
   {
-    "player_id":"00-0040339",
-    "full_name":"Cam'Ron Silmon-Craig",
-    "position":"FS",
-    "team":"JAX",
-    "age":23.8,
-    "weighted_ppg":3.0,
-    "replacement_level":8.899609375,
-    "vorp":-5.899609375,
-    "dynasty_trailing_value":-5.9
-  },
-  {
-    "player_id":"00-0040192",
-    "full_name":"Jordan Hancock",
-    "position":"FS",
-    "team":"BUF",
-    "age":23.0,
-    "weighted_ppg":3.0,
-    "replacement_level":8.899609375,
-    "vorp":-5.899609375,
-    "dynasty_trailing_value":-5.9
-  },
-  {
-    "player_id":"00-0038392",
-    "full_name":"Daniel Scott",
-    "position":"SS",
-    "team":"IND",
-    "age":27.8,
+    "player_id":"00-0034274",
+    "full_name":"Parry Nickerson",
+    "position":"CB",
+    "team":"PHI",
+    "age":31.8,
     "weighted_ppg":3.0,
     "replacement_level":8.899609375,
     "vorp":-5.899609375,
@@ -15741,11 +15719,33 @@
     "dynasty_trailing_value":-5.9
   },
   {
-    "player_id":"00-0034274",
-    "full_name":"Parry Nickerson",
-    "position":"CB",
-    "team":"PHI",
-    "age":31.8,
+    "player_id":"00-0038392",
+    "full_name":"Daniel Scott",
+    "position":"SS",
+    "team":"IND",
+    "age":27.8,
+    "weighted_ppg":3.0,
+    "replacement_level":8.899609375,
+    "vorp":-5.899609375,
+    "dynasty_trailing_value":-5.9
+  },
+  {
+    "player_id":"00-0040339",
+    "full_name":"Cam'Ron Silmon-Craig",
+    "position":"FS",
+    "team":"JAX",
+    "age":23.8,
+    "weighted_ppg":3.0,
+    "replacement_level":8.899609375,
+    "vorp":-5.899609375,
+    "dynasty_trailing_value":-5.9
+  },
+  {
+    "player_id":"00-0040192",
+    "full_name":"Jordan Hancock",
+    "position":"FS",
+    "team":"BUF",
+    "age":23.0,
     "weighted_ppg":3.0,
     "replacement_level":8.899609375,
     "vorp":-5.899609375,
@@ -15994,33 +15994,11 @@
     "dynasty_trailing_value":-6.028
   },
   {
-    "player_id":"00-0031299",
-    "full_name":"Jordan Matthews",
+    "player_id":"00-0040058",
+    "full_name":"Nick Kallerup",
     "position":"TE",
-    "team":"CAR",
-    "age":34.0,
-    "weighted_ppg":0.0,
-    "replacement_level":6.0377708978,
-    "vorp":-6.0377708978,
-    "dynasty_trailing_value":-6.038
-  },
-  {
-    "player_id":"00-0039316",
-    "full_name":"Baylor Cupp",
-    "position":"TE",
-    "team":"BAL",
-    "age":26.2,
-    "weighted_ppg":0.0,
-    "replacement_level":6.0377708978,
-    "vorp":-6.0377708978,
-    "dynasty_trailing_value":-6.038
-  },
-  {
-    "player_id":"00-0035956",
-    "full_name":"Giovanni Ricci",
-    "position":"TE",
-    "team":"DET",
-    "age":29.8,
+    "team":"SEA",
+    "age":25.3,
     "weighted_ppg":0.0,
     "replacement_level":6.0377708978,
     "vorp":-6.0377708978,
@@ -16038,11 +16016,11 @@
     "dynasty_trailing_value":-6.038
   },
   {
-    "player_id":"00-0040058",
-    "full_name":"Nick Kallerup",
+    "player_id":"00-0031299",
+    "full_name":"Jordan Matthews",
     "position":"TE",
-    "team":"SEA",
-    "age":25.3,
+    "team":"CAR",
+    "age":34.0,
     "weighted_ppg":0.0,
     "replacement_level":6.0377708978,
     "vorp":-6.0377708978,
@@ -16060,15 +16038,26 @@
     "dynasty_trailing_value":-6.038
   },
   {
-    "player_id":"00-0036984",
-    "full_name":"Trey Sermon",
-    "position":"RB",
-    "team":"PIT",
-    "age":27.5,
-    "weighted_ppg":2.8142857143,
-    "replacement_level":8.8619047619,
-    "vorp":-6.0476190476,
-    "dynasty_trailing_value":-6.048
+    "player_id":"00-0035956",
+    "full_name":"Giovanni Ricci",
+    "position":"TE",
+    "team":"DET",
+    "age":29.8,
+    "weighted_ppg":0.0,
+    "replacement_level":6.0377708978,
+    "vorp":-6.0377708978,
+    "dynasty_trailing_value":-6.038
+  },
+  {
+    "player_id":"00-0039316",
+    "full_name":"Baylor Cupp",
+    "position":"TE",
+    "team":"BAL",
+    "age":26.2,
+    "weighted_ppg":0.0,
+    "replacement_level":6.0377708978,
+    "vorp":-6.0377708978,
+    "dynasty_trailing_value":-6.038
   },
   {
     "player_id":"00-0038636",
@@ -16076,6 +16065,17 @@
     "position":"RB",
     "team":"SEA",
     "age":26.4,
+    "weighted_ppg":2.8142857143,
+    "replacement_level":8.8619047619,
+    "vorp":-6.0476190476,
+    "dynasty_trailing_value":-6.048
+  },
+  {
+    "player_id":"00-0036984",
+    "full_name":"Trey Sermon",
+    "position":"RB",
+    "team":"PIT",
+    "age":27.5,
     "weighted_ppg":2.8142857143,
     "replacement_level":8.8619047619,
     "vorp":-6.0476190476,
@@ -16119,7 +16119,7 @@
     "full_name":"Jaylin Lane",
     "position":"WR",
     "team":"WAS",
-    "age":24.2,
+    "age":24.3,
     "weighted_ppg":1.6,
     "replacement_level":7.6848333333,
     "vorp":-6.0848333333,
@@ -16284,7 +16284,7 @@
     "full_name":"Darren Hall",
     "position":"FS",
     "team":"ARI",
-    "age":26.2,
+    "age":26.3,
     "weighted_ppg":2.71875,
     "replacement_level":8.899609375,
     "vorp":-6.180859375,
@@ -16357,17 +16357,6 @@
     "dynasty_trailing_value":-6.216
   },
   {
-    "player_id":"00-0032688",
-    "full_name":"Robbie Chosen",
-    "position":"WR",
-    "team":"WAS",
-    "age":33.2,
-    "weighted_ppg":1.4666666667,
-    "replacement_level":7.6848333333,
-    "vorp":-6.2181666667,
-    "dynasty_trailing_value":-6.218
-  },
-  {
     "player_id":"00-0039515",
     "full_name":"Winston Reid",
     "position":"MLB",
@@ -16376,6 +16365,17 @@
     "weighted_ppg":4.0,
     "replacement_level":10.2180555556,
     "vorp":-6.2180555556,
+    "dynasty_trailing_value":-6.218
+  },
+  {
+    "player_id":"00-0032688",
+    "full_name":"Robbie Chosen",
+    "position":"WR",
+    "team":"WAS",
+    "age":33.2,
+    "weighted_ppg":1.4666666667,
+    "replacement_level":7.6848333333,
+    "vorp":-6.2181666667,
     "dynasty_trailing_value":-6.218
   },
   {
@@ -16394,22 +16394,11 @@
     "full_name":"Kirk Cousins",
     "position":"QB",
     "team":"ATL",
-    "age":37.9,
+    "age":38.0,
     "weighted_ppg":10.8231,
     "replacement_level":17.0531145511,
     "vorp":-6.2300145511,
     "dynasty_trailing_value":-6.23
-  },
-  {
-    "player_id":"00-0033925",
-    "full_name":"D'Onta Foreman",
-    "position":"RB",
-    "team":"CLE",
-    "age":30.3,
-    "weighted_ppg":2.62,
-    "replacement_level":8.8619047619,
-    "vorp":-6.2419047619,
-    "dynasty_trailing_value":-6.242
   },
   {
     "player_id":"00-0039352",
@@ -16420,6 +16409,17 @@
     "weighted_ppg":3.97625,
     "replacement_level":10.2180555556,
     "vorp":-6.2418055556,
+    "dynasty_trailing_value":-6.242
+  },
+  {
+    "player_id":"00-0033925",
+    "full_name":"D'Onta Foreman",
+    "position":"RB",
+    "team":"CLE",
+    "age":30.3,
+    "weighted_ppg":2.62,
+    "replacement_level":8.8619047619,
+    "vorp":-6.2419047619,
     "dynasty_trailing_value":-6.242
   },
   {
@@ -16544,22 +16544,22 @@
     "dynasty_trailing_value":-6.31
   },
   {
-    "player_id":"00-0040149",
-    "full_name":"Jaylin Smith",
-    "position":"CB",
-    "team":"HOU",
-    "age":22.7,
+    "player_id":"00-0040045",
+    "full_name":"Alijah Clark",
+    "position":"FS",
+    "team":"DAL",
+    "age":23.1,
     "weighted_ppg":2.5833333333,
     "replacement_level":8.899609375,
     "vorp":-6.3162760417,
     "dynasty_trailing_value":-6.316
   },
   {
-    "player_id":"00-0040045",
-    "full_name":"Alijah Clark",
-    "position":"FS",
-    "team":"DAL",
-    "age":23.1,
+    "player_id":"00-0040149",
+    "full_name":"Jaylin Smith",
+    "position":"CB",
+    "team":"HOU",
+    "age":22.7,
     "weighted_ppg":2.5833333333,
     "replacement_level":8.899609375,
     "vorp":-6.3162760417,
@@ -16808,22 +16808,22 @@
     "dynasty_trailing_value":-6.425
   },
   {
-    "player_id":"00-0038684",
-    "full_name":"Ethan Bonner",
-    "position":"CB",
-    "team":"MIA",
-    "age":26.8,
+    "player_id":"00-0040230",
+    "full_name":"Kitan Crawford",
+    "position":"FS",
+    "team":"ARI",
+    "age":24.6,
     "weighted_ppg":2.475,
     "replacement_level":8.899609375,
     "vorp":-6.424609375,
     "dynasty_trailing_value":-6.425
   },
   {
-    "player_id":"00-0040230",
-    "full_name":"Kitan Crawford",
-    "position":"FS",
-    "team":"ARI",
-    "age":24.6,
+    "player_id":"00-0038684",
+    "full_name":"Ethan Bonner",
+    "position":"CB",
+    "team":"MIA",
+    "age":26.8,
     "weighted_ppg":2.475,
     "replacement_level":8.899609375,
     "vorp":-6.424609375,
@@ -17116,22 +17116,22 @@
     "dynasty_trailing_value":-6.581
   },
   {
-    "player_id":"00-0040406",
-    "full_name":"Quentin Skinner",
+    "player_id":"00-0039816",
+    "full_name":"Anthony Gould",
     "position":"WR",
-    "team":"NYJ",
-    "age":24.6,
+    "team":"IND",
+    "age":25.3,
     "weighted_ppg":1.1,
     "replacement_level":7.6848333333,
     "vorp":-6.5848333333,
     "dynasty_trailing_value":-6.585
   },
   {
-    "player_id":"00-0039816",
-    "full_name":"Anthony Gould",
+    "player_id":"00-0040406",
+    "full_name":"Quentin Skinner",
     "position":"WR",
-    "team":"IND",
-    "age":25.3,
+    "team":"NYJ",
+    "age":24.6,
     "weighted_ppg":1.1,
     "replacement_level":7.6848333333,
     "vorp":-6.5848333333,
@@ -17259,17 +17259,6 @@
     "dynasty_trailing_value":-6.647
   },
   {
-    "player_id":"00-0039480",
-    "full_name":"Jordan Colbert",
-    "position":"SS",
-    "team":"MIA",
-    "age":26.4,
-    "weighted_ppg":2.25,
-    "replacement_level":8.899609375,
-    "vorp":-6.649609375,
-    "dynasty_trailing_value":-6.65
-  },
-  {
     "player_id":"00-0039448",
     "full_name":"Loren Strickland",
     "position":"FS",
@@ -17281,22 +17270,11 @@
     "dynasty_trailing_value":-6.65
   },
   {
-    "player_id":"00-0036359",
-    "full_name":"Damon Arnette",
-    "position":"CB",
-    "team":"HOU",
-    "age":29.9,
-    "weighted_ppg":2.25,
-    "replacement_level":8.899609375,
-    "vorp":-6.649609375,
-    "dynasty_trailing_value":-6.65
-  },
-  {
-    "player_id":"00-0040027",
-    "full_name":"Brandon Johnson",
-    "position":"CB",
-    "team":"PHI",
-    "age":23.4,
+    "player_id":"00-0039480",
+    "full_name":"Jordan Colbert",
+    "position":"SS",
+    "team":"MIA",
+    "age":26.4,
     "weighted_ppg":2.25,
     "replacement_level":8.899609375,
     "vorp":-6.649609375,
@@ -17314,17 +17292,6 @@
     "dynasty_trailing_value":-6.65
   },
   {
-    "player_id":"00-0034858",
-    "full_name":"Terrell Edmunds",
-    "position":"FS",
-    "team":"LV",
-    "age":29.5,
-    "weighted_ppg":2.25,
-    "replacement_level":8.899609375,
-    "vorp":-6.649609375,
-    "dynasty_trailing_value":-6.65
-  },
-  {
     "player_id":"00-0033566",
     "full_name":"Desmond King",
     "position":"CB",
@@ -17336,11 +17303,44 @@
     "dynasty_trailing_value":-6.65
   },
   {
+    "player_id":"00-0040027",
+    "full_name":"Brandon Johnson",
+    "position":"CB",
+    "team":"PHI",
+    "age":23.4,
+    "weighted_ppg":2.25,
+    "replacement_level":8.899609375,
+    "vorp":-6.649609375,
+    "dynasty_trailing_value":-6.65
+  },
+  {
+    "player_id":"00-0036359",
+    "full_name":"Damon Arnette",
+    "position":"CB",
+    "team":"HOU",
+    "age":29.9,
+    "weighted_ppg":2.25,
+    "replacement_level":8.899609375,
+    "vorp":-6.649609375,
+    "dynasty_trailing_value":-6.65
+  },
+  {
     "player_id":"00-0039483",
     "full_name":"Isaiah Johnson",
     "position":"CB",
     "team":"MIA",
     "age":26.3,
+    "weighted_ppg":2.25,
+    "replacement_level":8.899609375,
+    "vorp":-6.649609375,
+    "dynasty_trailing_value":-6.65
+  },
+  {
+    "player_id":"00-0034858",
+    "full_name":"Terrell Edmunds",
+    "position":"FS",
+    "team":"LV",
+    "age":29.5,
     "weighted_ppg":2.25,
     "replacement_level":8.899609375,
     "vorp":-6.649609375,
@@ -17413,22 +17413,22 @@
     "dynasty_trailing_value":-6.682
   },
   {
-    "player_id":"00-0037422",
-    "full_name":"Kendric Pryor",
+    "player_id":"00-0039884",
+    "full_name":"Tahj Washington",
     "position":"WR",
-    "team":"CIN",
-    "age":28.6,
+    "team":"MIA",
+    "age":25.2,
     "weighted_ppg":1.0,
     "replacement_level":7.6848333333,
     "vorp":-6.6848333333,
     "dynasty_trailing_value":-6.685
   },
   {
-    "player_id":"00-0039884",
-    "full_name":"Tahj Washington",
+    "player_id":"00-0037422",
+    "full_name":"Kendric Pryor",
     "position":"WR",
-    "team":"MIA",
-    "age":25.2,
+    "team":"CIN",
+    "age":28.6,
     "weighted_ppg":1.0,
     "replacement_level":7.6848333333,
     "vorp":-6.6848333333,
@@ -17461,7 +17461,7 @@
     "full_name":"Jay Ward",
     "position":"SS",
     "team":"MIN",
-    "age":26.0,
+    "age":26.1,
     "weighted_ppg":2.21125,
     "replacement_level":8.899609375,
     "vorp":-6.688359375,
@@ -17472,7 +17472,7 @@
     "full_name":"Dameon Pierce",
     "position":"RB",
     "team":"KC",
-    "age":26.4,
+    "age":26.5,
     "weighted_ppg":2.1545454545,
     "replacement_level":8.8619047619,
     "vorp":-6.7073593074,
@@ -17523,17 +17523,6 @@
     "dynasty_trailing_value":-6.758
   },
   {
-    "player_id":"00-0039299",
-    "full_name":"George Holani",
-    "position":"RB",
-    "team":"SEA",
-    "age":26.6,
-    "weighted_ppg":2.1033333333,
-    "replacement_level":8.8619047619,
-    "vorp":-6.7585714286,
-    "dynasty_trailing_value":-6.759
-  },
-  {
     "player_id":"00-0036884",
     "full_name":"Marco Wilson",
     "position":"CB",
@@ -17542,6 +17531,17 @@
     "weighted_ppg":2.140625,
     "replacement_level":8.899609375,
     "vorp":-6.758984375,
+    "dynasty_trailing_value":-6.759
+  },
+  {
+    "player_id":"00-0039299",
+    "full_name":"George Holani",
+    "position":"RB",
+    "team":"SEA",
+    "age":26.6,
+    "weighted_ppg":2.1033333333,
+    "replacement_level":8.8619047619,
+    "vorp":-6.7585714286,
     "dynasty_trailing_value":-6.759
   },
   {
@@ -17571,22 +17571,11 @@
     "full_name":"Keondre Jackson",
     "position":"FS",
     "team":"BAL",
-    "age":24.2,
+    "age":24.3,
     "weighted_ppg":2.125,
     "replacement_level":8.899609375,
     "vorp":-6.774609375,
     "dynasty_trailing_value":-6.775
-  },
-  {
-    "player_id":"00-0040432",
-    "full_name":"Beaux Collins",
-    "position":"WR",
-    "team":"NYG",
-    "age":23.6,
-    "weighted_ppg":0.9,
-    "replacement_level":7.6848333333,
-    "vorp":-6.7848333333,
-    "dynasty_trailing_value":-6.785
   },
   {
     "player_id":"00-0036463",
@@ -17594,6 +17583,17 @@
     "position":"WR",
     "team":"ATL",
     "age":28.8,
+    "weighted_ppg":0.9,
+    "replacement_level":7.6848333333,
+    "vorp":-6.7848333333,
+    "dynasty_trailing_value":-6.785
+  },
+  {
+    "player_id":"00-0040432",
+    "full_name":"Beaux Collins",
+    "position":"WR",
+    "team":"NYG",
+    "age":23.6,
     "weighted_ppg":0.9,
     "replacement_level":7.6848333333,
     "vorp":-6.7848333333,
@@ -17670,7 +17670,7 @@
     "full_name":"Junior Colson",
     "position":"OLB",
     "team":"LAC",
-    "age":23.6,
+    "age":23.7,
     "weighted_ppg":3.4090909091,
     "replacement_level":10.2180555556,
     "vorp":-6.8089646465,
@@ -17846,7 +17846,7 @@
     "full_name":"Jalin Hyatt",
     "position":"WR",
     "team":"NYG",
-    "age":24.8,
+    "age":24.9,
     "weighted_ppg":0.765,
     "replacement_level":7.6848333333,
     "vorp":-6.9198333333,
@@ -17930,17 +17930,6 @@
     "dynasty_trailing_value":-6.962
   },
   {
-    "player_id":"00-0037314",
-    "full_name":"Isaiah Thomas",
-    "position":"OLB",
-    "team":"CIN",
-    "age":27.7,
-    "weighted_ppg":3.25,
-    "replacement_level":10.2180555556,
-    "vorp":-6.9680555556,
-    "dynasty_trailing_value":-6.968
-  },
-  {
     "player_id":"00-0037153",
     "full_name":"Vi Jones",
     "position":"ILB",
@@ -17952,11 +17941,22 @@
     "dynasty_trailing_value":-6.968
   },
   {
-    "player_id":"00-0033460",
-    "full_name":"John Ross",
+    "player_id":"00-0037314",
+    "full_name":"Isaiah Thomas",
+    "position":"OLB",
+    "team":"CIN",
+    "age":27.7,
+    "weighted_ppg":3.25,
+    "replacement_level":10.2180555556,
+    "vorp":-6.9680555556,
+    "dynasty_trailing_value":-6.968
+  },
+  {
+    "player_id":"00-0036877",
+    "full_name":"Jaelon Darden",
     "position":"WR",
-    "team":"PHI",
-    "age":30.7,
+    "team":"SEA",
+    "age":27.5,
     "weighted_ppg":0.7,
     "replacement_level":7.6848333333,
     "vorp":-6.9848333333,
@@ -17974,11 +17974,11 @@
     "dynasty_trailing_value":-6.985
   },
   {
-    "player_id":"00-0036877",
-    "full_name":"Jaelon Darden",
+    "player_id":"00-0033460",
+    "full_name":"John Ross",
     "position":"WR",
-    "team":"SEA",
-    "age":27.5,
+    "team":"PHI",
+    "age":30.7,
     "weighted_ppg":0.7,
     "replacement_level":7.6848333333,
     "vorp":-6.9848333333,
@@ -18062,22 +18062,22 @@
     "dynasty_trailing_value":-7.018
   },
   {
-    "player_id":"00-0038105",
-    "full_name":"Damarri Mathis",
+    "player_id":"00-0039416",
+    "full_name":"Jaden Davis",
     "position":"CB",
-    "team":"CAR",
-    "age":27.3,
+    "team":"ARI",
+    "age":25.0,
     "weighted_ppg":1.875,
     "replacement_level":8.899609375,
     "vorp":-7.024609375,
     "dynasty_trailing_value":-7.025
   },
   {
-    "player_id":"00-0039416",
-    "full_name":"Jaden Davis",
+    "player_id":"00-0038105",
+    "full_name":"Damarri Mathis",
     "position":"CB",
-    "team":"ARI",
-    "age":25.0,
+    "team":"CAR",
+    "age":27.3,
     "weighted_ppg":1.875,
     "replacement_level":8.899609375,
     "vorp":-7.024609375,
@@ -18106,17 +18106,6 @@
     "dynasty_trailing_value":-7.036
   },
   {
-    "player_id":"00-0038622",
-    "full_name":"Deuce Vaughn",
-    "position":"RB",
-    "team":"DEN",
-    "age":24.7,
-    "weighted_ppg":1.82,
-    "replacement_level":8.8619047619,
-    "vorp":-7.0419047619,
-    "dynasty_trailing_value":-7.042
-  },
-  {
     "player_id":"00-0033524",
     "full_name":"Kevin King",
     "position":"CB",
@@ -18125,6 +18114,17 @@
     "weighted_ppg":1.8571428571,
     "replacement_level":8.899609375,
     "vorp":-7.0424665179,
+    "dynasty_trailing_value":-7.042
+  },
+  {
+    "player_id":"00-0038622",
+    "full_name":"Deuce Vaughn",
+    "position":"RB",
+    "team":"DEN",
+    "age":24.7,
+    "weighted_ppg":1.82,
+    "replacement_level":8.8619047619,
+    "vorp":-7.0419047619,
     "dynasty_trailing_value":-7.042
   },
   {
@@ -18143,7 +18143,7 @@
     "full_name":"Jaylen Harrell",
     "position":"OLB",
     "team":"TEN",
-    "age":24.2,
+    "age":24.3,
     "weighted_ppg":3.159375,
     "replacement_level":10.2180555556,
     "vorp":-7.0586805556,
@@ -18205,17 +18205,6 @@
     "dynasty_trailing_value":-7.082
   },
   {
-    "player_id":"00-0038941",
-    "full_name":"Tyler Scott",
-    "position":"WR",
-    "team":"LA",
-    "age":24.8,
-    "weighted_ppg":0.6,
-    "replacement_level":7.6848333333,
-    "vorp":-7.0848333333,
-    "dynasty_trailing_value":-7.085
-  },
-  {
     "player_id":"00-0040582",
     "full_name":"Arian Smith",
     "position":"WR",
@@ -18227,11 +18216,22 @@
     "dynasty_trailing_value":-7.085
   },
   {
+    "player_id":"00-0038941",
+    "full_name":"Tyler Scott",
+    "position":"WR",
+    "team":"LA",
+    "age":24.8,
+    "weighted_ppg":0.6,
+    "replacement_level":7.6848333333,
+    "vorp":-7.0848333333,
+    "dynasty_trailing_value":-7.085
+  },
+  {
     "player_id":"00-0040646",
     "full_name":"Jalen Royals",
     "position":"WR",
     "team":"KC",
-    "age":23.4,
+    "age":23.5,
     "weighted_ppg":0.6,
     "replacement_level":7.6848333333,
     "vorp":-7.0848333333,
@@ -18242,7 +18242,7 @@
     "full_name":"Segun Olubi",
     "position":"OLB",
     "team":"IND",
-    "age":26.7,
+    "age":26.8,
     "weighted_ppg":3.095,
     "replacement_level":10.2180555556,
     "vorp":-7.1230555556,
@@ -18282,17 +18282,6 @@
     "dynasty_trailing_value":-7.135
   },
   {
-    "player_id":"00-0037617",
-    "full_name":"Hassan Haskins",
-    "position":"RB",
-    "team":"LAC",
-    "age":26.7,
-    "weighted_ppg":1.7245,
-    "replacement_level":8.8619047619,
-    "vorp":-7.1374047619,
-    "dynasty_trailing_value":-7.137
-  },
-  {
     "player_id":"00-0032399",
     "full_name":"Miles Killebrew",
     "position":"FS",
@@ -18312,6 +18301,17 @@
     "weighted_ppg":1.7625,
     "replacement_level":8.899609375,
     "vorp":-7.137109375,
+    "dynasty_trailing_value":-7.137
+  },
+  {
+    "player_id":"00-0037617",
+    "full_name":"Hassan Haskins",
+    "position":"RB",
+    "team":"LAC",
+    "age":26.7,
+    "weighted_ppg":1.7245,
+    "replacement_level":8.8619047619,
+    "vorp":-7.1374047619,
     "dynasty_trailing_value":-7.137
   },
   {
@@ -18502,22 +18502,22 @@
     "dynasty_trailing_value":-7.257
   },
   {
-    "player_id":"00-0039393",
-    "full_name":"Jase McClellan",
+    "player_id":"00-0039344",
+    "full_name":"Jonathon Brooks",
     "position":"RB",
-    "team":"TB",
-    "age":24.1,
+    "team":"CAR",
+    "age":23.0,
     "weighted_ppg":1.6,
     "replacement_level":8.8619047619,
     "vorp":-7.2619047619,
     "dynasty_trailing_value":-7.262
   },
   {
-    "player_id":"00-0039344",
-    "full_name":"Jonathon Brooks",
+    "player_id":"00-0039393",
+    "full_name":"Jase McClellan",
     "position":"RB",
-    "team":"CAR",
-    "age":23.0,
+    "team":"TB",
+    "age":24.1,
     "weighted_ppg":1.6,
     "replacement_level":8.8619047619,
     "vorp":-7.2619047619,
@@ -18579,22 +18579,22 @@
     "dynasty_trailing_value":-7.283
   },
   {
-    "player_id":"00-0037098",
-    "full_name":"Samori Toure",
+    "player_id":"00-0039543",
+    "full_name":"Ramel Keyton",
     "position":"WR",
-    "team":"NO",
-    "age":28.4,
+    "team":"LV",
+    "age":25.9,
     "weighted_ppg":0.4,
     "replacement_level":7.6848333333,
     "vorp":-7.2848333333,
     "dynasty_trailing_value":-7.285
   },
   {
-    "player_id":"00-0039543",
-    "full_name":"Ramel Keyton",
+    "player_id":"00-0037098",
+    "full_name":"Samori Toure",
     "position":"WR",
-    "team":"LV",
-    "age":25.9,
+    "team":"NO",
+    "age":28.4,
     "weighted_ppg":0.4,
     "replacement_level":7.6848333333,
     "vorp":-7.2848333333,
@@ -18704,7 +18704,7 @@
     "full_name":"Javon Baker",
     "position":"WR",
     "team":"SF",
-    "age":24.4,
+    "age":24.5,
     "weighted_ppg":0.325,
     "replacement_level":7.6848333333,
     "vorp":-7.3598333333,
@@ -18715,7 +18715,7 @@
     "full_name":"Nick Vigil",
     "position":"ILB",
     "team":"DAL",
-    "age":32.9,
+    "age":33.0,
     "weighted_ppg":2.85,
     "replacement_level":10.2180555556,
     "vorp":-7.3680555556,
@@ -18755,55 +18755,22 @@
     "dynasty_trailing_value":-7.391
   },
   {
-    "player_id":"00-0039800",
-    "full_name":"DJ James",
+    "player_id":"00-0035696",
+    "full_name":"Duke Shelley",
     "position":"CB",
-    "team":"NE",
-    "age":25.4,
+    "team":"IND",
+    "age":29.8,
     "weighted_ppg":1.5,
     "replacement_level":8.899609375,
     "vorp":-7.399609375,
     "dynasty_trailing_value":-7.4
   },
   {
-    "player_id":"00-0039862",
-    "full_name":"Ennis Rakestraw Jr.",
-    "position":"CB",
-    "team":"DET",
-    "age":24.2,
-    "weighted_ppg":1.5,
-    "replacement_level":8.899609375,
-    "vorp":-7.399609375,
-    "dynasty_trailing_value":-7.4
-  },
-  {
-    "player_id":"00-0038587",
-    "full_name":"Jammie Robinson",
-    "position":"SS",
-    "team":"ATL",
-    "age":25.5,
-    "weighted_ppg":1.5,
-    "replacement_level":8.899609375,
-    "vorp":-7.399609375,
-    "dynasty_trailing_value":-7.4
-  },
-  {
-    "player_id":"00-0038487",
-    "full_name":"Eli Ricks",
-    "position":"CB",
-    "team":"PHI",
-    "age":24.8,
-    "weighted_ppg":1.5,
-    "replacement_level":8.899609375,
-    "vorp":-7.399609375,
-    "dynasty_trailing_value":-7.4
-  },
-  {
-    "player_id":"00-0040071",
-    "full_name":"Mac McWilliams",
-    "position":"CB",
-    "team":"PHI",
-    "age":24.7,
+    "player_id":"00-0037844",
+    "full_name":"Russ Yeast",
+    "position":"FS",
+    "team":"CIN",
+    "age":27.2,
     "weighted_ppg":1.5,
     "replacement_level":8.899609375,
     "vorp":-7.399609375,
@@ -18821,55 +18788,22 @@
     "dynasty_trailing_value":-7.4
   },
   {
-    "player_id":"00-0035696",
-    "full_name":"Duke Shelley",
+    "player_id":"00-0039800",
+    "full_name":"DJ James",
     "position":"CB",
-    "team":"IND",
-    "age":29.8,
+    "team":"NE",
+    "age":25.4,
     "weighted_ppg":1.5,
     "replacement_level":8.899609375,
     "vorp":-7.399609375,
     "dynasty_trailing_value":-7.4
   },
   {
-    "player_id":"00-0038866",
-    "full_name":"AJ Finley",
-    "position":"FS",
-    "team":"SEA",
-    "age":24.9,
-    "weighted_ppg":1.5,
-    "replacement_level":8.899609375,
-    "vorp":-7.399609375,
-    "dynasty_trailing_value":-7.4
-  },
-  {
-    "player_id":"00-0038521",
-    "full_name":"Reese Taylor",
+    "player_id":"00-0040071",
+    "full_name":"Mac McWilliams",
     "position":"CB",
-    "team":"DEN",
-    "age":26.9,
-    "weighted_ppg":1.5,
-    "replacement_level":8.899609375,
-    "vorp":-7.399609375,
-    "dynasty_trailing_value":-7.4
-  },
-  {
-    "player_id":"00-0039714",
-    "full_name":"Dwight McGlothern",
-    "position":"CB",
-    "team":"MIN",
-    "age":24.5,
-    "weighted_ppg":1.5,
-    "replacement_level":8.899609375,
-    "vorp":-7.399609375,
-    "dynasty_trailing_value":-7.4
-  },
-  {
-    "player_id":"00-0036114",
-    "full_name":"A.J. Green",
-    "position":"CB",
-    "team":"MIA",
-    "age":28.1,
+    "team":"PHI",
+    "age":24.7,
     "weighted_ppg":1.5,
     "replacement_level":8.899609375,
     "vorp":-7.399609375,
@@ -18887,11 +18821,77 @@
     "dynasty_trailing_value":-7.4
   },
   {
+    "player_id":"00-0038587",
+    "full_name":"Jammie Robinson",
+    "position":"SS",
+    "team":"ATL",
+    "age":25.5,
+    "weighted_ppg":1.5,
+    "replacement_level":8.899609375,
+    "vorp":-7.399609375,
+    "dynasty_trailing_value":-7.4
+  },
+  {
     "player_id":"00-0038411",
     "full_name":"Anthony Johnson Jr.",
     "position":"FS",
     "team":"NYG",
     "age":26.7,
+    "weighted_ppg":1.5,
+    "replacement_level":8.899609375,
+    "vorp":-7.399609375,
+    "dynasty_trailing_value":-7.4
+  },
+  {
+    "player_id":"00-0038487",
+    "full_name":"Eli Ricks",
+    "position":"CB",
+    "team":"PHI",
+    "age":24.8,
+    "weighted_ppg":1.5,
+    "replacement_level":8.899609375,
+    "vorp":-7.399609375,
+    "dynasty_trailing_value":-7.4
+  },
+  {
+    "player_id":"00-0036114",
+    "full_name":"A.J. Green",
+    "position":"CB",
+    "team":"MIA",
+    "age":28.1,
+    "weighted_ppg":1.5,
+    "replacement_level":8.899609375,
+    "vorp":-7.399609375,
+    "dynasty_trailing_value":-7.4
+  },
+  {
+    "player_id":"00-0039714",
+    "full_name":"Dwight McGlothern",
+    "position":"CB",
+    "team":"MIN",
+    "age":24.5,
+    "weighted_ppg":1.5,
+    "replacement_level":8.899609375,
+    "vorp":-7.399609375,
+    "dynasty_trailing_value":-7.4
+  },
+  {
+    "player_id":"00-0038866",
+    "full_name":"AJ Finley",
+    "position":"FS",
+    "team":"SEA",
+    "age":24.9,
+    "weighted_ppg":1.5,
+    "replacement_level":8.899609375,
+    "vorp":-7.399609375,
+    "dynasty_trailing_value":-7.4
+  },
+  {
+    "player_id":"00-0039862",
+    "full_name":"Ennis Rakestraw Jr.",
+    "position":"CB",
+    "team":"DET",
+    "age":24.2,
     "weighted_ppg":1.5,
     "replacement_level":8.899609375,
     "vorp":-7.399609375,
@@ -18909,22 +18909,22 @@
     "dynasty_trailing_value":-7.4
   },
   {
-    "player_id":"00-0040357",
-    "full_name":"Trey Washington",
-    "position":"FS",
-    "team":"IND",
-    "age":23.6,
+    "player_id":"00-0038521",
+    "full_name":"Reese Taylor",
+    "position":"CB",
+    "team":"DEN",
+    "age":26.9,
     "weighted_ppg":1.5,
     "replacement_level":8.899609375,
     "vorp":-7.399609375,
     "dynasty_trailing_value":-7.4
   },
   {
-    "player_id":"00-0037844",
-    "full_name":"Russ Yeast",
+    "player_id":"00-0040357",
+    "full_name":"Trey Washington",
     "position":"FS",
-    "team":"CIN",
-    "age":27.2,
+    "team":"IND",
+    "age":23.6,
     "weighted_ppg":1.5,
     "replacement_level":8.899609375,
     "vorp":-7.399609375,
@@ -19023,7 +19023,7 @@
     "full_name":"Chris Smith II",
     "position":"FS",
     "team":"NYJ",
-    "age":26.2,
+    "age":26.3,
     "weighted_ppg":1.4375,
     "replacement_level":8.899609375,
     "vorp":-7.462109375,
@@ -19122,7 +19122,7 @@
     "full_name":"Tommy Eichenberg",
     "position":"MLB",
     "team":"LV",
-    "age":25.5,
+    "age":25.6,
     "weighted_ppg":2.7133928571,
     "replacement_level":10.2180555556,
     "vorp":-7.5046626984,
@@ -19166,7 +19166,7 @@
     "full_name":"Rashad Wisdom",
     "position":"FS",
     "team":"TB",
-    "age":25.1,
+    "age":25.2,
     "weighted_ppg":1.3333333333,
     "replacement_level":8.899609375,
     "vorp":-7.5662760417,
@@ -19206,22 +19206,22 @@
     "dynasty_trailing_value":-7.587
   },
   {
-    "player_id":"00-0033549",
-    "full_name":"Duke Riley",
-    "position":"ILB",
-    "team":"WAS",
-    "age":32.0,
+    "player_id":"00-0034382",
+    "full_name":"Marquis Haynes",
+    "position":"OLB",
+    "team":"CAR",
+    "age":32.6,
     "weighted_ppg":2.625,
     "replacement_level":10.2180555556,
     "vorp":-7.5930555556,
     "dynasty_trailing_value":-7.593
   },
   {
-    "player_id":"00-0034382",
-    "full_name":"Marquis Haynes",
-    "position":"OLB",
-    "team":"CAR",
-    "age":32.6,
+    "player_id":"00-0033549",
+    "full_name":"Duke Riley",
+    "position":"ILB",
+    "team":"WAS",
+    "age":32.0,
     "weighted_ppg":2.625,
     "replacement_level":10.2180555556,
     "vorp":-7.5930555556,
@@ -19283,6 +19283,17 @@
     "dynasty_trailing_value":-7.643
   },
   {
+    "player_id":"00-0040527",
+    "full_name":"Sebastian Castro",
+    "position":"FS",
+    "team":"PIT",
+    "age":25.8,
+    "weighted_ppg":1.25,
+    "replacement_level":8.899609375,
+    "vorp":-7.649609375,
+    "dynasty_trailing_value":-7.65
+  },
+  {
     "player_id":"00-0040471",
     "full_name":"Nikko Reed",
     "position":"CB",
@@ -19299,17 +19310,6 @@
     "position":"SS",
     "team":"LA",
     "age":26.8,
-    "weighted_ppg":1.25,
-    "replacement_level":8.899609375,
-    "vorp":-7.649609375,
-    "dynasty_trailing_value":-7.65
-  },
-  {
-    "player_id":"00-0040527",
-    "full_name":"Sebastian Castro",
-    "position":"FS",
-    "team":"PIT",
-    "age":25.8,
     "weighted_ppg":1.25,
     "replacement_level":8.899609375,
     "vorp":-7.649609375,
@@ -19338,11 +19338,11 @@
     "dynasty_trailing_value":-7.676
   },
   {
-    "player_id":"00-0034867",
-    "full_name":"Malik Turner",
+    "player_id":"00-0040352",
+    "full_name":"Coleman Owen",
     "position":"WR",
-    "team":"SF",
-    "age":30.5,
+    "team":"IND",
+    "age":25.4,
     "weighted_ppg":0.0,
     "replacement_level":7.6848333333,
     "vorp":-7.6848333333,
@@ -19371,11 +19371,22 @@
     "dynasty_trailing_value":-7.685
   },
   {
-    "player_id":"00-0040352",
-    "full_name":"Coleman Owen",
+    "player_id":"00-0038092",
+    "full_name":"Erik Ezukanma",
     "position":"WR",
-    "team":"IND",
-    "age":25.4,
+    "team":"JAX",
+    "age":26.5,
+    "weighted_ppg":0.0,
+    "replacement_level":7.6848333333,
+    "vorp":-7.6848333333,
+    "dynasty_trailing_value":-7.685
+  },
+  {
+    "player_id":"00-0034867",
+    "full_name":"Malik Turner",
+    "position":"WR",
+    "team":"SF",
+    "age":30.5,
     "weighted_ppg":0.0,
     "replacement_level":7.6848333333,
     "vorp":-7.6848333333,
@@ -19415,17 +19426,6 @@
     "dynasty_trailing_value":-7.685
   },
   {
-    "player_id":"00-0038092",
-    "full_name":"Erik Ezukanma",
-    "position":"WR",
-    "team":"JAX",
-    "age":26.5,
-    "weighted_ppg":0.0,
-    "replacement_level":7.6848333333,
-    "vorp":-7.6848333333,
-    "dynasty_trailing_value":-7.685
-  },
-  {
     "player_id":"00-0036045",
     "full_name":"Cam Gill",
     "position":"OLB",
@@ -19459,22 +19459,22 @@
     "dynasty_trailing_value":-7.7
   },
   {
-    "player_id":"00-0036870",
-    "full_name":"Buddy Johnson",
-    "position":"MLB",
-    "team":"IND",
-    "age":27.4,
+    "player_id":"00-0040012",
+    "full_name":"Collin Oliver",
+    "position":"OLB",
+    "team":"GB",
+    "age":23.9,
     "weighted_ppg":2.5,
     "replacement_level":10.2180555556,
     "vorp":-7.7180555556,
     "dynasty_trailing_value":-7.718
   },
   {
-    "player_id":"00-0040012",
-    "full_name":"Collin Oliver",
-    "position":"OLB",
-    "team":"GB",
-    "age":23.9,
+    "player_id":"00-0036870",
+    "full_name":"Buddy Johnson",
+    "position":"MLB",
+    "team":"IND",
+    "age":27.4,
     "weighted_ppg":2.5,
     "replacement_level":10.2180555556,
     "vorp":-7.7180555556,
@@ -19525,17 +19525,6 @@
     "dynasty_trailing_value":-7.733
   },
   {
-    "player_id":"00-0035567",
-    "full_name":"Craig Reynolds",
-    "position":"RB",
-    "team":"NE",
-    "age":30.1,
-    "weighted_ppg":1.12,
-    "replacement_level":8.8619047619,
-    "vorp":-7.7419047619,
-    "dynasty_trailing_value":-7.742
-  },
-  {
     "player_id":"00-0037593",
     "full_name":"Tre Avery",
     "position":"CB",
@@ -19547,15 +19536,15 @@
     "dynasty_trailing_value":-7.742
   },
   {
-    "player_id":"00-0040429",
-    "full_name":"Josh Williams",
+    "player_id":"00-0035567",
+    "full_name":"Craig Reynolds",
     "position":"RB",
-    "team":"TB",
-    "age":26.1,
-    "weighted_ppg":1.1,
+    "team":"NE",
+    "age":30.1,
+    "weighted_ppg":1.12,
     "replacement_level":8.8619047619,
-    "vorp":-7.7619047619,
-    "dynasty_trailing_value":-7.762
+    "vorp":-7.7419047619,
+    "dynasty_trailing_value":-7.742
   },
   {
     "player_id":"00-0031357",
@@ -19566,17 +19555,6 @@
     "weighted_ppg":1.1375,
     "replacement_level":8.899609375,
     "vorp":-7.762109375,
-    "dynasty_trailing_value":-7.762
-  },
-  {
-    "player_id":"00-0035924",
-    "full_name":"Jonathan Ward",
-    "position":"RB",
-    "team":"BAL",
-    "age":28.8,
-    "weighted_ppg":1.1,
-    "replacement_level":8.8619047619,
-    "vorp":-7.7619047619,
     "dynasty_trailing_value":-7.762
   },
   {
@@ -19602,6 +19580,28 @@
     "dynasty_trailing_value":-7.762
   },
   {
+    "player_id":"00-0040429",
+    "full_name":"Josh Williams",
+    "position":"RB",
+    "team":"TB",
+    "age":26.1,
+    "weighted_ppg":1.1,
+    "replacement_level":8.8619047619,
+    "vorp":-7.7619047619,
+    "dynasty_trailing_value":-7.762
+  },
+  {
+    "player_id":"00-0035924",
+    "full_name":"Jonathan Ward",
+    "position":"RB",
+    "team":"BAL",
+    "age":28.8,
+    "weighted_ppg":1.1,
+    "replacement_level":8.8619047619,
+    "vorp":-7.7619047619,
+    "dynasty_trailing_value":-7.762
+  },
+  {
     "player_id":"00-0031763",
     "full_name":"DeAndre Carter",
     "position":"WR",
@@ -19613,22 +19613,22 @@
     "dynasty_trailing_value":-7.768
   },
   {
-    "player_id":"00-0038624",
-    "full_name":"Ameer Speed",
+    "player_id":"00-0037091",
+    "full_name":"Bo Melton",
     "position":"CB",
-    "team":"HOU",
-    "age":26.8,
+    "team":"GB",
+    "age":27.2,
     "weighted_ppg":1.125,
     "replacement_level":8.899609375,
     "vorp":-7.774609375,
     "dynasty_trailing_value":-7.775
   },
   {
-    "player_id":"00-0037091",
-    "full_name":"Bo Melton",
+    "player_id":"00-0037319",
+    "full_name":"Faion Hicks",
     "position":"CB",
-    "team":"GB",
-    "age":27.2,
+    "team":"SEA",
+    "age":27.9,
     "weighted_ppg":1.125,
     "replacement_level":8.899609375,
     "vorp":-7.774609375,
@@ -19646,11 +19646,11 @@
     "dynasty_trailing_value":-7.775
   },
   {
-    "player_id":"00-0037319",
-    "full_name":"Faion Hicks",
+    "player_id":"00-0038624",
+    "full_name":"Ameer Speed",
     "position":"CB",
-    "team":"SEA",
-    "age":27.9,
+    "team":"HOU",
+    "age":26.8,
     "weighted_ppg":1.125,
     "replacement_level":8.899609375,
     "vorp":-7.774609375,
@@ -19694,7 +19694,7 @@
     "full_name":"AJ Dillon",
     "position":"RB",
     "team":"PHI",
-    "age":28.2,
+    "age":28.3,
     "weighted_ppg":1.0666666667,
     "replacement_level":8.8619047619,
     "vorp":-7.7952380952,
@@ -19778,22 +19778,22 @@
     "dynasty_trailing_value":-7.856
   },
   {
-    "player_id":"00-0039703",
-    "full_name":"Cody Schrader",
+    "player_id":"00-0034208",
+    "full_name":"Mike Boone",
     "position":"RB",
-    "team":"DEN",
-    "age":26.9,
+    "team":"MIA",
+    "age":31.0,
     "weighted_ppg":1.0,
     "replacement_level":8.8619047619,
     "vorp":-7.8619047619,
     "dynasty_trailing_value":-7.862
   },
   {
-    "player_id":"00-0034208",
-    "full_name":"Mike Boone",
+    "player_id":"00-0039703",
+    "full_name":"Cody Schrader",
     "position":"RB",
-    "team":"MIA",
-    "age":31.0,
+    "team":"DEN",
+    "age":26.9,
     "weighted_ppg":1.0,
     "replacement_level":8.8619047619,
     "vorp":-7.8619047619,
@@ -19822,11 +19822,11 @@
     "dynasty_trailing_value":-7.877
   },
   {
-    "player_id":"00-0037057",
-    "full_name":"Keir Thomas",
-    "position":"OLB",
-    "team":"LA",
-    "age":28.5,
+    "player_id":"00-0040289",
+    "full_name":"Bam Martin-Scott",
+    "position":"ILB",
+    "team":"CAR",
+    "age":26.1,
     "weighted_ppg":2.3333333333,
     "replacement_level":10.2180555556,
     "vorp":-7.8847222222,
@@ -19844,6 +19844,17 @@
     "dynasty_trailing_value":-7.885
   },
   {
+    "player_id":"00-0037057",
+    "full_name":"Keir Thomas",
+    "position":"OLB",
+    "team":"LA",
+    "age":28.5,
+    "weighted_ppg":2.3333333333,
+    "replacement_level":10.2180555556,
+    "vorp":-7.8847222222,
+    "dynasty_trailing_value":-7.885
+  },
+  {
     "player_id":"00-0036913",
     "full_name":"Kadarius Toney",
     "position":"WR",
@@ -19852,17 +19863,6 @@
     "weighted_ppg":-0.2,
     "replacement_level":7.6848333333,
     "vorp":-7.8848333333,
-    "dynasty_trailing_value":-7.885
-  },
-  {
-    "player_id":"00-0040289",
-    "full_name":"Bam Martin-Scott",
-    "position":"ILB",
-    "team":"CAR",
-    "age":26.1,
-    "weighted_ppg":2.3333333333,
-    "replacement_level":10.2180555556,
-    "vorp":-7.8847222222,
     "dynasty_trailing_value":-7.885
   },
   {
@@ -19987,28 +19987,6 @@
     "dynasty_trailing_value":-7.965
   },
   {
-    "player_id":"00-0040167",
-    "full_name":"Ruben Hyppolite II",
-    "position":"OLB",
-    "team":"CHI",
-    "age":24.9,
-    "weighted_ppg":2.25,
-    "replacement_level":10.2180555556,
-    "vorp":-7.9680555556,
-    "dynasty_trailing_value":-7.968
-  },
-  {
-    "player_id":"00-0038682",
-    "full_name":"Mitchell Agude",
-    "position":"OLB",
-    "team":"DET",
-    "age":27.4,
-    "weighted_ppg":2.25,
-    "replacement_level":10.2180555556,
-    "vorp":-7.9680555556,
-    "dynasty_trailing_value":-7.968
-  },
-  {
     "player_id":"00-0040066",
     "full_name":"Jackson Woodard",
     "position":"MLB",
@@ -20020,11 +19998,22 @@
     "dynasty_trailing_value":-7.968
   },
   {
-    "player_id":"00-0040108",
-    "full_name":"Chandler Martin",
+    "player_id":"00-0040167",
+    "full_name":"Ruben Hyppolite II",
+    "position":"OLB",
+    "team":"CHI",
+    "age":24.9,
+    "weighted_ppg":2.25,
+    "replacement_level":10.2180555556,
+    "vorp":-7.9680555556,
+    "dynasty_trailing_value":-7.968
+  },
+  {
+    "player_id":"00-0035157",
+    "full_name":"Darius Harris",
     "position":"ILB",
-    "team":"BAL",
-    "age":23.6,
+    "team":"NE",
+    "age":30.5,
     "weighted_ppg":2.25,
     "replacement_level":10.2180555556,
     "vorp":-7.9680555556,
@@ -20042,11 +20031,11 @@
     "dynasty_trailing_value":-7.968
   },
   {
-    "player_id":"00-0035157",
-    "full_name":"Darius Harris",
+    "player_id":"00-0040108",
+    "full_name":"Chandler Martin",
     "position":"ILB",
-    "team":"NE",
-    "age":30.5,
+    "team":"BAL",
+    "age":23.6,
     "weighted_ppg":2.25,
     "replacement_level":10.2180555556,
     "vorp":-7.9680555556,
@@ -20069,6 +20058,17 @@
     "position":"ILB",
     "team":"ARI",
     "age":26.3,
+    "weighted_ppg":2.25,
+    "replacement_level":10.2180555556,
+    "vorp":-7.9680555556,
+    "dynasty_trailing_value":-7.968
+  },
+  {
+    "player_id":"00-0038682",
+    "full_name":"Mitchell Agude",
+    "position":"OLB",
+    "team":"DET",
+    "age":27.4,
     "weighted_ppg":2.25,
     "replacement_level":10.2180555556,
     "vorp":-7.9680555556,
@@ -20207,17 +20207,6 @@
     "dynasty_trailing_value":-8.129
   },
   {
-    "player_id":"00-0040044",
-    "full_name":"Zion Childress",
-    "position":"CB",
-    "team":"DAL",
-    "age":24.5,
-    "weighted_ppg":0.75,
-    "replacement_level":8.899609375,
-    "vorp":-8.149609375,
-    "dynasty_trailing_value":-8.15
-  },
-  {
     "player_id":"00-0039881",
     "full_name":"Patrick McMorris",
     "position":"SS",
@@ -20240,11 +20229,11 @@
     "dynasty_trailing_value":-8.15
   },
   {
-    "player_id":"00-0037264",
-    "full_name":"Delarrin Turner-Yell",
-    "position":"FS",
-    "team":"DEN",
-    "age":26.6,
+    "player_id":"00-0040044",
+    "full_name":"Zion Childress",
+    "position":"CB",
+    "team":"DAL",
+    "age":24.5,
     "weighted_ppg":0.75,
     "replacement_level":8.899609375,
     "vorp":-8.149609375,
@@ -20262,15 +20251,15 @@
     "dynasty_trailing_value":-8.15
   },
   {
-    "player_id":"00-0039471",
-    "full_name":"Frank Gore Jr.",
-    "position":"RB",
-    "team":"BUF",
-    "age":24.4,
-    "weighted_ppg":0.7,
-    "replacement_level":8.8619047619,
-    "vorp":-8.1619047619,
-    "dynasty_trailing_value":-8.162
+    "player_id":"00-0037264",
+    "full_name":"Delarrin Turner-Yell",
+    "position":"FS",
+    "team":"DEN",
+    "age":26.6,
+    "weighted_ppg":0.75,
+    "replacement_level":8.899609375,
+    "vorp":-8.149609375,
+    "dynasty_trailing_value":-8.15
   },
   {
     "player_id":"00-0037827",
@@ -20278,6 +20267,17 @@
     "position":"RB",
     "team":"GB",
     "age":25.8,
+    "weighted_ppg":0.7,
+    "replacement_level":8.8619047619,
+    "vorp":-8.1619047619,
+    "dynasty_trailing_value":-8.162
+  },
+  {
+    "player_id":"00-0039471",
+    "full_name":"Frank Gore Jr.",
+    "position":"RB",
+    "team":"BUF",
+    "age":24.4,
     "weighted_ppg":0.7,
     "replacement_level":8.8619047619,
     "vorp":-8.1619047619,
@@ -20317,17 +20317,6 @@
     "dynasty_trailing_value":-8.193
   },
   {
-    "player_id":"00-0039406",
-    "full_name":"Nathaniel Watson",
-    "position":"MLB",
-    "team":"CLE",
-    "age":25.9,
-    "weighted_ppg":2.0,
-    "replacement_level":10.2180555556,
-    "vorp":-8.2180555556,
-    "dynasty_trailing_value":-8.218
-  },
-  {
     "player_id":"00-0040501",
     "full_name":"Austin Keys",
     "position":"ILB",
@@ -20339,11 +20328,22 @@
     "dynasty_trailing_value":-8.218
   },
   {
+    "player_id":"00-0039406",
+    "full_name":"Nathaniel Watson",
+    "position":"MLB",
+    "team":"CLE",
+    "age":25.9,
+    "weighted_ppg":2.0,
+    "replacement_level":10.2180555556,
+    "vorp":-8.2180555556,
+    "dynasty_trailing_value":-8.218
+  },
+  {
     "player_id":"00-0040492",
     "full_name":"Tyler Batty",
     "position":"OLB",
     "team":"MIN",
-    "age":27.2,
+    "age":27.3,
     "weighted_ppg":1.9722222222,
     "replacement_level":10.2180555556,
     "vorp":-8.2458333333,
@@ -20387,7 +20387,7 @@
     "full_name":"Branson Combs",
     "position":"MLB",
     "team":"JAX",
-    "age":26.0,
+    "age":26.1,
     "weighted_ppg":1.9285714286,
     "replacement_level":10.2180555556,
     "vorp":-8.289484127,
@@ -20486,7 +20486,7 @@
     "full_name":"Sione Takitaki",
     "position":"OLB",
     "team":"MIN",
-    "age":31.1,
+    "age":31.2,
     "weighted_ppg":1.7625,
     "replacement_level":10.2180555556,
     "vorp":-8.4555555556,
@@ -20570,6 +20570,17 @@
     "dynasty_trailing_value":-8.504
   },
   {
+    "player_id":"00-0039532",
+    "full_name":"Julius Wood",
+    "position":"FS",
+    "team":"DAL",
+    "age":25.3,
+    "weighted_ppg":0.375,
+    "replacement_level":8.899609375,
+    "vorp":-8.524609375,
+    "dynasty_trailing_value":-8.525
+  },
+  {
     "player_id":"00-0035150",
     "full_name":"Kris Boyd",
     "position":"CB",
@@ -20581,15 +20592,15 @@
     "dynasty_trailing_value":-8.525
   },
   {
-    "player_id":"00-0039532",
-    "full_name":"Julius Wood",
-    "position":"FS",
-    "team":"DAL",
-    "age":25.2,
-    "weighted_ppg":0.375,
-    "replacement_level":8.899609375,
-    "vorp":-8.524609375,
-    "dynasty_trailing_value":-8.525
+    "player_id":"00-0040449",
+    "full_name":"Karene Reid",
+    "position":"ILB",
+    "team":"DEN",
+    "age":26.5,
+    "weighted_ppg":1.6875,
+    "replacement_level":10.2180555556,
+    "vorp":-8.5305555556,
+    "dynasty_trailing_value":-8.531
   },
   {
     "player_id":"00-0038724",
@@ -20597,17 +20608,6 @@
     "position":"OLB",
     "team":"TEN",
     "age":28.7,
-    "weighted_ppg":1.6875,
-    "replacement_level":10.2180555556,
-    "vorp":-8.5305555556,
-    "dynasty_trailing_value":-8.531
-  },
-  {
-    "player_id":"00-0040449",
-    "full_name":"Karene Reid",
-    "position":"ILB",
-    "team":"DEN",
-    "age":26.4,
     "weighted_ppg":1.6875,
     "replacement_level":10.2180555556,
     "vorp":-8.5305555556,
@@ -20662,7 +20662,7 @@
     "full_name":"Carson Bruener",
     "position":"ILB",
     "team":"PIT",
-    "age":25.1,
+    "age":25.2,
     "weighted_ppg":1.6153846154,
     "replacement_level":10.2180555556,
     "vorp":-8.6026709402,
@@ -20713,22 +20713,22 @@
     "dynasty_trailing_value":-8.648
   },
   {
-    "player_id":"00-0039266",
-    "full_name":"Kendall Milton",
+    "player_id":"00-0036370",
+    "full_name":"Joshua Kelley",
     "position":"RB",
-    "team":"CIN",
-    "age":24.5,
+    "team":"TEN",
+    "age":28.7,
     "weighted_ppg":0.2,
     "replacement_level":8.8619047619,
     "vorp":-8.6619047619,
     "dynasty_trailing_value":-8.662
   },
   {
-    "player_id":"00-0036370",
-    "full_name":"Joshua Kelley",
+    "player_id":"00-0039266",
+    "full_name":"Kendall Milton",
     "position":"RB",
-    "team":"TEN",
-    "age":28.7,
+    "team":"CIN",
+    "age":24.5,
     "weighted_ppg":0.2,
     "replacement_level":8.8619047619,
     "vorp":-8.6619047619,
@@ -20768,44 +20768,11 @@
     "dynasty_trailing_value":-8.718
   },
   {
-    "player_id":"00-0036343",
-    "full_name":"Khaleke Hudson",
-    "position":"ILB",
-    "team":"CLE",
-    "age":28.6,
-    "weighted_ppg":1.5,
-    "replacement_level":10.2180555556,
-    "vorp":-8.7180555556,
-    "dynasty_trailing_value":-8.718
-  },
-  {
-    "player_id":"00-0039707",
-    "full_name":"Dallas Gant",
-    "position":"ILB",
-    "team":"PHI",
-    "age":26.2,
-    "weighted_ppg":1.5,
-    "replacement_level":10.2180555556,
-    "vorp":-8.7180555556,
-    "dynasty_trailing_value":-8.718
-  },
-  {
-    "player_id":"00-0040013",
-    "full_name":"Smael Mondon Jr.",
-    "position":"ILB",
-    "team":"PHI",
-    "age":23.5,
-    "weighted_ppg":1.5,
-    "replacement_level":10.2180555556,
-    "vorp":-8.7180555556,
-    "dynasty_trailing_value":-8.718
-  },
-  {
-    "player_id":"00-0031101",
-    "full_name":"Shaquil Barrett",
+    "player_id":"00-0036949",
+    "full_name":"Adetokunbo Ogundeji",
     "position":"OLB",
-    "team":"TB",
-    "age":33.7,
+    "team":"PIT",
+    "age":27.8,
     "weighted_ppg":1.5,
     "replacement_level":10.2180555556,
     "vorp":-8.7180555556,
@@ -20823,17 +20790,6 @@
     "dynasty_trailing_value":-8.718
   },
   {
-    "player_id":"00-0039944",
-    "full_name":"Jamie Sheriff",
-    "position":"OLB",
-    "team":"SEA",
-    "age":25.9,
-    "weighted_ppg":1.5,
-    "replacement_level":10.2180555556,
-    "vorp":-8.7180555556,
-    "dynasty_trailing_value":-8.718
-  },
-  {
     "player_id":"00-0040176",
     "full_name":"Bradyn Swinson",
     "position":"OLB",
@@ -20845,22 +20801,22 @@
     "dynasty_trailing_value":-8.718
   },
   {
-    "player_id":"00-0036949",
-    "full_name":"Adetokunbo Ogundeji",
-    "position":"OLB",
-    "team":"PIT",
-    "age":27.8,
+    "player_id":"00-0040013",
+    "full_name":"Smael Mondon Jr.",
+    "position":"ILB",
+    "team":"PHI",
+    "age":23.5,
     "weighted_ppg":1.5,
     "replacement_level":10.2180555556,
     "vorp":-8.7180555556,
     "dynasty_trailing_value":-8.718
   },
   {
-    "player_id":"00-0039715",
-    "full_name":"Gabriel Murphy",
+    "player_id":"00-0039944",
+    "full_name":"Jamie Sheriff",
     "position":"OLB",
-    "team":"MIN",
-    "age":25.8,
+    "team":"SEA",
+    "age":26.0,
     "weighted_ppg":1.5,
     "replacement_level":10.2180555556,
     "vorp":-8.7180555556,
@@ -20878,11 +20834,55 @@
     "dynasty_trailing_value":-8.718
   },
   {
+    "player_id":"00-0031101",
+    "full_name":"Shaquil Barrett",
+    "position":"OLB",
+    "team":"TB",
+    "age":33.7,
+    "weighted_ppg":1.5,
+    "replacement_level":10.2180555556,
+    "vorp":-8.7180555556,
+    "dynasty_trailing_value":-8.718
+  },
+  {
+    "player_id":"00-0039715",
+    "full_name":"Gabriel Murphy",
+    "position":"OLB",
+    "team":"MIN",
+    "age":25.8,
+    "weighted_ppg":1.5,
+    "replacement_level":10.2180555556,
+    "vorp":-8.7180555556,
+    "dynasty_trailing_value":-8.718
+  },
+  {
+    "player_id":"00-0039707",
+    "full_name":"Dallas Gant",
+    "position":"ILB",
+    "team":"PHI",
+    "age":26.2,
+    "weighted_ppg":1.5,
+    "replacement_level":10.2180555556,
+    "vorp":-8.7180555556,
+    "dynasty_trailing_value":-8.718
+  },
+  {
     "player_id":"00-0039135",
     "full_name":"Ochaun Mathis",
     "position":"OLB",
     "team":"NYJ",
     "age":27.6,
+    "weighted_ppg":1.5,
+    "replacement_level":10.2180555556,
+    "vorp":-8.7180555556,
+    "dynasty_trailing_value":-8.718
+  },
+  {
+    "player_id":"00-0036343",
+    "full_name":"Khaleke Hudson",
+    "position":"ILB",
+    "team":"CLE",
+    "age":28.7,
     "weighted_ppg":1.5,
     "replacement_level":10.2180555556,
     "vorp":-8.7180555556,
@@ -20966,22 +20966,22 @@
     "dynasty_trailing_value":-8.859
   },
   {
-    "player_id":"00-0040476",
-    "full_name":"Ulysses Bentley IV",
+    "player_id":"00-0036567",
+    "full_name":"Elijah Mitchell",
     "position":"RB",
-    "team":"IND",
-    "age":25.6,
+    "team":"NE",
+    "age":28.3,
     "weighted_ppg":0.0,
     "replacement_level":8.8619047619,
     "vorp":-8.8619047619,
     "dynasty_trailing_value":-8.862
   },
   {
-    "player_id":"00-0036567",
-    "full_name":"Elijah Mitchell",
+    "player_id":"00-0040476",
+    "full_name":"Ulysses Bentley IV",
     "position":"RB",
-    "team":"NE",
-    "age":28.2,
+    "team":"IND",
+    "age":25.6,
     "weighted_ppg":0.0,
     "replacement_level":8.8619047619,
     "vorp":-8.8619047619,
@@ -20999,33 +20999,22 @@
     "dynasty_trailing_value":-8.868
   },
   {
-    "player_id":"00-0035665",
-    "full_name":"David Long",
-    "position":"CB",
-    "team":"CAR",
-    "age":28.5,
-    "weighted_ppg":0.0,
-    "replacement_level":8.899609375,
-    "vorp":-8.899609375,
-    "dynasty_trailing_value":-8.9
-  },
-  {
-    "player_id":"00-0035437",
-    "full_name":"Roderic Teamer",
-    "position":"SS",
-    "team":"NO",
-    "age":29.2,
-    "weighted_ppg":0.0,
-    "replacement_level":8.899609375,
-    "vorp":-8.899609375,
-    "dynasty_trailing_value":-8.9
-  },
-  {
     "player_id":"00-0036010",
     "full_name":"Jalen Elliott",
     "position":"SS",
     "team":"PIT",
     "age":28.1,
+    "weighted_ppg":0.0,
+    "replacement_level":8.899609375,
+    "vorp":-8.899609375,
+    "dynasty_trailing_value":-8.9
+  },
+  {
+    "player_id":"00-0035665",
+    "full_name":"David Long",
+    "position":"CB",
+    "team":"CAR",
+    "age":28.5,
     "weighted_ppg":0.0,
     "replacement_level":8.899609375,
     "vorp":-8.899609375,
@@ -21043,11 +21032,22 @@
     "dynasty_trailing_value":-8.9
   },
   {
+    "player_id":"00-0035437",
+    "full_name":"Roderic Teamer",
+    "position":"SS",
+    "team":"NO",
+    "age":29.2,
+    "weighted_ppg":0.0,
+    "replacement_level":8.899609375,
+    "vorp":-8.899609375,
+    "dynasty_trailing_value":-8.9
+  },
+  {
     "player_id":"00-0038958",
     "full_name":"Markees Watts",
     "position":"OLB",
     "team":"TB",
-    "age":26.6,
+    "age":26.7,
     "weighted_ppg":1.28125,
     "replacement_level":10.2180555556,
     "vorp":-8.9368055556,
@@ -21098,10 +21098,10 @@
     "dynasty_trailing_value":-9.062
   },
   {
-    "player_id":"00-0036895",
-    "full_name":"Elerson Smith",
-    "position":"OLB",
-    "team":"CLE",
+    "player_id":"00-0036704",
+    "full_name":"Caleb Johnson",
+    "position":"ILB",
+    "team":"MIA",
     "age":28.0,
     "weighted_ppg":1.125,
     "replacement_level":10.2180555556,
@@ -21109,10 +21109,10 @@
     "dynasty_trailing_value":-9.093
   },
   {
-    "player_id":"00-0036704",
-    "full_name":"Caleb Johnson",
-    "position":"ILB",
-    "team":"MIA",
+    "player_id":"00-0036895",
+    "full_name":"Elerson Smith",
+    "position":"OLB",
+    "team":"CLE",
     "age":28.0,
     "weighted_ppg":1.125,
     "replacement_level":10.2180555556,
@@ -21131,22 +21131,22 @@
     "dynasty_trailing_value":-9.093
   },
   {
-    "player_id":"00-0036644",
-    "full_name":"Cameron McGrone",
+    "player_id":"00-0040161",
+    "full_name":"Kyle Kennard",
     "position":"OLB",
-    "team":"CLE",
-    "age":26.1,
+    "team":"LAC",
+    "age":24.6,
     "weighted_ppg":1.125,
     "replacement_level":10.2180555556,
     "vorp":-9.0930555556,
     "dynasty_trailing_value":-9.093
   },
   {
-    "player_id":"00-0040161",
-    "full_name":"Kyle Kennard",
+    "player_id":"00-0036644",
+    "full_name":"Cameron McGrone",
     "position":"OLB",
-    "team":"LAC",
-    "age":24.6,
+    "team":"CLE",
+    "age":26.1,
     "weighted_ppg":1.125,
     "replacement_level":10.2180555556,
     "vorp":-9.0930555556,
@@ -21168,7 +21168,7 @@
     "full_name":"Jalen Graham",
     "position":"MLB",
     "team":"SF",
-    "age":25.5,
+    "age":25.6,
     "weighted_ppg":1.1,
     "replacement_level":10.2180555556,
     "vorp":-9.1180555556,
@@ -21241,11 +21241,11 @@
     "dynasty_trailing_value":-9.432
   },
   {
-    "player_id":"00-0035708",
-    "full_name":"Oshane Ximines",
-    "position":"OLB",
-    "team":"NE",
-    "age":29.6,
+    "player_id":"00-0037822",
+    "full_name":"Brian Asamoah II",
+    "position":"MLB",
+    "team":"CIN",
+    "age":26.3,
     "weighted_ppg":0.75,
     "replacement_level":10.2180555556,
     "vorp":-9.4680555556,
@@ -21263,22 +21263,33 @@
     "dynasty_trailing_value":-9.468
   },
   {
-    "player_id":"00-0039318",
-    "full_name":"Curtis Jacobs",
-    "position":"ILB",
-    "team":"TEN",
-    "age":24.4,
+    "player_id":"00-0039877",
+    "full_name":"Mohamed Kamara",
+    "position":"OLB",
+    "team":"TB",
+    "age":26.1,
     "weighted_ppg":0.75,
     "replacement_level":10.2180555556,
     "vorp":-9.4680555556,
     "dynasty_trailing_value":-9.468
   },
   {
-    "player_id":"00-0039494",
-    "full_name":"Kenny Dyson",
+    "player_id":"00-0039318",
+    "full_name":"Curtis Jacobs",
+    "position":"ILB",
+    "team":"TEN",
+    "age":24.5,
+    "weighted_ppg":0.75,
+    "replacement_level":10.2180555556,
+    "vorp":-9.4680555556,
+    "dynasty_trailing_value":-9.468
+  },
+  {
+    "player_id":"00-0035708",
+    "full_name":"Oshane Ximines",
     "position":"OLB",
-    "team":"CAR",
-    "age":25.1,
+    "team":"NE",
+    "age":29.7,
     "weighted_ppg":0.75,
     "replacement_level":10.2180555556,
     "vorp":-9.4680555556,
@@ -21296,22 +21307,11 @@
     "dynasty_trailing_value":-9.468
   },
   {
-    "player_id":"00-0039877",
-    "full_name":"Mohamed Kamara",
+    "player_id":"00-0039494",
+    "full_name":"Kenny Dyson",
     "position":"OLB",
-    "team":"TB",
-    "age":26.1,
-    "weighted_ppg":0.75,
-    "replacement_level":10.2180555556,
-    "vorp":-9.4680555556,
-    "dynasty_trailing_value":-9.468
-  },
-  {
-    "player_id":"00-0037822",
-    "full_name":"Brian Asamoah II",
-    "position":"MLB",
-    "team":"CIN",
-    "age":26.3,
+    "team":"CAR",
+    "age":25.1,
     "weighted_ppg":0.75,
     "replacement_level":10.2180555556,
     "vorp":-9.4680555556,
@@ -21362,6 +21362,17 @@
     "dynasty_trailing_value":-10.053
   },
   {
+    "player_id":"00-0039053",
+    "full_name":"Jose Ramirez",
+    "position":"OLB",
+    "team":"TB",
+    "age":27.2,
+    "weighted_ppg":0.0,
+    "replacement_level":10.2180555556,
+    "vorp":-10.2180555556,
+    "dynasty_trailing_value":-10.218
+  },
+  {
     "player_id":"00-0037383",
     "full_name":"Kana'i Mauga",
     "position":"ILB",
@@ -21378,17 +21389,6 @@
     "position":"ILB",
     "team":"TB",
     "age":26.5,
-    "weighted_ppg":0.0,
-    "replacement_level":10.2180555556,
-    "vorp":-10.2180555556,
-    "dynasty_trailing_value":-10.218
-  },
-  {
-    "player_id":"00-0039053",
-    "full_name":"Jose Ramirez",
-    "position":"OLB",
-    "team":"TB",
-    "age":27.2,
     "weighted_ppg":0.0,
     "replacement_level":10.2180555556,
     "vorp":-10.2180555556,
@@ -21454,7 +21454,7 @@
     "full_name":"Mitchell Trubisky",
     "position":"QB",
     "team":"BUF",
-    "age":31.9,
+    "age":32.0,
     "weighted_ppg":5.7136388889,
     "replacement_level":17.0531145511,
     "vorp":-11.3394756622,
@@ -21707,7 +21707,7 @@
     "full_name":"Hendon Hooker",
     "position":"QB",
     "team":"NYJ",
-    "age":28.5,
+    "age":28.6,
     "weighted_ppg":0.8933333333,
     "replacement_level":17.0531145511,
     "vorp":-16.1597812178,
