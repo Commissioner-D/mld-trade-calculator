@@ -319,12 +319,6 @@
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Ricky Pearsall",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Semmel Warriors",
     "player_name": "Keon Coleman",
     "position": "WR",
     "roster_group": null
@@ -351,6 +345,12 @@
     "team": "Semmel Warriors",
     "player_name": "Malaki Starks",
     "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Ricky Pearsall",
+    "position": "WR",
     "roster_group": null
   },
   {
