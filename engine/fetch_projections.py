@@ -36,6 +36,25 @@ STAT_MAP = {
     "2pt_tds": "pass_2pt",  # Naeherung; FantasyPros trennt Pass/Rush-2PT nicht getrennt aus
 }
 
+# Defense-Rohkategorie -> unser Schema (siehe engine/aggregate_defense.py).
+# FantasyPros liefert def_tackle getrennt von def_assist -> def_tackle = Solo Tackles.
+# KEINE Sack-Yards im Response -- mit ~7 Yards/Sack angenaehert (ungefaehrer
+# NFL-Schnitt), da unsere Scoring-Config 0.25 Pkt/Sack-Yard vergibt und wir
+# sonst diesen Anteil komplett unterschlagen wuerden.
+DEF_STAT_MAP = {
+    "def_tackle": "solo_tackle",
+    "def_assist": "assisted_tackle",
+    "def_tlost": "tackle_for_loss",
+    "def_sack": "sack",
+    "def_int": "interception",
+    "def_pd": "pass_defended",
+    "def_ff": "forced_fumble",
+    "def_fr": "fumble_recovered",
+    "def_safety": "safety",
+    "def_td": "def_td",
+}
+ASSUMED_YARDS_PER_SACK = 7.0
+
 
 def fetch_projections(season: int, week: int = 0, api_key: str = None,
                        positions=("QB", "RB", "WR", "TE", "K",
@@ -105,10 +124,8 @@ def fetch_projections(season: int, week: int = 0, api_key: str = None,
 
 def to_raw_categories(api_response: dict) -> list:
     """Mappt die API-Response auf unser Rohkategorien-Schema, ein dict pro Spieler.
-    Bekannte Offense-Felder werden auf unser Schema gemappt; ALLE rohen stats-Felder
-    werden zusaetzlich unter raw_stats_* durchgereicht, damit bei IDP-Codes (die wir
-    noch nicht kennen) nichts stillschweigend verloren geht -- erst nach Sichtung
-    eines echten IDP-Response sauber ins Schema einbauen."""
+    Bekannte Offense- UND Defense-Felder werden auf unser Schema gemappt; ALLE rohen
+    stats-Felder werden zusaetzlich unter raw_stats_* durchgereicht (Sicherheitsnetz)."""
     out = []
     for p in api_response.get("players", []):
         row = {
@@ -121,6 +138,12 @@ def to_raw_categories(api_response: dict) -> list:
         stats = p.get("stats", {})
         for src_key, dest_key in STAT_MAP.items():
             row[dest_key] = stats.get(src_key, 0)
+        for src_key, dest_key in DEF_STAT_MAP.items():
+            row[dest_key] = stats.get(src_key, 0)
+        if row.get("sack"):
+            row["sack_yards"] = row["sack"] * ASSUMED_YARDS_PER_SACK
+        else:
+            row["sack_yards"] = 0
         for k, v in stats.items():
             row[f"raw_stats_{k}"] = v
         out.append(row)
