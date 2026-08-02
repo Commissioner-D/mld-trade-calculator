@@ -47,9 +47,12 @@ with open("output/calculator_picks.json", "w") as f:
 
 # index.html laedt die Werte jetzt zur Laufzeit per fetch() aus output/*.json --
 # die Datei selbst muss bei einem reinen Werte-Update NICHT mehr angefasst werden.
-if not os.path.exists("web/index.html"):
-    import shutil
-    shutil.copy("web/template.html", "web/index.html")
+if not os.path.exists("index.html"):
+    raise FileNotFoundError(
+        "index.html fehlt an der Repo-Wurzel. Das ist die einzige Kopie der "
+        "Oberflaeche (kein separates web/-Verzeichnis mehr) -- muss manuell "
+        "wiederhergestellt werden, es gibt keine automatische Fallback-Quelle."
+    )
 
 print(f"{len(players)} Spieler, {len(picks)} Picks -> output/calculator_players.json / calculator_picks.json aktualisiert.")
-print("web/index.html unveraendert (laedt Daten live per fetch()).")
+print("index.html unveraendert (laedt Daten live per fetch()).")
