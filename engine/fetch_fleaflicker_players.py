@@ -38,31 +38,51 @@ def fetch_page(offset: int) -> dict:
             time.sleep(10)
 
 
+def _get(d: dict, *keys):
+    """Versucht mehrere moegliche Key-Varianten (camelCase vs. snake_case) --
+    die Doku zeigt snake_case, aber protobuf-JSON-Serialisierung mapped
+    Feldnamen standardmaessig auf lowerCamelCase. Sicherheitshalber beides."""
+    for k in keys:
+        if k in d:
+            return d[k]
+    return None
+
+
 def fetch_all_players() -> list:
     all_players = []
     offset = 0
     seen_offsets = set()
+    first_page = True
 
     while True:
         print(f"Lade FetchPlayerListing offset={offset} ...")
         data = fetch_page(offset)
+
+        if first_page:
+            print("--- DEBUG: echte Rohstruktur der ersten Antwort (Top-Level-Keys) ---")
+            print(list(data.keys()))
+            if data.get("players"):
+                print("--- DEBUG: erster Spieler-Eintrag komplett ---")
+                print(json.dumps(data["players"][0], indent=2, ensure_ascii=False)[:3000])
+            first_page = False
+
         players = data.get("players", [])
-        total = data.get("result_total", 0)
+        total = _get(data, "result_total", "resultTotal") or 0
 
         for p in players:
-            pro = p.get("pro_player", {})
+            pro = _get(p, "pro_player", "proPlayer") or {}
             all_players.append({
-                "fleaflicker_id": pro.get("id"),
-                "name": pro.get("name_full"),
-                "position": pro.get("position"),
-                "team": pro.get("pro_team_abbreviation"),
-                "is_rookie": pro.get("is_rookie", False),
+                "fleaflicker_id": _get(pro, "id"),
+                "name": _get(pro, "name_full", "nameFull"),
+                "position": _get(pro, "position"),
+                "team": _get(pro, "pro_team_abbreviation", "proTeamAbbreviation"),
+                "is_rookie": _get(pro, "is_rookie", "isRookie") or False,
             })
 
         print(f"  {len(players)} Spieler geladen ({len(all_players)}/{total} gesamt)")
 
-        next_offset = data.get("result_offset_next")
-        if not next_offset or next_offset in seen_offsets or len(all_players) >= total:
+        next_offset = _get(data, "result_offset_next", "resultOffsetNext")
+        if not next_offset or next_offset in seen_offsets or (total and len(all_players) >= total):
             break
         seen_offsets.add(next_offset)
         offset = next_offset
