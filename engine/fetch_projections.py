@@ -20,6 +20,7 @@ GitHub Action: als Repository-Secret, siehe .github/workflows/update-values.yml)
 """
 import os
 import json
+import time
 import urllib.request
 import urllib.error
 
@@ -38,7 +39,7 @@ STAT_MAP = {
 
 def fetch_projections(season: int, week: int = 0, api_key: str = None,
                        positions=("QB", "RB", "WR", "TE", "K",
-                                  "LB", "DB", "DL", "DE", "DT", "CB", "S")) -> dict:
+                                  "LB", "DB", "DL")) -> dict:
     """week=0 -> Season-Projektion (kein einzelner Spieltag).
 
     Ruft pro Position einzeln ab und fuegt zusammen -- ein Call ohne
@@ -46,11 +47,18 @@ def fetch_projections(season: int, week: int = 0, api_key: str = None,
     ausschliesslich RB), nicht alle Positionen wie in der 2017er Doku-Beispiel-
     Response angedeutet.
 
-    IDP-Codes (LB/DB/DL/DE/DT/CB/S) sind ein EXPERIMENT: die FantasyPros-
-    Positions-Enum listet sie fuer /projections mit auf, unklar ob der
-    Endpoint fuer diese Codes tatsaechlich Daten liefert oder nur bei
-    /consensus-rankings existiert. Deshalb pro Position einzeln fehlertolerant
-    (ein 400/404 fuer einen IDP-Code bricht den Rest nicht ab, wird nur geloggt)."""
+    IDP-Seite bewusst nur DL/LB/DB (nicht zusaetzlich DE/DT/CB/S): FantasyPros
+    fasst IDP nur in diesen drei groben Buckets, DE/DT sind bereits Teil von
+    DL und CB/S bereits Teil von DB -- separate Calls dafuer waren nur
+    redundant und haben unnoetig das Rate-Limit belastet (Fund von Dominik).
+
+    WICHTIG: bei Throttling liefert die API manchmal keinen sauberen 429-Fehler,
+    sondern einen 200er mit verdaechtig wenigen Spielern (beobachtet: DB nur 4
+    statt ~200). Deshalb zusaetzlich zum 429-Retry ein Retry, wenn die Antwort
+    weniger als MIN_EXPECTED_PLAYERS Spieler enthaelt -- kein einziger unserer
+    Positions-Codes liefert legitim so wenige."""
+    MIN_EXPECTED_PLAYERS = 15  # niedrigster echter Wert bisher war K mit 43
+
     api_key = api_key or os.environ.get("FANTASYPROS_API_KEY")
     if not api_key:
         raise RuntimeError(
@@ -61,16 +69,37 @@ def fetch_projections(season: int, week: int = 0, api_key: str = None,
     for pos in positions:
         url = f"{API_BASE}/{season}/projections?week={week}&position={pos}"
         print(f"Rufe ab: {url}")
-        req = urllib.request.Request(url, headers={"x-api-key": api_key})
-        try:
-            with urllib.request.urlopen(req) as resp:
-                data = json.loads(resp.read())
-        except urllib.error.HTTPError as e:
-            print(f"  {pos}: FEHLER {e.code} ({e.read().decode()[:200]}) -- ueberspringe, kein Abbruch")
-            continue
-        players = data.get("players", [])
+
+        players = []
+        for attempt in range(1, 5):
+            req = urllib.request.Request(url, headers={"x-api-key": api_key})
+            try:
+                with urllib.request.urlopen(req) as resp:
+                    data = json.loads(resp.read())
+                players = data.get("players", [])
+                if len(players) >= MIN_EXPECTED_PLAYERS:
+                    break
+                if attempt < 4:
+                    wait = 30 * attempt
+                    print(f"  {pos}: nur {len(players)} Spieler erhalten (verdaechtig wenig, "
+                          f"vermutlich Throttling), warte {wait}s und versuche erneut "
+                          f"({attempt}/4) ...")
+                    time.sleep(wait)
+                    continue
+            except urllib.error.HTTPError as e:
+                if e.code == 429 and attempt < 4:
+                    wait = 30 * attempt
+                    print(f"  {pos}: Rate Limit (429), warte {wait}s und versuche erneut "
+                          f"({attempt}/4) ...")
+                    time.sleep(wait)
+                    continue
+                print(f"  {pos}: FEHLER {e.code} ({e.read().decode()[:200]}) -- ueberspringe, kein Abbruch")
+                players = []
+                break
+
         print(f"  {pos}: {len(players)} Spieler")
         all_players.extend(players)
+        time.sleep(5)  # groessere Pause zwischen Positionen, um das Rate Limit gar nicht erst zu reissen
     return {"season": str(season), "players": all_players}
 
 

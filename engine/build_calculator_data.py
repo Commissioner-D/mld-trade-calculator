@@ -13,7 +13,7 @@ from engine.pick_curve import pick_value
 NUM_ROOKIE_ROUNDS = 4
 NUM_TEAMS = 16
 
-df = pd.read_csv("output/value_table.csv").dropna(subset=["dynasty_trailing_value"])
+df = pd.read_csv("output/value_table.csv").dropna(subset=["primary_value"])
 
 # Keine Kappung mehr: gerade Bank-/Throw-in-Spieler (z.B. Sweetener in Trades)
 # muessen auffindbar bleiben. Nur eindeutige Nicht-Fantasy-Positionen raus.
@@ -22,14 +22,19 @@ VALID_POSITIONS = {"QB", "RB", "WR", "TE", "K",
                     "DE", "DT", "NT",
                     "OLB", "ILB", "MLB", "LB"}
 
-trimmed = df[df["position"].isin(VALID_POSITIONS)].sort_values("dynasty_trailing_value", ascending=False)
-trimmed = trimmed[["full_name", "position", "team", "age", "weighted_ppg", "dynasty_trailing_value"]].copy()
-trimmed.columns = ["name", "pos", "team", "age", "ppg", "value"]
+trimmed = df[df["position"].isin(VALID_POSITIONS)].sort_values("primary_value", ascending=False)
+trimmed = trimmed[["full_name", "position", "team", "age", "weighted_ppg",
+                    "primary_value", "primary_value_source", "dynasty_trailing_value"]].copy()
+trimmed.columns = ["name", "pos", "team", "age", "ppg", "value", "src", "trailing"]
 trimmed["ppg"] = trimmed["ppg"].round(2)
 trimmed["value"] = trimmed["value"].round(2)
 trimmed["age"] = trimmed["age"].round(1)
+trimmed["trailing"] = trimmed["trailing"].round(2)
 
 players = trimmed.to_dict("records")
+for p in players:
+    if pd.isna(p["trailing"]):
+        p["trailing"] = None
 
 picks = []
 for rnd in range(1, NUM_ROOKIE_ROUNDS + 1):

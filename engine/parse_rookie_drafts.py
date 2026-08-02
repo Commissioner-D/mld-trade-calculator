@@ -21,6 +21,21 @@ def strip_md_links(text):
     return re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', text)
 
 
+def clean_team_header(cell):
+    cell = cell.strip()
+    # Bild-mit-Link vollstaendig entfernen (2021-Format: "![Name Logo](url)[Name](url)")
+    without_img_link = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', cell).strip()
+    m = re.match(r'^\[([^\]]+)\]\([^)]*\)$', without_img_link)
+    if m:
+        return m.group(1).strip()
+    # Reines Bild-Alt-Text-Format (2020: "![Name Logo]", keine separate Link-Zelle)
+    m = re.match(r'^!\[([^\]]+)\]$', cell)
+    if m:
+        return re.sub(r'\s*Logo$', '', m.group(1)).strip()
+    # Bereits Klartext (2022+)
+    return cell
+
+
 def parse_cell(cell):
     cell = strip_md_links(cell).strip()
     m = re.match(r'^(\d+)\.(\d+)\s+(.*)$', cell)
@@ -56,7 +71,10 @@ def parse_list_row(row):
         return None
     rnd, slot, overall_true = int(m.group(1)), int(m.group(2)), int(m.group(3))
     name, pos = m.group(4).strip(), m.group(5).strip() or None
-    return rnd, slot, overall_true, pos, name
+    # dritte Zelle = Fantasy-Team (nicht Teil der Haupt-Regex, separat rausziehen)
+    cells = [c.strip() for c in row.strip().strip('|').split('|')]
+    team = strip_md_links(cells[2]).strip() if len(cells) > 2 else None
+    return rnd, slot, overall_true, pos, name, team
 
 
 def parse_file(path, season):
@@ -72,17 +90,20 @@ def parse_file(path, season):
             parsed = parse_list_row(row)
             if not parsed:
                 continue
-            rnd, slot, overall, pos, name = parsed
+            rnd, slot, overall, pos, name, team = parsed
             picks.append({
                 "season": season, "round": rnd, "slot": slot,
-                "overall": overall, "position": pos, "name": name,
+                "overall": overall, "position": pos, "name": name, "team": team,
             })
         return picks
 
-    rows = rows[1:]  # board-format: skip header (team logos) row
-    for row in rows:
+    # Board-Format: Spaltenposition (aus Header-Zeile) = Team, konstant ueber alle Runden
+    header_cells = [c.strip() for c in rows[0].strip().strip('|').split('|')]
+    teams_by_col = [clean_team_header(c) for c in header_cells]
+
+    for row in rows[1:]:
         cells = [c.strip() for c in row.strip().strip('|').split('|')]
-        for cell in cells:
+        for col_idx, cell in enumerate(cells):
             if not cell or cell.upper() == 'BLANK':
                 continue
             parsed = parse_cell(cell)
@@ -91,9 +112,10 @@ def parse_file(path, season):
                 continue
             rnd, slot, pos, name = parsed
             overall = (rnd - 1) * NUM_TEAMS + slot
+            team = teams_by_col[col_idx] if col_idx < len(teams_by_col) else None
             picks.append({
                 "season": season, "round": rnd, "slot": slot,
-                "overall": overall, "position": pos, "name": name,
+                "overall": overall, "position": pos, "name": name, "team": team,
             })
     return picks
 

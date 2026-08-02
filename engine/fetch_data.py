@@ -2,7 +2,9 @@
 sobald eine neue Saison aktuell wird (aktuell hart auf 2025/2024 gesetzt --
 Saison-Auto-Detection ist noch offen, siehe README)."""
 import urllib.request
+import urllib.error
 import os
+import time
 
 BASE = "https://github.com/nflverse/nflverse-data/releases/download"
 FILES = {
@@ -14,9 +16,26 @@ FILES = {
     f"{BASE}/player_stats/player_stats.csv.gz": "data/player_stats_offense.csv.gz",
 }
 
+MAX_RETRIES = 3
+RETRY_DELAY_SECONDS = 10
+
+
+def fetch_with_retry(url, dest, attempts=MAX_RETRIES):
+    for attempt in range(1, attempts + 1):
+        try:
+            urllib.request.urlretrieve(url, dest)
+            return
+        except (urllib.error.URLError, ConnectionError, TimeoutError) as e:
+            if attempt == attempts:
+                raise
+            print(f"  Versuch {attempt}/{attempts} fehlgeschlagen ({e}), "
+                  f"warte {RETRY_DELAY_SECONDS}s und versuche erneut ...")
+            time.sleep(RETRY_DELAY_SECONDS)
+
+
 if __name__ == "__main__":
     os.makedirs("data", exist_ok=True)
     for url, dest in FILES.items():
         print(f"Lade {dest} ...")
-        urllib.request.urlretrieve(url, dest)
+        fetch_with_retry(url, dest)
     print("Fertig.")

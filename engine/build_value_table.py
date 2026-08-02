@@ -180,7 +180,24 @@ if os.path.exists(fp_path):
 else:
     print(f"Keine Projektionsdatei unter {fp_path} gefunden -- proj_vorp bleibt leer (kein Blocker).")
 
-value_table = value_table.sort_values("dynasty_trailing_value", ascending=False)
+# --- primary_value: DAS ist der Wert, der tatsaechlich fuer Trades verwendet wird ---
+# FantasyPros-Projektion hat Vorrang (Dominiks Vorgabe: fuers Traden zaehlt die
+# Zukunftserwartung, nicht die Vergangenheit) -- gleiche Age-Curve-Behandlung wie
+# bei Trailing, damit beide Zweige auf derselben Skala/Methodik bleiben. Fallback
+# auf Trailing Value ueberall dort, wo keine Projektion existiert (IDP komplett,
+# K, tiefe Offense-Bank, brandneue Rookies ohne FantasyPros-Eintrag).
+value_table["proj_dynasty_value"] = value_table.apply(
+    lambda r: dynasty_trailing_value(r["proj_vorp"], r["age"]) if pd.notna(r["proj_vorp"]) else None,
+    axis=1
+)
+value_table["primary_value"] = value_table["proj_dynasty_value"].where(
+    value_table["proj_dynasty_value"].notna(), value_table["dynasty_trailing_value"]
+)
+value_table["primary_value_source"] = value_table["proj_dynasty_value"].notna().map(
+    {True: "projected", False: "trailing"}
+)
+
+value_table = value_table.sort_values("primary_value", ascending=False)
 value_table.to_csv("output/value_table.csv", index=False)
 value_table.to_json("output/value_table.json", orient="records", indent=2)
 print(f"\nFertig: {len(value_table)} Spieler in output/value_table.csv / .json")
