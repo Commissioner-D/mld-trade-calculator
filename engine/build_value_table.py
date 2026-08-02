@@ -243,6 +243,24 @@ value_table["primary_value_source"] = value_table["proj_dynasty_value"].notna().
     {True: "projected", False: "trailing"}
 )
 
+value_table["draft_capital_score"] = None
+value_table["contract_security"] = None
+contracts_path = "data/historical_contracts.csv.gz"
+if os.path.exists(contracts_path):
+    from engine.integrate_dynasty_signals import load_contract_signals
+    signals = load_contract_signals(contracts_path)
+    value_table["norm_name"] = value_table["full_name"].apply(
+        lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip()
+    )
+    signal_lookup = signals.set_index("norm_name")[["draft_capital_score", "contract_security"]]
+    value_table["draft_capital_score"] = value_table["norm_name"].map(signal_lookup["draft_capital_score"])
+    value_table["contract_security"] = value_table["norm_name"].map(signal_lookup["contract_security"])
+    value_table = value_table.drop(columns=["norm_name"])
+    print(f"Vertrags-/Draft-Kapital-Signale gemergt: {value_table['draft_capital_score'].notna().sum()} "
+          f"von {len(value_table)} Spielern")
+else:
+    print(f"Keine Vertragsdatei unter {contracts_path} gefunden -- Signale bleiben leer (kein Blocker).")
+
 value_table = value_table.sort_values("primary_value", ascending=False)
 value_table.to_csv("output/value_table.csv", index=False)
 value_table.to_json("output/value_table.json", orient="records", indent=2)
