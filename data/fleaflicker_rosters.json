@@ -1,1 +1,3188 @@
-[]
+[
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Jaxson Dart",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Travis Etienne",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Bucky Irving",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "A.J. Brown",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Emeka Egbuka",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Malik Nabers",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Brock Bowers",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Chase McLaughlin",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Kam Curl",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Kyle Hamilton",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Aidan Hutchinson",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Laiatu Latu",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Demario Davis",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Nick Bolton",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Payton Wilson",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Marcus Mariota",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Anthony Richardson",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Jayden Daniels",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Michael Carter",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Blake Corum",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Trey Benson",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Rasheen Ali",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Darius Slayton",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Jayden Reed",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Dalton Schultz",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Noah Gray",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Coby Bryant",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Travon Walker",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Nick Emmanwori",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "T.J. Edwards",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Kaleb Johnson",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Savion Williams",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Elijah Arroyo",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Mason Graham",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Jalon Walker",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Patrick Mahomes",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Rachaad White",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Kyle Monangai",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Justin Jefferson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Rashee Rice",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Courtland Sutton",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "T.J. Hockenson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Cam Little",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Jessie Bates",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Jalen Thompson",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Nick Bosa",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "George Karlaftis",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Quincy Williams",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Quay Walker",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Carl Granderson",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Mac Jones",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Jacory Croskey-Merritt",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Tutu Atwell",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Ricky Pearsall",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Keon Coleman",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Jordan Watkins",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Chamarri Conner",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Javon Bullard",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Malaki Starks",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Will Shipley",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Tahj Brooks",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Jaydon Blue",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Darius Robinson",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Josh Allen",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Braelon Allen",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Trevor Etienne",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Hollywood Brown",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Tetairoa McMillan",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Christian Kirk",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Jake Ferguson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Will Reichard",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Kamari Lassiter",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Jordan Battle",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Ed Oliver",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Jeffery Simmons",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Tremaine Edmunds",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Nate Landman",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Devin Lloyd",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Michael Penix",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Tyreek Hill",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Michael Mayer",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Cam Bynum",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Kobie Turner",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Jordan Davis",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Chase Young",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Nick Herbig",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Jalyx Hunt",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Christian Rozeboom",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Trevin Wallace",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Carson Schwesinger",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Mason Taylor",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Malachi Moore",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Craig Woodson",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Shemar Stewart",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Shemar James",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Jalen Hurts",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Kenneth Walker",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Ashton Jeanty",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Jordan Mason",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Michael Pittman",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Christian Watson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Dalton Kincaid",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Brandon Aubrey",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Cole Bishop",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Tykee Smith",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Alex Wright",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Jalen Carter",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "SirVocea Dennis",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Dee Winters",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Tyrel Dodson",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Caleb Williams",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "MarShawn Lloyd",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Cooper Kupp",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Jauan Jennings",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Marvin Mims",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Troy Franklin",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Dawson Knox",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Brandon Jones",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Dane Belton",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Divine Deablo",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Mykel Williams",
+    "position": "EDR/IL",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Calijah Kancey",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Jack Sanborn",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Nic Scourton",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Luther Burden",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Isaac TeSlaa",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Terrance Ferguson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Andrew Mukuba",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Nick Martin",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Sam Darnold",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Kimani Vidal",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Tyrone Tracy",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Brian Robinson",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "George Pickens",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Quentin Johnston",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "AJ Barner",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Cairo Santos",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Geno Stone",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Calen Bullock",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Evan Williams",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Cedric Gray",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Tyrice Knight",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Tuli Tuipulotu",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Byron Young",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Aaron Rodgers",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Joe Milton",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Audric Estime",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Rashod Bateman",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Calvin Austin",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "David Njoku",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Chig Okonkwo",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "K'Lavon Chaisson",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Jaelan Phillips",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Devin White",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Isaiah Davis",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Raheim Sanders",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Tory Horton",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Mitchell Evans",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Trevor Lawrence",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "D'Andre Swift",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Chase Brown",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "CeeDee Lamb",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Amon-Ra St. Brown",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Chris Olave",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Dallas Goedert",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Harrison Butker",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Jeremy Chinn",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Antoine Winfield",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Foyesade Oluokun",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Jordyn Brooks",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Trey Hendrickson",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Andrew Van Ginkel",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Pete Werner",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Kenny Pickett",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Samaje Perine",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Alexander Mattison",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Bam Knight",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Treylon Burks",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Jalen Coker",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Tyler Nubin",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Josh Hines-Allen",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Ivan Pace",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Darius Muasau",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Zach Charbonnet",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Alec Pierce",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Jeremiah Owusu-Koramoah",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Tyler Shough",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Jarquez Hunter",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Jaylin Lane",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Colston Loveland",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Danny Stutsman",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Brock Purdy",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Saquon Barkley",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "De'Von Achane",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "DJ Moore",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Jaylen Waddle",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Stefon Diggs",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Sam LaPorta",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Chris Boswell",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Brandon Stephens",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Eric Murray",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Will Anderson",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Cody Barton",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Demetrius Knight",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Maxx Crosby",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Henry To'oTo'o",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Lamar Jackson",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Bryce Young",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Chris Brooks",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Ollie Gordon",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Tyquan Thornton",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Andrei Iosivas",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Jonnu Smith",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Nick Folk",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Taron Johnson",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Donovan Wilson",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Andrew Wingard",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Grover Stewart",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Germaine Pratt",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Joe Mixon",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Cam Skattebo",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Calvin Ridley",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "DeForest Buckner",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Kalel Mullings",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Jack Bech",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Ben Sinnott",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Gries Goats",
+    "player_name": "Jared Wiley",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Justin Herbert",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "James Cook",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Jahmyr Gibbs",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Jonathan Taylor",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Ja'Marr Chase",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Wan'Dale Robinson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Kyle Pitts",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Tyler Loop",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Minkah Fitzpatrick",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Julian Love",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Jaquan Brisker",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Austin Booker",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Alex Anzalone",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Daiyan Henley",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "T.J. Watt",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Kirk Cousins",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Devin Singletary",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "DK Metcalf",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Khalil Shakir",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Parker Washington",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Cole Kmet",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Grant Delpit",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "DeMarcus Lawrence",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Bobby Okereke",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "James Williams",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Tank Dell",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Julian Blackmon",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Micah Parsons",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Josh Sweat",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Jordan James",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Malik Washington",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "KeAndre Lambert-Smith",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Jordan Magee",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Jared Goff",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Breece Hall",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Bijan Robinson",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Javonte Williams",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Rashid Shaheed",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Ladd McConkey",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Mike Gesicki",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Andy Borregales",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Rasul Douglas",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Talanoa Hufanga",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Isaiah Pola-Mao",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Chop Robinson",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Nakobe Dean",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Edgerrin Cooper",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Harold Landry",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Baker Mayfield",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Hendon Hooker",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Jordan Addison",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Xavier Worthy",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Ja'Tavion Sanders",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Riley Patterson",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Byron Murphy",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Trent McDuffie",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Jalen Pitre",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Arnold Ebiketie",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "BJ Ojulari",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Azeez Al-Shaair",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Leo Chenal",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Rondale Moore",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Tyler Higbee",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Martin Emerson",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Nnamdi Madubuike",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Kayvon Thibodeaux",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Matthew Golden",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Tez Johnson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Terrion Arnold",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Chris Paul",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Jordan Love",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Derrick Henry",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Omarion Hampton",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Jaxon Smith-Njigba",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Marvin Harrison",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Rome Odunze",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Brenton Strange",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Jason Myers",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Nick Cross",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Kevin Winston",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Danielle Hunter",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Jared Verse",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Ernest Jones",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Jack Campbell",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Eric Wilson",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Malik Willis",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "J.J. McCarthy",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Emanuel Wilson",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Sean Tucker",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Cedric Tillman",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Kayshon Boutte",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Jalen McMillan",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Montez Sweat",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Abdul Carter",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Trenton Simpson",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Drake Thomas",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Jack Kiser",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Quinshon Judkins",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Garrett Wilson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Tucker Kraft",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Brian Branch",
+    "position": "DB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Junior Colson",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Jalen Milroe",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Bhayshul Tuten",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Woody Marks",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Devin Neal",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Dallas Turner",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Joe Burrow",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Tony Pollard",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Rhamondre Stevenson",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "DeVonta Smith",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Zay Flowers",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Nico Collins",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Trey McBride",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Ka'imi Fairbairn",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Derwin James",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Malik Mustapha",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Myles Garrett",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Zaire Franklin",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Terrel Bernard",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Jonathon Cooper",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Drue Tranquill",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Geno Smith",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Rico Dowdle",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Isiah Pacheco",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Mike Evans",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Romeo Doubs",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Juwan Johnson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Isaiah Likely",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Kamren Kinchens",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Jermaine Johnson",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Greg Rousseau",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Isaiah McDuffie",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Tatum Bethune",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Kiko Mauigoa",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Justin Fields",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Budda Baker",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "DeShon Elliott",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Dre Greenlaw",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "DeMarvion Overshown",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Shedeur Sanders",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Dylan Sampson",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Xavier Legette",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Chimere Dike",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Shaun Dolac",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Drake Maye",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "J.K. Dobbins",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Kenny Gainwell",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Jonathon Brooks",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Darnell Mooney",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Hunter Henry",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Spencer Shrader",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Devon Witherspoon",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Xavier Watts",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Cameron Heyward",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Quinnen Williams",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Alex Singleton",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Tua Tagovailoa",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Tank Bigsby",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Greg Dortch",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "DeMario Douglas",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Colby Parkinson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Riley Moss",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Quinyon Mitchell",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Joshua Metellus",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Bradley Chubb",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Devin Bush",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Mack Wilson",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Derrick Barnes",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Christian Elliss",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Micah McFadden",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Brashard Smith",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Elic Ayomanor",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Jacob Parrish",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Travis Hunter",
+    "position": "WR/CB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Dak Prescott",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Josh Jacobs",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Jaylen Warren",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "KaVontae Turpin",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Michael Wilson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Chris Godwin",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Mark Andrews",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Jake Bates",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Zyon McCollum",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Xavier McKinney",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Roquan Smith",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Zack Baun",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Brian Burns",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Rashan Gary",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Robert Spillane",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "C.J. Stroud",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "David Montgomery",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Chuba Hubbard",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Chris Rodriguez",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Emari Demercado",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Ray Davis",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Jaylin Noel",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Jayden Higgins",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Pat Freiermuth",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Oronde Gadsden",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Wil Lutz",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Justin Reid",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Jonathan Greenard",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Terry McLaurin",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Drake London",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Tyler Bass",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Fred Warner",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Jaylen Wright",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Roman Wilson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Kyle Williams",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Jalen Royals",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Romo's Call",
+    "player_name": "Harold Fannin",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Daniel Jones",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Aaron Jones",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "RJ Harvey",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Alvin Kamara",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Davante Adams",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Jameson Williams",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Evan Engram",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Alontae Taylor",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "DaRon Bland",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Byron Murphy",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Blake Cashman",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Patrick Queen",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Khalil Mack",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Kaden Elliss",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Nick Chubb",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Kendre Miller",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Brandon Aiyuk",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Jerry Jeudy",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Tre Tucker",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Tre' Harris",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Travis Kelce",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Theo Johnson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Christian Gonzalez",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Derrick Brown",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Dexter Lawrence",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Tyree Wilson",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Akeem Davis-Gaither",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Dorian Williams",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Bo Nix",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Tyjae Spears",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "TreVeyon Henderson",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Josh Downs",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Brian Thomas",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Adonai Mitchell",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Tyler Warren",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Cameron Dicker",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Tre'von Moehrig",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Cooper DeJean",
+    "position": "DB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Jamien Sherwood",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Jihaad Campbell",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Alex Highsmith",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Nik Bonitto",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Barrett Carter",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Cam Ward",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Keaton Mitchell",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "LeQuint Allen",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Pat Bryant",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Gunnar Helm",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Mike Green",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Donovan Ezeiruaku",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Cody Simon",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Kerby Joseph",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "DJ Giddens",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Dont'e Thornton",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "James Pearce",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Matthew Stafford",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Christian McCaffrey",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Kyren Williams",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Jakobi Meyers",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Puka Nacua",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Deebo Samuel",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "George Kittle",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Evan McPherson",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Tyson Campbell",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Paulson Adebo",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Kevin Byard",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Leonard Williams",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Jalen Redmond",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Bobby Wagner",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Teddye Buchanan",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Philip Rivers",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Jacoby Brissett",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Tyler Allgeier",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Tee Higgins",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Devaughn Vele",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Zach Ertz",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Marcus Jones",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Mike Sainristil",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Ronnie Hickman",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Frankie Luvu",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Noah Sewell",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Ruben Hyppolite",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Kyler Murray",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "James Conner",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Luke McCaffrey",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Jake Briningstool",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Quentin Lake",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Dillon Gabriel",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Will Howard",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Isaiah Bond",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Billy Bowman",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "Jonas Sanker",
+    "position": "S",
+    "roster_group": null
+  }
+]
