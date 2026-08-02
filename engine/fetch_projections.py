@@ -37,13 +37,20 @@ STAT_MAP = {
 
 
 def fetch_projections(season: int, week: int = 0, api_key: str = None,
-                       positions=("QB", "RB", "WR", "TE", "K")) -> dict:
+                       positions=("QB", "RB", "WR", "TE", "K",
+                                  "LB", "DB", "DL", "DE", "DT", "CB", "S")) -> dict:
     """week=0 -> Season-Projektion (kein einzelner Spieltag).
 
     Ruft pro Position einzeln ab und fuegt zusammen -- ein Call ohne
     position-Parameter liefert offenbar nur eine Default-Position (beobachtet:
     ausschliesslich RB), nicht alle Positionen wie in der 2017er Doku-Beispiel-
-    Response angedeutet."""
+    Response angedeutet.
+
+    IDP-Codes (LB/DB/DL/DE/DT/CB/S) sind ein EXPERIMENT: die FantasyPros-
+    Positions-Enum listet sie fuer /projections mit auf, unklar ob der
+    Endpoint fuer diese Codes tatsaechlich Daten liefert oder nur bei
+    /consensus-rankings existiert. Deshalb pro Position einzeln fehlertolerant
+    (ein 400/404 fuer einen IDP-Code bricht den Rest nicht ab, wird nur geloggt)."""
     api_key = api_key or os.environ.get("FANTASYPROS_API_KEY")
     if not api_key:
         raise RuntimeError(
@@ -59,7 +66,8 @@ def fetch_projections(season: int, week: int = 0, api_key: str = None,
             with urllib.request.urlopen(req) as resp:
                 data = json.loads(resp.read())
         except urllib.error.HTTPError as e:
-            raise RuntimeError(f"FantasyPros API Fehler {e.code}: {e.read().decode()}") from e
+            print(f"  {pos}: FEHLER {e.code} ({e.read().decode()[:200]}) -- ueberspringe, kein Abbruch")
+            continue
         players = data.get("players", [])
         print(f"  {pos}: {len(players)} Spieler")
         all_players.extend(players)
@@ -67,7 +75,11 @@ def fetch_projections(season: int, week: int = 0, api_key: str = None,
 
 
 def to_raw_categories(api_response: dict) -> list:
-    """Mappt die API-Response auf unser Rohkategorien-Schema, ein dict pro Spieler."""
+    """Mappt die API-Response auf unser Rohkategorien-Schema, ein dict pro Spieler.
+    Bekannte Offense-Felder werden auf unser Schema gemappt; ALLE rohen stats-Felder
+    werden zusaetzlich unter raw_stats_* durchgereicht, damit bei IDP-Codes (die wir
+    noch nicht kennen) nichts stillschweigend verloren geht -- erst nach Sichtung
+    eines echten IDP-Response sauber ins Schema einbauen."""
     out = []
     for p in api_response.get("players", []):
         row = {
@@ -80,6 +92,8 @@ def to_raw_categories(api_response: dict) -> list:
         stats = p.get("stats", {})
         for src_key, dest_key in STAT_MAP.items():
             row[dest_key] = stats.get(src_key, 0)
+        for k, v in stats.items():
+            row[f"raw_stats_{k}"] = v
         out.append(row)
     return out
 
