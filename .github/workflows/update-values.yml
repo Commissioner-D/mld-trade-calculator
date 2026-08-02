@@ -57,7 +57,13 @@ jobs:
           git add output/ data/*.json
           if ! git diff --cached --quiet; then
             git commit -m "Automatischer Werte-Rebuild ($(date -u +%Y-%m-%d))"
-            git push
+            # Falls zwischenzeitlich woanders gepusht wurde (z.B. direkter API-Push):
+            # rebase + bis zu 3 Versuche, statt einfach zu scheitern.
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Push fehlgeschlagen (Versuch $i/3), versuche erneut nach Rebase ..."
+              sleep 5
+            done
           else
             echo "Keine Aenderungen -- nichts zu committen."
           fi
