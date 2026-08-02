@@ -11,6 +11,8 @@ Ablauf:
   5. Output: output/value_table.csv + output/value_table.json
 """
 import sys
+import os
+import re
 import json
 import pandas as pd
 import numpy as np
@@ -157,6 +159,26 @@ value_table = pd.concat([
     kick[["player_id", "full_name", "position", "team", "age", "weighted_ppg",
           "replacement_level", "vorp", "dynasty_trailing_value"]],
 ], ignore_index=True)
+
+# --- Projected VORP (FantasyPros, nur Offense) als eigene Spalte dazumergen ---
+# Getrennt von dynasty_trailing_value gehalten (Job 1 = Vergangenheit, Job 2 = Zukunft,
+# nie verschmolzen). Fehlt die Projektionsdatei (z.B. kein API-Key gesetzt), bleibt die
+# Spalte einfach leer -- kein Blocker fuer den Rest der Pipeline.
+value_table["proj_ppg"] = None
+value_table["proj_vorp"] = None
+fp_path = "data/fantasypros_projections_2026.json"
+if os.path.exists(fp_path):
+    from engine.integrate_projections import build_projected_vorp
+    proj = build_projected_vorp(fp_path, roster_cfg)
+    proj["norm_name"] = proj["name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip())
+    value_table["norm_name"] = value_table["full_name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip())
+    proj_lookup = proj.set_index("norm_name")[["proj_ppg", "proj_vorp"]]
+    value_table["proj_ppg"] = value_table["norm_name"].map(proj_lookup["proj_ppg"])
+    value_table["proj_vorp"] = value_table["norm_name"].map(proj_lookup["proj_vorp"])
+    value_table = value_table.drop(columns=["norm_name"])
+    print(f"Projected VORP gemergt: {value_table['proj_vorp'].notna().sum()} von {len(value_table)} Spielern haben eine FantasyPros-Projektion")
+else:
+    print(f"Keine Projektionsdatei unter {fp_path} gefunden -- proj_vorp bleibt leer (kein Blocker).")
 
 value_table = value_table.sort_values("dynasty_trailing_value", ascending=False)
 value_table.to_csv("output/value_table.csv", index=False)
