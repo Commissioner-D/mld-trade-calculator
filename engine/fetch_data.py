@@ -14,6 +14,7 @@ FILES = {
     f"{BASE}/pbp/play_by_play_2024.csv.gz": "data/pbp_2024.csv.gz",
     f"{BASE}/player_stats/player_stats_def.csv.gz": "data/player_stats_def_2025.csv.gz",
     f"{BASE}/player_stats/player_stats.csv.gz": "data/player_stats_offense.csv.gz",
+    f"{BASE}/contracts/historical_contracts.csv.gz": "data/historical_contracts.csv.gz",
 }
 
 MAX_RETRIES = 3
