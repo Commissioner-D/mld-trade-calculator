@@ -62,8 +62,8 @@ with open("output/calculator_config.json", "w") as f:
 # Keine Kappung mehr: gerade Bank-/Throw-in-Spieler (z.B. Sweetener in Trades)
 # muessen auffindbar bleiben. Nur eindeutige Nicht-Fantasy-Positionen raus.
 VALID_POSITIONS = {"QB", "RB", "WR", "TE", "K",
-                    "CB", "FS", "SS", "DB",
-                    "DE", "DT", "NT",
+                    "CB", "FS", "SS", "DB", "S",
+                    "DE", "DT", "NT", "EDR", "IL",
                     "OLB", "ILB", "MLB", "LB"}
 
 trimmed = df[df["position"].isin(VALID_POSITIONS)].copy()
