@@ -238,6 +238,7 @@ dynasty_path = "data/fantasypros_dynasty_rankings_2026.json"
 
 value_table["SCR"] = None
 value_table["scr_source"] = "none"
+value_table["years_exp"] = None
 value_table["dynasty_value"] = None
 
 if os.path.exists(dynasty_path):
@@ -247,7 +248,7 @@ if os.path.exists(dynasty_path):
 
     off_result = build_offense_dynasty_values(value_table, dynasty_rankings, roster)
     off_mask = value_table["position"].isin(OFFENSE_POSITIONS)
-    for col in ["SCR", "scr_source", "dynasty_value"]:
+    for col in ["SCR", "scr_source", "dynasty_value", "years_exp"]:
         value_table.loc[off_mask, col] = off_result.loc[off_mask, col]
     print(f"Offense Dynasty-Value gebaut: "
           f"{(value_table.loc[off_mask,'scr_source']=='projected').sum()} projected, "
@@ -256,7 +257,7 @@ if os.path.exists(dynasty_path):
 
     idp_result = build_idp_dynasty_values(value_table, dynasty_rankings, roster)
     idp_mask = value_table["position"].isin(IDP_POSITIONS)
-    for col in ["SCR", "scr_source", "dynasty_value"]:
+    for col in ["SCR", "scr_source", "dynasty_value", "years_exp"]:
         value_table.loc[idp_mask, col] = idp_result.loc[idp_mask, col]
     print(f"IDP Dynasty-Value gebaut: "
           f"{(value_table.loc[idp_mask,'scr_source']=='projected').sum()} projected, "
