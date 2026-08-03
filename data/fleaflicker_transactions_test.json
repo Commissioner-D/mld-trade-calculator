@@ -2452,7 +2452,7 @@
           },
           "displayGroup": "RECEIVER",
           "rankDraft": {
-            "ordinal": 409,
+            "ordinal": 415,
             "positions": [
               {
                 "position": {
@@ -3879,7 +3879,7 @@
           },
           "displayGroup": "RUSHER",
           "rankDraft": {
-            "ordinal": 412,
+            "ordinal": 411,
             "positions": [
               {
                 "position": {
@@ -4194,7 +4194,7 @@
           },
           "displayGroup": "RUSHER",
           "rankDraft": {
-            "ordinal": 416,
+            "ordinal": 420,
             "positions": [
               {
                 "position": {
@@ -4207,8 +4207,8 @@
                     "DRAFT_BOARD_GREEN"
                   ]
                 },
-                "ordinal": 90,
-                "formatted": "RB90",
+                "ordinal": 91,
+                "formatted": "RB91",
                 "rating": "RATING_VERY_BAD"
               }
             ],
@@ -4688,7 +4688,7 @@
           },
           "displayGroup": "RECEIVER",
           "rankDraft": {
-            "ordinal": 75,
+            "ordinal": 78,
             "positions": [
               {
                 "position": {
@@ -4701,8 +4701,8 @@
                     "DRAFT_BOARD_BLUE"
                   ]
                 },
-                "ordinal": 32,
-                "formatted": "WR32",
+                "ordinal": 33,
+                "formatted": "WR33",
                 "rating": "RATING_BAD"
               }
             ],
@@ -12078,27 +12078,6 @@
             "high": -2
           },
           "displayGroup": "RUSHER",
-          "rankDraft": {
-            "ordinal": 635,
-            "positions": [
-              {
-                "position": {
-                  "label": "RB",
-                  "group": "START",
-                  "eligibility": [
-                    "RB"
-                  ],
-                  "colors": [
-                    "DRAFT_BOARD_GREEN"
-                  ]
-                },
-                "ordinal": 108,
-                "formatted": "RB108",
-                "rating": "RATING_VERY_BAD"
-              }
-            ],
-            "season": 2026
-          },
           "lastX": [
             {
               "duration": 1
@@ -13569,7 +13548,7 @@
           },
           "displayGroup": "RECEIVER",
           "rankDraft": {
-            "ordinal": 506,
+            "ordinal": 507,
             "positions": [
               {
                 "position": {
@@ -13582,8 +13561,8 @@
                     "DRAFT_BOARD_BLUE"
                   ]
                 },
-                "ordinal": 127,
-                "formatted": "WR127",
+                "ordinal": 128,
+                "formatted": "WR128",
                 "rating": "RATING_VERY_BAD"
               }
             ],
@@ -13778,7 +13757,7 @@
           },
           "displayGroup": "RECEIVER",
           "rankDraft": {
-            "ordinal": 398,
+            "ordinal": 399,
             "positions": [
               {
                 "position": {
@@ -13791,8 +13770,8 @@
                     "DRAFT_BOARD_BLUE"
                   ]
                 },
-                "ordinal": 102,
-                "formatted": "WR102",
+                "ordinal": 103,
+                "formatted": "WR103",
                 "rating": "RATING_VERY_BAD"
               }
             ],
@@ -14408,7 +14387,7 @@
           },
           "displayGroup": "RECEIVER",
           "rankDraft": {
-            "ordinal": 261,
+            "ordinal": 257,
             "positions": [
               {
                 "position": {
@@ -47190,7 +47169,7 @@
           },
           "displayGroup": "KICKER",
           "rankDraft": {
-            "ordinal": 284,
+            "ordinal": 287,
             "positions": [
               {
                 "position": {
@@ -50189,7 +50168,7 @@
           },
           "displayGroup": "RUSHER",
           "rankDraft": {
-            "ordinal": 356,
+            "ordinal": 357,
             "positions": [
               {
                 "position": {
@@ -50202,8 +50181,8 @@
                     "DRAFT_BOARD_GREEN"
                   ]
                 },
-                "ordinal": 78,
-                "formatted": "RB78",
+                "ordinal": 79,
+                "formatted": "RB79",
                 "rating": "RATING_VERY_BAD"
               }
             ],
@@ -50809,7 +50788,7 @@
           },
           "displayGroup": "KICKER",
           "rankDraft": {
-            "ordinal": 284,
+            "ordinal": 287,
             "positions": [
               {
                 "position": {
@@ -51676,7 +51655,7 @@
           },
           "displayGroup": "KICKER",
           "rankDraft": {
-            "ordinal": 244,
+            "ordinal": 249,
             "positions": [
               {
                 "position": {
@@ -51901,7 +51880,7 @@
           },
           "displayGroup": "KICKER",
           "rankDraft": {
-            "ordinal": 387,
+            "ordinal": 388,
             "positions": [
               {
                 "position": {
@@ -65137,7 +65116,7 @@
           },
           "displayGroup": "KICKER",
           "rankDraft": {
-            "ordinal": 244,
+            "ordinal": 249,
             "positions": [
               {
                 "position": {
@@ -66794,7 +66773,7 @@
           },
           "displayGroup": "RECEIVER",
           "rankDraft": {
-            "ordinal": 261,
+            "ordinal": 257,
             "positions": [
               {
                 "position": {
@@ -67668,7 +67647,7 @@
           },
           "displayGroup": "KICKER",
           "rankDraft": {
-            "ordinal": 244,
+            "ordinal": 249,
             "positions": [
               {
                 "position": {
