@@ -22,8 +22,8 @@ _today = datetime.date.today()
 _draft_deadline = datetime.date(_today.year, 8, 30)
 NEXT_DRAFT_YEAR = _today.year if _today <= _draft_deadline else _today.year + 1
 # Laut Liga-Regelwerk: "not allowed to trade for picks further in the future
-# than two seasons" -> naechster Draft + 2 Jahre voraus = 3 Jahrgaenge insgesamt.
-TRADEABLE_YEARS = [NEXT_DRAFT_YEAR, NEXT_DRAFT_YEAR + 1, NEXT_DRAFT_YEAR + 2]
+# than two seasons" -> zwei Jahrgaenge insgesamt (naechster Draft + 1 Jahr voraus).
+TRADEABLE_YEARS = [NEXT_DRAFT_YEAR, NEXT_DRAFT_YEAR + 1]
 
 df = pd.read_csv("output/value_table.csv")
 
