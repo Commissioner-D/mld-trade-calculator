@@ -106,30 +106,33 @@ def build_projected_vorp(fp_json_path: str, roster_cfg: dict, flea_group_by_name
 
     NUM_TEAMS = roster_cfg["num_teams"]
     slots = roster_cfg["starting_slots"]
+    flex_share = roster_cfg["flex_share_offense"]
+    flex_share_idp = roster_cfg.get("flex_share_idp", {})
 
-    # Ranks (Offense UND Defense): tatsaechliche Anzahl gerosterter Spieler
-    # (aus den echten Fleaflicker-Rosterdaten) + 1 -- ersetzt die bisherigen
-    # Flex-/Wildcard-Anteil-Heuristiken durch echte Zahlen. Siehe engine/roster_counts.py.
+    # Ranks (Offense UND Defense): Durchschnitt aus (a) tatsaechlicher Rosterzahl
+    # und (b) Start-Slots + Flex-/Wildcard-Anteil (Heuristik) -- Kompromiss
+    # zwischen "zaehlt Spekulations-Horten mit" und "kennt keine echte Nutzung".
+    # Siehe engine/roster_counts.py.
     from engine.roster_counts import compute_rostered_counts
     _rostered = compute_rostered_counts("data/fleaflicker_rosters.json")
 
-    if _rostered:
-        off_ranks = {pos: _rostered.get(pos, NUM_TEAMS * slots[pos]) + 1 for pos in ["QB", "RB", "WR", "TE"]}
-        def_rank_by_group = {g: _rostered.get(g, NUM_TEAMS * 2) + 1 for g in ["DB", "EDR_IL", "LB"]}
-    else:
-        flex_share = roster_cfg["flex_share_offense"]
-        off_ranks = {
-            "QB": NUM_TEAMS * slots["QB"],
-            "RB": round(NUM_TEAMS * (slots["RB"] + slots["FLEX_RB_WR_TE"] * flex_share["RB"])),
-            "WR": round(NUM_TEAMS * (slots["WR"] + slots["FLEX_RB_WR_TE"] * flex_share["WR"])),
-            "TE": round(NUM_TEAMS * (slots["TE"] + slots["FLEX_RB_WR_TE"] * flex_share["TE"])),
-        }
-        flex_share_idp = roster_cfg.get("flex_share_idp", {})
-        def_rank_by_group = {
-            g: round(NUM_TEAMS * 2 + NUM_TEAMS * 1 * flex_share_idp.get(g, 0))
-            for g in ["DB", "EDR_IL", "LB"]
-        }
-    print(f"  Ranks (echte Rosterzahl + 1): Offense={off_ranks}, Defense={def_rank_by_group}")
+    off_ranks = {}
+    for pos in ["QB", "RB", "WR", "TE"]:
+        heuristic_rank = NUM_TEAMS * slots["QB"] if pos == "QB" else \
+            round(NUM_TEAMS * (slots[pos] + slots["FLEX_RB_WR_TE"] * flex_share[pos]))
+        if _rostered:
+            off_ranks[pos] = round((_rostered.get(pos, heuristic_rank) + heuristic_rank) / 2) + 1
+        else:
+            off_ranks[pos] = heuristic_rank
+
+    def_rank_by_group = {}
+    for g in ["DB", "EDR_IL", "LB"]:
+        heuristic_rank = round(NUM_TEAMS * 2 + NUM_TEAMS * 1 * flex_share_idp.get(g, 0))
+        if _rostered:
+            def_rank_by_group[g] = round((_rostered.get(g, heuristic_rank) + heuristic_rank) / 2) + 1
+        else:
+            def_rank_by_group[g] = heuristic_rank
+    print(f"  Ranks (Durchschnitt Rosterzahl+Heuristik, +1): Offense={off_ranks}, Defense={def_rank_by_group}")
 
     out_rows = []
 
