@@ -27,6 +27,38 @@ TRADEABLE_YEARS = [NEXT_DRAFT_YEAR, NEXT_DRAFT_YEAR + 1]
 
 df = pd.read_csv("output/value_table.csv")
 
+# --- Rosterplatz-Wert: dynamisch aus den 15 besten aktuell NICHT gerosterten
+# Spielern berechnet (nicht fest einprogrammiert) -- passt sich automatisch an,
+# falls z.B. ein ungewoehnlich guter Free Agent gerade verfuegbar ist. Dient im
+# Frontend als Abschlag fuer Trades mit ungleicher Spieleranzahl (nur die Seite,
+# die netto mehr Koerper aufnimmt, bekommt den Abschlag -- kein Bonus fuers
+# Verschlanken). Taxi-eligible Spieler (Jahr 1-2) zaehlen nur mit 5/28 Gewicht,
+# da Taxi-Slots zusaetzlich zu den 28 aktiven Plaetzen existieren.
+ROSTER_SPOT_BEST_N = 15
+TAXI_WEIGHT = 5 / 28
+roster_spot_value = None
+rosters_path = "data/fleaflicker_rosters.json"
+if os.path.exists(rosters_path):
+    with open(rosters_path, encoding="utf-8") as f:
+        rosters = json.load(f)
+    import re as _re
+
+    def _norm(n):
+        return _re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", _re.sub(r"[^a-z ]", "", str(n).lower())).strip()
+
+    rostered_names = {_norm(r["player_name"]) for r in rosters if r.get("player_name")}
+    df_valid = df.dropna(subset=["primary_value"]).copy()
+    df_valid["norm_name"] = df_valid["full_name"].apply(_norm)
+    unrostered = df_valid[~df_valid["norm_name"].isin(rostered_names)].sort_values("primary_value", ascending=False)
+    best_fa = unrostered.head(ROSTER_SPOT_BEST_N)
+    roster_spot_value = round(float(best_fa["primary_value"].mean()), 3)
+    print(f"Rosterplatz-Wert (Schnitt der {ROSTER_SPOT_BEST_N} besten Free Agents): {roster_spot_value}")
+else:
+    print(f"Keine Rosterdaten unter {rosters_path} -- Rosterplatz-Wert bleibt leer.")
+
+with open("output/calculator_config.json", "w") as f:
+    json.dump({"roster_spot_value": roster_spot_value, "taxi_weight": round(TAXI_WEIGHT, 4)}, f)
+
 # Keine Kappung mehr: gerade Bank-/Throw-in-Spieler (z.B. Sweetener in Trades)
 # muessen auffindbar bleiben. Nur eindeutige Nicht-Fantasy-Positionen raus.
 VALID_POSITIONS = {"QB", "RB", "WR", "TE", "K",
@@ -35,11 +67,15 @@ VALID_POSITIONS = {"QB", "RB", "WR", "TE", "K",
                     "OLB", "ILB", "MLB", "LB"}
 
 trimmed = df[df["position"].isin(VALID_POSITIONS)].copy()
+# Taxi-eligible (1./2. Jahr in der Liga) fuer die Rosterplatz-Differential-Logik im
+# Frontend -- solche Spieler zaehlen dort nur mit 5/28 Gewicht (Taxi-Slots sind
+# zusaetzlich zu den 28 aktiven Plaetzen vorhanden, kein normaler Verdraengungseffekt).
+trimmed["is_taxi"] = trimmed["years_exp"].fillna(99) <= 2
 # NaN-Werte ans Ende sortieren (nicht ausgewaehlt/nicht auswaehlbar), Rest nach Wert
 trimmed = trimmed.sort_values("primary_value", ascending=False, na_position="last")
 trimmed = trimmed[["full_name", "position", "team", "age", "weighted_ppg",
-                    "primary_value", "primary_value_source", "dynasty_trailing_value"]].copy()
-trimmed.columns = ["name", "pos", "team", "age", "ppg", "value", "src", "trailing"]
+                    "primary_value", "primary_value_source", "dynasty_trailing_value", "is_taxi"]].copy()
+trimmed.columns = ["name", "pos", "team", "age", "ppg", "value", "src", "trailing", "is_taxi"]
 trimmed["ppg"] = trimmed["ppg"].round(2)
 trimmed["value"] = trimmed["value"].round(2)
 trimmed["age"] = trimmed["age"].round(1)
