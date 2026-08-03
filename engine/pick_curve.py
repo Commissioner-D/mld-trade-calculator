@@ -39,8 +39,12 @@ import numpy as np
 from scipy.optimize import curve_fit
 
 
-# Gefittet gegen 480 echte Rookie-Picks dieser Liga (2020-2025), siehe Docstring.
-FITTED_PARAMS = {"a": 28.726, "b": 3.901, "c": -3.485}
+# Gefittet gegen 480 echte Rookie-Picks dieser Liga (2020-2025), diesmal gegen
+# das SCR-basierte Dynasty-Value-System (Offense) statt der alten Trailing-Werte --
+# noetig geworden, weil die Spieler-Bewertungsmethodik sich komplett geaendert hat
+# (kein Trailing-Fallback mehr, siehe engine/dynasty_value.py). Alte Kurve
+# unterschaetzte fruehe Picks massiv (Pick 1 nur 2.38 statt jetzt 5.74).
+FITTED_PARAMS = {"a": 71.053, "b": 6.726, "c": -3.456}
 
 
 def pick_value(pick_overall: float, params=FITTED_PARAMS) -> float:
