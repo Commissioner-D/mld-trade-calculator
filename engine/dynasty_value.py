@@ -56,10 +56,10 @@ OFFENSE_GROUPS = {
 }
 IDP_GROUPS = {
     "LB":  (["LB", "ILB", "OLB", "MLB"], "LB"),
-    "S":   (["FS", "SS"], "DB"),
+    "S":   (["FS", "SS", "S"], "DB"),
     "CB":  (["CB"], "DB"),
-    "EDR": (["DE"], "DL"),
-    "IL":  (["DT", "NT"], "DL"),
+    "EDR": (["DE", "EDR"], "DL"),
+    "IL":  (["DT", "NT", "IL"], "DL"),
 }
 
 # Peak-Alter aus externer Aging-Curve-Forschung (nicht gefittet) --
