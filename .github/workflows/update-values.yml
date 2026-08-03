@@ -50,6 +50,10 @@ jobs:
         run: python engine/fetch_fleaflicker_rosters.py
         continue-on-error: true   # noch experimentell (Schema unbekannt bis zum ersten echten Response)
 
+      - name: TEST Roster-Entry-Dump (Taxi/Active-Status suchen)
+        run: python engine/dump_roster_test.py
+        continue-on-error: true
+
       - name: Fleaflicker-Liga-Regeln laden (fuer Rosterplatz-Wert)
         run: python engine/fetch_fleaflicker_rules.py
         continue-on-error: true
