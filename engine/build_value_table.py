@@ -134,12 +134,29 @@ if os.path.exists(flea_path):
 else:
     print(f"Keine Fleaflicker-Positionsdatei unter {flea_path} gefunden -- Fallback auf nflverse-Positionen.")
 
+# Feingranulare Fleaflicker-Position (nicht nur die grobe Gruppe) separat erfassen --
+# noetig fuer die 5er-Aufteilung (CB/S/EDR/IL/LB) in engine/dynasty_value.py. Ohne das
+# wuerde z.B. T.J. Watt (Fleaflicker: "EDR", nflverse fine_position: "OLB") faelschlich
+# als off-ball-Linebacker eingestuft -- mit Tackle-lastiger statt Sack-lastiger
+# Erwartung bewertet.
+FLEA_FINE_POSITIONS = {"CB", "S", "DB", "EDR", "IL", "LB"}
+flea_fine_by_name = {}
+if os.path.exists(flea_path):
+    for p in flea_players:
+        if not p.get("name"):
+            continue
+        parts = (p.get("position") or "").split("/")
+        fine = next((part for part in parts if part in FLEA_FINE_POSITIONS), None)
+        if fine:
+            flea_fine_by_name[norm_name(p["name"])] = fine
+
 idp["norm_name"] = idp["full_name"].apply(norm_name)
 idp["idp_group"] = idp["norm_name"].map(flea_group_by_name)
 fallback_mask = idp["idp_group"].isna()
 idp.loc[fallback_mask, "idp_group"] = idp.loc[fallback_mask, "fine_position"].apply(lambda p: assign_group(p, groups))
 print(f"IDP-Gruppierung: {(~fallback_mask).sum()} von {len(idp)} ueber Fleaflicker, "
       f"{fallback_mask.sum()} ueber nflverse-Fallback")
+idp["flea_fine_position"] = idp["norm_name"].map(flea_fine_by_name)
 idp = idp.drop(columns=["norm_name"])
 idp = idp.dropna(subset=["idp_group"])
 
@@ -152,7 +169,10 @@ print("Replacement-Level (IDP):", repl_levels)
 idp["replacement_level"] = idp["idp_group"].map(repl_levels)
 idp["vorp"] = idp["weighted_ppg"] - idp["replacement_level"]
 idp["dynasty_trailing_value"] = idp.apply(lambda r: dynasty_trailing_value(r["vorp"], r["age"]), axis=1)
-idp["position"] = idp["fine_position"]
+# Fleaflickers feingranulare Position hat Vorrang -- nur bei fehlendem Fleaflicker-
+# Match auf nflverse fine_position zurueckfallen (z.B. bei Namens-Mismatch).
+idp["position"] = idp["flea_fine_position"].where(idp["flea_fine_position"].notna(), idp["fine_position"])
+idp = idp.drop(columns=["flea_fine_position"])
 
 # --- Offense: Replacement-Level je Position, Flex-Slot heuristisch verteilt (Stolperstein A) ---
 NUM_TEAMS = roster_cfg["num_teams"]
@@ -207,7 +227,7 @@ value_table["proj_vorp"] = None
 fp_path = "data/fantasypros_projections_2026.json"
 if os.path.exists(fp_path):
     from engine.integrate_projections import build_projected_vorp
-    proj = build_projected_vorp(fp_path, roster_cfg)
+    proj = build_projected_vorp(fp_path, roster_cfg, flea_group_by_name=flea_group_by_name)
     proj["norm_name"] = proj["name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip())
     value_table["norm_name"] = value_table["full_name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip())
     # Nach norm_name deduplizieren (kann trotz vorherigem Dedup noch Kollisionen
