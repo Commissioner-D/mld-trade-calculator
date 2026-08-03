@@ -106,18 +106,30 @@ def build_projected_vorp(fp_json_path: str, roster_cfg: dict, flea_group_by_name
 
     NUM_TEAMS = roster_cfg["num_teams"]
     slots = roster_cfg["starting_slots"]
-    flex_share = roster_cfg["flex_share_offense"]
 
-    # Offense: Ranks inkl. Flex-Split-Heuristik (Stolperstein A, unveraendert)
-    off_ranks = {
-        "QB": NUM_TEAMS * slots["QB"],
-        "RB": round(NUM_TEAMS * (slots["RB"] + slots["FLEX_RB_WR_TE"] * flex_share["RB"])),
-        "WR": round(NUM_TEAMS * (slots["WR"] + slots["FLEX_RB_WR_TE"] * flex_share["WR"])),
-        "TE": round(NUM_TEAMS * (slots["TE"] + slots["FLEX_RB_WR_TE"] * flex_share["TE"])),
-    }
-    # Defense: Rang 32 (2 Start-Slots x 16 Teams je Gruppe), identisch zur
-    # Trailing-Methodik -- nur eben auf dem Projektions-Pool angewendet.
-    def_rank = NUM_TEAMS * 2
+    # Ranks (Offense UND Defense): tatsaechliche Anzahl gerosterter Spieler
+    # (aus den echten Fleaflicker-Rosterdaten) + 1 -- ersetzt die bisherigen
+    # Flex-/Wildcard-Anteil-Heuristiken durch echte Zahlen. Siehe engine/roster_counts.py.
+    from engine.roster_counts import compute_rostered_counts
+    _rostered = compute_rostered_counts("data/fleaflicker_rosters.json")
+
+    if _rostered:
+        off_ranks = {pos: _rostered.get(pos, NUM_TEAMS * slots[pos]) + 1 for pos in ["QB", "RB", "WR", "TE"]}
+        def_rank_by_group = {g: _rostered.get(g, NUM_TEAMS * 2) + 1 for g in ["DB", "EDR_IL", "LB"]}
+    else:
+        flex_share = roster_cfg["flex_share_offense"]
+        off_ranks = {
+            "QB": NUM_TEAMS * slots["QB"],
+            "RB": round(NUM_TEAMS * (slots["RB"] + slots["FLEX_RB_WR_TE"] * flex_share["RB"])),
+            "WR": round(NUM_TEAMS * (slots["WR"] + slots["FLEX_RB_WR_TE"] * flex_share["WR"])),
+            "TE": round(NUM_TEAMS * (slots["TE"] + slots["FLEX_RB_WR_TE"] * flex_share["TE"])),
+        }
+        flex_share_idp = roster_cfg.get("flex_share_idp", {})
+        def_rank_by_group = {
+            g: round(NUM_TEAMS * 2 + NUM_TEAMS * 1 * flex_share_idp.get(g, 0))
+            for g in ["DB", "EDR_IL", "LB"]
+        }
+    print(f"  Ranks (echte Rosterzahl + 1): Offense={off_ranks}, Defense={def_rank_by_group}")
 
     out_rows = []
 
@@ -138,7 +150,7 @@ def build_projected_vorp(fp_json_path: str, roster_cfg: dict, flea_group_by_name
         sub = proj[proj["position"] == fp_pos]
         if len(sub) == 0:
             continue
-        repl = replacement_level(sub, "proj_ppg", def_rank)
+        repl = replacement_level(sub, "proj_ppg", def_rank_by_group[group])
         for _, r in sub.iterrows():
             out_rows.append({
                 "name": r["name"], "position": fp_pos, "group": group,
