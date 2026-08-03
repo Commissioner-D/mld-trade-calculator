@@ -1,0 +1,105 @@
+{
+  "top_level_keys": [
+    "proPlayer",
+    "transactionStatus",
+    "requestedGamesPeriod",
+    "viewingFormat",
+    "viewingRange",
+    "displayGroup",
+    "lastX"
+  ],
+  "full_entry": {
+    "proPlayer": {
+      "id": 19253,
+      "nameFull": "Jaxson Dart",
+      "nameShort": "J. Dart",
+      "proTeamAbbreviation": "NYG",
+      "position": "QB",
+      "headshotUrl": "https://d26bvpybnxg29h.cloudfront.net/nfl/19253.png",
+      "nflByeWeek": 8,
+      "nameFirst": "Jaxson",
+      "nameLast": "Dart",
+      "proTeam": {
+        "abbreviation": "NYG",
+        "location": "New York",
+        "name": "Giants"
+      },
+      "positionEligibility": [
+        "QB"
+      ],
+      "percentOwnedRatio": 0.91
+    },
+    "transactionStatus": {
+      "locked": {},
+      "isLineupStatusLocked": true
+    },
+    "requestedGamesPeriod": {
+      "ordinal": 1,
+      "startEpochMilli": "1788861600000"
+    },
+    "viewingFormat": "TOTAL",
+    "viewingRange": {
+      "low": -1,
+      "high": -2
+    },
+    "displayGroup": "PASSER",
+    "lastX": [
+      {
+        "duration": 1
+      },
+      {
+        "duration": 3
+      },
+      {
+        "duration": 5
+      }
+    ]
+  },
+  "entry_2": {
+    "proPlayer": {
+      "id": 16241,
+      "nameFull": "Travis Etienne",
+      "nameShort": "T. Etienne",
+      "proTeamAbbreviation": "NO",
+      "position": "RB",
+      "headshotUrl": "https://d26bvpybnxg29h.cloudfront.net/nfl/16241.png",
+      "nflByeWeek": 8,
+      "nameFirst": "Travis",
+      "nameLast": "Etienne",
+      "proTeam": {
+        "abbreviation": "NO",
+        "location": "New Orleans",
+        "name": "Saints"
+      },
+      "positionEligibility": [
+        "RB"
+      ],
+      "percentOwnedRatio": 0.96
+    },
+    "transactionStatus": {
+      "locked": {},
+      "isLineupStatusLocked": true
+    },
+    "requestedGamesPeriod": {
+      "ordinal": 1,
+      "startEpochMilli": "1788861600000"
+    },
+    "viewingFormat": "TOTAL",
+    "viewingRange": {
+      "low": -1,
+      "high": -2
+    },
+    "displayGroup": "RUSHER",
+    "lastX": [
+      {
+        "duration": 1
+      },
+      {
+        "duration": 3
+      },
+      {
+        "duration": 5
+      }
+    ]
+  }
+}
