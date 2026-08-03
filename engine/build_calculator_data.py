@@ -12,6 +12,10 @@ from engine.pick_curve import pick_value
 
 NUM_ROOKIE_ROUNDS = 4
 NUM_TEAMS = 16
+CURRENT_DRAFT_YEAR = 2026
+# Laut Liga-Regelwerk: "not allowed to trade for picks further in the future
+# than two seasons" -> aktuelles Jahr + 2 Jahre voraus = 3 Jahrgaenge insgesamt.
+TRADEABLE_YEARS = [CURRENT_DRAFT_YEAR, CURRENT_DRAFT_YEAR + 1, CURRENT_DRAFT_YEAR + 2]
 
 df = pd.read_csv("output/value_table.csv")
 
@@ -38,7 +42,8 @@ trimmed["trailing"] = trimmed["trailing"].round(2)
 trimmed["selectable"] = trimmed["value"].notna()
 
 players = trimmed.to_dict("records")
-for p in players:
+for i, p in enumerate(players):
+    p["id"] = f"player-{i}"
     if pd.isna(p["trailing"]):
         p["trailing"] = None
     if pd.isna(p["value"]):
@@ -46,13 +51,15 @@ for p in players:
         p["src"] = "none"
 
 picks = []
-for rnd in range(1, NUM_ROOKIE_ROUNDS + 1):
-    for slot in range(1, NUM_TEAMS + 1):
-        overall = (rnd - 1) * NUM_TEAMS + slot
-        picks.append({
-            "label": f"{rnd}.{slot:02d}", "round": rnd, "slot": slot,
-            "overall": overall, "value": pick_value(overall),
-        })
+for year in TRADEABLE_YEARS:
+    for rnd in range(1, NUM_ROOKIE_ROUNDS + 1):
+        for slot in range(1, NUM_TEAMS + 1):
+            overall = (rnd - 1) * NUM_TEAMS + slot
+            picks.append({
+                "id": f"{year}-{rnd}.{slot:02d}",
+                "label": f"{year} {rnd}.{slot:02d}", "year": year, "round": rnd, "slot": slot,
+                "overall": overall, "value": pick_value(overall),
+            })
 
 with open("output/calculator_players.json", "w") as f:
     json.dump(players, f, ensure_ascii=False)
