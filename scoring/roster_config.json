@@ -18,10 +18,16 @@
     "LB": ["LB", "ILB", "OLB", "MLB"]
   },
   "flex_share_offense": {
-    "notes": "RB/WR/TE-Flex-Slot verzerrt Replacement-Level aller drei Positionen gemeinsam (Stolperstein A, noch nicht sauber geloest). Heuristische Default-Aufteilung des Flex-Slots, bis eine echte Cross-Positions-Loesung existiert.",
-    "RB": 0.40,
-    "WR": 0.45,
-    "TE": 0.15
+    "notes": "Heuristische Schaetzung, wer den RB/WR/TE-Flex-Slot in der Praxis meist gewinnt -- wird jetzt mit der echten Rosterzahl gemittelt (nicht mehr allein verwendet), siehe roster_counts.py.",
+    "RB": 0.30,
+    "WR": 0.60,
+    "TE": 0.10
+  },
+  "flex_share_idp": {
+    "notes": "Heuristische Schaetzung, wer den IDP-Wildcard-Slot in der Praxis meist gewinnt -- wird mit der echten Rosterzahl gemittelt (nicht mehr allein verwendet), siehe roster_counts.py.",
+    "LB": 0.70,
+    "DB": 0.20,
+    "EDR_IL": 0.10
   },
   "notes": "DB (CB+S) und EDR/IL teilen sich jeweils einen kombinierten Slot-Pool -> Replacement-Level muss auf Gruppenebene berechnet werden, nicht pro Einzelposition. Wildcard und RB/WR/TE-Flex ziehen Nachfrage zur staerksten Position -> Rang 30-40 als Puffer getestet, robust."
 }
