@@ -3152,41 +3152,41 @@
     "tier": 10
   },
   {
+    "name": "Cyrus Allen",
+    "position": "WR",
+    "team": "KC",
+    "rank_ecr": 124,
+    "pos_rank": "WR124",
+    "tier": 10
+  },
+  {
     "name": "Deion Burks",
     "position": "WR",
     "team": "IND",
-    "rank_ecr": 124,
-    "pos_rank": "WR124",
+    "rank_ecr": 125,
+    "pos_rank": "WR125",
     "tier": 10
   },
   {
     "name": "Joshua Palmer",
     "position": "WR",
     "team": "BUF",
-    "rank_ecr": 125,
-    "pos_rank": "WR125",
+    "rank_ecr": 126,
+    "pos_rank": "WR126",
     "tier": 10
   },
   {
     "name": "Tutu Atwell",
     "position": "WR",
     "team": "MIA",
-    "rank_ecr": 126,
-    "pos_rank": "WR126",
+    "rank_ecr": 127,
+    "pos_rank": "WR127",
     "tier": 10
   },
   {
     "name": "Calvin Austin III",
     "position": "WR",
     "team": "NYG",
-    "rank_ecr": 127,
-    "pos_rank": "WR127",
-    "tier": 10
-  },
-  {
-    "name": "Cyrus Allen",
-    "position": "WR",
-    "team": "KC",
     "rank_ecr": 128,
     "pos_rank": "WR128",
     "tier": 10
@@ -3357,7 +3357,7 @@
     "team": "TEN",
     "rank_ecr": 149,
     "pos_rank": "WR149",
-    "tier": 10
+    "tier": 11
   },
   {
     "name": "Jordan Watkins",

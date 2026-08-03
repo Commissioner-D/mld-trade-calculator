@@ -235,12 +235,6 @@
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Rashee Rice",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Semmel Warriors",
     "player_name": "Courtland Sutton",
     "position": "WR",
     "roster_group": null
@@ -1472,6 +1466,12 @@
   {
     "team": "Styrian Sombreros",
     "player_name": "Khalil Shakir",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Rashee Rice",
     "position": "WR",
     "roster_group": null
   },
