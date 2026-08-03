@@ -226,40 +226,39 @@ if os.path.exists(fp_path):
 else:
     print(f"Keine Projektionsdatei unter {fp_path} gefunden -- proj_vorp bleibt leer (kein Blocker).")
 
-# --- primary_value: DAS ist der Wert, der tatsaechlich fuer Trades verwendet wird ---
-# FantasyPros-Projektion hat Vorrang (Dominiks Vorgabe: fuers Traden zaehlt die
-# Zukunftserwartung, nicht die Vergangenheit) -- gleiche Age-Curve-Behandlung wie
-# bei Trailing, damit beide Zweige auf derselben Skala/Methodik bleiben. Fallback
-# auf Trailing Value ueberall dort, wo keine Projektion existiert (IDP komplett,
-# K, tiefe Offense-Bank, brandneue Rookies ohne FantasyPros-Eintrag).
-value_table["proj_dynasty_value"] = value_table.apply(
-    lambda r: dynasty_trailing_value(r["proj_vorp"], r["age"]) if pd.notna(r["proj_vorp"]) else None,
-    axis=1
-)
-value_table["primary_value"] = value_table["proj_dynasty_value"].where(
-    value_table["proj_dynasty_value"].notna(), value_table["dynasty_trailing_value"]
-)
-value_table["primary_value_source"] = value_table["proj_dynasty_value"].notna().map(
-    {True: "projected", False: "trailing"}
-)
+# --- Dynasty-Wert: Offense komplett neu (SCR + Alter + Draft-Kapital, KEIN Trailing-
+# Fallback mehr -- Dominiks ausdrueckliche Vorgabe), IDP/K bleiben vorerst beim alten
+# Trailing-Mechanismus (Defense-Kalibrierung folgt separat, noch nicht Teil hiervon).
+OFFENSE_POSITIONS = ["QB", "RB", "WR", "TE"]
+dynasty_path = "data/fantasypros_dynasty_rankings_2026.json"
 
-value_table["draft_capital_score"] = None
-value_table["contract_security"] = None
-contracts_path = "data/historical_contracts.csv.gz"
-if os.path.exists(contracts_path):
-    from engine.integrate_dynasty_signals import load_contract_signals
-    signals = load_contract_signals(contracts_path)
-    value_table["norm_name"] = value_table["full_name"].apply(
-        lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip()
-    )
-    signal_lookup = signals.set_index("norm_name")[["draft_capital_score", "contract_security"]]
-    value_table["draft_capital_score"] = value_table["norm_name"].map(signal_lookup["draft_capital_score"])
-    value_table["contract_security"] = value_table["norm_name"].map(signal_lookup["contract_security"])
-    value_table = value_table.drop(columns=["norm_name"])
-    print(f"Vertrags-/Draft-Kapital-Signale gemergt: {value_table['draft_capital_score'].notna().sum()} "
-          f"von {len(value_table)} Spielern")
+value_table["SCR"] = None
+value_table["scr_source"] = "none"
+value_table["dynasty_value"] = None
+
+if os.path.exists(dynasty_path):
+    from engine.dynasty_value import build_offense_dynasty_values
+    with open(dynasty_path, encoding="utf-8") as f:
+        dynasty_rankings = json.load(f)
+    off_result = build_offense_dynasty_values(value_table, dynasty_rankings, roster)
+    for col in ["SCR", "scr_source", "dynasty_value"]:
+        value_table[col] = off_result[col]
+    off_mask = value_table["position"].isin(OFFENSE_POSITIONS)
+    print(f"Offense Dynasty-Value gebaut: "
+          f"{(value_table.loc[off_mask,'scr_source']=='projected').sum()} projected, "
+          f"{(value_table.loc[off_mask,'scr_source']=='rank_imputed').sum()} rank_imputed, "
+          f"{(value_table.loc[off_mask,'scr_source']=='none').sum()} ohne jeden Wert (NA)")
 else:
-    print(f"Keine Vertragsdatei unter {contracts_path} gefunden -- Signale bleiben leer (kein Blocker).")
+    print(f"Keine Dynasty-Rankings-Datei unter {dynasty_path} -- Offense-Dynasty-Value bleibt leer.")
+
+# primary_value: Offense = dynasty_value (neues System, oder NaN falls scr_source='none').
+# IDP/K = weiterhin dynasty_trailing_value (altes System, unveraendert bis zur
+# separaten Defense-Kalibrierung).
+non_offense_mask = ~value_table["position"].isin(OFFENSE_POSITIONS)
+value_table["primary_value"] = value_table["dynasty_value"]
+value_table.loc[non_offense_mask, "primary_value"] = value_table.loc[non_offense_mask, "dynasty_trailing_value"]
+value_table["primary_value_source"] = value_table["scr_source"]
+value_table.loc[non_offense_mask, "primary_value_source"] = "trailing"
 
 value_table = value_table.sort_values("primary_value", ascending=False)
 value_table.to_csv("output/value_table.csv", index=False)
