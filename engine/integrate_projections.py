@@ -19,6 +19,7 @@ Nicht abgedeckt: Kicker (keine FG-Distanz-Buckets in der FantasyPros-Response,
 kein sauberer Match zu unserer distanzabhaengigen Scoring-Config moeglich).
 """
 import json
+import re
 import sys
 import pandas as pd
 
@@ -69,13 +70,39 @@ def compute_projected_ppg(df: pd.DataFrame, cfg: dict) -> pd.DataFrame:
     return df
 
 
-def build_projected_vorp(fp_json_path: str, roster_cfg: dict) -> pd.DataFrame:
+def build_projected_vorp(fp_json_path: str, roster_cfg: dict, flea_group_by_name: dict = None) -> pd.DataFrame:
     """Gibt ein DataFrame mit [name, position, group, proj_ppg, proj_replacement,
-    proj_vorp] zurueck -- Offense UND Defense, identische Formel."""
+    proj_vorp] zurueck -- Offense UND Defense, identische Formel.
+
+    flea_group_by_name (optional): {normalisierter Name: Fleaflicker-Gruppe (DB/EDR_IL/LB)}.
+    Ueberschreibt FantasyPros' EIGENE Positions-Klassifikation fuer Defense-Spieler,
+    BEVOR Replacement-Level berechnet wird -- noetig, weil FantasyPros z.B. T.J. Watt
+    (Fleaflicker: "EDR", primaer Pass-Rush) selbst als "LB" fuehrt und ihn damit gegen
+    tackle-lastige Linebacker-Erwartung statt sack-lastige Edge-Rusher-Erwartung
+    bewerten wuerde. Ohne Override greift FantasyPros' eigenes Label.
+    """
     cfg = load_scoring_config("scoring/scoring_config.json")
     proj = load_projections(fp_json_path)
     proj = compute_projected_ppg(proj, cfg)
     proj = proj.dropna(subset=["proj_ppg"])
+
+    if flea_group_by_name:
+        GROUP_TO_FP_POS = {v: k for k, v in FP_DEFENSE_TO_GROUP.items()}  # DB/EDR_IL/LB -> DB/DL/LB
+        def _norm(n):
+            return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", str(n).lower())).strip()
+        is_def = proj["position"].isin(FP_DEFENSE_TO_GROUP.keys())
+        overridden = 0
+        for idx in proj[is_def].index:
+            flea_group = flea_group_by_name.get(_norm(proj.at[idx, "name"]))
+            if flea_group and flea_group in GROUP_TO_FP_POS:
+                new_pos = GROUP_TO_FP_POS[flea_group]
+                if new_pos != proj.at[idx, "position"]:
+                    proj.at[idx, "position"] = new_pos
+                    overridden += 1
+        if overridden:
+            print(f"  {overridden} Defense-Spieler: FantasyPros-Position durch "
+                  f"Fleaflicker-autoritative Gruppe ueberschrieben (z.B. Edge-Rusher, "
+                  f"die FP als 'LB' fuehrt).")
 
     NUM_TEAMS = roster_cfg["num_teams"]
     slots = roster_cfg["starting_slots"]
