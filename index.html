@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,6 +73,8 @@
   }
   .sr-row:last-child{border-bottom:none;}
   .sr-row:hover{background:var(--border);}
+  .sr-row-disabled{cursor:not-allowed;opacity:0.6;}
+  .sr-row-disabled:hover{background:transparent;}
   .sr-row .n{font-weight:500;}
   .sr-row .m{color:var(--muted);font-size:11px;}
   .sr-row .v{font-weight:700;white-space:nowrap;}
@@ -132,16 +134,19 @@
     text-transform:uppercase;letter-spacing:.14em;text-align:center;}
   .meter-track{
     position:relative;width:100%;height:10px;border-radius:6px;overflow:hidden;
-    background:linear-gradient(90deg,var(--team-a-dim),var(--team-b-dim));
+    background:var(--panel-2);border:1px solid var(--border);
+  }
+  .meter-center-tick{
+    position:absolute;top:-3px;left:50%;width:2px;height:16px;background:var(--muted);
+    transform:translateX(-1px);z-index:1;
   }
   .meter-fill{
-    position:absolute;top:0;bottom:0;left:0;
-    background:linear-gradient(90deg,var(--team-a),var(--team-b));
-    transition:width .35s ease;
+    position:absolute;top:0;bottom:0;left:50%;width:0;
+    transition:left .35s ease,width .35s ease,background-color .35s ease;
   }
   .meter-needle{
     position:absolute;top:-4px;width:2px;height:18px;background:var(--chalk);
-    transform:translateX(-1px);transition:left .35s ease;
+    transform:translateX(-1px);transition:left .35s ease;z-index:2;
   }
   .meter-readout{text-align:center;}
   .meter-readout .delta{
@@ -156,8 +161,7 @@
     font-size:12px;color:var(--muted);line-height:1.7;
   }
   footer strong{color:var(--chalk);}
-  footer .cols{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
-  @media (max-width:700px){footer .cols{grid-template-columns:1fr;}}
+  footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;}
 
   ::-webkit-scrollbar{width:8px;}
   ::-webkit-scrollbar-track{background:var(--panel);}
@@ -177,7 +181,7 @@
       <h1>Trade <span>Desk</span></h1>
     </div>
     <div class="league-tag">
-      Trailing Production Value · Fleaflicker Liga 294292
+      Trailing production value · Fleaflicker league 294292
     </div>
   </header>
 
@@ -188,19 +192,19 @@
         <span class="side-count" id="countA">0 Assets</span>
       </div>
       <div class="side-search">
-        <input class="search-input" data-side="A" type="text" placeholder="Spieler oder Pick für Team A suchen …" autocomplete="off" disabled>
+        <input class="search-input" data-side="A" type="text" placeholder="Search player or pick for Team A …" autocomplete="off" disabled>
         <div class="search-results" data-side="A"></div>
       </div>
       <div class="asset-list" id="listA"></div>
-      <div class="side-total"><span class="label">Gesamtwert</span><span class="num" id="totalA">0.00</span></div>
+      <div class="side-total"><span class="label">Total value</span><span class="num" id="totalA">0.00</span></div>
     </section>
 
     <section class="meter-panel">
       <p class="meter-eyebrow">Value Meter</p>
-      <div class="meter-track"><div class="meter-fill" id="meterFill"></div><div class="meter-needle" id="meterNeedle"></div></div>
+      <div class="meter-track"><div class="meter-center-tick"></div><div class="meter-fill" id="meterFill"></div><div class="meter-needle" id="meterNeedle"></div></div>
       <div class="meter-readout">
         <div class="delta" id="deltaReadout">—</div>
-        <div class="pct" id="pctReadout">beide Seiten leer</div>
+        <div class="pct" id="pctReadout">both sides empty</div>
       </div>
     </section>
 
@@ -210,21 +214,24 @@
         <span class="side-count" id="countB">0 Assets</span>
       </div>
       <div class="side-search">
-        <input class="search-input" data-side="B" type="text" placeholder="Spieler oder Pick für Team B suchen …" autocomplete="off" disabled>
+        <input class="search-input" data-side="B" type="text" placeholder="Search player or pick for Team B …" autocomplete="off" disabled>
         <div class="search-results" data-side="B"></div>
       </div>
       <div class="asset-list" id="listB"></div>
-      <div class="side-total"><span class="label">Gesamtwert</span><span class="num" id="totalB">0.00</span></div>
+      <div class="side-total"><span class="label">Total value</span><span class="num" id="totalB">0.00</span></div>
     </section>
   </div>
 
   <footer>
     <div class="cols">
       <div>
-        <strong>Was "Value" hier bedeutet:</strong> VORP (gegen liga-eigenes Replacement-Level, aus 65% aktueller + 35% Vorsaison-Produktion) × Age-Multiplikator — gewichtete Vergangenheit, keine Projektion. <strong>Negativ heißt "unter Replacement-Level"</strong>, nicht "schlecht" (wie unter Par beim Golf) — bei einem Trade zählt die Differenz zwischen beiden Seiten, nicht ob eine Seite insgesamt im Plus liegt. Rookies mit wenig Snaps zeigen deshalb niedrige Werte, die nichts über ihr Talent aussagen.
+        <strong>What "value" means here (offense):</strong> SCR (from FantasyPros' season stat projections, run through this league's own scoring) plus age and draft-capital adjustments — calibrated against FantasyPros' Dynasty Expert Consensus Rankings. <strong>No trailing/past production is used as a fallback.</strong> If a player has no stat projection but does have a Dynasty rank, SCR is inferred from that rank instead (via a curve built from players who have both). If a player has neither, he shows <strong>NA</strong> in red and can't be added to a trade — found, but not guessed at.
       </div>
       <div>
-        <strong>Pick-Werte:</strong> kalibriert gegen alle 6 echten Rookie-Drafts dieser Liga (2020–2025, 480 Spieler). Im Schnitt liegt nur Pick 1–3 eines Jahrgangs über Replacement-Level. Age-Curve-Konstanten bleiben Heuristik, Kicker-Werte sind gedämpft (Sonderfall).
+        <strong>IDP and kickers:</strong> still run on trailing production (65% current + 35% prior season) — a separate calibration pass for defense is planned but not done yet.
+      </div>
+      <div>
+        <strong>Pick values:</strong> calibrated against all 6 real rookie drafts in this league (2020–2025, 480 players). On average, only picks 1–3 of a given class end up above replacement level.
       </div>
     </div>
   </footer>
@@ -245,16 +252,16 @@ async function loadData() {
     const players = await playersRes.json();
     const picks = await picksRes.json();
     ASSETS.push(
-      ...players.map(p => ({type:'player', name:p.name, pos:p.pos, team:p.team, age:p.age, ppg:p.ppg, value:p.value})),
+      ...players.map(p => ({type:'player', name:p.name, pos:p.pos, team:p.team, age:p.age, ppg:p.ppg, value:p.value, src:p.src, trailing:p.trailing, selectable:p.selectable})),
       ...picks.map(p => ({type:'pick', name:'Pick ' + p.label, pos:'PICK', team:'—', age:null, ppg:null, value:p.value})),
     );
     dataLoaded = true;
     document.querySelectorAll('.search-input').forEach(el => el.disabled = false);
   } catch (err) {
     document.querySelectorAll('.search-results').forEach(el => {
-      el.innerHTML = '<div class="sr-empty">Daten konnten nicht geladen werden ('
+      el.innerHTML = '<div class="sr-empty">Could not load data ('
         + err.message
-        + '). Läuft die Seite über http(s) (z.B. GitHub Pages), nicht als lokale Datei direkt geöffnet?</div>';
+        + '). Is the page running over http(s) (e.g. GitHub Pages), not opened as a local file?</div>';
     });
   }
 }
@@ -274,19 +281,28 @@ function setupSideSearch(side){
     ).slice(0, 8);
 
     if (list.length === 0){
-      box.innerHTML = '<div class="sr-empty">Keine Treffer.</div>';
+      box.innerHTML = '<div class="sr-empty">No matches.</div>';
       return;
     }
     box.innerHTML = list.map(a => {
       const idx = ASSETS.indexOf(a);
-      const meta = a.type === 'player' ? `${a.pos} · ${a.team} · ${a.age}J` : 'Rookie-Pick';
-      return `<div class="sr-row" data-idx="${idx}">
+      let metaSrc = '';
+      if (a.type === 'player') {
+        if (a.src === 'projected') metaSrc = ` · trailing ${a.trailing.toFixed(2)}`;
+        else if (a.src === 'rank_imputed') metaSrc = ` · from dynasty rank (no stat projection)`;
+        else metaSrc = ' · no data (unranked)';
+      }
+      const meta = a.type === 'player' ? `${a.pos} · ${a.team} · ${a.age}y${metaSrc}` : 'Rookie pick';
+      const disabled = a.type === 'player' && a.selectable === false;
+      const valueDisplay = disabled ? 'NA' : a.value.toFixed(2);
+      return `<div class="sr-row${disabled ? ' sr-row-disabled' : ''}" data-idx="${idx}" data-disabled="${disabled}">
         <span><span class="n">${a.name}</span><br><span class="m">${meta}</span></span>
-        <span class="v">${a.value.toFixed(2)}</span>
+        <span class="v"${disabled ? ' style="color:var(--brick)"' : ''}>${valueDisplay}</span>
       </div>`;
     }).join('');
 
     box.querySelectorAll('.sr-row').forEach(row=>{
+      if (row.dataset.disabled === 'true') return;  // NA-Spieler: kein Klick-Handler, nicht hinzufuegbar
       row.addEventListener('click', ()=>{
         const asset = ASSETS[+row.dataset.idx];
         if (side === 'A') teamA.push(asset); else teamB.push(asset);
@@ -306,14 +322,16 @@ setupSideSearch('B');
 function renderSide(list, elId, totalElId, countElId){
   const listEl = document.getElementById(elId);
   if (list.length === 0){
-    listEl.innerHTML = '<p class="side-empty">Noch nichts hinzugefügt — oben suchen und Treffer anklicken.</p>';
+    listEl.innerHTML = '<p class="side-empty">Nothing added yet — search above and click a result.</p>';
   } else {
     listEl.innerHTML = list.map((a, i) => {
-      const meta = a.type === 'player' ? `${a.pos} · ${a.team} · ${a.age}J` : 'Rookie-Pick';
+      const meta = a.type === 'player'
+        ? `${a.pos} · ${a.team} · ${a.age}y${a.src === 'projected' ? ` · trailing ${a.trailing.toFixed(2)}` : ' · no FantasyPros data'}`
+        : 'Rookie pick';
       return `<div class="asset">
         <span><span class="an">${a.name}</span><br><span class="am">${meta}</span></span>
         <span class="av">${a.value.toFixed(2)}</span>
-        <button data-list="${elId}" data-i="${i}" aria-label="Entfernen">×</button>
+        <button data-list="${elId}" data-i="${i}" aria-label="Remove">×</button>
       </div>`;
     }).join('');
     listEl.querySelectorAll('button[data-list]').forEach(btn=>{
@@ -326,38 +344,48 @@ function renderSide(list, elId, totalElId, countElId){
   }
   const total = list.reduce((s,a)=>s+a.value,0);
   document.getElementById(totalElId).textContent = total.toFixed(2);
-  document.getElementById(countElId).textContent = `${list.length} Asset${list.length===1?'':'s'}`;
+  document.getElementById(countElId).textContent = `${list.length} asset${list.length===1?'':'s'}`;
   return total;
 }
 
 function renderMeter(totalA, totalB){
-  const sum = totalA + totalB;
   const fill = document.getElementById('meterFill');
   const needle = document.getElementById('meterNeedle');
   const deltaEl = document.getElementById('deltaReadout');
   const pctEl = document.getElementById('pctReadout');
 
-  if (sum <= 0 && totalA === 0 && totalB === 0){
-    fill.style.width = '50%';
+  if (totalA === 0 && totalB === 0){
+    fill.style.left = '50%';
+    fill.style.width = '0%';
     needle.style.left = '50%';
     deltaEl.textContent = '—';
-    pctEl.textContent = 'beide Seiten leer';
+    deltaEl.style.color = 'var(--chalk)';
+    pctEl.textContent = 'both sides empty';
     return;
   }
-  const denom = Math.abs(totalA) + Math.abs(totalB) || 1;
-  const shareA = Math.max(0, Math.min(100, (Math.abs(totalA) / denom) * 100));
-  fill.style.width = shareA + '%';
-  needle.style.left = shareA + '%';
 
   const delta = totalA - totalB;
   const leader = delta === 0 ? null : (delta > 0 ? 'A' : 'B');
+
+  // Center-Null-Skala: 50% = ausgeglichen, Balken waechst zur fuehrenden Seite.
+  // Funktioniert unabhaengig vom Vorzeichen der Summen (anders als eine reine
+  // Anteils-Berechnung aus Betraegen, die bei zwei negativen Summen die
+  // schlechtere Seite optisch groesser gemacht hat).
+  const scale = Math.max(Math.abs(totalA), Math.abs(totalB), 1) * 1.5;
+  const offset = Math.max(-50, Math.min(50, (delta / scale) * 50));
+  const pos = 50 - offset;
+
+  fill.style.left = Math.min(50, pos) + '%';
+  fill.style.width = Math.abs(pos - 50) + '%';
+  fill.style.backgroundColor = leader === 'A' ? 'var(--team-a)' : leader === 'B' ? 'var(--team-b)' : 'var(--border)';
+  needle.style.left = pos + '%';
+
   const pctOfSmaller = Math.min(totalA,totalB) > 0
     ? Math.round((Math.abs(delta) / Math.min(totalA,totalB)) * 100)
     : null;
 
-  deltaEl.textContent = leader ? `${leader} +${Math.abs(delta).toFixed(2)}` : 'ausgeglichen';
+  deltaEl.textContent = leader ? `${leader} +${Math.abs(delta).toFixed(2)}` : 'even';
   deltaEl.style.color = leader === 'A' ? 'var(--team-a)' : leader === 'B' ? 'var(--team-b)' : 'var(--chalk)';
-  pctEl.textContent = pctOfSmaller !== null ? `${pctOfSmaller}% Unterschied ggü. der kleineren Seite` : (leader ? `Team ${leader} führt` : 'ausgeglichen');
 }
 
 function renderDesk(){
