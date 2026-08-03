@@ -5,6 +5,7 @@ und backt ihn zusammen mit den Pick-Werten in web/index.html ein.
 import sys
 import os
 import json
+import datetime
 import pandas as pd
 
 sys.path.insert(0, ".")
@@ -12,10 +13,17 @@ from engine.pick_curve import pick_value
 
 NUM_ROOKIE_ROUNDS = 4
 NUM_TEAMS = 16
-CURRENT_DRAFT_YEAR = 2026
+
+# Naechster noch nicht stattgefundener Rookie-Draft: Deadline laut Liga-Regelwerk
+# ist der 30. August. Vor diesem Datum zaehlt das laufende Jahr noch als Pick,
+# danach ist es bereits verbraucht (Spieler sind gezogen) -- automatischer
+# Rollover, damit das nicht jedes Jahr manuell nachgezogen werden muss.
+_today = datetime.date.today()
+_draft_deadline = datetime.date(_today.year, 8, 30)
+NEXT_DRAFT_YEAR = _today.year if _today <= _draft_deadline else _today.year + 1
 # Laut Liga-Regelwerk: "not allowed to trade for picks further in the future
-# than two seasons" -> aktuelles Jahr + 2 Jahre voraus = 3 Jahrgaenge insgesamt.
-TRADEABLE_YEARS = [CURRENT_DRAFT_YEAR, CURRENT_DRAFT_YEAR + 1, CURRENT_DRAFT_YEAR + 2]
+# than two seasons" -> naechster Draft + 2 Jahre voraus = 3 Jahrgaenge insgesamt.
+TRADEABLE_YEARS = [NEXT_DRAFT_YEAR, NEXT_DRAFT_YEAR + 1, NEXT_DRAFT_YEAR + 2]
 
 df = pd.read_csv("output/value_table.csv")
 
