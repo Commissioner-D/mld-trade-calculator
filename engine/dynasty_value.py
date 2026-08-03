@@ -1,8 +1,8 @@
 """
-Dynasty-Wert-Berechnung fuer Offense (QB/RB/WR/TE) -- ersetzt den alten
-Trailing-VORP-Fallback komplett. Trailing-Produktion fliesst hier NICHT
-mehr ein (Dominiks ausdrueckliche Vorgabe: Trailing verzerrt zu sehr,
-speziell bei Spielern mit wenigen Snaps/unklarer Rolle).
+Dynasty-Wert-Berechnung fuer Offense (QB/RB/WR/TE) und IDP (LB/CB/S/EDR/IL) --
+ersetzt den alten Trailing-VORP-Fallback komplett. Trailing-Produktion fliesst
+hier NICHT mehr ein (Dominiks ausdrueckliche Vorgabe: Trailing verzerrt zu
+sehr, speziell bei Spielern mit wenigen Snaps/unklarer Rolle).
 
 SCR (Scoring) = projizierte VORP aus FantasyPros-Rohkategorien durch unser
 eigenes Scoring gerechnet. Drei Faelle pro Spieler:
@@ -22,30 +22,59 @@ eigenes Scoring gerechnet. Drei Faelle pro Spieler:
 Auf die SCR (Faelle 1+2) werden anschliessend Alter- und Draft-Kapital-
 Modifikatoren angewendet -- EINMAL, nicht nochmal doppelt fuer Fall 2.
 
-Formel (gegen FantasyPros Dynasty-ECR kalibriert, siehe engine/fit_dynasty_formula.py):
+Formel (gegen FantasyPros Dynasty-ECR kalibriert):
   production = SCR * age_mult(age)      wenn SCR >= 0
              = SCR / age_mult(age)      wenn SCR <  0   (reziprok, keine Kante bei 0)
   draft_bonus = draft_scale * draft_capital_score * clip(1 - years_exp/draft_decay, 0, 1)
   dynasty_value = production + draft_bonus
 
-age_mult(age) = clip(1 + (peak - age) * rate, 0.5, 1.6), peak/rate pro Position fest.
+age_mult(age) = clip(1 + (peak - age) * rate, 0.5, 1.6), peak/rate pro Gruppe fest.
+
+IDP-Besonderheit: FantasyPros' Dynasty-Rang kennt nur LB/DB/DL (nicht CB/S
+oder EDR/IL getrennt) -- deshalb ordnet IDP_GROUPS mehrere unserer Gruppen auf
+denselben FP-Pool ab (CB+S -> "DB", EDR+IL -> "DL"). Peak-Alter pro Gruppe
+kommt aus externer Aging-Curve-Recherche, bleibt eigenstaendig. Rate/Draft-
+Parameter sind gegen FP kalibriert -- ausser bei CB und IL, wo die Stichprobe
+mit FP-Rang zu klein war (n=4 bzw. n=14) fuer ein eigenstaendiges, verlaess-
+liches Fitting: die uebernehmen die gefitteten Werte der naechstverwandten,
+groesseren Gruppe (CB<-S, IL<-EDR), nur der eigene, extern recherchierte
+Peak bleibt jeweils eigenstaendig.
 """
 import json
 import re
 import numpy as np
 import pandas as pd
 
-OFFENSE_POSITIONS = ["QB", "RB", "WR", "TE"]
+MAX_DRAFT_OVERALL = 262
 
-# Peak-Alter aus externer Aging-Curve-Forschung (nicht gefittet, siehe README) --
+# Gruppe -> (unsere Positionslabels, FantasyPros-Positionscode fuer Rang-Abgleich)
+OFFENSE_GROUPS = {
+    "QB": (["QB"], "QB"),
+    "RB": (["RB"], "RB"),
+    "WR": (["WR"], "WR"),
+    "TE": (["TE"], "TE"),
+}
+IDP_GROUPS = {
+    "LB":  (["LB", "ILB", "OLB", "MLB"], "LB"),
+    "S":   (["FS", "SS"], "DB"),
+    "CB":  (["CB"], "DB"),
+    "EDR": (["DE"], "DL"),
+    "IL":  (["DT", "NT"], "DL"),
+}
+
+# Peak-Alter aus externer Aging-Curve-Forschung (nicht gefittet) --
 # Rate und Draft-Parameter GEGEN FantasyPros Dynasty-ECR kalibriert.
 FINAL_PARAMS = {
     "QB": {"peak": 30, "rate": 0.0004, "draft_scale": 8.37, "draft_decay": 4.34},
     "RB": {"peak": 26, "rate": 0.0203, "draft_scale": 11.60, "draft_decay": 5.00},
     "WR": {"peak": 26, "rate": 0.0523, "draft_scale": 2.24, "draft_decay": 4.52},
     "TE": {"peak": 27, "rate": 0.0332, "draft_scale": 2.28, "draft_decay": 4.22},
+    "LB":  {"peak": 26, "rate": 0.0159, "draft_scale": 0.00, "draft_decay": 4.49},
+    "S":   {"peak": 27, "rate": 0.0413, "draft_scale": 3.50, "draft_decay": 2.50},
+    "CB":  {"peak": 25, "rate": 0.0413, "draft_scale": 3.50, "draft_decay": 2.50},
+    "EDR": {"peak": 26, "rate": 0.0325, "draft_scale": 1.51, "draft_decay": 1.00},
+    "IL":  {"peak": 28, "rate": 0.0325, "draft_scale": 1.51, "draft_decay": 1.00},
 }
-MAX_DRAFT_OVERALL = 262
 
 
 def norm_name(n):
@@ -73,13 +102,15 @@ def compute_draft_capital(roster_df: pd.DataFrame, current_season: int) -> pd.Da
     return r.set_index("norm_name")[["draft_capital_score", "years_exp"]]
 
 
-def build_offense_dynasty_values(value_table: pd.DataFrame, dynasty_rankings: list,
-                                  roster_df: pd.DataFrame, current_season: int = 2026) -> pd.DataFrame:
+def build_dynasty_values(value_table: pd.DataFrame, dynasty_rankings: list, roster_df: pd.DataFrame,
+                          group_defs: dict, params: dict, current_season: int = 2026) -> pd.DataFrame:
     """
+    Generisch fuer Offense- oder IDP-Gruppen nutzbar.
     value_table: muss 'full_name', 'position', 'age', 'proj_vorp' enthalten (proj_vorp
                  darf NaN sein -- kommt aus der FantasyPros-Projektions-Integration).
-    dynasty_rankings: rohe Liste von dicts mit 'name', 'position', 'rank_ecr' (aus
-                 engine/fetch_dynasty_rankings.py).
+    dynasty_rankings: rohe Liste von dicts mit 'name', 'position', 'rank_ecr'.
+    group_defs: {gruppe: (unsere_positionen, fp_position)}
+    params: {gruppe: {peak, rate, draft_scale, draft_decay}}
     Gibt value_table zurueck, ergaenzt um: SCR, scr_source, dynasty_value.
     """
     vt = value_table.copy()
@@ -97,10 +128,10 @@ def build_offense_dynasty_values(value_table: pd.DataFrame, dynasty_rankings: li
     vt["scr_source"] = "none"
     vt["dynasty_value"] = np.nan
 
-    for pos in OFFENSE_POSITIONS:
-        p = FINAL_PARAMS[pos]
-        pos_mask = vt["position"] == pos
-        sub_dyn = dyn_df[dyn_df["position"] == pos]
+    for group, (our_positions, fp_pos) in group_defs.items():
+        p = params[group]
+        pos_mask = vt["position"].isin(our_positions)
+        sub_dyn = dyn_df[dyn_df["position"] == fp_pos]
 
         merged = vt.loc[pos_mask, ["norm_name"]].merge(
             sub_dyn[["norm_name", "rank_ecr"]], on="norm_name", how="left"
@@ -139,11 +170,24 @@ def build_offense_dynasty_values(value_table: pd.DataFrame, dynasty_rankings: li
     return vt.drop(columns=["norm_name", "fp_pct"], errors="ignore")
 
 
+def build_offense_dynasty_values(value_table, dynasty_rankings, roster_df, current_season=2026):
+    return build_dynasty_values(value_table, dynasty_rankings, roster_df, OFFENSE_GROUPS, FINAL_PARAMS, current_season)
+
+
+def build_idp_dynasty_values(value_table, dynasty_rankings, roster_df, current_season=2026):
+    return build_dynasty_values(value_table, dynasty_rankings, roster_df, IDP_GROUPS, FINAL_PARAMS, current_season)
+
+
 if __name__ == "__main__":
     with open("data/fantasypros_dynasty_rankings_2026.json", encoding="utf-8") as f:
         dynasty_rankings = json.load(f)
     vt = pd.read_csv("output/value_table.csv")
     roster = pd.read_csv("data/roster_2025.csv.gz")
-    result = build_offense_dynasty_values(vt, dynasty_rankings, roster)
-    print(result[result["position"].isin(OFFENSE_POSITIONS)]["scr_source"].value_counts())
-    result.to_csv("output/offense_dynasty_values.csv", index=False)
+
+    off_result = build_offense_dynasty_values(vt, dynasty_rankings, roster)
+    off_positions = [p for grp in OFFENSE_GROUPS.values() for p in grp[0]]
+    print("Offense:", off_result[off_result["position"].isin(off_positions)]["scr_source"].value_counts().to_dict())
+
+    idp_result = build_idp_dynasty_values(vt, dynasty_rankings, roster)
+    idp_positions = [p for grp in IDP_GROUPS.values() for p in grp[0]]
+    print("IDP:", idp_result[idp_result["position"].isin(idp_positions)]["scr_source"].value_counts().to_dict())
