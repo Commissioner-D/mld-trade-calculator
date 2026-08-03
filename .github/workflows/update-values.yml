@@ -54,6 +54,10 @@ jobs:
         run: python engine/fetch_fleaflicker_rules.py
         continue-on-error: true
 
+      - name: TEST Fleaflicker-Transaktionen (FAAB-Kalibrierung)
+        run: python engine/fetch_fleaflicker_transactions_test.py
+        continue-on-error: true
+
       - name: Value-Tabelle neu berechnen
         run: python engine/build_value_table.py
 
