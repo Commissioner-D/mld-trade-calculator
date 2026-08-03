@@ -197,6 +197,7 @@
       </div>
       <div class="asset-list" id="listA"></div>
       <div class="side-total"><span class="label">Total value</span><span class="num" id="totalA">0.00</span></div>
+      <div class="roster-note" id="rosterNoteA" style="font-size:11px;color:var(--brick);text-align:right;min-height:14px;"></div>
     </section>
 
     <section class="meter-panel">
@@ -219,6 +220,7 @@
       </div>
       <div class="asset-list" id="listB"></div>
       <div class="side-total"><span class="label">Total value</span><span class="num" id="totalB">0.00</span></div>
+      <div class="roster-note" id="rosterNoteB" style="font-size:11px;color:var(--brick);text-align:right;min-height:14px;"></div>
     </section>
   </div>
 
@@ -233,6 +235,9 @@
       <div>
         <strong>Pick values:</strong> calibrated against all 6 real rookie drafts in this league (2020–2025, 480 players), matched against each player's current SCR-based dynasty value. On average, picks 1–16 of a given class end up above replacement level; value drops off notably after that.
       </div>
+      <div>
+        <strong>Roster spot adjustment:</strong> a trade with an unequal player count isn't free — the side taking on more bodies will eventually have to cut someone. Whichever side ends up with a net surplus of players gets a deduction (shown below their total), sized to the current best available free agent (recalculated every update, currently <span id="rosterSpotValueDisplay">—</span>). Picks don't count toward this — they don't occupy a roster spot. Taxi-eligible players (1st/2nd year) count for only 5/28 of a normal body, since taxi slots exist on top of the 28 active roster spots.
+      </div>
     </div>
   </footer>
 
@@ -241,18 +246,28 @@
 <script>
 const ASSETS = [];
 let dataLoaded = false;
+let ROSTER_SPOT_VALUE = 0;
+let TAXI_WEIGHT = 0;
 
 async function loadData() {
   try {
-    const [playersRes, picksRes] = await Promise.all([
+    const [playersRes, picksRes, configRes] = await Promise.all([
       fetch('output/calculator_players.json'),
       fetch('output/calculator_picks.json'),
+      fetch('output/calculator_config.json'),
     ]);
     if (!playersRes.ok || !picksRes.ok) throw new Error('HTTP ' + playersRes.status + '/' + picksRes.status);
     const players = await playersRes.json();
     const picks = await picksRes.json();
+    if (configRes.ok) {
+      const config = await configRes.json();
+      ROSTER_SPOT_VALUE = config.roster_spot_value || 0;
+      TAXI_WEIGHT = config.taxi_weight || 0;
+      const el = document.getElementById('rosterSpotValueDisplay');
+      if (el) el.textContent = ROSTER_SPOT_VALUE.toFixed(2);
+    }
     ASSETS.push(
-      ...players.map(p => ({id:p.id, type:'player', name:p.name, pos:p.pos, team:p.team, age:p.age, ppg:p.ppg, value:p.value, src:p.src, trailing:p.trailing, selectable:p.selectable})),
+      ...players.map(p => ({id:p.id, type:'player', name:p.name, pos:p.pos, team:p.team, age:p.age, ppg:p.ppg, value:p.value, src:p.src, trailing:p.trailing, selectable:p.selectable, isTaxi:p.is_taxi})),
       ...picks.map(p => ({id:p.id, type:'pick', name:'Pick ' + p.label, pos:'PICK', team:'—', age:null, ppg:null, value:p.value})),
     );
     dataLoaded = true;
@@ -293,7 +308,7 @@ function setupSideSearch(side){
         else if (a.src === 'rank_imputed') metaSrc = ` · from dynasty rank (no stat projection)`;
         else metaSrc = ' · no data (unranked)';
       }
-      const meta = a.type === 'player' ? `${a.pos} · ${a.team} · ${a.age}y${metaSrc}` : 'Rookie pick';
+      const meta = a.type === 'player' ? `${a.pos} · ${a.team} · ${a.age}y${a.isTaxi ? ' · taxi-eligible' : ''}${metaSrc}` : 'Rookie pick';
       const disabled = a.type === 'player' && a.selectable === false;
       const valueDisplay = disabled ? 'NA' : a.value.toFixed(2);
       return `<div class="sr-row${disabled ? ' sr-row-disabled' : ''}" data-idx="${idx}" data-disabled="${disabled}">
@@ -327,7 +342,7 @@ function renderSide(list, elId, totalElId, countElId){
   } else {
     listEl.innerHTML = list.map((a, i) => {
       const meta = a.type === 'player'
-        ? `${a.pos} · ${a.team} · ${a.age}y${a.src === 'projected' ? ` · trailing ${a.trailing.toFixed(2)}` : ' · no FantasyPros data'}`
+        ? `${a.pos} · ${a.team} · ${a.age}y${a.isTaxi ? ' · taxi-eligible' : ''}${a.src === 'projected' ? ` · trailing ${a.trailing.toFixed(2)}` : ' · no FantasyPros data'}`
         : 'Rookie pick';
       return `<div class="asset">
         <span><span class="an">${a.name}</span><br><span class="am">${meta}</span></span>
@@ -389,9 +404,39 @@ function renderMeter(totalA, totalB){
   deltaEl.style.color = leader === 'A' ? 'var(--team-a)' : leader === 'B' ? 'var(--team-b)' : 'var(--chalk)';
 }
 
+function bodyCount(list){
+  // Nur echte Spieler zaehlen (Picks brauchen keinen Rosterplatz). Taxi-eligible
+  // (1./2. Jahr) zaehlen nur mit TAXI_WEIGHT, da Taxi-Slots zusaetzlich zu den
+  // 28 aktiven Plaetzen existieren -- kein normaler Verdraengungseffekt.
+  return list.reduce((s,a) => {
+    if (a.type !== 'player') return s;
+    return s + (a.isTaxi ? TAXI_WEIGHT : 1);
+  }, 0);
+}
+
 function renderDesk(){
-  const totalA = renderSide(teamA, 'listA', 'totalA', 'countA');
-  const totalB = renderSide(teamB, 'listB', 'totalB', 'countB');
+  const rawTotalA = renderSide(teamA, 'listA', 'totalA', 'countA');
+  const rawTotalB = renderSide(teamB, 'listB', 'totalB', 'countB');
+
+  // Rosterplatz-Abschlag: nur die Seite, die NETTO mehr Koerper aufnimmt, bekommt
+  // einen Abzug (kein Bonus fuers Verschlanken auf der anderen Seite).
+  const bodiesA = bodyCount(teamA), bodiesB = bodyCount(teamB);
+  const netBodiesA = bodiesA - bodiesB;
+  const netBodiesB = bodiesB - bodiesA;
+  const adjustA = netBodiesA > 0 ? -netBodiesA * ROSTER_SPOT_VALUE : 0;
+  const adjustB = netBodiesB > 0 ? -netBodiesB * ROSTER_SPOT_VALUE : 0;
+
+  const totalA = rawTotalA + adjustA;
+  const totalB = rawTotalB + adjustB;
+
+  const noteA = document.getElementById('rosterNoteA');
+  const noteB = document.getElementById('rosterNoteB');
+  if (noteA) noteA.textContent = adjustA !== 0 ? `roster spot adj. ${adjustA.toFixed(2)} (net +${netBodiesA.toFixed(2)} bodies)` : '';
+  if (noteB) noteB.textContent = adjustB !== 0 ? `roster spot adj. ${adjustB.toFixed(2)} (net +${netBodiesB.toFixed(2)} bodies)` : '';
+
+  document.getElementById('totalA').textContent = totalA.toFixed(2);
+  document.getElementById('totalB').textContent = totalB.toFixed(2);
+
   renderMeter(totalA, totalB);
 }
 
