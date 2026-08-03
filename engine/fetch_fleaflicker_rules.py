@@ -39,3 +39,9 @@ if __name__ == "__main__":
         json.dump(result, f, indent=2)
     print("Liga-Regeln:", result)
     print("-> data/fleaflicker_league_rules.json")
+
+    # Komplettes Roh-Response separat speichern -- fuer Felder, die wir noch
+    # nicht kennen (z.B. wie viele Jahre im Voraus Picks tradebar sind)
+    with open("data/fleaflicker_league_rules_raw.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    print("Rohdaten -> data/fleaflicker_league_rules_raw.json")
