@@ -252,8 +252,8 @@ async function loadData() {
     const players = await playersRes.json();
     const picks = await picksRes.json();
     ASSETS.push(
-      ...players.map(p => ({type:'player', name:p.name, pos:p.pos, team:p.team, age:p.age, ppg:p.ppg, value:p.value, src:p.src, trailing:p.trailing, selectable:p.selectable})),
-      ...picks.map(p => ({type:'pick', name:'Pick ' + p.label, pos:'PICK', team:'—', age:null, ppg:null, value:p.value})),
+      ...players.map(p => ({id:p.id, type:'player', name:p.name, pos:p.pos, team:p.team, age:p.age, ppg:p.ppg, value:p.value, src:p.src, trailing:p.trailing, selectable:p.selectable})),
+      ...picks.map(p => ({id:p.id, type:'pick', name:'Pick ' + p.label, pos:'PICK', team:'—', age:null, ppg:null, value:p.value})),
     );
     dataLoaded = true;
     document.querySelectorAll('.search-input').forEach(el => el.disabled = false);
@@ -276,8 +276,9 @@ function setupSideSearch(side){
   function render(){
     const q = input.value.trim().toLowerCase();
     if (!q){ box.innerHTML = ''; return; }
+    const selectedIds = new Set([...teamA, ...teamB].map(a => a.id));
     const list = ASSETS.filter(a =>
-      a.name.toLowerCase().includes(q) || a.pos.toLowerCase().includes(q)
+      !selectedIds.has(a.id) && (a.name.toLowerCase().includes(q) || a.pos.toLowerCase().includes(q))
     ).slice(0, 8);
 
     if (list.length === 0){
