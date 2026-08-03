@@ -92,9 +92,20 @@ idp = build_player_value(def_cur, def_prev, roster, "fine_position")
 off = build_player_value(off_cur, off_prev, roster, "fine_position")
 kick = build_player_value(kick_cur, kick_prev, roster, "fine_position")
 
-# --- IDP: Replacement-Level je Gruppe (DB / EDR-IL / LB), Rang 32 (2 Slots x 16 Teams) ---
+# --- IDP: Replacement-Level je Gruppe (DB / EDR-IL / LB). Rang = tatsaechliche
+# Anzahl gerosterter Spieler dieser Gruppe (aus den echten, live abgerufenen
+# Fleaflicker-Rosterdaten) + 1 -- der wahre Replacement-Referenzpunkt (bester
+# Spieler, der bei KEINEM der 16 Teams mehr auf dem Roster ist), nicht eine
+# geschaetzte Wildcard-Quote. Siehe engine/roster_counts.py.
+from engine.roster_counts import compute_rostered_counts
 groups = roster_cfg["position_groups"]
-RANK_IDP = roster_cfg["num_teams"] * 2  # 2 Start-Slots je Gruppe
+_rostered = compute_rostered_counts("data/fleaflicker_rosters.json")
+if _rostered:
+    RANK_IDP_BY_GROUP = {g: _rostered.get(g, 32) + 1 for g in ["DB", "EDR_IL", "LB"]}
+else:
+    RANK_IDP_BY_GROUP = {"DB": 32, "EDR_IL": 32, "LB": 32}  # Fallback, falls Rosterdaten fehlen
+print("Tatsaechlich gerosterte Spieler je Gruppe:", _rostered)
+print("IDP-Raenge (echte Rosterzahl + 1):", RANK_IDP_BY_GROUP)
 
 def assign_group(pos, groups):
     for g, positions in groups.items():
@@ -163,7 +174,7 @@ idp = idp.dropna(subset=["idp_group"])
 repl_levels = {}
 for g in ["DB", "EDR_IL", "LB"]:
     sub = idp[idp["idp_group"] == g]
-    repl_levels[g] = replacement_level(sub, "weighted_ppg", RANK_IDP)
+    repl_levels[g] = replacement_level(sub, "weighted_ppg", RANK_IDP_BY_GROUP[g])
 print("Replacement-Level (IDP):", repl_levels)
 
 idp["replacement_level"] = idp["idp_group"].map(repl_levels)
@@ -174,18 +185,23 @@ idp["dynasty_trailing_value"] = idp.apply(lambda r: dynasty_trailing_value(r["vo
 idp["position"] = idp["flea_fine_position"].where(idp["flea_fine_position"].notna(), idp["fine_position"])
 idp = idp.drop(columns=["flea_fine_position"])
 
-# --- Offense: Replacement-Level je Position, Flex-Slot heuristisch verteilt (Stolperstein A) ---
+# --- Offense: Replacement-Level je Position. Rang = tatsaechliche Anzahl
+# gerosterter Spieler (aus den echten Fleaflicker-Rosterdaten) + 1 -- ersetzt
+# die bisherige Flex-Anteil-Heuristik (Stolperstein A) durch echte Zahlen,
+# genau wie bei IDP. Siehe engine/roster_counts.py.
 NUM_TEAMS = roster_cfg["num_teams"]
 slots = roster_cfg["starting_slots"]
-flex_share = roster_cfg["flex_share_offense"]
-
-off_ranks = {
-    "QB": NUM_TEAMS * slots["QB"],
-    "RB": round(NUM_TEAMS * (slots["RB"] + slots["FLEX_RB_WR_TE"] * flex_share["RB"])),
-    "WR": round(NUM_TEAMS * (slots["WR"] + slots["FLEX_RB_WR_TE"] * flex_share["WR"])),
-    "TE": round(NUM_TEAMS * (slots["TE"] + slots["FLEX_RB_WR_TE"] * flex_share["TE"])),
-}
-print("Replacement-Ranks (Offense, inkl. Flex-Heuristik):", off_ranks)
+if _rostered:
+    off_ranks = {pos: _rostered.get(pos, NUM_TEAMS * slots[pos]) + 1 for pos in ["QB", "RB", "WR", "TE"]}
+else:
+    flex_share = roster_cfg["flex_share_offense"]
+    off_ranks = {
+        "QB": NUM_TEAMS * slots["QB"],
+        "RB": round(NUM_TEAMS * (slots["RB"] + slots["FLEX_RB_WR_TE"] * flex_share["RB"])),
+        "WR": round(NUM_TEAMS * (slots["WR"] + slots["FLEX_RB_WR_TE"] * flex_share["WR"])),
+        "TE": round(NUM_TEAMS * (slots["TE"] + slots["FLEX_RB_WR_TE"] * flex_share["TE"])),
+    }
+print("Replacement-Ranks (Offense, echte Rosterzahl + 1):", off_ranks)
 
 off["position"] = off["fine_position"].where(off["fine_position"].isin(["QB", "RB", "WR", "TE"]), off["fine_position"])
 off = off[off["position"].isin(["QB", "RB", "WR", "TE"])]
