@@ -226,10 +226,14 @@ if os.path.exists(fp_path):
 else:
     print(f"Keine Projektionsdatei unter {fp_path} gefunden -- proj_vorp bleibt leer (kein Blocker).")
 
-# --- Dynasty-Wert: Offense komplett neu (SCR + Alter + Draft-Kapital, KEIN Trailing-
-# Fallback mehr -- Dominiks ausdrueckliche Vorgabe), IDP/K bleiben vorerst beim alten
-# Trailing-Mechanismus (Defense-Kalibrierung folgt separat, noch nicht Teil hiervon).
-OFFENSE_POSITIONS = ["QB", "RB", "WR", "TE"]
+# --- Dynasty-Wert: Offense UND IDP jetzt auf dem gleichen SCR-System (SCR + Alter +
+# Draft-Kapital, KEIN Trailing-Fallback mehr -- Dominiks ausdrueckliche Vorgabe).
+# Nur noch K bleibt auf dem alten Trailing-Mechanismus (keine FantasyPros-Projektion
+# fuer Kicker vorhanden, kein Dynasty-Rang-Konzept fuer die Position sinnvoll).
+from engine.dynasty_value import OFFENSE_GROUPS, IDP_GROUPS
+OFFENSE_POSITIONS = [p for grp in OFFENSE_GROUPS.values() for p in grp[0]]
+IDP_POSITIONS = [p for grp in IDP_GROUPS.values() for p in grp[0]]
+SCR_POSITIONS = OFFENSE_POSITIONS + IDP_POSITIONS
 dynasty_path = "data/fantasypros_dynasty_rankings_2026.json"
 
 value_table["SCR"] = None
@@ -237,28 +241,37 @@ value_table["scr_source"] = "none"
 value_table["dynasty_value"] = None
 
 if os.path.exists(dynasty_path):
-    from engine.dynasty_value import build_offense_dynasty_values
+    from engine.dynasty_value import build_offense_dynasty_values, build_idp_dynasty_values
     with open(dynasty_path, encoding="utf-8") as f:
         dynasty_rankings = json.load(f)
+
     off_result = build_offense_dynasty_values(value_table, dynasty_rankings, roster)
-    for col in ["SCR", "scr_source", "dynasty_value"]:
-        value_table[col] = off_result[col]
     off_mask = value_table["position"].isin(OFFENSE_POSITIONS)
+    for col in ["SCR", "scr_source", "dynasty_value"]:
+        value_table.loc[off_mask, col] = off_result.loc[off_mask, col]
     print(f"Offense Dynasty-Value gebaut: "
           f"{(value_table.loc[off_mask,'scr_source']=='projected').sum()} projected, "
           f"{(value_table.loc[off_mask,'scr_source']=='rank_imputed').sum()} rank_imputed, "
           f"{(value_table.loc[off_mask,'scr_source']=='none').sum()} ohne jeden Wert (NA)")
-else:
-    print(f"Keine Dynasty-Rankings-Datei unter {dynasty_path} -- Offense-Dynasty-Value bleibt leer.")
 
-# primary_value: Offense = dynasty_value (neues System, oder NaN falls scr_source='none').
-# IDP/K = weiterhin dynasty_trailing_value (altes System, unveraendert bis zur
-# separaten Defense-Kalibrierung).
-non_offense_mask = ~value_table["position"].isin(OFFENSE_POSITIONS)
+    idp_result = build_idp_dynasty_values(value_table, dynasty_rankings, roster)
+    idp_mask = value_table["position"].isin(IDP_POSITIONS)
+    for col in ["SCR", "scr_source", "dynasty_value"]:
+        value_table.loc[idp_mask, col] = idp_result.loc[idp_mask, col]
+    print(f"IDP Dynasty-Value gebaut: "
+          f"{(value_table.loc[idp_mask,'scr_source']=='projected').sum()} projected, "
+          f"{(value_table.loc[idp_mask,'scr_source']=='rank_imputed').sum()} rank_imputed, "
+          f"{(value_table.loc[idp_mask,'scr_source']=='none').sum()} ohne jeden Wert (NA)")
+else:
+    print(f"Keine Dynasty-Rankings-Datei unter {dynasty_path} -- Dynasty-Value bleibt leer.")
+
+# primary_value: Offense+IDP = dynasty_value (neues System, oder NaN falls scr_source='none').
+# Nur K = weiterhin dynasty_trailing_value (altes System).
+non_scr_mask = ~value_table["position"].isin(SCR_POSITIONS)
 value_table["primary_value"] = value_table["dynasty_value"]
-value_table.loc[non_offense_mask, "primary_value"] = value_table.loc[non_offense_mask, "dynasty_trailing_value"]
+value_table.loc[non_scr_mask, "primary_value"] = value_table.loc[non_scr_mask, "dynasty_trailing_value"]
 value_table["primary_value_source"] = value_table["scr_source"]
-value_table.loc[non_offense_mask, "primary_value_source"] = "trailing"
+value_table.loc[non_scr_mask, "primary_value_source"] = "trailing"
 
 value_table = value_table.sort_values("primary_value", ascending=False)
 value_table.to_csv("output/value_table.csv", index=False)
