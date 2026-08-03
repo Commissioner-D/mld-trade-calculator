@@ -13,7 +13,7 @@ from engine.pick_curve import pick_value
 NUM_ROOKIE_ROUNDS = 4
 NUM_TEAMS = 16
 
-df = pd.read_csv("output/value_table.csv").dropna(subset=["primary_value"])
+df = pd.read_csv("output/value_table.csv")
 
 # Keine Kappung mehr: gerade Bank-/Throw-in-Spieler (z.B. Sweetener in Trades)
 # muessen auffindbar bleiben. Nur eindeutige Nicht-Fantasy-Positionen raus.
@@ -22,7 +22,9 @@ VALID_POSITIONS = {"QB", "RB", "WR", "TE", "K",
                     "DE", "DT", "NT",
                     "OLB", "ILB", "MLB", "LB"}
 
-trimmed = df[df["position"].isin(VALID_POSITIONS)].sort_values("primary_value", ascending=False)
+trimmed = df[df["position"].isin(VALID_POSITIONS)].copy()
+# NaN-Werte ans Ende sortieren (nicht ausgewaehlt/nicht auswaehlbar), Rest nach Wert
+trimmed = trimmed.sort_values("primary_value", ascending=False, na_position="last")
 trimmed = trimmed[["full_name", "position", "team", "age", "weighted_ppg",
                     "primary_value", "primary_value_source", "dynasty_trailing_value"]].copy()
 trimmed.columns = ["name", "pos", "team", "age", "ppg", "value", "src", "trailing"]
@@ -30,11 +32,18 @@ trimmed["ppg"] = trimmed["ppg"].round(2)
 trimmed["value"] = trimmed["value"].round(2)
 trimmed["age"] = trimmed["age"].round(1)
 trimmed["trailing"] = trimmed["trailing"].round(2)
+# selectable=False fuer Spieler ganz ohne Wert (weder Projektion noch Dynasty-Rang) --
+# bleiben im Calculator sichtbar/suchbar, koennen aber nicht zu einem Trade
+# hinzugefuegt werden (Dominiks Vorgabe: NA statt eines geratenen Werts).
+trimmed["selectable"] = trimmed["value"].notna()
 
 players = trimmed.to_dict("records")
 for p in players:
     if pd.isna(p["trailing"]):
         p["trailing"] = None
+    if pd.isna(p["value"]):
+        p["value"] = None
+        p["src"] = "none"
 
 picks = []
 for rnd in range(1, NUM_ROOKIE_ROUNDS + 1):
