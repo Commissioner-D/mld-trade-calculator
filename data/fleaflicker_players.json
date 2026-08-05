@@ -4581,7 +4581,7 @@
     "fleaflicker_id": 16563,
     "name": "Charles Snowden",
     "position": "LB",
-    "team": "FA",
+    "team": "DAL",
     "is_rookie": false
   },
   {
@@ -7199,7 +7199,7 @@
     "fleaflicker_id": 12940,
     "name": "Fabian Moreau",
     "position": "CB",
-    "team": "FA",
+    "team": "WAS",
     "is_rookie": false
   },
   {
@@ -8256,7 +8256,7 @@
     "fleaflicker_id": 12961,
     "name": "Ahkello Witherspoon",
     "position": "CB",
-    "team": "WAS",
+    "team": "FA",
     "is_rookie": false
   },
   {
@@ -8465,7 +8465,7 @@
   {
     "fleaflicker_id": 14724,
     "name": "Khalen Saunders",
-    "position": "EDR/IL",
+    "position": "IL",
     "team": "TEN",
     "is_rookie": false
   },
@@ -8521,8 +8521,8 @@
   {
     "fleaflicker_id": 17311,
     "name": "LaBryan Ray",
-    "position": "IL",
-    "team": "CAR",
+    "position": "EDR",
+    "team": "FA",
     "is_rookie": false
   },
   {
@@ -8970,7 +8970,7 @@
     "fleaflicker_id": 17728,
     "name": "Evan Hull",
     "position": "RB",
-    "team": "FA",
+    "team": "ARI",
     "is_rookie": false
   },
   {
