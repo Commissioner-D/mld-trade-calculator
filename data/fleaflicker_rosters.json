@@ -1,7 +1,7 @@
 [
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Jaxson Dart",
+    "player_name": "Jayden Daniels",
     "position": "QB",
     "roster_group": null
   },
@@ -103,12 +103,6 @@
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Jayden Daniels",
-    "position": "QB",
-    "roster_group": null
-  },
-  {
-    "team": "Tegetthoff Admirals",
     "player_name": "Michael Carter",
     "position": "RB",
     "roster_group": null
@@ -139,6 +133,12 @@
   },
   {
     "team": "Tegetthoff Admirals",
+    "player_name": "Wan'Dale Robinson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
     "player_name": "Jayden Reed",
     "position": "WR",
     "roster_group": null
@@ -157,26 +157,26 @@
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Coby Bryant",
-    "position": "S",
-    "roster_group": null
-  },
-  {
-    "team": "Tegetthoff Admirals",
     "player_name": "Travon Walker",
     "position": "EDR",
     "roster_group": null
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Nick Emmanwori",
-    "position": "S",
+    "player_name": "Coby Bryant",
+    "position": "DB",
     "roster_group": null
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "T.J. Edwards",
+    "player_name": "Jalon Walker",
     "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Jaxson Dart",
+    "position": "QB",
     "roster_group": null
   },
   {
@@ -187,26 +187,20 @@
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Savion Williams",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Tegetthoff Admirals",
     "player_name": "Elijah Arroyo",
     "position": "TE",
     "roster_group": null
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Mason Graham",
-    "position": "IL",
+    "player_name": "Nick Emmanwori",
+    "position": "S",
     "roster_group": null
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Jalon Walker",
-    "position": "EDR",
+    "player_name": "Mason Graham",
+    "position": "IL",
     "roster_group": null
   },
   {
@@ -217,13 +211,19 @@
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Rachaad White",
+    "player_name": "Jacory Croskey-Merritt",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Semmel Warriors",
     "player_name": "Kyle Monangai",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
+    "player_name": "Rachaad White",
     "position": "RB",
     "roster_group": null
   },
@@ -236,12 +236,6 @@
   {
     "team": "Semmel Warriors",
     "player_name": "Tutu Atwell",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Semmel Warriors",
-    "player_name": "Courtland Sutton",
     "position": "WR",
     "roster_group": null
   },
@@ -271,26 +265,20 @@
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Nick Bosa",
-    "position": "EDR",
-    "roster_group": null
-  },
-  {
-    "team": "Semmel Warriors",
     "player_name": "George Karlaftis",
     "position": "EDR",
     "roster_group": null
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Quincy Williams",
+    "player_name": "Quay Walker",
     "position": "LB",
     "roster_group": null
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Quay Walker",
-    "position": "LB",
+    "player_name": "Nick Bosa",
+    "position": "EDR",
     "roster_group": null
   },
   {
@@ -307,19 +295,7 @@
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Jacory Croskey-Merritt",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Semmel Warriors",
     "player_name": "Keon Coleman",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Semmel Warriors",
-    "player_name": "Jordan Watkins",
     "position": "WR",
     "roster_group": null
   },
@@ -367,8 +343,14 @@
   },
   {
     "team": "Semmel Warriors",
+    "player_name": "Jordan Watkins",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
     "player_name": "Darius Robinson",
-    "position": "IL",
+    "position": "EDR",
     "roster_group": null
   },
   {
@@ -391,25 +373,25 @@
   },
   {
     "team": "Pumpkin Seed Oilers",
-    "player_name": "Hollywood Brown",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Pumpkin Seed Oilers",
-    "player_name": "Tetairoa McMillan",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Pumpkin Seed Oilers",
     "player_name": "Christian Kirk",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Pumpkin Seed Oilers",
+    "player_name": "Hollywood Brown",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
     "player_name": "Jake Ferguson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Michael Mayer",
     "position": "TE",
     "roster_group": null
   },
@@ -475,12 +457,6 @@
   },
   {
     "team": "Pumpkin Seed Oilers",
-    "player_name": "Michael Mayer",
-    "position": "TE",
-    "roster_group": null
-  },
-  {
-    "team": "Pumpkin Seed Oilers",
     "player_name": "Cam Bynum",
     "position": "S",
     "roster_group": null
@@ -517,20 +493,26 @@
   },
   {
     "team": "Pumpkin Seed Oilers",
-    "player_name": "Christian Rozeboom",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Pumpkin Seed Oilers",
     "player_name": "Trevin Wallace",
     "position": "LB",
     "roster_group": null
   },
   {
     "team": "Pumpkin Seed Oilers",
-    "player_name": "Carson Schwesinger",
+    "player_name": "Shemar James",
     "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Tetairoa McMillan",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Pumpkin Seed Oilers",
+    "player_name": "Savion Williams",
+    "position": "WR",
     "roster_group": null
   },
   {
@@ -541,25 +523,13 @@
   },
   {
     "team": "Pumpkin Seed Oilers",
-    "player_name": "Malachi Moore",
-    "position": "S",
-    "roster_group": null
-  },
-  {
-    "team": "Pumpkin Seed Oilers",
     "player_name": "Craig Woodson",
     "position": "S",
     "roster_group": null
   },
   {
     "team": "Pumpkin Seed Oilers",
-    "player_name": "Shemar Stewart",
-    "position": "EDR",
-    "roster_group": null
-  },
-  {
-    "team": "Pumpkin Seed Oilers",
-    "player_name": "Shemar James",
+    "player_name": "Carson Schwesinger",
     "position": "LB",
     "roster_group": null
   },
@@ -577,7 +547,7 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Ashton Jeanty",
+    "player_name": "MarShawn Lloyd",
     "position": "RB",
     "roster_group": null
   },
@@ -625,19 +595,19 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Alex Wright",
-    "position": "EDR",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Trash Pandas",
     "player_name": "Jalen Carter",
     "position": "IL",
     "roster_group": null
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "SirVocea Dennis",
+    "player_name": "Calijah Kancey",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Divine Deablo",
     "position": "LB",
     "roster_group": null
   },
@@ -661,7 +631,7 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "MarShawn Lloyd",
+    "player_name": "Ashton Jeanty",
     "position": "RB",
     "roster_group": null
   },
@@ -709,26 +679,20 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Divine Deablo",
+    "player_name": "SirVocea Dennis",
     "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
+    "player_name": "Alex Wright",
+    "position": "EDR",
     "roster_group": null
   },
   {
     "team": "Graz Trash Pandas",
     "player_name": "Mykel Williams",
-    "position": "EDR/IL",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Trash Pandas",
-    "player_name": "Calijah Kancey",
-    "position": "IL",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Trash Pandas",
-    "player_name": "Jack Sanborn",
-    "position": "LB",
+    "position": "EDR",
     "roster_group": null
   },
   {
@@ -775,19 +739,13 @@
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "Kimani Vidal",
+    "player_name": "Brian Robinson",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Vienna Seahawks",
     "player_name": "Tyrone Tracy",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna Seahawks",
-    "player_name": "Brian Robinson",
     "position": "RB",
     "roster_group": null
   },
@@ -800,6 +758,12 @@
   {
     "team": "Vienna Seahawks",
     "player_name": "Quentin Johnston",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Courtland Sutton",
     "position": "WR",
     "roster_group": null
   },
@@ -823,25 +787,19 @@
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "Calen Bullock",
-    "position": "S",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna Seahawks",
     "player_name": "Evan Williams",
     "position": "S",
     "roster_group": null
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "Cedric Gray",
+    "player_name": "Devin White",
     "position": "LB",
     "roster_group": null
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "Tyrice Knight",
+    "player_name": "Cedric Gray",
     "position": "LB",
     "roster_group": null
   },
@@ -859,7 +817,19 @@
   },
   {
     "team": "Vienna Seahawks",
+    "player_name": "Quincy Williams",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
     "player_name": "Aaron Rodgers",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "J.J. McCarthy",
     "position": "QB",
     "roster_group": null
   },
@@ -871,7 +841,19 @@
   },
   {
     "team": "Vienna Seahawks",
+    "player_name": "Sean Tucker",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
     "player_name": "Audric Estime",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Kimani Vidal",
     "position": "RB",
     "roster_group": null
   },
@@ -889,20 +871,14 @@
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "David Njoku",
-    "position": "TE",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna Seahawks",
     "player_name": "Chig Okonkwo",
     "position": "TE",
     "roster_group": null
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "K'Lavon Chaisson",
-    "position": "EDR",
+    "player_name": "Calen Bullock",
+    "position": "S",
     "roster_group": null
   },
   {
@@ -913,7 +889,7 @@
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "Devin White",
+    "player_name": "Drake Thomas",
     "position": "LB",
     "roster_group": null
   },
@@ -1033,12 +1009,6 @@
   },
   {
     "team": "Mühlviertl Raiders",
-    "player_name": "Kenny Pickett",
-    "position": "QB",
-    "roster_group": null
-  },
-  {
-    "team": "Mühlviertl Raiders",
     "player_name": "Samaje Perine",
     "position": "RB",
     "roster_group": null
@@ -1046,12 +1016,6 @@
   {
     "team": "Mühlviertl Raiders",
     "player_name": "Alexander Mattison",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Mühlviertl Raiders",
-    "player_name": "Bam Knight",
     "position": "RB",
     "roster_group": null
   },
@@ -1082,12 +1046,6 @@
   {
     "team": "Mühlviertl Raiders",
     "player_name": "Ivan Pace",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Mühlviertl Raiders",
-    "player_name": "Darius Muasau",
     "position": "LB",
     "roster_group": null
   },
@@ -1141,7 +1099,7 @@
   },
   {
     "team": "Gries Goats",
-    "player_name": "Brock Purdy",
+    "player_name": "Lamar Jackson",
     "position": "QB",
     "roster_group": null
   },
@@ -1231,7 +1189,7 @@
   },
   {
     "team": "Gries Goats",
-    "player_name": "Lamar Jackson",
+    "player_name": "Brock Purdy",
     "position": "QB",
     "roster_group": null
   },
@@ -1381,13 +1339,13 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "DK Metcalf",
+    "player_name": "Ja'Marr Chase",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Ja'Marr Chase",
+    "player_name": "Rashee Rice",
     "position": "WR",
     "roster_group": null
   },
@@ -1423,12 +1381,6 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Austin Booker",
-    "position": "EDR",
-    "roster_group": null
-  },
-  {
-    "team": "Styrian Sombreros",
     "player_name": "Alex Anzalone",
     "position": "LB",
     "roster_group": null
@@ -1437,6 +1389,12 @@
     "team": "Styrian Sombreros",
     "player_name": "Daiyan Henley",
     "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "DeMarcus Lawrence",
+    "position": "EDR",
     "roster_group": null
   },
   {
@@ -1459,7 +1417,7 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Wan'Dale Robinson",
+    "player_name": "DK Metcalf",
     "position": "WR",
     "roster_group": null
   },
@@ -1471,7 +1429,7 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Rashee Rice",
+    "player_name": "Tank Dell",
     "position": "WR",
     "roster_group": null
   },
@@ -1495,7 +1453,7 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "DeMarcus Lawrence",
+    "player_name": "Austin Booker",
     "position": "EDR",
     "roster_group": null
   },
@@ -1507,32 +1465,20 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "James Williams",
+    "player_name": "T.J. Edwards",
     "position": "LB",
     "roster_group": null
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Tank Dell",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Styrian Sombreros",
-    "player_name": "Julian Blackmon",
-    "position": "S",
+    "player_name": "Josh Sweat",
+    "position": "EDR",
     "roster_group": null
   },
   {
     "team": "Styrian Sombreros",
     "player_name": "Micah Parsons",
     "position": "EDR",
-    "roster_group": null
-  },
-  {
-    "team": "Styrian Sombreros",
-    "player_name": "Josh Sweat",
-    "position": "LB",
     "roster_group": null
   },
   {
@@ -1646,7 +1592,7 @@
   {
     "team": "Ragnitz Couchpotatos",
     "player_name": "Harold Landry",
-    "position": "LB",
+    "position": "EDR",
     "roster_group": null
   },
   {
@@ -1711,12 +1657,6 @@
   },
   {
     "team": "Ragnitz Couchpotatos",
-    "player_name": "BJ Ojulari",
-    "position": "EDR",
-    "roster_group": null
-  },
-  {
-    "team": "Ragnitz Couchpotatos",
     "player_name": "Azeez Al-Shaair",
     "position": "LB",
     "roster_group": null
@@ -1724,6 +1664,12 @@
   {
     "team": "Ragnitz Couchpotatos",
     "player_name": "Leo Chenal",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "BJ Ojulari",
     "position": "LB",
     "roster_group": null
   },
@@ -1801,25 +1747,25 @@
   },
   {
     "team": "Purple Cobras",
+    "player_name": "Quinshon Judkins",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Garrett Wilson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
     "player_name": "Jaxon Smith-Njigba",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Marvin Harrison",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
-    "player_name": "Rome Odunze",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
-    "player_name": "Brenton Strange",
+    "player_name": "Tucker Kraft",
     "position": "TE",
     "roster_group": null
   },
@@ -1867,7 +1813,7 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Eric Wilson",
+    "player_name": "Alex Singleton",
     "position": "LB",
     "roster_group": null
   },
@@ -1879,31 +1825,25 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "J.J. McCarthy",
-    "position": "QB",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
     "player_name": "Emanuel Wilson",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Sean Tucker",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
-    "player_name": "Cedric Tillman",
+    "player_name": "Kayshon Boutte",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Kayshon Boutte",
+    "player_name": "Marvin Harrison",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Rome Odunze",
     "position": "WR",
     "roster_group": null
   },
@@ -1915,14 +1855,20 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Montez Sweat",
+    "player_name": "Brenton Strange",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Dallas Turner",
     "position": "EDR",
     "roster_group": null
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Abdul Carter",
-    "position": "EDR",
+    "player_name": "Eric Wilson",
+    "position": "LB",
     "roster_group": null
   },
   {
@@ -1933,38 +1879,8 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Drake Thomas",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
-    "player_name": "Jack Kiser",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
-    "player_name": "Quinshon Judkins",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
-    "player_name": "Garrett Wilson",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
-    "player_name": "Tucker Kraft",
-    "position": "TE",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
     "player_name": "Brian Branch",
-    "position": "DB",
+    "position": "S",
     "roster_group": null
   },
   {
@@ -1999,7 +1915,7 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Dallas Turner",
+    "player_name": "Abdul Carter",
     "position": "EDR",
     "roster_group": null
   },
@@ -2125,6 +2041,12 @@
   },
   {
     "team": "AlohaHe",
+    "player_name": "Xavier Legette",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
     "player_name": "Juwan Johnson",
     "position": "TE",
     "roster_group": null
@@ -2162,12 +2084,6 @@
   {
     "team": "AlohaHe",
     "player_name": "Tatum Bethune",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "AlohaHe",
-    "player_name": "Kiko Mauigoa",
     "position": "LB",
     "roster_group": null
   },
@@ -2215,14 +2131,14 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Xavier Legette",
+    "player_name": "Chimere Dike",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "AlohaHe",
-    "player_name": "Chimere Dike",
-    "position": "WR",
+    "player_name": "Kiko Mauigoa",
+    "position": "LB",
     "roster_group": null
   },
   {
@@ -2299,12 +2215,6 @@
   },
   {
     "team": "New Fernitz Dudemeisters",
-    "player_name": "Alex Singleton",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
     "player_name": "Tua Tagovailoa",
     "position": "QB",
     "roster_group": null
@@ -2353,6 +2263,12 @@
   },
   {
     "team": "New Fernitz Dudemeisters",
+    "player_name": "Montez Sweat",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
     "player_name": "Bradley Chubb",
     "position": "EDR",
     "roster_group": null
@@ -2366,6 +2282,12 @@
   {
     "team": "New Fernitz Dudemeisters",
     "player_name": "Mack Wilson",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Christian Rozeboom",
     "position": "LB",
     "roster_group": null
   },
@@ -2576,7 +2498,7 @@
   {
     "team": "Romo's Call",
     "player_name": "Jonathan Greenard",
-    "position": "LB",
+    "position": "EDR",
     "roster_group": null
   },
   {
@@ -2671,7 +2593,7 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Evan Engram",
+    "player_name": "Travis Kelce",
     "position": "TE",
     "roster_group": null
   },
@@ -2755,7 +2677,7 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Travis Kelce",
+    "player_name": "Evan Engram",
     "position": "TE",
     "roster_group": null
   },
@@ -2779,14 +2701,14 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Dexter Lawrence",
+    "player_name": "Tyree Wilson",
     "position": "IL",
     "roster_group": null
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Tyree Wilson",
-    "position": "EDR",
+    "player_name": "Dexter Lawrence",
+    "position": "IL",
     "roster_group": null
   },
   {
@@ -2821,6 +2743,12 @@
   },
   {
     "team": "Graz Moeflers",
+    "player_name": "Keaton Mitchell",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
     "player_name": "Josh Downs",
     "position": "WR",
     "roster_group": null
@@ -2828,12 +2756,6 @@
   {
     "team": "Graz Moeflers",
     "player_name": "Brian Thomas",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Moeflers",
-    "player_name": "Adonai Mitchell",
     "position": "WR",
     "roster_group": null
   },
@@ -2899,14 +2821,14 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Keaton Mitchell",
+    "player_name": "LeQuint Allen",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "LeQuint Allen",
-    "position": "RB",
+    "player_name": "Adonai Mitchell",
+    "position": "WR",
     "roster_group": null
   },
   {
@@ -3055,14 +2977,20 @@
   },
   {
     "team": "Lend Football Team",
-    "player_name": "Philip Rivers",
+    "player_name": "Jacoby Brissett",
     "position": "QB",
     "roster_group": null
   },
   {
     "team": "Lend Football Team",
-    "player_name": "Jacoby Brissett",
+    "player_name": "Kyler Murray",
     "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Lend Football Team",
+    "player_name": "James Conner",
+    "position": "RB",
     "roster_group": null
   },
   {
@@ -3079,14 +3007,14 @@
   },
   {
     "team": "Lend Football Team",
-    "player_name": "Devaughn Vele",
+    "player_name": "Luke McCaffrey",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Lend Football Team",
-    "player_name": "Zach Ertz",
-    "position": "TE",
+    "player_name": "Devaughn Vele",
+    "position": "WR",
     "roster_group": null
   },
   {
@@ -3123,24 +3051,6 @@
     "team": "Lend Football Team",
     "player_name": "Ruben Hyppolite",
     "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Lend Football Team",
-    "player_name": "Kyler Murray",
-    "position": "QB",
-    "roster_group": null
-  },
-  {
-    "team": "Lend Football Team",
-    "player_name": "James Conner",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Lend Football Team",
-    "player_name": "Luke McCaffrey",
-    "position": "WR",
     "roster_group": null
   },
   {
