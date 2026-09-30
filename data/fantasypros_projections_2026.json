@@ -2093,7 +2093,7 @@
   {
     "name": "J.J. McCarthy",
     "position": "QB",
-    "team": "MIN",
+    "team": "NYG",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 23.54,
@@ -10354,7 +10354,7 @@
   {
     "name": "Jerome Ford",
     "position": "RB",
-    "team": "MIN",
+    "team": "FA",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -10403,7 +10403,7 @@
   {
     "name": "Devin Neal",
     "position": "RB",
-    "team": "FA",
+    "team": "MIN",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -18096,7 +18096,7 @@
   {
     "name": "Odell Beckham Jr.",
     "position": "WR",
-    "team": "NYG",
+    "team": "FA",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -19909,7 +19909,7 @@
   {
     "name": "Ke'Shawn Williams",
     "position": "WR",
-    "team": "CIN",
+    "team": "FA",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -25645,7 +25645,7 @@
   {
     "name": "John FitzPatrick",
     "position": "TE",
-    "team": "FA",
+    "team": "CLE",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -27179,7 +27179,7 @@
   {
     "name": "Blake Grupe",
     "position": "K",
-    "team": "NYJ",
+    "team": "FA",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
