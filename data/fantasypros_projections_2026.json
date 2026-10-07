@@ -9227,7 +9227,7 @@
   {
     "name": "Audric Estime",
     "position": "RB",
-    "team": "FA",
+    "team": "MIN",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -10305,7 +10305,7 @@
   {
     "name": "Eric Gray",
     "position": "RB",
-    "team": "CLE",
+    "team": "FA",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -10403,7 +10403,7 @@
   {
     "name": "Devin Neal",
     "position": "RB",
-    "team": "MIN",
+    "team": "FA",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -17802,7 +17802,7 @@
   {
     "name": "Xavier Smith",
     "position": "WR",
-    "team": "LAR",
+    "team": "FA",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -18096,7 +18096,7 @@
   {
     "name": "Odell Beckham Jr.",
     "position": "WR",
-    "team": "FA",
+    "team": "MIN",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -18880,7 +18880,7 @@
   {
     "name": "Coleman Owen",
     "position": "WR",
-    "team": "FA",
+    "team": "GB",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -19909,7 +19909,7 @@
   {
     "name": "Ke'Shawn Williams",
     "position": "WR",
-    "team": "FA",
+    "team": "CIN",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -20056,7 +20056,7 @@
   {
     "name": "Malik Turner",
     "position": "WR",
-    "team": "FA",
+    "team": "SF",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -27179,7 +27179,7 @@
   {
     "name": "Blake Grupe",
     "position": "K",
-    "team": "FA",
+    "team": "NYJ",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -35325,7 +35325,7 @@
   {
     "name": "Claudin Cherelus",
     "position": "LB",
-    "team": "CAR",
+    "team": "FA",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
@@ -41749,7 +41749,7 @@
   {
     "name": "Joey Porter Jr.",
     "position": "DB",
-    "team": "PIT",
+    "team": "DAL",
     "source": "fantasypros_projection",
     "season": "2026",
     "pass_att": 0,
