@@ -913,7 +913,7 @@
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "George Holani",
+    "player_name": "Trevor Etienne",
     "position": "RB",
     "roster_group": null
   },
@@ -1005,6 +1005,12 @@
     "team": "Vienna Seahawks",
     "player_name": "Joe Milton",
     "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "George Holani",
+    "position": "RB",
     "roster_group": null
   },
   {
@@ -1231,6 +1237,12 @@
   },
   {
     "team": "Mühlviertl Raiders",
+    "player_name": "Devin Singletary",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
     "player_name": "Chris Olave",
     "position": "WR",
     "roster_group": null
@@ -1268,12 +1280,6 @@
   {
     "team": "Mühlviertl Raiders",
     "player_name": "Jeremiah Trotter",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Mühlviertl Raiders",
-    "player_name": "Jaylon Carlies",
     "position": "LB",
     "roster_group": null
   },
@@ -1849,6 +1855,12 @@
   },
   {
     "team": "Ragnitz Couchpotatos",
+    "player_name": "Troy Dye",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
     "player_name": "Baker Mayfield",
     "position": "QB",
     "roster_group": null
@@ -1881,6 +1893,12 @@
     "team": "Ragnitz Couchpotatos",
     "player_name": "Ja'Tavion Sanders",
     "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Ragnitz Couchpotatos",
+    "player_name": "Marcus Jones",
+    "position": "CB",
     "roster_group": null
   },
   {
@@ -2023,20 +2041,14 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Jalen Ramsey",
-    "position": "CB",
-    "roster_group": null
-  },
-  {
-    "team": "Purple Cobras",
     "player_name": "Kevin Winston",
     "position": "S",
     "roster_group": null
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Jared Verse",
-    "position": "EDR",
+    "player_name": "Brian Branch",
+    "position": "S",
     "roster_group": null
   },
   {
@@ -2054,6 +2066,12 @@
   {
     "team": "Purple Cobras",
     "player_name": "Dallas Turner",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Purple Cobras",
+    "player_name": "Yaya Diaby",
     "position": "EDR",
     "roster_group": null
   },
@@ -2107,8 +2125,8 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Chuck Clark",
-    "position": "S",
+    "player_name": "Jalen Ramsey",
+    "position": "CB",
     "roster_group": null
   },
   {
@@ -2119,13 +2137,13 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Brian Branch",
-    "position": "S",
+    "player_name": "Danielle Hunter",
+    "position": "EDR",
     "roster_group": null
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Danielle Hunter",
+    "player_name": "Jared Verse",
     "position": "EDR",
     "roster_group": null
   },
@@ -2227,7 +2245,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Ka'imi Fairbairn",
+    "player_name": "Chad Ryland",
     "position": "K",
     "roster_group": null
   },
@@ -2307,6 +2325,12 @@
     "team": "AlohaHe",
     "player_name": "Isaiah Likely",
     "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Ka'imi Fairbairn",
+    "position": "K",
     "roster_group": null
   },
   {
@@ -3127,19 +3151,19 @@
   },
   {
     "team": "Graz Moeflers",
+    "player_name": "Donovan Ezeiruaku",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
     "player_name": "Nik Bonitto",
     "position": "EDR",
     "roster_group": null
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Alex Highsmith",
-    "position": "EDR",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Moeflers",
-    "player_name": "Arvell Reese",
+    "player_name": "Jihaad Campbell",
     "position": "LB",
     "roster_group": null
   },
@@ -3199,19 +3223,19 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Donovan Ezeiruaku",
-    "position": "EDR",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Moeflers",
     "player_name": "Mike Green",
     "position": "EDR",
     "roster_group": null
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Jihaad Campbell",
+    "player_name": "Alex Highsmith",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Arvell Reese",
     "position": "LB",
     "roster_group": null
   },
@@ -3409,7 +3433,7 @@
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "Kalif Raymond",
+    "player_name": "Treylon Burks",
     "position": "WR",
     "roster_group": null
   },
@@ -3463,12 +3487,6 @@
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "CJ Allen",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Stehbuffet Seagulls",
     "player_name": "Zavion Thomas",
     "position": "WR",
     "roster_group": null
@@ -3481,12 +3499,6 @@
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "Dominic Zvada",
-    "position": "K",
-    "roster_group": null
-  },
-  {
-    "team": "Stehbuffet Seagulls",
     "player_name": "Keionte Scott",
     "position": "CB",
     "roster_group": null
@@ -3495,6 +3507,12 @@
     "team": "Stehbuffet Seagulls",
     "player_name": "Gracen Halton",
     "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Stehbuffet Seagulls",
+    "player_name": "CJ Allen",
+    "position": "LB",
     "roster_group": null
   }
 ]
