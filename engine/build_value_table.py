@@ -140,6 +140,19 @@ flea_path = "data/fleaflicker_players.json"
 if os.path.exists(flea_path):
     with open(flea_path, encoding="utf-8") as f:
         flea_players = json.load(f)
+    # FetchPlayerListing liefert nur einen Teil des Pools (z.B. fehlt Tuli Tuipulotu, der bei
+    # Vienna Seahawks als EDR gerostert ist -> nflverse-Fallback "OLB" -> falsch als LB bewertet).
+    # Die Kader-Datei hat Fleaflickers Position fuer jeden gerosterten Spieler -> ergaenzen.
+    # Reihenfolge: Roster-Eintraege zuletzt, damit sie bei Namensgleichheit gewinnen.
+    _roster_pos_path = "data/fleaflicker_rosters.json"
+    if os.path.exists(_roster_pos_path):
+        with open(_roster_pos_path, encoding="utf-8") as f:
+            _roster_entries = json.load(f)
+        flea_players = flea_players + [
+            {"name": r["player_name"], "position": r.get("position")}
+            for r in _roster_entries if r.get("player_name")
+        ]
+        print(f"Fleaflicker-Positionen: {len(_roster_entries)} Kader-Eintraege zusaetzlich zur Spielerliste")
     for p in flea_players:
         if not p.get("name"):
             continue
