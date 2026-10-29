@@ -78,7 +78,7 @@ FINAL_PARAMS = {
 
 
 def norm_name(n):
-    return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", str(n).lower())).strip()
+    return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
 
 
 def age_mult(age, peak, rate):

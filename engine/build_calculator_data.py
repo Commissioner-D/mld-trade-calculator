@@ -44,7 +44,7 @@ if os.path.exists(rosters_path):
     import re as _re
 
     def _norm(n):
-        return _re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", _re.sub(r"[^a-z ]", "", str(n).lower())).strip()
+        return _re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", _re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
 
     rostered_names = {_norm(r["player_name"]) for r in rosters if r.get("player_name")}
     df_valid = df.dropna(subset=["primary_value"]).copy()

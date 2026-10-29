@@ -27,7 +27,7 @@ IDP_GROUP_OF_FLEA_POS = {
 
 
 def norm_name(n):
-    return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", str(n).lower())).strip()
+    return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
 
 
 def compute_rostered_counts(rosters_path: str = "data/fleaflicker_rosters.json") -> dict:

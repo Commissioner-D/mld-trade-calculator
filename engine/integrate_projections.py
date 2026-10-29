@@ -89,7 +89,7 @@ def build_projected_vorp(fp_json_path: str, roster_cfg: dict, flea_group_by_name
     if flea_group_by_name:
         GROUP_TO_FP_POS = {v: k for k, v in FP_DEFENSE_TO_GROUP.items()}  # DB/EDR_IL/LB -> DB/DL/LB
         def _norm(n):
-            return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", str(n).lower())).strip()
+            return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
         is_def = proj["position"].isin(FP_DEFENSE_TO_GROUP.keys())
         overridden = 0
         for idx in proj[is_def].index:

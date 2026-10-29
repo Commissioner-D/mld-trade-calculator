@@ -3,9 +3,9 @@ Baut die vollstaendige Trailing-Production-Value-Tabelle fuer alle Spieler
 (IDP + Offense + Kicker) aus nflverse-Rohdaten.
 
 Ablauf:
-  1. Rosters laden (Position, Alter, Team) fuer 2025 + 2024
-  2. Defense/Offense/Kicking-Rohkategorien aggregieren (PBP fuer 2025,
-     offizielles Release fuer 2024 -- Release-Files hinken einer Saison hinterher)
+  1. Rosters laden (Position, Alter, Team) fuer aktuelle + vorherige Saison
+  2. Defense/Offense/Kicking-Rohkategorien fuer beide Saisons aus PBP aggregieren
+     (die offiziellen player_stats-Releases enden bei 2024 und werden nicht mehr gepflegt)
   3. Scoring-Config anwenden -> Fantasy-Punkte pro Saison
   4. Weighted PPG (65/35) -> Replacement-Level/VORP -> Age-Curve
   5. Output: output/value_table.csv + output/value_table.json
@@ -13,6 +13,7 @@ Ablauf:
 import sys
 import os
 import re
+import unicodedata
 import json
 import pandas as pd
 import numpy as np
@@ -24,14 +25,19 @@ from engine.aggregate_kicking import aggregate_kicking_from_pbp
 from engine.scoring import load_scoring_config, score_defense_row, score_offense_row, score_kicking_row
 from engine.value_engine import weighted_ppg, replacement_level, compute_age, dynasty_trailing_value
 
-DATA = "data"
-CUR_SEASON, PREV_SEASON = 2025, 2024
+from engine.fetch_data import current_season
 
-print("Lade Rosters ...")
-roster_cur = pd.read_csv(f"{DATA}/roster_2025.csv.gz")
-roster_prev = pd.read_csv(f"{DATA}/roster_2024.csv.gz")
-# neuestes Rosterbild pro Spieler (fuer aktuelle Position/Team/Alter) bevorzugt aus 2025,
-# Fallback 2024 fuer Spieler, die 2025 nicht mehr aktiv gerostert waren
+DATA = "data"
+# Saison automatisch (ab September = neue Saison). Vorher hart 2025/2024 -> der komplette
+# 2026er Rookie-Jahrgang fehlte im Rechner (z.B. Anthony Hill Jr.), Teams waren veraltet.
+CUR_SEASON = current_season()
+PREV_SEASON = CUR_SEASON - 1
+
+print(f"Lade Rosters ({CUR_SEASON} + {PREV_SEASON}) ...")
+roster_cur = pd.read_csv(f"{DATA}/roster_{CUR_SEASON}.csv.gz")
+roster_prev = pd.read_csv(f"{DATA}/roster_{PREV_SEASON}.csv.gz")
+# neuestes Rosterbild pro Spieler (fuer aktuelle Position/Team/Alter) bevorzugt aus der
+# aktuellen Saison, Fallback Vorsaison fuer Spieler, die aktuell nicht gerostert sind
 roster = pd.concat([roster_cur, roster_prev]).sort_values("season", ascending=False)
 roster = roster.drop_duplicates(subset=["gsis_id"], keep="first")
 roster["fine_position"] = roster["depth_chart_position"].fillna(roster["position"])
@@ -41,18 +47,16 @@ with open("scoring/roster_config.json") as f:
     roster_cfg = json.load(f)
 
 print("Aggregiere Defense ...")
-pbp_cur = pd.read_csv(f"{DATA}/pbp_2025.csv.gz", low_memory=False)
+pbp_cur = pd.read_csv(f"{DATA}/pbp_{CUR_SEASON}.csv.gz", low_memory=False)
+pbp_prev = pd.read_csv(f"{DATA}/pbp_{PREV_SEASON}.csv.gz", low_memory=False)
 def_cur = aggregate_defense_from_pbp(pbp_cur, CUR_SEASON)
-def_prev_release = pd.read_csv(f"{DATA}/player_stats_def_2025.csv.gz")
-def_prev = def_official(def_prev_release, PREV_SEASON)
+def_prev = aggregate_defense_from_pbp(pbp_prev, PREV_SEASON)
 
 print("Aggregiere Offense ...")
 off_cur = aggregate_offense_from_pbp(pbp_cur, CUR_SEASON)
-off_prev_release = pd.read_csv(f"{DATA}/player_stats_offense.csv.gz")
-off_prev = off_official(off_prev_release, PREV_SEASON)
+off_prev = aggregate_offense_from_pbp(pbp_prev, PREV_SEASON)
 
 print("Aggregiere Kicking ...")
-pbp_prev = pd.read_csv(f"{DATA}/pbp_2024.csv.gz", low_memory=False)
 kick_cur = aggregate_kicking_from_pbp(pbp_cur, CUR_SEASON)
 kick_prev = aggregate_kicking_from_pbp(pbp_prev, PREV_SEASON)
 
@@ -90,6 +94,36 @@ def build_player_value(pts_cur_df, pts_prev_df, roster_df, group_col_check):
 
 idp = build_player_value(def_cur, def_prev, roster, "fine_position")
 off = build_player_value(off_cur, off_prev, roster, "fine_position")
+
+# Spieler ohne einen einzigen Stat in beiden Saisons (Rookies ohne Snaps, lange Verletzte wie
+# Aiyuk) fielen bisher komplett raus. Aufnehmen, wenn sie relevant sind: FantasyPros-Projektion,
+# FantasyPros-Dynasty-Rang oder in einem MLD-Kader. Ohne Produktion -> weighted_ppg leer;
+# der Wert kommt dann aus Projektion bzw. Dynasty-Rang (oder NA).
+def _norm(n):
+    n = unicodedata.normalize("NFKD", str(n)).encode("ascii", "ignore").decode()
+    return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
+
+_relevant = set()
+for _path, _key in (("data/fantasypros_projections_2026.json", "name"),
+                    ("data/fantasypros_dynasty_rankings_2026.json", "name"),
+                    ("data/fleaflicker_rosters.json", "player_name")):
+    if os.path.exists(_path):
+        with open(_path, encoding="utf-8") as f:
+            _relevant |= {_norm(x.get(_key)) for x in json.load(f) if x.get(_key)}
+_known = set(idp["player_id"]) | set(off["player_id"]) | set(kick_cur["player_id"]) | set(kick_prev["player_id"])
+_extra = roster_cur.drop_duplicates("gsis_id")
+_extra = _extra[~_extra["gsis_id"].isin(_known) & _extra["full_name"].apply(_norm).isin(_relevant)].copy()
+_extra["fine_position"] = _extra["depth_chart_position"].fillna(_extra["position"])
+_extra = pd.DataFrame({"player_id": _extra["gsis_id"], "weighted_ppg": np.nan,
+                       "cur_season_pts": 0, "cur_season_games": 0, "prev_season_pts": 0, "prev_season_games": 0,
+                       "gsis_id": _extra["gsis_id"], "full_name": _extra["full_name"], "team": _extra["team"],
+                       "fine_position": _extra["fine_position"], "birth_date": _extra["birth_date"]})
+_extra["age"] = _extra["birth_date"].apply(compute_age)
+_off_pos = {"QB", "RB", "WR", "TE", "FB", "HB"}
+_is_off = _extra["fine_position"].isin(_off_pos)
+off = pd.concat([off, _extra[_is_off]], ignore_index=True)
+idp = pd.concat([idp, _extra[~_is_off & ~_extra["fine_position"].isin({"K", "P", "LS"})]], ignore_index=True)
+print(f"Ohne Stats, aber relevant (Projektion/Rang/MLD-Kader) ergaenzt: {len(_extra)} Spieler")
 kick = build_player_value(kick_cur, kick_prev, roster, "fine_position")
 
 # --- IDP: Replacement-Level je Gruppe (DB / EDR-IL / LB). Rang = Durchschnitt
@@ -133,7 +167,7 @@ FLEA_TO_GROUP = {
 }
 
 def norm_name(n):
-    return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip()
+    return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
 
 flea_group_by_name = {}
 flea_path = "data/fleaflicker_players.json"
@@ -266,8 +300,8 @@ fp_path = "data/fantasypros_projections_2026.json"
 if os.path.exists(fp_path):
     from engine.integrate_projections import build_projected_vorp
     proj = build_projected_vorp(fp_path, roster_cfg, flea_group_by_name=flea_group_by_name)
-    proj["norm_name"] = proj["name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip())
-    value_table["norm_name"] = value_table["full_name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", n.lower())).strip())
+    proj["norm_name"] = proj["name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip())
+    value_table["norm_name"] = value_table["full_name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip())
     # Nach norm_name deduplizieren (kann trotz vorherigem Dedup noch Kollisionen
     # geben, z.B. Spieler, die FantasyPros unter zwei Positionen fuehrt) --
     # hoechster proj_vorp gewinnt, sonst crasht der Lookup unten.
@@ -304,7 +338,7 @@ if os.path.exists(dynasty_path):
     with open(dynasty_path, encoding="utf-8") as f:
         dynasty_rankings = json.load(f)
 
-    off_result = build_offense_dynasty_values(value_table, dynasty_rankings, roster)
+    off_result = build_offense_dynasty_values(value_table, dynasty_rankings, roster, CUR_SEASON)
     off_mask = value_table["position"].isin(OFFENSE_POSITIONS)
     for col in ["SCR", "scr_source", "dynasty_value", "years_exp"]:
         value_table.loc[off_mask, col] = off_result.loc[off_mask, col]
@@ -313,7 +347,7 @@ if os.path.exists(dynasty_path):
           f"{(value_table.loc[off_mask,'scr_source']=='rank_imputed').sum()} rank_imputed, "
           f"{(value_table.loc[off_mask,'scr_source']=='none').sum()} ohne jeden Wert (NA)")
 
-    idp_result = build_idp_dynasty_values(value_table, dynasty_rankings, roster)
+    idp_result = build_idp_dynasty_values(value_table, dynasty_rankings, roster, CUR_SEASON)
     idp_mask = value_table["position"].isin(IDP_POSITIONS)
     for col in ["SCR", "scr_source", "dynasty_value", "years_exp"]:
         value_table.loc[idp_mask, col] = idp_result.loc[idp_mask, col]

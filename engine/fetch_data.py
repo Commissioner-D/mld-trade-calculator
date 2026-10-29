@@ -1,21 +1,26 @@
-"""Laedt alle benoetigten nflverse-Rohdaten nach data/. Erneut ausfuehren,
-sobald eine neue Saison aktuell wird (aktuell hart auf 2025/2024 gesetzt --
-Saison-Auto-Detection ist noch offen, siehe README)."""
+"""Laedt alle benoetigten nflverse-Rohdaten nach data/: Rosters und Play-by-Play fuer
+die aktuelle und die vorherige Saison. Die Saison wird automatisch bestimmt
+(ab September gilt das neue Jahr als aktuelle Saison)."""
 import urllib.request
 import urllib.error
 import os
 import time
+from datetime import date
 
 BASE = "https://github.com/nflverse/nflverse-data/releases/download"
-FILES = {
-    f"{BASE}/rosters/roster_2025.csv.gz": "data/roster_2025.csv.gz",
-    f"{BASE}/rosters/roster_2024.csv.gz": "data/roster_2024.csv.gz",
-    f"{BASE}/pbp/play_by_play_2025.csv.gz": "data/pbp_2025.csv.gz",
-    f"{BASE}/pbp/play_by_play_2024.csv.gz": "data/pbp_2024.csv.gz",
-    f"{BASE}/player_stats/player_stats_def.csv.gz": "data/player_stats_def_2025.csv.gz",
-    f"{BASE}/player_stats/player_stats.csv.gz": "data/player_stats_offense.csv.gz",
-    f"{BASE}/contracts/historical_contracts.csv.gz": "data/historical_contracts.csv.gz",
-}
+
+
+def current_season(today: date = None) -> int:
+    today = today or date.today()
+    return today.year if today.month >= 9 else today.year - 1
+
+
+def files_for(season: int) -> dict:
+    out = {}
+    for s in (season, season - 1):
+        out[f"{BASE}/rosters/roster_{s}.csv.gz"] = f"data/roster_{s}.csv.gz"
+        out[f"{BASE}/pbp/play_by_play_{s}.csv.gz"] = f"data/pbp_{s}.csv.gz"
+    return out
 
 MAX_RETRIES = 3
 RETRY_DELAY_SECONDS = 10
@@ -36,7 +41,9 @@ def fetch_with_retry(url, dest, attempts=MAX_RETRIES):
 
 if __name__ == "__main__":
     os.makedirs("data", exist_ok=True)
-    for url, dest in FILES.items():
+    season = current_season()
+    print(f"Aktuelle Saison: {season}")
+    for url, dest in files_for(season).items():
         print(f"Lade {dest} ...")
         fetch_with_retry(url, dest)
     print("Fertig.")

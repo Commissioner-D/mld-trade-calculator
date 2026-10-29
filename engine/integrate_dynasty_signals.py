@@ -43,7 +43,7 @@ def load_contract_signals(contracts_path: str) -> pd.DataFrame:
 
     active["norm_name"] = active["player"].apply(
         lambda n: __import__("re").sub(r"\b(jr|sr|ii|iii|iv)\b", "",
-                                        __import__("re").sub(r"[^a-z ]", "", str(n).lower())).strip()
+                                        __import__("re").sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
     )
     # Ein Spieler kann mehrere "aktive" Eintraege haben (Datenqualitaet) -- neuesten behalten
     active = active.sort_values("year_signed", ascending=False).drop_duplicates(subset=["norm_name"], keep="first")
