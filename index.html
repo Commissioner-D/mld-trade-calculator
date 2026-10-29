@@ -135,6 +135,41 @@ main { max-width: 820px; margin: 0 auto; padding: 16px 16px 64px; }
 .adj { min-height: 16px; margin-top: 2px; text-align: right; font-size: 12px; color: var(--bad); }
 .srcline { margin-top: 18px; font-size: 12px; color: var(--muted); }
 
+/* Trade-Finder */
+.f-controls { display: grid; grid-template-columns: 1fr 1.6fr; gap: 10px 12px; align-items: end; }
+@media (max-width: 600px) { .f-controls { grid-template-columns: 1fr; } }
+.f-controls label { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 4px; }
+.f-controls select { width: 100%; border: 1px solid var(--line); border-radius: 3px; padding: 8px 10px; background: var(--surface); color: var(--text); font: inherit; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+.seg button { border: 0; background: var(--surface); padding: 6px 12px; font-size: 13px; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.f-row2 { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+.f-sum { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.f-sec { margin: 18px 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); display: flex; gap: 8px; align-items: baseline; }
+.f-sec .n { font-weight: 700; color: var(--text); }
+.ft { background: var(--surface); border: 1px solid var(--line); border-radius: 3px; margin-bottom: 6px; }
+.ft > summary { list-style: none; display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; padding: 8px 10px; cursor: pointer; }
+.ft > summary::-webkit-details-marker { display: none; }
+.ft[open] > summary { border-bottom: 1px solid var(--line); background: var(--surface-2); }
+.ft-team { font-weight: 600; overflow-wrap: anywhere; }
+.ft-rec { font-weight: 400; font-size: 12px; color: var(--muted); margin-left: 6px; white-space: nowrap; }
+.ft-side { text-align: right; white-space: nowrap; }
+.ft-gain { font-weight: 700; font-variant-numeric: tabular-nums; font-size: 13px; margin-top: 2px; }
+.ft-gain.pos { color: var(--ok); } .ft-gain.neg { color: var(--muted); }
+.role { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 2px; line-height: 17px; border: 1px solid currentColor; }
+.role.best { color: var(--ok); } .role.start { color: var(--accent); } .role.bench1 { color: var(--warn); } .role.depth { color: var(--muted); }
+.tag.cuff { color: var(--b); border-color: var(--b); }
+.depth { list-style: none; margin: 0; padding: 6px 10px 8px; font-size: 13px; }
+.depth li { display: grid; grid-template-columns: 22px 1fr auto; gap: 6px; padding: 3px 0; align-items: baseline; }
+.depth li .rk { color: var(--muted); font-variant-numeric: tabular-nums; }
+.depth li .v { font-variant-numeric: tabular-nums; color: var(--muted); }
+.depth li.st .nm { font-weight: 600; }
+.depth li.me { background: var(--surface-2); outline: 1px solid var(--accent); border-radius: 2px; }
+.depth li.me .nm { color: var(--accent); font-weight: 700; }
+.depth li.out { opacity: .55; }
+.f-more > summary { cursor: pointer; color: var(--muted); font-size: 13px; padding: 6px 0; }
+
 /* Info */
 .card.info h2 { margin: 0 0 12px; font-size: 20px; } .card.info h3 { margin: 22px 0 6px; font-size: 16px; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
 .card.info li { margin: 5px 0; } .card.info ol, .card.info ul { padding-left: 22px; }
@@ -175,6 +210,19 @@ const STR = {
     sources: "Projektionen und Dynasty-Rankings: FantasyPros · Rosterdaten und Positionen: Fleaflicker · Alter, Draft, Statistiken: nflverse",
     theme: "Darstellung", lang: "Sprache", settings: "Einstellungen",
     th_system: "Wie Gerät", th_light: "Hell", th_dark: "Dunkel",
+    finder: "Trade-Finder", f_team: "Team", f_player: "Spieler", f_pick: "Spieler wählen …",
+    m_now: "Jetzt (Pkt/Spiel)", m_dyn: "Dynasty-Wert", f_stand: d => `Kader-Stand: ${d} UTC`,
+    f_err: m => `Ligadaten konnten nicht geladen werden (${m}).`,
+    f_intro: "Spieler wählen: Der Finder setzt ihn in jeden anderen Kader ein, stellt die beste Aufstellung auf und zeigt, welche Rolle er dort hätte.",
+    sec_start: "Würde starten", sec_bench1: "Erster Ersatz", sec_cuff: "Handcuff-Interesse", sec_depth: "Nur Kadertiefe",
+    r_best: "Bester Spieler", r_start: "Starter", r_flex: "Starter (Flex)", r_bench1: "1. Ersatz", r_depth: "Tiefe",
+    replaces: (n, v) => `verdrängt ${n} (${v})`, fills: "füllt einen leeren Slot",
+    behind: (list) => `hinter ${list}`, gap: v => `fehlen ${v}`,
+    per_week: "Pkt/Woche", val_unit: "Wert",
+    cuff: n => `Backup von ${n}`, cuff_own: n => `sichert deinen ${n} ab`,
+    here: "bei dir", depth_lbl: (l, tm) => `Depth Chart ${tm}: ${l}`,
+    no_metric: "Kein Wert in diesem Maßstab – Rolle nicht sinnvoll bestimmbar.",
+    no_pts: "keine Punkte", ir: "IR", taxi_s: "Taxi", none_here: "Keine Teams in dieser Gruppe.",
   },
   en: {
     calc: "Calculator", info: "Info", team_a: "Team A", team_b: "Team B",
@@ -191,6 +239,19 @@ const STR = {
     sources: "Projections and dynasty rankings: FantasyPros · Rosters and positions: Fleaflicker · Age, draft, stats: nflverse",
     theme: "Appearance", lang: "Language", settings: "Settings",
     th_system: "Match device", th_light: "Light", th_dark: "Dark",
+    finder: "Trade Finder", f_team: "Team", f_player: "Player", f_pick: "Pick a player …",
+    m_now: "Now (pts/game)", m_dyn: "Dynasty value", f_stand: d => `Rosters as of ${d} UTC`,
+    f_err: m => `Could not load league data (${m}).`,
+    f_intro: "Pick a player: the finder drops him into every other roster, sets the best lineup and shows what role he would have there.",
+    sec_start: "Would start", sec_bench1: "First backup", sec_cuff: "Handcuff interest", sec_depth: "Depth only",
+    r_best: "Best player", r_start: "Starter", r_flex: "Starter (flex)", r_bench1: "1st backup", r_depth: "Depth",
+    replaces: (n, v) => `replaces ${n} (${v})`, fills: "fills an empty slot",
+    behind: (list) => `behind ${list}`, gap: v => `${v} short`,
+    per_week: "pts/week", val_unit: "value",
+    cuff: n => `backs up ${n}`, cuff_own: n => `backs up your ${n}`,
+    here: "on your team", depth_lbl: (l, tm) => `${tm} depth chart: ${l}`,
+    no_metric: "No value on this scale – role can't be determined meaningfully.",
+    no_pts: "no points", ir: "IR", taxi_s: "Taxi", none_here: "No teams in this group.",
   },
 };
 let LANG = store.get("mldc_lang") || ((navigator.language || "").toLowerCase().startsWith("de") ? "de" : "en");
@@ -274,6 +335,7 @@ async function loadData() {
   } catch (err) {
     loadError = err.message || String(err);
   }
+  prepFinder();
   route();
 }
 
@@ -416,6 +478,216 @@ function renderMeter(totalA, totalB) {
   sub.textContent = t("gets_more", name);
 }
 
+// ---------- Trade-Finder ----------
+// Kader kommen frisch aus dem Free-Agent-Radar (alle 4 h), Depth Charts aus free_agents.json (optional).
+const LEAGUE_URL = "https://raw.githubusercontent.com/Commissioner-D/mld-free-agents/data/data/league.json";
+const FA_URL = "https://raw.githubusercontent.com/Commissioner-D/mld-free-agents/data/data/free_agents.json";
+const SLOTS = { QB: 1, RB: 2, WR: 2, TE: 1, K: 1, DL: 2, LB: 2, DB: 2 };          // 15 Starter inkl. 2 Flex
+const FLEX = [["RB", "WR", "TE"], ["DL", "LB", "DB"]];                         // RB/WR/TE-Flex, IDP-Wildcard
+const GROUP_ORDER = ["QB", "RB", "WR", "TE", "K", "DL", "LB", "DB"];
+const GROUP_NAME = { DL: "EDR/IL", DB: "S/CB" };
+const groupOf = pos => {
+  const p = String(pos || "").split("/")[0].toUpperCase();
+  return ({ S: "DB", CB: "DB", DB: "DB", FS: "DB", SS: "DB", EDR: "DL", IL: "DL", DE: "DL", DT: "DL", DL: "DL" })[p] || p;
+};
+const keyName = s => normText(s).replace(/\b(jr|sr|ii|iii|iv|v)\b/g, " ").replace(/\s+/g, " ").trim();
+const CUFF_GROUPS = new Set(["QB", "RB", "TE", "DL", "LB", "S", "CB"]);       // WR3 ist kein Backup von WR1
+
+const FD = { state: "idle", league: null, depth: null, err: null, teams: [], owner: new Map() };
+const finder = { team: store.get("mldc_finder_team"), player: null, metric: store.get("mldc_finder_metric") === "dyn" ? "dyn" : "now" };
+
+async function loadFinder() {
+  if (FD.state !== "idle") return;
+  FD.state = "loading";
+  const get = u => fetch(u, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
+  const [lg, fa] = await Promise.allSettled([get(LEAGUE_URL), get(FA_URL)]);
+  if (lg.status === "fulfilled") { FD.league = lg.value; FD.state = "ready"; }
+  else { FD.err = lg.reason?.message || String(lg.reason); FD.state = "error"; }
+  if (fa.status === "fulfilled") FD.depth = fa.value.depth_charts || null;
+  prepFinder();
+  if (currentView() === "finder") route();
+}
+
+function prepFinder() {
+  if (!FD.league || !dataLoaded) return;          // braucht beide Quellen; wird nach dem jeweils letzten Laden erneut aufgerufen
+  const calc = new Map();
+  ASSETS.forEach(a => { if (a.type === "player") calc.set(keyName(a.name) + "|" + groupOf(a.pos), a); });
+  FD.owner = new Map();
+  FD.teams = FD.league.teams.map(tm => {
+    const players = tm.roster.map(r => {
+      const g = groupOf(r.pos), c = calc.get(keyName(r.name) + "|" + g);
+      const p = {
+        id: String(r.fl_id), name: r.name, pos: r.pos, group: g, nfl: r.team, slot: r.slot, injury: r.injury,
+        out: r.slot === "IR" || r.slot === "Taxi",
+        now: r.pts_avg ?? null,
+        dyn: c && c.selectable !== false && c.value != null ? c.value : null,
+        teamId: tm.id,
+      };
+      if (p.now == null && c && typeof c.ppg === "number") { p.now = c.ppg; p.nowProj = true; }
+      FD.owner.set(keyName(r.name), { team: tm, player: p });
+      return p;
+    });
+    return { id: tm.id, name: tm.name, owner: tm.owner, mine: tm.mine, record: tm.record, rank: tm.rank, players };
+  });
+  if (!finder.team || !FD.teams.some(x => String(x.id) === String(finder.team)))
+    finder.team = String((FD.teams.find(x => x.mine) || FD.teams[0]).id);
+}
+
+const mval = p => { const v = finder.metric === "dyn" ? p.dyn : p.now; return v == null ? -Infinity : v; };
+const mfmt = v => (v === -Infinity || v == null ? "–" : (v < 0 ? "−" : "") + num(v, finder.metric === "dyn" ? 2 : 1));
+
+function lineup(players) {
+  const pool = players.filter(p => !p.out).sort((a, b) => mval(b) - mval(a));
+  const start = new Map();                                     // Spieler -> "pos" | "flex"
+  for (const g of GROUP_ORDER) pool.filter(p => p.group === g).slice(0, SLOTS[g]).forEach(p => start.set(p, "pos"));
+  for (const gs of FLEX) { const p = pool.find(x => !start.has(x) && gs.includes(x.group)); if (p) start.set(p, "flex"); }
+  const sum = [...start.keys()].reduce((s, p) => s + (mval(p) === -Infinity ? 0 : mval(p)), 0);
+  return { start, sum };
+}
+
+function roleOn(team, P) {
+  const others = team.players.filter(p => p.id !== P.id);
+  const before = lineup(others), after = lineup([...others, P]);
+  const grp = [...others.filter(p => p.group === P.group), P].sort((a, b) => mval(b) - mval(a) || (a.out - b.out));
+  const active = grp.filter(p => !p.out);
+  const rank = active.indexOf(P) + 1;
+  const isStart = after.start.has(P);
+  let role;
+  if (isStart) role = rank === 1 ? "best" : after.start.get(P) === "flex" ? "flex" : "start";
+  else role = active.find(p => !after.start.has(p)) === P ? "bench1" : "depth";
+  const displaced = isStart ? [...before.start.keys()].find(p => !after.start.has(p)) || null : null;
+  const ahead = isStart ? [] : active.filter(p => after.start.has(p));
+  const lastStart = ahead.length ? Math.min(...ahead.map(mval)) : null;
+  return { role, rank, gain: after.sum - before.sum, displaced, ahead, gap: lastStart != null ? lastStart - mval(P) : null, grp, after };
+}
+
+// Handcuff: steht der Spieler im NFL-Depth-Chart hinter einem Starter, der in der MLD jemandem gehört?
+function cuffInfo(P) {
+  if (!FD.depth || !FD.depth[P.nfl]) return { label: null, starter: null };
+  const k = keyName(P.name);
+  for (const [grp, list] of Object.entries(FD.depth[P.nfl])) {
+    const me = list.find(e => keyName(e.n) === k);
+    if (!me) continue;
+    const m = /^([A-Z]+?)(\d+)$/.exec(me.l || "");
+    if (!m || +m[2] < 2 || !CUFF_GROUPS.has(grp)) return { label: me.l, starter: null };
+    const st = list.find(e => e.l === m[1] + "1");
+    const own = st && FD.owner.get(keyName(st.n));
+    return { label: me.l, starter: own ? { name: st.n, teamId: own.team.id } : null };
+  }
+  return { label: null, starter: null };
+}
+
+function parseFinderHash() {
+  const q = new URLSearchParams(location.hash.split("?")[1] || "");
+  if (q.get("t")) finder.team = q.get("t");
+  if (q.get("p")) finder.player = q.get("p");
+}
+function setFinderHash() {
+  const q = new URLSearchParams();
+  if (finder.team) q.set("t", finder.team);
+  if (finder.player) q.set("p", finder.player);
+  history.replaceState(null, "", "#/finder?" + q.toString());
+}
+
+function renderFinder(main) {
+  loadFinder();
+  if (FD.state === "error") { main.innerHTML = `<div class="notice err">${esc(t("f_err", FD.err))}</div>`; return; }
+  if (FD.state !== "ready" || !dataLoaded || !FD.teams.length) {
+    main.innerHTML = loadError ? `<div class="notice err">${esc(t("load_err", loadError))}</div>` : `<div class="notice">${t("loading")}</div>`;
+    return;
+  }
+  parseFinderHash();
+  const team = FD.teams.find(x => String(x.id) === String(finder.team)) || FD.teams[0];
+  finder.team = String(team.id);
+  const P = team.players.find(p => p.id === finder.player) || null;
+  if (!P) finder.player = null;
+
+  const teamOpts = FD.teams.slice().sort((a, b) => b.mine - a.mine || a.name.localeCompare(b.name))
+    .map(x => `<option value="${x.id}" ${x === team ? "selected" : ""}>${esc(x.name)}${x.owner ? " (" + esc(x.owner) + ")" : ""}</option>`).join("");
+  const playerOpts = GROUP_ORDER.map(g => {
+    const ps = team.players.filter(p => p.group === g).sort((a, b) => mval(b) - mval(a));
+    if (!ps.length) return "";
+    return `<optgroup label="${esc(GROUP_NAME[g] || g)}">` + ps.map(p =>
+      `<option value="${p.id}" ${p === P ? "selected" : ""}>${esc(p.name)} · ${esc(p.pos)}${p.nfl ? " " + esc(p.nfl) : ""} · ${mfmt(mval(p))}${p.out ? " · " + (p.slot === "IR" ? t("ir") : t("taxi_s")) : ""}</option>`).join("") + "</optgroup>";
+  }).join("");
+
+  main.innerHTML = `<section class="card"><div class="card-head"><h3>${t("finder")}</h3><span class="meta">${esc(t("f_stand", FD.league.generated_utc || "?"))}</span></div>
+    <div class="card-body">
+      <div class="f-controls">
+        <div><label for="fTeam">${t("f_team")}</label><select id="fTeam">${teamOpts}</select></div>
+        <div><label for="fPlayer">${t("f_player")}</label><select id="fPlayer"><option value="">${t("f_pick")}</option>${playerOpts}</select></div>
+      </div>
+      <div class="f-row2"><span class="meta">${P ? "" : esc(t("f_intro"))}</span>
+        <div class="seg" role="group"><button data-m="now" aria-pressed="${finder.metric === "now"}">${t("m_now")}</button><button data-m="dyn" aria-pressed="${finder.metric === "dyn"}">${t("m_dyn")}</button></div></div>
+      <div id="fSum"></div>
+    </div></section><div id="fRes"></div>`;
+
+  document.getElementById("fTeam").onchange = e => { finder.team = e.target.value; finder.player = null; store.set("mldc_finder_team", finder.team); setFinderHash(); route(); };
+  document.getElementById("fPlayer").onchange = e => { finder.player = e.target.value || null; setFinderHash(); route(); };
+  main.querySelectorAll(".seg button").forEach(b => b.onclick = () => { finder.metric = b.dataset.m; store.set("mldc_finder_metric", finder.metric); route(); });
+  if (P) renderFinderResults(team, P);
+}
+
+function renderFinderResults(team, P) {
+  const unit = finder.metric === "dyn" ? t("val_unit") : t("per_week");
+  const cuff = cuffInfo(P);
+  const own = roleOn(team, P);
+  const roleLbl = r => t({ best: "r_best", start: "r_start", flex: "r_flex", bench1: "r_bench1", depth: "r_depth" }[r]);
+  const bits = [`<b>${esc(P.name)}</b> <span class="meta">${esc(P.pos)} · ${esc(P.nfl || "–")}</span>`,
+    `${t("m_now")}: <b>${P.now != null ? num(P.now, 1) : "–"}</b>`, `${t("m_dyn")}: <b>${P.dyn != null ? fmt(P.dyn) : "–"}</b>`];
+  let sub = `${t("here")}: <span class="role ${own.role === "flex" ? "start" : own.role}">${roleLbl(own.role)}</span>`;
+  if (cuff.label) sub += ` · ${esc(t("depth_lbl", cuff.label, P.nfl))}`;
+  if (cuff.starter && String(cuff.starter.teamId) === String(team.id)) sub += ` <span class="tag cuff">${esc(t("cuff_own", cuff.starter.name))}</span>`;
+  document.getElementById("fSum").innerHTML = `<div class="f-sum"><div>${bits.join(" · ")}</div><div class="a-info" style="margin-top:4px">${sub}</div>
+    ${mval(P) === -Infinity ? `<div class="notice" style="margin:8px 0 0">${esc(t("no_metric"))}</div>` : ""}</div>`;
+
+  const rows = FD.teams.filter(x => x !== team).map(tm => {
+    const r = roleOn(tm, P);
+    r.team = tm;
+    r.cuff = cuff.starter && String(cuff.starter.teamId) === String(tm.id) ? cuff.starter.name : null;
+    return r;
+  });
+  const S = { start: [], bench1: [], cuff: [], depth: [] };
+  rows.forEach(r => {
+    if (["best", "start", "flex"].includes(r.role)) S.start.push(r);
+    else if (r.role === "bench1") S.bench1.push(r);
+    else if (r.cuff) S.cuff.push(r);
+    else S.depth.push(r);
+  });
+  S.start.sort((a, b) => b.gain - a.gain);
+  S.bench1.sort((a, b) => (a.gap ?? 1e9) - (b.gap ?? 1e9));
+  S.depth.sort((a, b) => a.rank - b.rank || (a.gap ?? 1e9) - (b.gap ?? 1e9));
+
+  const rowHtml = r => {
+    let line;
+    if (r.displaced) line = t("replaces", esc(r.displaced.name), mfmt(mval(r.displaced)));
+    else if (["best", "start", "flex"].includes(r.role)) line = t("fills");
+    else line = t("behind", r.ahead.slice(0, 3).map(p => `${esc(p.name)} (${mfmt(mval(p))})`).join(", ")) + (r.gap != null && r.gap !== Infinity ? ` · ${t("gap", mfmt(r.gap))}` : "");
+    const gainHtml = ["best", "start", "flex"].includes(r.role)
+      ? `<div class="ft-gain ${r.gain > 0.005 ? "pos" : "neg"}">${r.gain > 0.005 ? "+" : ""}${mfmt(r.gain)} ${esc(unit)}</div>` : "";
+    const depthList = r.grp.map((p, i) => {
+      const cls = [p === P ? "me" : "", r.after.start.has(p) ? "st" : "", p.out ? "out" : ""].join(" ");
+      const tags = (p.out ? `<span class="tag">${p.slot === "IR" ? t("ir") : t("taxi_s")}</span>` : "") + (p.injury ? `<span class="tag warn">${esc(p.injury)}</span>` : "")
+        + (r.after.start.get(p) === "flex" ? `<span class="tag">Flex</span>` : "");
+      return `<li class="${cls}"><span class="rk">${i + 1}</span><span class="nm">${esc(p.name)} <span class="meta">${esc(p.pos)} ${esc(p.nfl || "")}</span>${tags}</span><span class="v">${mfmt(mval(p))}</span></li>`;
+    }).join("");
+    return `<details class="ft"><summary>
+        <div class="a-main"><div class="ft-team">${esc(r.team.name)}<span class="ft-rec">${esc(r.team.record || "")}${r.team.rank ? " · #" + r.team.rank : ""}</span></div>
+          <div class="a-info">${line}${r.cuff ? ` <span class="tag cuff">${esc(t("cuff", r.cuff))}</span>` : ""}</div></div>
+        <div class="ft-side"><span class="role ${r.role === "flex" ? "start" : r.role}">${roleLbl(r.role)}</span>${gainHtml}</div>
+      </summary><ol class="depth">${depthList}</ol></details>`;
+  };
+  const sec = (key, title, list, collapsed) => {
+    if (!list.length && key !== "start") return "";
+    const body = list.length ? list.map(rowHtml).join("") : `<div class="empty-side">${t("none_here")}</div>`;
+    return collapsed
+      ? `<details class="f-more"><summary><span class="f-sec" style="margin:0;display:inline-flex">${title} <span class="n">${list.length}</span></span></summary>${body}</details>`
+      : `<div class="f-sec">${title} <span class="n">${list.length}</span></div>${body}`;
+  };
+  document.getElementById("fRes").innerHTML =
+    sec("start", t("sec_start"), S.start) + sec("bench1", t("sec_bench1"), S.bench1) + sec("cuff", t("sec_cuff"), S.cuff) + sec("depth", t("sec_depth"), S.depth, true);
+}
+
 // ---------- Info ----------
 function renderInfo(main) {
   const rsv = ROSTER_SPOT_VALUE ? num(ROSTER_SPOT_VALUE) : "–";
@@ -436,6 +708,13 @@ function renderInfo(main) {
     <p>Handelbar sind nur die nächsten zwei Jahrgänge (Regelwerk). Die Kurve ist aus den sechs Rookie-Drafts der Liga (2020–2025, 480 Spieler) gegen die heutigen Spielerwerte gefittet. <b>Sie wird gerade überarbeitet:</b> späte Picks können aktuell unter 0 fallen, und beide Jahrgänge sind gleich bewertet.</p>
     <h3>Rosterplatz-Abzug</h3>
     <p>Ein Trade mit ungleicher Spielerzahl ist nicht gratis: Die Seite, die netto mehr Spieler aufnimmt, muss später jemanden schneiden und bekommt einen Abzug. Er ist so groß wie der Schnitt der 15 besten nicht gerosterten Spieler (aktuell <b>${rsv}</b>, bei jedem Update neu berechnet). Picks zählen nicht. Taxi-fähige Spieler (1./2. Jahr) zählen nur mit ${tw} (5/28), weil Taxi-Plätze zusätzlich zu den 28 aktiven Plätzen existieren.</p>
+    <h3>Trade-Finder</h3>
+    <p>Der gewählte Spieler wird probeweise in jeden anderen Kader gesetzt. Dann wird die beste Aufstellung gebaut (QB, 2 RB, 2 WR, TE, RB/WR/TE-Flex, K, 2 EDR/IL, 2 LB, 2 S/CB, IDP-Wildcard). Spieler auf IR oder Taxi zählen nicht, ein verletzter Starter auf IR macht also Platz.</p>
+    <ul><li><b>Bester Spieler</b>: Nr. 1 seiner Gruppe in diesem Kader. <b>Starter</b>: in der Aufstellung, ggf. über den Flex. Die grüne Zahl ist der Zugewinn der Aufstellung pro Woche (bzw. an Dynasty-Wert).</li>
+    <li><b>1. Ersatz</b>: erster Mann von der Bank in seiner Gruppe. <b>Tiefe</b>: dahinter.</li>
+    <li><b>Handcuff</b>: Steht der Spieler im NFL-Depth-Chart hinter einem Starter (z. B. RB2 hinter RB1), wird das Team markiert, dem dieser Starter gehört. Nicht bei WR.</li>
+    <li>Maßstab „Jetzt“ = Fleaflicker-Punkte pro Spiel dieser Saison (ohne Spiele: gewichteter Schnitt aus dem Rechner). „Dynasty-Wert“ = Wert aus dem Rechner.</li></ul>
+    <p>Kader und Punkte kommen aus dem Free-Agent-Radar (alle 4 Stunden aktualisiert).</p>
     <h3>Quellen</h3>
     <p>FantasyPros (Projektionen, Dynasty-Expertenranking), Fleaflicker (Rosters, Positionen, Regelwerk), nflverse (Alter, Draft-Position, Statistiken).</p>`;
   const en = `<h2>How it's calculated</h2>
@@ -454,19 +733,27 @@ function renderInfo(main) {
     <p>Only the next two draft classes are tradable (league rules). The curve is fitted from the league's six rookie drafts (2020–2025, 480 players) against today's player values. <b>It is being reworked:</b> late picks can currently fall below 0, and both classes are valued the same.</p>
     <h3>Roster spot adjustment</h3>
     <p>A trade with an unequal player count isn't free: the side taking on more players net has to cut someone later and gets a deduction. It equals the average of the 15 best unrostered players (currently <b>${rsv}</b>, recalculated on every update). Picks don't count. Taxi-eligible players (1st/2nd year) count only ${tw} (5/28), since taxi slots exist on top of the 28 active spots.</p>
+    <h3>Trade Finder</h3>
+    <p>The selected player is dropped into every other roster, then the best lineup is built (QB, 2 RB, 2 WR, TE, RB/WR/TE flex, K, 2 EDR/IL, 2 LB, 2 S/CB, IDP wildcard). Players on IR or taxi don't count, so an injured starter on IR opens a spot.</p>
+    <ul><li><b>Best player</b>: no. 1 of his group on that roster. <b>Starter</b>: in the lineup, possibly via flex. The green number is the lineup gain per week (or in dynasty value).</li>
+    <li><b>1st backup</b>: first man off the bench in his group. <b>Depth</b>: behind that.</li>
+    <li><b>Handcuff</b>: if the player sits behind a starter on the NFL depth chart (e.g. RB2 behind RB1), the team owning that starter is flagged. Not for WR.</li>
+    <li>"Now" = Fleaflicker points per game this season (no games: weighted average from the calculator). "Dynasty value" = calculator value.</li></ul>
+    <p>Rosters and points come from the free-agent radar (updated every 4 hours).</p>
     <h3>Sources</h3>
     <p>FantasyPros (projections, dynasty expert consensus), Fleaflicker (rosters, positions, rules), nflverse (age, draft position, stats).</p>`;
   main.innerHTML = `<section class="card info"><div class="card-body">${LANG === "de" ? de : en}</div></section>`;
 }
 
 // ---------- Router ----------
+const currentView = () => location.hash.startsWith("#/info") ? "info" : location.hash.startsWith("#/finder") ? "finder" : "calc";
 function route() {
-  const view = location.hash.startsWith("#/info") ? "info" : "calc";
-  document.getElementById("tabs").innerHTML =
-    `<a href="#/calc" class="${view === "calc" ? "active" : ""}">${t("calc")}</a><a href="#/info" class="${view === "info" ? "active" : ""}">${t("info")}</a>`;
+  const view = currentView();
+  const tab = (v, k) => `<a href="#/${v}" class="${view === v ? "active" : ""}">${t(k)}</a>`;
+  document.getElementById("tabs").innerHTML = tab("calc", "calc") + tab("finder", "finder") + tab("info", "info");
   const main = document.getElementById("main");
-  if (view === "info") renderInfo(main); else renderCalc(main);
-  document.title = "MLD-Rechner" + (view === "info" ? " · " + t("info") : "");
+  if (view === "info") renderInfo(main); else if (view === "finder") renderFinder(main); else renderCalc(main);
+  document.title = "MLD-Rechner" + (view !== "calc" ? " · " + t(view) : "");
 }
 window.addEventListener("hashchange", route);
 renderToggles(document.getElementById("toggles"), route);
