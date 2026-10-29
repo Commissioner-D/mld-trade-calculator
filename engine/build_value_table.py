@@ -300,8 +300,13 @@ fp_path = "data/fantasypros_projections_2026.json"
 if os.path.exists(fp_path):
     from engine.integrate_projections import build_projected_vorp
     proj = build_projected_vorp(fp_path, roster_cfg, flea_group_by_name=flea_group_by_name)
+    # Schluessel = Name + Seite (Offense/Defense): sonst bekommt z.B. Rookie-CB Devonta Smith die
+    # Projektion von WR DeVonta Smith, oder LB Justin Jefferson die von WR Justin Jefferson.
+    _side = lambda pos: "O" if pos in ("QB", "RB", "WR", "TE", "K") else "D"
     proj["norm_name"] = proj["name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip())
+    proj["norm_name"] = proj["norm_name"] + "|" + proj["position"].map(_side)
     value_table["norm_name"] = value_table["full_name"].apply(lambda n: re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip())
+    value_table["norm_name"] = value_table["norm_name"] + "|" + value_table["position"].map(_side)
     # Nach norm_name deduplizieren (kann trotz vorherigem Dedup noch Kollisionen
     # geben, z.B. Spieler, die FantasyPros unter zwei Positionen fuehrt) --
     # hoechster proj_vorp gewinnt, sonst crasht der Lookup unten.

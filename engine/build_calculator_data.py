@@ -93,6 +93,9 @@ for i, p in enumerate(players):
     if pd.isna(p["value"]):
         p["value"] = None
         p["src"] = "none"
+    for k, v in list(p.items()):          # NaN ist kein gueltiges JSON -> null
+        if isinstance(v, float) and v != v:
+            p[k] = None
 
 picks = []
 for year in TRADEABLE_YEARS:
@@ -106,9 +109,9 @@ for year in TRADEABLE_YEARS:
             })
 
 with open("output/calculator_players.json", "w") as f:
-    json.dump(players, f, ensure_ascii=False)
+    json.dump(players, f, ensure_ascii=False, allow_nan=False)   # bricht lieber hier als im Browser
 with open("output/calculator_picks.json", "w") as f:
-    json.dump(picks, f)
+    json.dump(picks, f, allow_nan=False)
 
 # index.html laedt die Werte jetzt zur Laufzeit per fetch() aus output/*.json --
 # die Datei selbst muss bei einem reinen Werte-Update NICHT mehr angefasst werden.
