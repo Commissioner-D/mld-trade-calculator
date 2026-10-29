@@ -223,6 +223,8 @@ const STR = {
     here: "bei dir", depth_lbl: (l, tm) => `Depth Chart ${tm}: ${l}`,
     no_metric: "Kein Wert in diesem Maßstab – Rolle nicht sinnvoll bestimmbar.",
     no_pts: "keine Punkte", ir: "IR", taxi_s: "Taxi", none_here: "Keine Teams in dieser Gruppe.",
+    cont_only: "Nur Contender", cont_hint: w => `Playoff-Platz (Top 7) oder höchstens 1 Sieg dahinter (ab ${w} Siegen)`,
+    cont_hidden: n => `${n} Teams ausgeblendet (keine Contender)`,
   },
   en: {
     calc: "Calculator", info: "Info", team_a: "Team A", team_b: "Team B",
@@ -252,6 +254,8 @@ const STR = {
     here: "on your team", depth_lbl: (l, tm) => `${tm} depth chart: ${l}`,
     no_metric: "No value on this scale – role can't be determined meaningfully.",
     no_pts: "no points", ir: "IR", taxi_s: "Taxi", none_here: "No teams in this group.",
+    cont_only: "Contenders only", cont_hint: w => `Playoff spot (top 7) or at most 1 win behind (${w}+ wins)`,
+    cont_hidden: n => `${n} teams hidden (not contenders)`,
   },
 };
 let LANG = store.get("mldc_lang") || ((navigator.language || "").toLowerCase().startsWith("de") ? "de" : "en");
@@ -494,7 +498,7 @@ const keyName = s => normText(s).replace(/\b(jr|sr|ii|iii|iv|v)\b/g, " ").replac
 const CUFF_GROUPS = new Set(["QB", "RB", "TE", "DL", "LB", "S", "CB"]);       // WR3 ist kein Backup von WR1
 
 const FD = { state: "idle", league: null, depth: null, err: null, teams: [], owner: new Map() };
-const finder = { team: store.get("mldc_finder_team"), player: null, metric: store.get("mldc_finder_metric") === "dyn" ? "dyn" : "now" };
+const finder = { team: store.get("mldc_finder_team"), player: null, metric: store.get("mldc_finder_metric") === "dyn" ? "dyn" : "now", contOnly: store.get("mldc_finder_cont") === "1" };
 
 async function loadFinder() {
   if (FD.state !== "idle") return;
@@ -527,8 +531,13 @@ function prepFinder() {
       FD.owner.set(keyName(r.name), { team: tm, player: p });
       return p;
     });
-    return { id: tm.id, name: tm.name, owner: tm.owner, mine: tm.mine, record: tm.record, rank: tm.rank, players };
+    return { id: tm.id, name: tm.name, owner: tm.owner, mine: tm.mine, record: tm.record, rank: tm.rank, players,
+      w: (tm.wins || 0) + 0.5 * (tm.ties || 0) };
   });
+  // Contender: Top 7 (Playoff-Plaetze) oder hoechstens 1 Sieg hinter dem 7. Platz
+  const seventh = FD.teams.slice().sort((a, b) => (a.rank || 99) - (b.rank || 99))[6];
+  FD.contMin = seventh ? seventh.w - 1 : 0;
+  FD.teams.forEach(x => { x.contender = (x.rank && x.rank <= 7) || x.w >= FD.contMin; });
   if (!finder.team || !FD.teams.some(x => String(x.id) === String(finder.team)))
     finder.team = String((FD.teams.find(x => x.mine) || FD.teams[0]).id);
 }
@@ -618,13 +627,14 @@ function renderFinder(main) {
         <div><label for="fPlayer">${t("f_player")}</label><select id="fPlayer"><option value="">${t("f_pick")}</option>${playerOpts}</select></div>
       </div>
       <div class="f-row2"><span class="meta">${P ? "" : esc(t("f_intro"))}</span>
-        <div class="seg" role="group"><button data-m="now" aria-pressed="${finder.metric === "now"}">${t("m_now")}</button><button data-m="dyn" aria-pressed="${finder.metric === "dyn"}">${t("m_dyn")}</button></div></div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap"><div class="seg" role="group"><button data-c="1" aria-pressed="${finder.contOnly}" title="${esc(t("cont_hint", num(FD.contMin, 0)))}">${t("cont_only")}</button></div><div class="seg" role="group"><button data-m="now" aria-pressed="${finder.metric === "now"}">${t("m_now")}</button><button data-m="dyn" aria-pressed="${finder.metric === "dyn"}">${t("m_dyn")}</button></div></div></div>
       <div id="fSum"></div>
     </div></section><div id="fRes"></div>`;
 
   document.getElementById("fTeam").onchange = e => { finder.team = e.target.value; finder.player = null; store.set("mldc_finder_team", finder.team); setFinderHash(); route(); };
   document.getElementById("fPlayer").onchange = e => { finder.player = e.target.value || null; setFinderHash(); route(); };
-  main.querySelectorAll(".seg button").forEach(b => b.onclick = () => { finder.metric = b.dataset.m; store.set("mldc_finder_metric", finder.metric); route(); });
+  main.querySelectorAll(".seg button[data-c]").forEach(b => b.onclick = () => { finder.contOnly = !finder.contOnly; store.set("mldc_finder_cont", finder.contOnly ? "1" : null); route(); });
+  main.querySelectorAll(".seg button[data-m]").forEach(b => b.onclick = () => { finder.metric = b.dataset.m; store.set("mldc_finder_metric", finder.metric); route(); });
   if (P) renderFinderResults(team, P);
 }
 
@@ -641,7 +651,9 @@ function renderFinderResults(team, P) {
   document.getElementById("fSum").innerHTML = `<div class="f-sum"><div>${bits.join(" · ")}</div><div class="a-info" style="margin-top:4px">${sub}</div>
     ${mval(P) === -Infinity ? `<div class="notice" style="margin:8px 0 0">${esc(t("no_metric"))}</div>` : ""}</div>`;
 
-  const rows = FD.teams.filter(x => x !== team).map(tm => {
+  const others = FD.teams.filter(x => x !== team);
+  const hidden = finder.contOnly ? others.filter(x => !x.contender).length : 0;
+  const rows = others.filter(x => !finder.contOnly || x.contender).map(tm => {
     const r = roleOn(tm, P);
     r.team = tm;
     r.cuff = cuff.starter && String(cuff.starter.teamId) === String(tm.id) ? cuff.starter.name : null;
@@ -685,7 +697,8 @@ function renderFinderResults(team, P) {
       : `<div class="f-sec">${title} <span class="n">${list.length}</span></div>${body}`;
   };
   document.getElementById("fRes").innerHTML =
-    sec("start", t("sec_start"), S.start) + sec("bench1", t("sec_bench1"), S.bench1) + sec("cuff", t("sec_cuff"), S.cuff) + sec("depth", t("sec_depth"), S.depth, true);
+    sec("start", t("sec_start"), S.start) + sec("bench1", t("sec_bench1"), S.bench1) + sec("cuff", t("sec_cuff"), S.cuff) + sec("depth", t("sec_depth"), S.depth, true)
+    + (hidden ? `<p class="meta" style="margin-top:14px">${esc(t("cont_hidden", hidden))} · ${esc(t("cont_hint", num(FD.contMin, 0)))}</p>` : "");
 }
 
 // ---------- Info ----------
@@ -712,6 +725,7 @@ function renderInfo(main) {
     <p>Der gewählte Spieler wird probeweise in jeden anderen Kader gesetzt. Dann wird die beste Aufstellung gebaut (QB, 2 RB, 2 WR, TE, RB/WR/TE-Flex, K, 2 EDR/IL, 2 LB, 2 S/CB, IDP-Wildcard). Spieler auf IR oder Taxi zählen nicht, ein verletzter Starter auf IR macht also Platz.</p>
     <ul><li><b>Bester Spieler</b>: Nr. 1 seiner Gruppe in diesem Kader. <b>Starter</b>: in der Aufstellung, ggf. über den Flex. Die grüne Zahl ist der Zugewinn der Aufstellung pro Woche (bzw. an Dynasty-Wert).</li>
     <li><b>1. Ersatz</b>: erster Mann von der Bank in seiner Gruppe. <b>Tiefe</b>: dahinter.</li>
+    <li><b>Nur Contender</b>: blendet Teams aus, die weder auf Playoff-Platz (Top 7) noch höchstens einen Sieg dahinter liegen.</li>
     <li><b>Handcuff</b>: Steht der Spieler im NFL-Depth-Chart hinter einem Starter (z. B. RB2 hinter RB1), wird das Team markiert, dem dieser Starter gehört. Nicht bei WR.</li>
     <li>Maßstab „Jetzt“ = Fleaflicker-Punkte pro Spiel dieser Saison (ohne Spiele: gewichteter Schnitt aus dem Rechner). „Dynasty-Wert“ = Wert aus dem Rechner.</li></ul>
     <p>Kader und Punkte kommen aus dem Free-Agent-Radar (alle 4 Stunden aktualisiert).</p>
@@ -737,6 +751,7 @@ function renderInfo(main) {
     <p>The selected player is dropped into every other roster, then the best lineup is built (QB, 2 RB, 2 WR, TE, RB/WR/TE flex, K, 2 EDR/IL, 2 LB, 2 S/CB, IDP wildcard). Players on IR or taxi don't count, so an injured starter on IR opens a spot.</p>
     <ul><li><b>Best player</b>: no. 1 of his group on that roster. <b>Starter</b>: in the lineup, possibly via flex. The green number is the lineup gain per week (or in dynasty value).</li>
     <li><b>1st backup</b>: first man off the bench in his group. <b>Depth</b>: behind that.</li>
+    <li><b>Contenders only</b>: hides teams that are neither in a playoff spot (top 7) nor at most one win behind it.</li>
     <li><b>Handcuff</b>: if the player sits behind a starter on the NFL depth chart (e.g. RB2 behind RB1), the team owning that starter is flagged. Not for WR.</li>
     <li>"Now" = Fleaflicker points per game this season (no games: weighted average from the calculator). "Dynasty value" = calculator value.</li></ul>
     <p>Rosters and points come from the free-agent radar (updated every 4 hours).</p>
