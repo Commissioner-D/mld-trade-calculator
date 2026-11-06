@@ -1,0 +1,67 @@
+{
+ "meta": {
+  "asOf": "2026-11-06T13:01:22.036Z",
+  "idpAsOf": "2026-11-06T13:01:22.036Z",
+  "format": "non_sf_dynasty",
+  "idp": "std",
+  "idpScoring": "tackle"
+ },
+ "counts": {
+  "QB": 54,
+  "RB": 112,
+  "WR": 154,
+  "TE": 59,
+  "LB": 99,
+  "DB": 66,
+  "DL": 59
+ },
+ "raw_sample": {
+  "format": "non_sf_dynasty",
+  "tep": "blend",
+  "idp": "std",
+  "idpScoring": "tackle",
+  "asOf": "2026-11-06T13:01:22.036Z",
+  "idpAsOf": "2026-11-06T13:01:22.036Z",
+  "total": 54,
+  "limit": 1000,
+  "offset": 0,
+  "rankings": [
+   {
+    "rank": 10,
+    "id": "4984",
+    "name": "Josh Allen",
+    "url": "https://statsguyfantasy.com/player/josh-allen-ntn4px",
+    "team": "BUF",
+    "position": "QB",
+    "positionRank": 1,
+    "value": 5608,
+    "age": 30.5,
+    "yearsExperience": 8
+   },
+   {
+    "rank": 25,
+    "id": "11564",
+    "name": "Drake Maye",
+    "url": "https://statsguyfantasy.com/player/drake-maye-9mktnk",
+    "team": "NE",
+    "position": "QB",
+    "positionRank": 2,
+    "value": 2875,
+    "age": 24.2,
+    "yearsExperience": 2
+   },
+   {
+    "rank": 27,
+    "id": "6770",
+    "name": "Joe Burrow",
+    "url": "https://statsguyfantasy.com/player/joe-burrow-sfyixi",
+    "team": "CIN",
+    "position": "QB",
+    "positionRank": 3,
+    "value": 2733,
+    "age": 29.9,
+    "yearsExperience": 6
+   }
+  ]
+ }
+}
