@@ -6,7 +6,12 @@ on:
     # meisten Waiver-Runs). Waehrend der Offseason laeuft's einfach mit den
     # gleichen (dann selteneren) Aenderungen mit -- kostet nichts extra.
     - cron: "0 9 * * 3"
+    # Taeglich 05:00 UTC: Marktwerte und Projektionen aendern sich laufend
+    - cron: "0 5 * * *"
   workflow_dispatch: {}   # manueller "Run workflow"-Button in GitHub
+  push:
+    branches: [main]
+    paths: [engine/**, scoring/**, .github/workflows/update-values.yml]   # Rebuild bei Modell-Aenderungen
 
 permissions:
   contents: write   # noetig, damit der Bot die aktualisierten Dateien committen darf
@@ -33,11 +38,9 @@ jobs:
         # Kein continue-on-error: faellt Sleeper aus, wird nichts neu gebaut -> die letzten Werte bleiben stehen
         run: python engine/fetch_sleeper.py
 
-      - name: FantasyPros-Dynasty-Rankings laden (Kalibrierungs-Ziel)
-        env:
-          FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
-        run: python engine/fetch_dynasty_rankings.py 2026
-        continue-on-error: true
+      - name: Dynasty-Marktwerte laden (Stats Guy Fantasy)
+        # Kein continue-on-error: faellt die Quelle aus, wird nichts neu gebaut -> letzte Werte bleiben
+        run: python engine/fetch_statsguy.py
 
       - name: Fleaflicker-Spielerpositionen laden
         run: python engine/fetch_fleaflicker_players.py

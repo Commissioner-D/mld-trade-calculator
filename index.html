@@ -207,7 +207,7 @@ const STR = {
     taxi: "Taxi-fähig", from_rank: "aus Dynasty-Rang", past: "Vergangenheitswert", no_data: "ohne Daten", na: "NA",
     rookie_pick: "Rookie-Pick", yrs: n => `${n} J.`,
     load_err: m => `Daten konnten nicht geladen werden (${m}). Läuft die Seite über http(s) und nicht als lokale Datei?`,
-    sources: "Projektionen: Sleeper/Rotowire · Dynasty-Rankings: FantasyPros · Rosterdaten und Positionen: Fleaflicker · Alter, Draft, Statistiken: nflverse",
+    sources: "Projektionen: Sleeper/Rotowire · Dynasty-Marktwerte: Data from Stats Guy Fantasy · Rosterdaten und Positionen: Fleaflicker · Alter, Draft, Statistiken: nflverse",
     theme: "Darstellung", lang: "Sprache", settings: "Einstellungen",
     th_system: "Wie Gerät", th_light: "Hell", th_dark: "Dunkel",
     finder: "Trade-Finder", f_team: "Team", f_player: "Spieler", f_pick: "Spieler wählen …",
@@ -238,7 +238,7 @@ const STR = {
     taxi: "taxi-eligible", from_rank: "from dynasty rank", past: "past production", no_data: "no data", na: "NA",
     rookie_pick: "Rookie pick", yrs: n => `${n} yrs`,
     load_err: m => `Could not load data (${m}). Is the page running over http(s), not opened as a local file?`,
-    sources: "Projections: Sleeper/Rotowire · Dynasty rankings: FantasyPros · Rosters and positions: Fleaflicker · Age, draft, stats: nflverse",
+    sources: "Projections: Sleeper/Rotowire · Dynasty market values: Data from Stats Guy Fantasy · Rosters and positions: Fleaflicker · Age, draft, stats: nflverse",
     theme: "Appearance", lang: "Language", settings: "Settings",
     th_system: "Match device", th_light: "Light", th_dark: "Dark",
     finder: "Trade Finder", f_team: "Team", f_player: "Player", f_pick: "Pick a player …",
@@ -383,7 +383,7 @@ function renderCalc(main) {
         <div class="track-labels"><span class="la">${t("team_a")}</span><span class="lb">${t("team_b")}</span></div>
       </div></section>
     <div class="sides">${side("A", t("team_a"))}${side("B", t("team_b"))}</div>
-    <p class="srcline">${esc(t("sources"))}</p>`;
+    <p class="srcline">${esc(t("sources")).replace("Stats Guy Fantasy", '<a href="https://statsguyfantasy.com" target="_blank" rel="noopener">Stats Guy Fantasy</a>')}</p>`;
   setupSearch("A"); setupSearch("B");
   updateDesk();
 }
@@ -710,7 +710,7 @@ function renderInfo(main) {
     <p>Jeder Spieler bekommt einen Dynasty-Wert über Ersatzniveau. Er setzt sich aus zwei Teilen zusammen:</p>
     <p class="formula">Wert = Rest dieser Saison + Zukunft</p>
     <ul><li><b>Rest dieser Saison</b>: Sleeper-Projektion (Rotowire) für jede verbleibende Woche, mit dem Scoring dieser Liga gerechnet, minus Ersatzniveau. Byes und Ausfälle sind schon drin. Ohne Projektion zählt der Saisonrest 0.</li>
-    <li><b>Zukunft (die nächsten 5 Saisons, abgezinst)</b>: aus dem FantasyPros-Dynasty-Rang. Der k-te der Position bekommt den k-höchsten Zukunftswert der Liga. Der Rang bestimmt also, wie lange und wie stark ein Spieler noch produziert (Alter, Vertrag, Rolle). Ohne Rang: Alterskurve auf Basis der Projektion.</li></ul>
+    <li><b>Zukunft (die nächsten 5 Saisons, abgezinst)</b>: aus dem Dynasty-Marktwert von <a href="https://statsguyfantasy.com">Stats Guy Fantasy</a> (errechnet aus echten Dynasty-Trades, täglich neu, Einstellung 1-QB, IDP tackle-lastig). Der k-te der Position bekommt den k-höchsten Zukunftswert der Liga. Der Rang bestimmt also, wie lange und wie stark ein Spieler noch produziert (Alter, Vertrag, Rolle). Ohne Rang: Alterskurve auf Basis der Projektion.</li></ul>
     <h3>Ersatzniveau</h3>
     <p>Rang des Ersatzspielers = Mittel aus (a) der tatsächlich gerosterten Zahl der Position in der Liga (bei jedem Update neu gezählt) und (b) den Start-Slots inklusive Flex-Anteil.</p>
     <h3>Spieler ohne Projektion</h3>
@@ -718,7 +718,7 @@ function renderInfo(main) {
     <li>Hat er weder Projektion noch Rang, steht <b>NA</b> in Rot, und er ist nicht auswählbar. Es wird nicht geraten, und vergangene Produktion wird nicht als Ersatz verwendet.</li>
     <li>Einzige Ausnahme: Kicker (keine Projektion, kein Ranking verfügbar) laufen auf dem Schnitt der letzten Saisons (65 % aktuell, 35 % Vorjahr).</li></ul>
     <h3>IDP</h3>
-    <p>FantasyPros rankt IDP nur in drei Töpfen (LB, DB = S+CB, DL = EDR+IL), der Zukunftsteil wird deshalb innerhalb dieser Töpfe verteilt. Die Position kommt von Fleaflicker; Spieler, die dort weder gelistet noch gerostert sind, fallen auf die nflverse-Position zurück.</p>
+    <p>Die Marktwerte für IDP gibt es nur in drei Töpfen (LB, DB = S+CB, DL = EDR+IL). Abgebildet wird trotzdem je eigener Position: CB gegen CB, S gegen S, weil CBs in dieser Liga weniger wert sind. Die Position kommt von Fleaflicker; Spieler, die dort weder gelistet noch gerostert sind, fallen auf die nflverse-Position zurück.</p>
     <h3>Picks</h3>
     <p>Handelbar sind nur die nächsten zwei Jahrgänge (Regelwerk). Ein Pick ist so viel wert wie der Spieler, den man an dieser Stelle im Schnitt bekommt: bei jedem Update neu gefittet an den letzten vier Rookie-Drafts der Liga gegen die heutigen Spielerwerte. Ein Bust zählt als 0, nicht negativ, weil man ihn einfach schneidet. Ältere Jahrgänge fließen nicht ein, ihre Spieler sind heute über den Peak hinaus. Beide Jahrgänge sind noch gleich bewertet.</p>
     <h3>Rosterplatz-Abzug</h3>
@@ -732,13 +732,13 @@ function renderInfo(main) {
     <li>Maßstab „Jetzt“ = Fleaflicker-Punkte pro Spiel dieser Saison. „Dynasty-Wert“ = Wert aus dem Rechner.</li></ul>
     <p>Kader und Punkte kommen aus dem Free-Agent-Radar (alle 4 Stunden aktualisiert).</p>
     <h3>Quellen</h3>
-    <p>Sleeper/Rotowire (Projektionen), FantasyPros (Dynasty-Expertenranking), Fleaflicker (Rosters, Positionen, Regelwerk), nflverse (Alter, Draft-Position, Statistiken).</p>`;
+    <p>Sleeper/Rotowire (Projektionen), Stats Guy Fantasy (Dynasty-Marktwerte), Fleaflicker (Rosters, Positionen, Regelwerk), nflverse (Alter, Draft-Position, Statistiken).</p>`;
   const en = `<h2>How it's calculated</h2>
     <h3>What the value means</h3>
     <p>Every player gets a dynasty value above replacement level. It has two parts:</p>
     <p class="formula">value = rest of this season + future</p>
     <ul><li><b>Rest of this season</b>: Sleeper projection (Rotowire) for every remaining week, run through this league's scoring, minus replacement level. Byes and absences are included. No projection means the rest of the season counts as 0.</li>
-    <li><b>Future (next 5 seasons, discounted)</b>: from the FantasyPros dynasty rank. The k-th at a position gets the league's k-th highest future value, so the rank decides how long and how strongly a player keeps producing (age, contract, role). Without a rank: age curve based on the projection.</li></ul>
+    <li><b>Future (next 5 seasons, discounted)</b>: from the dynasty market value by <a href="https://statsguyfantasy.com">Stats Guy Fantasy</a> (derived from real dynasty trades, updated daily, set to 1-QB, tackle-heavy IDP). The k-th at a position gets the league's k-th highest future value, so the rank decides how long and how strongly a player keeps producing (age, contract, role). Without a rank: age curve based on the projection.</li></ul>
     <h3>Replacement level</h3>
     <p>The replacement player's rank = the mean of (a) the number of players actually rostered at that position in the league (recounted on every update) and (b) the starting slots including the flex share.</p>
     <h3>Players without a projection</h3>
@@ -746,7 +746,7 @@ function renderInfo(main) {
     <li>If he has neither projection nor rank, he shows <b>NA</b> in red and can't be added. No guessing, and past production is not used as a substitute.</li>
     <li>Only exception: kickers (no projection or ranking available) run on the average of recent seasons (65% current, 35% prior year).</li></ul>
     <h3>IDP</h3>
-    <p>FantasyPros ranks IDP in only three pools (LB, DB = S+CB, DL = EDR+IL), so the future part is distributed within those pools. Positions come from Fleaflicker; players who are neither listed nor rostered there fall back to the nflverse position.</p>
+    <p>IDP market values come in only three pools (LB, DB = S+CB, DL = EDR+IL). Mapping is still done per own position: CB against CB, S against S, since corners are worth less in this league. Positions come from Fleaflicker; players who are neither listed nor rostered there fall back to the nflverse position.</p>
     <h3>Picks</h3>
     <p>Only the next two draft classes are tradable (league rules). A pick is worth the player you get at that slot on average, refitted on every update against today's values of the league's last four rookie drafts. A bust counts as 0, not negative, since you simply cut him. Older classes are left out because their players are past their peak today. Both classes are still valued the same.</p>
     <h3>Roster spot adjustment</h3>
@@ -760,7 +760,7 @@ function renderInfo(main) {
     <li>"Now" = Fleaflicker points per game this season. "Dynasty value" = calculator value.</li></ul>
     <p>Rosters and points come from the free-agent radar (updated every 4 hours).</p>
     <h3>Sources</h3>
-    <p>Sleeper/Rotowire (projections), FantasyPros (dynasty expert consensus), Fleaflicker (rosters, positions, rules), nflverse (age, draft position, stats).</p>`;
+    <p>Sleeper/Rotowire (projections), Stats Guy Fantasy (dynasty market values), Fleaflicker (rosters, positions, rules), nflverse (age, draft position, stats).</p>`;
   main.innerHTML = `<section class="card info"><div class="card-body">${LANG === "de" ? de : en}</div></section>`;
 }
 

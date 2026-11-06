@@ -106,7 +106,7 @@ def _norm(n):
 _relevant = set()
 for _path, _key in ((f"data/sleeper_ros_{CUR_SEASON}.json", "name"),
                     ("data/fantasypros_projections_2026.json", "name"),
-                    ("data/fantasypros_dynasty_rankings_2026.json", "name"),
+                    ("data/statsguy_dynasty.json", "name"),
                     ("data/fleaflicker_rosters.json", "player_name")):
     if os.path.exists(_path):
         with open(_path, encoding="utf-8") as f:
@@ -337,7 +337,9 @@ from engine.dynasty_value import OFFENSE_GROUPS, IDP_GROUPS
 OFFENSE_POSITIONS = [p for grp in OFFENSE_GROUPS.values() for p in grp[0]]
 IDP_POSITIONS = [p for grp in IDP_GROUPS.values() for p in grp[0]]
 SCR_POSITIONS = OFFENSE_POSITIONS + IDP_POSITIONS
-dynasty_path = "data/fantasypros_dynasty_rankings_2026.json"
+# Dynasty-Marktwerte (Zukunftsteil): Stats Guy Fantasy, aus echten Dynasty-Trades, taeglich neu.
+# Vorher FantasyPros-Konsens -- bei IDP wochenlang veraltet.
+dynasty_path = "data/statsguy_dynasty.json"
 
 value_table["SCR"] = None
 value_table["scr_source"] = "none"
