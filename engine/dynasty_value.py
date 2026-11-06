@@ -150,7 +150,7 @@ def apply_modifiers(scr, age, draft_capital_score, years_exp, p, group=None):
     return now + fut
 
 
-def rank_future(vt, dyn_df, fp_pos, pos_mask):
+def rank_future(vt, dyn_df, fp_pos, pos_mask, p=None, group=None):
     """Zukunftsteil aus dem Markt, je EIGENER Position (S, CB, EDR, IL, LB, QB ...): die Spieler der
     Position werden nach ihrem FantasyPros-Rang geordnet, der k-te bekommt den k-hoechsten Modell-
     Zukunftsteil dieser Position in unserem Scoring. Der Rang bestimmt die Reihenfolge (Vertrag, Rolle,
@@ -165,7 +165,17 @@ def rank_future(vt, dyn_df, fp_pos, pos_mask):
     pr = vt.loc[pos_mask, "norm_name"].map(sub.set_index("norm_name")["prank"])
     ranked = pr.dropna().sort_values(kind="stable")
     k = np.arange(len(ranked))                         # 0 = bester dieser Position laut FP
-    vt.loc[ranked.index, "future_rank"] = scale[np.clip(k, 0, len(scale) - 1)]
+    fut = scale[np.clip(k, 0, len(scale) - 1)]
+    # Marktwerte sind GESAMTwerte: bei alten Spielern ist das fast nur die laufende Saison (Contender
+    # kaufen fuer jetzt, z.B. Demario Davis mit 37 als LB45). Fuer den Zukunftsteil darum ab dem Peak
+    # mit der Alterskurve daempfen: Anteil Zukunft dieses Alters relativ zu einem Spieler am Peak.
+    if p is not None:
+        frac = season_fraction_left()
+        ages = vt.loc[ranked.index, "age"].astype(float).fillna(p["peak"]).values
+        f_age = multi_year_factor(ages, p["peak"], group, frac)
+        f_peak = multi_year_factor(np.full_like(ages, p["peak"]), p["peak"], group, frac)
+        fut = fut * np.where(ages > p["peak"], np.clip(f_age / f_peak, 0, 1), 1.0)
+    vt.loc[ranked.index, "future_rank"] = fut
     vt.loc[ranked.index, "fp_pos_rank"] = ranked.values
 
 
@@ -256,7 +266,7 @@ def build_dynasty_values(value_table: pd.DataFrame, dynasty_rankings: list, rost
     vt["future_rank"] = np.nan
     vt["fp_pos_rank"] = np.nan
     for group, (ours, fp_pos) in group_defs.items():
-        rank_future(vt, dyn_df, fp_pos, vt["position"].isin(ours))
+        rank_future(vt, dyn_df, fp_pos, vt["position"].isin(ours), params[group], group)
     vt["future_value"] = vt["future_rank"].where(vt["future_rank"].notna(), vt["future_model"])
     ok = vt["now_value"].notna()
     vt.loc[ok, "dynasty_value"] = vt.loc[ok, "now_value"] + vt.loc[ok, "future_value"]
