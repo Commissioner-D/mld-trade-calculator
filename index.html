@@ -204,6 +204,7 @@ const STR = {
     total: "Gesamtwert", remove: "Entfernen",
     assets: n => `${n} ${n === 1 ? "Position" : "Positionen"}`,
     roster_adj: (adj, net) => `Rosterplatz-Abzug ${adj} (netto +${net} Spieler)`,
+    depth_adj: (adj, n) => `Abschlag ${adj} für ${n} überzählige${n === 1 ? "s" : ""} Asset${n === 1 ? "" : "s"}`,
     taxi: "Taxi-fähig", from_rank: "aus Dynasty-Rang", past: "Vergangenheitswert", no_data: "ohne Daten", na: "NA",
     rookie_pick: "Rookie-Pick", yrs: n => `${n} J.`,
     load_err: m => `Daten konnten nicht geladen werden (${m}). Läuft die Seite über http(s) und nicht als lokale Datei?`,
@@ -235,6 +236,7 @@ const STR = {
     total: "Total value", remove: "Remove",
     assets: n => `${n} asset${n === 1 ? "" : "s"}`,
     roster_adj: (adj, net) => `Roster spot adj. ${adj} (net +${net} players)`,
+    depth_adj: (adj, n) => `Adj. ${adj} for ${n} extra asset${n === 1 ? "" : "s"}`,
     taxi: "taxi-eligible", from_rank: "from dynasty rank", past: "past production", no_data: "no data", na: "NA",
     rookie_pick: "Rookie pick", yrs: n => `${n} yrs`,
     load_err: m => `Could not load data (${m}). Is the page running over http(s), not opened as a local file?`,
@@ -444,6 +446,18 @@ function renderList(k) {
   return list.reduce((s, a) => s + a.value, 0);
 }
 
+// Abschlag fuer ueberzaehlige Assets: bei 3:1 zaehlen die zwei schwaechsten Teile der groesseren Seite
+// nur gestaffelt (60 %, 36 %, 22 % ...). Gegen die MLD-Trades seit 09/2025 kalibriert (DEPTH_Q = 0,6
+// passt besser als die reine Summe und besser als ein Star-Aufschlag auf alle Werte).
+const DEPTH_Q = 0.6;
+function depthAdj(list, otherLen) {
+  const vals = list.map(a => a.value).filter(v => v > 0).sort((x, y) => y - x);
+  if (!otherLen || vals.length <= otherLen) return { adj: 0, n: 0 };
+  const extra = vals.slice(otherLen);
+  const adj = extra.reduce((s, v, i) => s + v * (Math.pow(DEPTH_Q, i + 1) - 1), 0);
+  return { adj, n: extra.length };
+}
+
 function updateDesk() {
   if (!document.getElementById("listA")) return;
   const rawA = renderList("A"), rawB = renderList("B");
@@ -453,10 +467,12 @@ function updateDesk() {
   const netA = bA - bB, netB = bB - bA;
   const adjA = netA > 0 ? -netA * ROSTER_SPOT_VALUE : 0;
   const adjB = netB > 0 ? -netB * ROSTER_SPOT_VALUE : 0;
-  const totalA = rawA + adjA, totalB = rawB + adjB;
+  const dA = depthAdj(teamA, teamB.length), dB = depthAdj(teamB, teamA.length);
+  const totalA = rawA + adjA + dA.adj, totalB = rawB + adjB + dB.adj;
 
-  document.getElementById("adjA").textContent = adjA ? t("roster_adj", fmt(adjA), num(netA)) : "";
-  document.getElementById("adjB").textContent = adjB ? t("roster_adj", fmt(adjB), num(netB)) : "";
+  const lines = (adj, net, d) => [adj ? t("roster_adj", fmt(adj), num(net)) : "", d.n ? t("depth_adj", fmt(d.adj), d.n) : ""].filter(Boolean).join(" · ");
+  document.getElementById("adjA").textContent = lines(adjA, netA, dA);
+  document.getElementById("adjB").textContent = lines(adjB, netB, dB);
   const tA = document.getElementById("totalA"), tB = document.getElementById("totalB");
   tA.textContent = fmt(totalA); tB.textContent = fmt(totalB);
   renderMeter(totalA, totalB);
@@ -731,8 +747,8 @@ function renderInfo(main) {
     <li><b>Handcuff</b>: Steht der Spieler im NFL-Depth-Chart hinter einem Starter (z. B. RB2 hinter RB1), wird das Team markiert, dem dieser Starter gehört. Nicht bei WR.</li>
     <li>Maßstab „Jetzt“ = Fleaflicker-Punkte pro Spiel dieser Saison. „Dynasty-Wert“ = Wert aus dem Rechner.</li></ul>
     <p>Kader und Punkte kommen aus dem Free-Agent-Radar (alle 4 Stunden aktualisiert).</p>
-    <h3>Kein Star-Aufschlag</h3>
-    <p>Viele Trade-Rechner werten einen Star höher als zwei mittlere Spieler mit derselben Summe. Gegen die Trades dieser Liga geprüft (alle seit September 2025): Ein solcher Aufschlag macht die angenommenen Trades unausgeglichener, nicht ausgeglichener. Die Liga zahlt keinen. Werte werden darum einfach addiert.</p>
+    <h3>Abschlag für überzählige Assets</h3>
+    <p>Drei mittlere Spieler sind nicht so viel wert wie ihre Summe, wenn man dafür einen guten abgibt: Man kann nicht alle aufstellen, und Kaderplätze kosten. Darum zählen bei ungleicher Anzahl die schwächsten Teile der größeren Seite, also die, die über die Anzahl der Gegenseite hinausgehen, nur gestaffelt: das erste zu 60 %, das zweite zu 36 %, das dritte zu 22 %. Gegen die Trades dieser Liga seit September 2025 geprüft: Das passt besser als die reine Summe und besser als ein Star-Aufschlag auf alle Werte.</p>
     <h3>Quellen</h3>
     <p>Sleeper/Rotowire (Projektionen), Stats Guy Fantasy (Dynasty-Marktwerte), Fleaflicker (Rosters, Positionen, Regelwerk), nflverse (Alter, Draft-Position, Statistiken).</p>`;
   const en = `<h2>How it's calculated</h2>
@@ -761,8 +777,8 @@ function renderInfo(main) {
     <li><b>Handcuff</b>: if the player sits behind a starter on the NFL depth chart (e.g. RB2 behind RB1), the team owning that starter is flagged. Not for WR.</li>
     <li>"Now" = Fleaflicker points per game this season. "Dynasty value" = calculator value.</li></ul>
     <p>Rosters and points come from the free-agent radar (updated every 4 hours).</p>
-    <h3>No consolidation premium</h3>
-    <p>Many trade calculators value one star above two mid-level players with the same total. Checked against this league's trades (all since September 2025), such a premium makes accepted trades less balanced, not more. The league doesn't pay one, so values are simply added up.</p>
+    <h3>Discount for extra assets</h3>
+    <p>Three mid-level players aren't worth their sum when you give up one good player for them: you can't start them all, and roster spots cost. So with unequal counts, the weakest pieces of the bigger side, i.e. those beyond the other side's count, only count on a sliding scale: the first at 60%, the second at 36%, the third at 22%. Checked against this league's trades since September 2025: this fits better than a plain sum and better than a star premium on all values.</p>
     <h3>Sources</h3>
     <p>Sleeper/Rotowire (projections), Stats Guy Fantasy (dynasty market values), Fleaflicker (rosters, positions, rules), nflverse (age, draft position, stats).</p>`;
   main.innerHTML = `<section class="card info"><div class="card-body">${LANG === "de" ? de : en}</div></section>`;
