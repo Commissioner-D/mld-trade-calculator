@@ -5515,9 +5515,9 @@
   "fumbles_lost": 0.72,
   "receptions": 26.22,
   "rush_2pt": 0.32,
-  "rec_td": 1.53,
+  "rec_td": 1.56,
   "rec_yards": 205.47,
-  "rush_td": 4.88,
+  "rush_td": 4.98,
   "rush_yards": 810.35
  },
  {
@@ -7316,7 +7316,7 @@
   "fumbles_lost": 0.01,
   "receptions": 7.02,
   "rush_2pt": 0.01,
-  "rec_td": 0.6,
+  "rec_td": 0.62,
   "rec_yards": 89.01,
   "rush_td": 0.08,
   "rush_yards": 8.1
@@ -7654,7 +7654,7 @@
   "fumbles_lost": 0.08,
   "receptions": 14.56,
   "rush_2pt": 0.08,
-  "rec_td": 1.58,
+  "rec_td": 1.61,
   "rec_yards": 260.28,
   "rush_td": 0.0,
   "rush_yards": 0.96
@@ -9122,7 +9122,7 @@
   "fumbles_lost": 0.01,
   "receptions": 9.98,
   "rush_2pt": 0.08,
-  "rec_td": 0.94,
+  "rec_td": 0.96,
   "rec_yards": 100.68
  },
  {
@@ -11883,7 +11883,7 @@
   "fumbles_lost": 0.08,
   "receptions": 25.01,
   "rush_2pt": 0.16,
-  "rec_td": 2.79,
+  "rec_td": 2.85,
   "rec_yards": 281.88
  },
  {
@@ -12006,7 +12006,7 @@
   "fumbles_lost": 0.17,
   "receptions": 46.56,
   "rush_2pt": 0.16,
-  "rec_td": 2.45,
+  "rec_td": 2.5,
   "rec_yards": 800.39,
   "rush_td": 0.0,
   "rush_yards": 1.84
@@ -12596,10 +12596,10 @@
   "fumbles_lost": 1.45,
   "pass_2pt": 0.63,
   "pass_int": 5.09,
-  "pass_td": 10.54,
+  "pass_td": 10.73,
   "pass_yards": 1926.37,
   "rush_2pt": 0.08,
-  "rush_td": 0.91,
+  "rush_td": 0.93,
   "rush_yards": 84.05
  },
  {
