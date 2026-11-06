@@ -22,7 +22,7 @@ jobs:
           FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
         run: "true"
       - name: Sleeper ROS
-        run: python engine/fetch_sleeper.py && cp data/sleeper_ros_*.json probe/
+        run: mkdir -p probe && python engine/fetch_sleeper.py && cp data/sleeper_ros_*.json probe/
       - name: Ergebnis in Branch probe (ueberschreiben)
         run: |
           mkdir -p /tmp/o && cp probe/*.json /tmp/o/
