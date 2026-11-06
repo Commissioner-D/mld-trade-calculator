@@ -1,0 +1,34 @@
+name: Probe FantasyPros
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/probe_fp.py, .github/workflows/probe-fp.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Probe
+        env:
+          FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
+        run: python tools/probe_fp.py
+      - name: Ergebnis in Branch probe (ueberschreiben)
+        run: |
+          cp probe/fp_probe.json /tmp/
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git checkout --orphan probe-tmp
+          git rm -rf --cached . -q
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp /tmp/fp_probe.json .
+          git add fp_probe.json
+          git commit -q -m "FP probe $(date -u +%Y-%m-%d_%H%M)"
+          git push -f origin HEAD:probe
