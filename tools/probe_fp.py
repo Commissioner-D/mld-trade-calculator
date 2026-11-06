@@ -6,9 +6,7 @@ KEY = os.environ.get("FANTASYPROS_API_KEY", "")
 BASE = "https://api.fantasypros.com/public/v2/json/nfl/2026"
 TEST = ["Anthony Hill", "Josiah Trotter", "Jack Campbell", "Kendal Daniels", "Demario Davis", "Trenton Simpson", "Payton Wilson", "Kyle Hamilton", "Kam Curl"]
 VARIANTS = [
-    "projections?position=LB&week=10",
-    "projections?position=DB&week=10",
-    "projections?position=LB&week=11",
+    "projections?position=LB&week=9",
 ]
 out = {"key_set": bool(KEY), "results": []}
 import time
