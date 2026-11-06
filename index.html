@@ -703,7 +703,7 @@ function renderFinderResults(team, P) {
 
 // ---------- Info ----------
 function renderInfo(main) {
-  const rsv = ROSTER_SPOT_VALUE ? num(ROSTER_SPOT_VALUE) : "–";
+  const rsv = ROSTER_SPOT_VALUE != null ? num(ROSTER_SPOT_VALUE) : "–";
   const tw = TAXI_WEIGHT ? num(TAXI_WEIGHT) : "5/28";
   const de = `<h2>So wird gerechnet</h2>
     <h3>Was der Wert bedeutet</h3>
@@ -722,7 +722,7 @@ function renderInfo(main) {
     <h3>Picks</h3>
     <p>Handelbar sind nur die nächsten zwei Jahrgänge (Regelwerk). Ein Pick ist so viel wert wie der Spieler, den man an dieser Stelle im Schnitt bekommt: bei jedem Update neu gefittet an den letzten vier Rookie-Drafts der Liga gegen die heutigen Spielerwerte. Ein Bust zählt als 0, nicht negativ, weil man ihn einfach schneidet. Ältere Jahrgänge fließen nicht ein, ihre Spieler sind heute über den Peak hinaus. Beide Jahrgänge sind noch gleich bewertet.</p>
     <h3>Rosterplatz-Abzug</h3>
-    <p>Ein Trade mit ungleicher Spielerzahl ist nicht gratis: Die Seite, die netto mehr Spieler aufnimmt, muss später jemanden schneiden und bekommt einen Abzug. Er ist so groß wie der Schnitt der 15 besten nicht gerosterten Spieler (aktuell <b>${rsv}</b>, bei jedem Update neu berechnet). Picks zählen nicht. Taxi-fähige Spieler (1./2. Jahr) zählen nur mit ${tw} (5/28), weil Taxi-Plätze zusätzlich zu den 28 aktiven Plätzen existieren.</p>
+    <p>Ein Trade mit ungleicher Spielerzahl ist nicht gratis: Die Seite, die netto mehr Spieler aufnimmt, muss später jemanden schneiden und bekommt einen Abzug. Er ist so groß wie das, was Teams dafür tatsächlich schneiden: der Schnitt der drei schwächsten aktiven Spieler je Kader, über alle Teams (aktuell <b>${rsv}</b>, täglich neu berechnet). Weil in dieser Liga die schwächsten Kaderspieler praktisch nichts wert sind, liegt er derzeit bei 0. Picks zählen nicht. Taxi-fähige Spieler (1./2. Jahr) zählen nur mit ${tw} (5/28), weil Taxi-Plätze zusätzlich zu den 28 aktiven Plätzen existieren.</p>
     <h3>Trade-Finder</h3>
     <p>Der gewählte Spieler wird probeweise in jeden anderen Kader gesetzt. Dann wird die beste Aufstellung gebaut (QB, 2 RB, 2 WR, TE, RB/WR/TE-Flex, K, 2 EDR/IL, 2 LB, 2 S/CB, IDP-Wildcard). Spieler auf IR oder Taxi zählen nicht, ein verletzter Starter auf IR macht also Platz.</p>
     <ul><li><b>Bester Spieler</b>: Nr. 1 seiner Gruppe in diesem Kader. <b>Starter</b>: in der Aufstellung, ggf. über den Flex. Die grüne Zahl ist der Zugewinn der Aufstellung pro Woche (bzw. an Dynasty-Wert).</li>
@@ -731,6 +731,8 @@ function renderInfo(main) {
     <li><b>Handcuff</b>: Steht der Spieler im NFL-Depth-Chart hinter einem Starter (z. B. RB2 hinter RB1), wird das Team markiert, dem dieser Starter gehört. Nicht bei WR.</li>
     <li>Maßstab „Jetzt“ = Fleaflicker-Punkte pro Spiel dieser Saison. „Dynasty-Wert“ = Wert aus dem Rechner.</li></ul>
     <p>Kader und Punkte kommen aus dem Free-Agent-Radar (alle 4 Stunden aktualisiert).</p>
+    <h3>Kein Star-Aufschlag</h3>
+    <p>Viele Trade-Rechner werten einen Star höher als zwei mittlere Spieler mit derselben Summe. Gegen die Trades dieser Liga geprüft (alle seit September 2025): Ein solcher Aufschlag macht die angenommenen Trades unausgeglichener, nicht ausgeglichener. Die Liga zahlt keinen. Werte werden darum einfach addiert.</p>
     <h3>Quellen</h3>
     <p>Sleeper/Rotowire (Projektionen), Stats Guy Fantasy (Dynasty-Marktwerte), Fleaflicker (Rosters, Positionen, Regelwerk), nflverse (Alter, Draft-Position, Statistiken).</p>`;
   const en = `<h2>How it's calculated</h2>
@@ -750,7 +752,7 @@ function renderInfo(main) {
     <h3>Picks</h3>
     <p>Only the next two draft classes are tradable (league rules). A pick is worth the player you get at that slot on average, refitted on every update against today's values of the league's last four rookie drafts. A bust counts as 0, not negative, since you simply cut him. Older classes are left out because their players are past their peak today. Both classes are still valued the same.</p>
     <h3>Roster spot adjustment</h3>
-    <p>A trade with an unequal player count isn't free: the side taking on more players net has to cut someone later and gets a deduction. It equals the average of the 15 best unrostered players (currently <b>${rsv}</b>, recalculated on every update). Picks don't count. Taxi-eligible players (1st/2nd year) count only ${tw} (5/28), since taxi slots exist on top of the 28 active spots.</p>
+    <p>A trade with an unequal player count isn't free: the side taking on more players net has to cut someone later and gets a deduction. It equals what teams actually cut for it: the average of the three weakest active players per roster, across all teams (currently <b>${rsv}</b>, recalculated daily). Since the weakest rostered players in this league are worth practically nothing, it is currently 0. Picks don't count. Taxi-eligible players (1st/2nd year) count only ${tw} (5/28), since taxi slots exist on top of the 28 active spots.</p>
     <h3>Trade Finder</h3>
     <p>The selected player is dropped into every other roster, then the best lineup is built (QB, 2 RB, 2 WR, TE, RB/WR/TE flex, K, 2 EDR/IL, 2 LB, 2 S/CB, IDP wildcard). Players on IR or taxi don't count, so an injured starter on IR opens a spot.</p>
     <ul><li><b>Best player</b>: no. 1 of his group on that roster. <b>Starter</b>: in the lineup, possibly via flex. The green number is the lineup gain per week (or in dynasty value).</li>
@@ -759,6 +761,8 @@ function renderInfo(main) {
     <li><b>Handcuff</b>: if the player sits behind a starter on the NFL depth chart (e.g. RB2 behind RB1), the team owning that starter is flagged. Not for WR.</li>
     <li>"Now" = Fleaflicker points per game this season. "Dynasty value" = calculator value.</li></ul>
     <p>Rosters and points come from the free-agent radar (updated every 4 hours).</p>
+    <h3>No consolidation premium</h3>
+    <p>Many trade calculators value one star above two mid-level players with the same total. Checked against this league's trades (all since September 2025), such a premium makes accepted trades less balanced, not more. The league doesn't pay one, so values are simply added up.</p>
     <h3>Sources</h3>
     <p>Sleeper/Rotowire (projections), Stats Guy Fantasy (dynasty market values), Fleaflicker (rosters, positions, rules), nflverse (age, draft position, stats).</p>`;
   main.innerHTML = `<section class="card info"><div class="card-body">${LANG === "de" ? de : en}</div></section>`;

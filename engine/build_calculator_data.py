@@ -27,34 +27,40 @@ TRADEABLE_YEARS = [NEXT_DRAFT_YEAR, NEXT_DRAFT_YEAR + 1]
 
 df = pd.read_csv("output/value_table.csv")
 
-# --- Rosterplatz-Wert: dynamisch aus den 15 besten aktuell NICHT gerosterten
-# Spielern berechnet (nicht fest einprogrammiert) -- passt sich automatisch an,
-# falls z.B. ein ungewoehnlich guter Free Agent gerade verfuegbar ist. Dient im
-# Frontend als Abschlag fuer Trades mit ungleicher Spieleranzahl (nur die Seite,
-# die netto mehr Koerper aufnimmt, bekommt den Abschlag -- kein Bonus fuers
-# Verschlanken). Taxi-eligible Spieler (Jahr 1-2) zaehlen nur mit 5/28 Gewicht,
-# da Taxi-Slots zusaetzlich zu den 28 aktiven Plaetzen existieren.
-ROSTER_SPOT_BEST_N = 15
+# --- Rosterplatz-Wert: was ein Team tatsaechlich verliert, wenn es fuer einen zusaetzlichen Spieler
+# jemanden schneiden muss = seine schwaechsten aktiven Spieler. Pro Team der Schnitt der 3 schwaechsten
+# aktiven (Start/Bank, ohne K, IR, Taxi), dann Schnitt ueber alle Teams, nach unten bei 0 gekappt.
+# Vorher: Schnitt der 15 besten Free Agents -- das waren fast nur CBs mit Marktwert, die in der MLD
+# genau deshalb frei sind, weil sie keiner will (1,7 statt real ~0).
+# Kaderdaten mit Slots: league.json aus dem Free-Agent-Radar (im Workflow geladen).
+CUT_CANDIDATES = 3
 TAXI_WEIGHT = 5 / 28
 roster_spot_value = None
-rosters_path = "data/fleaflicker_rosters.json"
-if os.path.exists(rosters_path):
-    with open(rosters_path, encoding="utf-8") as f:
-        rosters = json.load(f)
+league_path = "data/mld_league.json"
+if os.path.exists(league_path):
     import re as _re
 
     def _norm(n):
-        return _re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", _re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
+        return _re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", _re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
 
-    rostered_names = {_norm(r["player_name"]) for r in rosters if r.get("player_name")}
-    df_valid = df.dropna(subset=["primary_value"]).copy()
-    df_valid["norm_name"] = df_valid["full_name"].apply(_norm)
-    unrostered = df_valid[~df_valid["norm_name"].isin(rostered_names)].sort_values("primary_value", ascending=False)
-    best_fa = unrostered.head(ROSTER_SPOT_BEST_N)
-    roster_spot_value = round(float(best_fa["primary_value"].mean()), 3)
-    print(f"Rosterplatz-Wert (Schnitt der {ROSTER_SPOT_BEST_N} besten Free Agents): {roster_spot_value}")
+    _val = {}
+    for _, r in df.dropna(subset=["primary_value"]).iterrows():
+        k = _norm(r["full_name"])
+        _val[k] = max(_val.get(k, -1e9), float(r["primary_value"]))
+    with open(league_path, encoding="utf-8") as f:
+        _league = json.load(f)
+    per_team = []
+    for t in _league.get("teams", []):
+        act = sorted(_val.get(_norm(p["name"]), 0.0) for p in t.get("roster", [])
+                     if p.get("slot") in ("Start", "Bank") and p.get("pos") != "K")
+        if len(act) >= CUT_CANDIDATES:
+            per_team.append(sum(act[:CUT_CANDIDATES]) / CUT_CANDIDATES)
+    if per_team:
+        roster_spot_value = round(max(0.0, sum(per_team) / len(per_team)), 3)
+    print(f"Rosterplatz-Wert (Schnitt der {CUT_CANDIDATES} schwaechsten aktiven Spieler je Team, "
+          f"{len(per_team)} Teams, min 0): {roster_spot_value}")
 else:
-    print(f"Keine Rosterdaten unter {rosters_path} -- Rosterplatz-Wert bleibt leer.")
+    print(f"Keine Kaderdaten unter {league_path} -- Rosterplatz-Wert bleibt leer.")
 
 with open("output/calculator_config.json", "w") as f:
     json.dump({"roster_spot_value": roster_spot_value, "taxi_weight": round(TAXI_WEIGHT, 4)}, f)

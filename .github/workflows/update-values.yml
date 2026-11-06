@@ -54,6 +54,10 @@ jobs:
         run: python engine/fetch_fleaflicker_rules.py
         continue-on-error: true
 
+      - name: MLD-Kader mit Slots laden (Free-Agent-Radar, fuer den Rosterplatz-Wert)
+        run: curl -sfL -o data/mld_league.json https://raw.githubusercontent.com/Commissioner-D/mld-free-agents/data/data/league.json
+        continue-on-error: true   # sonst bleibt die zuletzt committete Datei
+
       - name: Value-Tabelle neu berechnen
         run: python engine/build_value_table.py
 
