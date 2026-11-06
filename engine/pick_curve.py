@@ -44,7 +44,14 @@ from scipy.optimize import curve_fit
 # noetig geworden, weil die Spieler-Bewertungsmethodik sich komplett geaendert hat
 # (kein Trailing-Fallback mehr, siehe engine/dynasty_value.py). Alte Kurve
 # unterschaetzte fruehe Picks massiv (Pick 1 nur 2.38 statt jetzt 5.74).
-FITTED_PARAMS = {"a": 71.053, "b": 6.726, "c": -3.456}
+FITTED_PARAMS = {"a": 94.965, "b": 5.310, "c": 0.0}
+
+# Neu kalibriert 2026-11: (1) gegen die AKTUELLEN Spielerwerte inkl. 2026er Rookie-Jahrgang (vorher fehlte
+# er ganz -> fruehe Picks massiv unterschaetzt); (2) jedes Outcome nach unten bei 0 gekappt: ein Bust wird
+# geschnitten (Taxi-Platz, kein aktiver Rosterplatz), er kostet also nichts -- vorher zogen negative Werte
+# von Busts spaete Picks unter 0, ein spaeter 1st war "weniger wert als nichts"; (3) nur die Jahrgaenge
+# 2023-2026: aeltere Jahrgaenge sind heute 5-6 Jahre ueber den Peak hinaus und unterschaetzen, was ein
+# Pick beim Draft wert ist. R^2 ~0.41.
 
 
 def pick_value(pick_overall: float, params=FITTED_PARAMS) -> float:
@@ -67,17 +74,17 @@ def fit_pick_curve(historical_picks: list) -> dict:
     gedroppt -- sonst wird die Bust-Quote unterschaetzt.
     """
     picks = np.array([p["overall"] for p in historical_picks], dtype=float)
-    outcomes = np.array([p["value"] for p in historical_picks], dtype=float)
+    outcomes = np.maximum(np.array([p["value"] for p in historical_picks], dtype=float), 0.0)   # Bust = schneiden = 0
 
     def model(x, a, b, c):
         return a / (x + b) + c
 
-    popt, _ = curve_fit(model, picks, outcomes, p0=[20.0, 3.0, -3.0], maxfev=10000)
+    popt, _ = curve_fit(model, picks, outcomes, p0=[60.0, 5.0, 0.5], bounds=([0, 0, 0], [1e4, 100, 5]), maxfev=20000)
     return {"a": float(popt[0]), "b": float(popt[1]), "c": float(popt[2])}
 
 
 if __name__ == "__main__":
     with open("data/rookie_picks_with_values.json", encoding="utf-8") as f:
-        historical = json.load(f)
+        historical = [p for p in json.load(f) if p["season"] >= 2023]
     fitted = fit_pick_curve(historical)
     print("Neu gefittete Parameter:", fitted)
