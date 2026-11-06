@@ -29,12 +29,9 @@ jobs:
       - name: nflverse-Rohdaten laden
         run: python engine/fetch_data.py
 
-      - name: FantasyPros-Offense-Projektionen laden (falls Secret gesetzt ist)
-        env:
-          FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
-        run: python engine/fetch_projections.py 2026
-        continue-on-error: true   # fehlender/ungueltiger Key soll den Rebuild nicht blockieren
-                                  # (das Skript selbst wirft dann eine klare Fehlermeldung im Log)
+      - name: Sleeper-Projektionen laden (Rest of Season, Offense + IDP)
+        # Kein continue-on-error: faellt Sleeper aus, wird nichts neu gebaut -> die letzten Werte bleiben stehen
+        run: python engine/fetch_sleeper.py
 
       - name: FantasyPros-Dynasty-Rankings laden (Kalibrierungs-Ziel)
         env:

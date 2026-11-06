@@ -104,7 +104,8 @@ def _norm(n):
     return re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", re.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
 
 _relevant = set()
-for _path, _key in (("data/fantasypros_projections_2026.json", "name"),
+for _path, _key in ((f"data/sleeper_ros_{CUR_SEASON}.json", "name"),
+                    ("data/fantasypros_projections_2026.json", "name"),
                     ("data/fantasypros_dynasty_rankings_2026.json", "name"),
                     ("data/fleaflicker_rosters.json", "player_name")):
     if os.path.exists(_path):
@@ -249,7 +250,8 @@ flex_share = roster_cfg["flex_share_offense"]
 off_ranks = {}
 for pos in ["QB", "RB", "WR", "TE"]:
     if pos == "QB":
-        heuristic_rank = NUM_TEAMS * slots["QB"]
+        off_ranks[pos] = round(NUM_TEAMS * slots["QB"] * 1.25) + 1   # 1-QB-Liga, siehe integrate_projections
+        continue
     else:
         heuristic_rank = round(NUM_TEAMS * (slots[pos] + slots["FLEX_RB_WR_TE"] * flex_share[pos]))
     if _rostered:
@@ -295,8 +297,11 @@ value_table = pd.concat([
 # nie verschmolzen). Fehlt die Projektionsdatei (z.B. kein API-Key gesetzt), bleibt die
 # Spalte einfach leer -- kein Blocker fuer den Rest der Pipeline.
 value_table["proj_ppg"] = None
+value_table["proj_games"] = None
 value_table["proj_vorp"] = None
-fp_path = "data/fantasypros_projections_2026.json"
+# Projektion = Sleeper/Rotowire Rest-of-Season (Offense + IDP). FantasyPros liefert nur noch die
+# Dynasty-Rankings (Zukunftsteil). Kein Rueckfall auf FantasyPros-Projektionen.
+fp_path = f"data/sleeper_ros_{CUR_SEASON}.json"
 if os.path.exists(fp_path):
     from engine.integrate_projections import build_projected_vorp
     proj = build_projected_vorp(fp_path, roster_cfg, flea_group_by_name=flea_group_by_name)
@@ -315,13 +320,14 @@ if os.path.exists(fp_path):
         print(f"  {dupe_names['norm_name'].nunique()} Namens-Kollisionen im Projektions-Datensatz "
               f"(z.B. Spieler unter mehreren Positionen) -- behalte jeweils den hoechsten proj_vorp")
     proj = proj.sort_values("proj_vorp", ascending=False).drop_duplicates(subset=["norm_name"], keep="first")
-    proj_lookup = proj.set_index("norm_name")[["proj_ppg", "proj_vorp"]]
+    proj_lookup = proj.set_index("norm_name")[["proj_ppg", "proj_vorp", "proj_games"]]
+    value_table["proj_games"] = value_table["norm_name"].map(proj_lookup["proj_games"])
     value_table["proj_ppg"] = value_table["norm_name"].map(proj_lookup["proj_ppg"])
     value_table["proj_vorp"] = value_table["norm_name"].map(proj_lookup["proj_vorp"])
     value_table = value_table.drop(columns=["norm_name"])
     print(f"Projected VORP gemergt: {value_table['proj_vorp'].notna().sum()} von {len(value_table)} Spielern haben eine FantasyPros-Projektion")
 else:
-    print(f"Keine Projektionsdatei unter {fp_path} gefunden -- proj_vorp bleibt leer (kein Blocker).")
+    raise SystemExit(f"Keine Projektionsdatei unter {fp_path} -- Abbruch (kein Rueckfall auf andere Quellen).")
 
 # --- Dynasty-Wert: Offense UND IDP jetzt auf dem gleichen SCR-System (SCR + Alter +
 # Draft-Kapital, KEIN Trailing-Fallback mehr -- Dominiks ausdrueckliche Vorgabe).
@@ -337,6 +343,8 @@ value_table["SCR"] = None
 value_table["scr_source"] = "none"
 value_table["years_exp"] = None
 value_table["dynasty_value"] = None
+for _c in ("now_value", "future_value", "fp_pos_rank"):
+    value_table[_c] = None
 
 if os.path.exists(dynasty_path):
     from engine.dynasty_value import build_offense_dynasty_values, build_idp_dynasty_values
@@ -345,7 +353,7 @@ if os.path.exists(dynasty_path):
 
     off_result = build_offense_dynasty_values(value_table, dynasty_rankings, roster, CUR_SEASON)
     off_mask = value_table["position"].isin(OFFENSE_POSITIONS)
-    for col in ["SCR", "scr_source", "dynasty_value", "years_exp"]:
+    for col in ["SCR", "scr_source", "dynasty_value", "years_exp", "now_value", "future_value", "fp_pos_rank"]:
         value_table.loc[off_mask, col] = off_result.loc[off_mask, col]
     print(f"Offense Dynasty-Value gebaut: "
           f"{(value_table.loc[off_mask,'scr_source']=='projected').sum()} projected, "
@@ -354,7 +362,7 @@ if os.path.exists(dynasty_path):
 
     idp_result = build_idp_dynasty_values(value_table, dynasty_rankings, roster, CUR_SEASON)
     idp_mask = value_table["position"].isin(IDP_POSITIONS)
-    for col in ["SCR", "scr_source", "dynasty_value", "years_exp"]:
+    for col in ["SCR", "scr_source", "dynasty_value", "years_exp", "now_value", "future_value", "fp_pos_rank"]:
         value_table.loc[idp_mask, col] = idp_result.loc[idp_mask, col]
     print(f"IDP Dynasty-Value gebaut: "
           f"{(value_table.loc[idp_mask,'scr_source']=='projected').sum()} projected, "

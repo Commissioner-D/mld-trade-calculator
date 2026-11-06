@@ -85,11 +85,88 @@ def age_mult(age, peak, rate):
     return np.clip(1 + (peak - age) * rate, 0.5, 1.6)
 
 
-def apply_modifiers(scr, age, draft_capital_score, years_exp, p):
-    m = age_mult(age, p["peak"], p["rate"])
-    production = np.where(scr >= 0, scr * m, scr / m)
+# ---- Mehrjahres-Dynasty-Wert --------------------------------------------------------------
+# Wert = Summe der erwarteten Produktion ueber die naechsten Saisons statt einer einzigen Saison.
+# Pro Jahr: SCR x Alterskurve(Alter in dem Jahr) x Abzinsung. Rest der laufenden Saison anteilig.
+# Normiert auf "Saison-Aequivalente" (geteilt durch die Summe der Gewichte), damit die Zahlen auf
+# der gewohnten Skala bleiben: ein Spieler am Peak mit stabiler Zukunft behaelt ~seinen SCR.
+HORIZON = 5            # Saisons nach der laufenden
+DISCOUNT = 0.85        # pro Jahr: Gegenwart zaehlt mehr als Zukunft
+# Jahr fuer Jahr relativ zur aktuellen Projektion (die das heutige Alter schon enthaelt):
+# vor dem Peak +GROWTH, ab Peak -DECLINE, ab CLIFF zusaetzlich Karriereende-Risiko (nur RETAIN bleibt).
+DECLINE = {"QB": 0.06, "RB": 0.14, "WR": 0.09, "TE": 0.09,
+           "LB": 0.11, "S": 0.11, "CB": 0.13, "EDR": 0.10, "IL": 0.09}
+CLIFF = {"QB": 38, "RB": 30, "WR": 32, "TE": 33, "LB": 32, "S": 31, "CB": 31, "EDR": 32, "IL": 32}
+GROWTH = 0.04
+RETAIN = 0.4
+
+
+def season_fraction_left(today=None):
+    import datetime as _dt
+    today = today or _dt.date.today()
+    start = _dt.date(today.year if today.month >= 9 else today.year - 1, 9, 8)
+    week = max(0, min(17, (today - start).days // 7))
+    return (17 - week) / 17
+
+
+def multi_year_factor(age, peak, group, frac_now):
+    age = np.asarray(age, dtype=float)
+    d, cliff = DECLINE.get(group, 0.1), CLIFF.get(group, 32)
+    weights = [frac_now] + [DISCOUNT ** t for t in range(1, HORIZON + 1)]
+    level = np.ones_like(age)
+    acc = weights[0] * level
+    for t in range(1, HORIZON + 1):
+        a = age + t
+        step = np.where(a <= peak, 1 + GROWTH, 1 - d) * np.where(a >= cliff, RETAIN, 1.0)
+        level = level * np.clip(step, 0, None)
+        acc = acc + weights[t] * level
+    return acc / sum(weights)
+
+
+def components(scr, age, draft_capital_score, years_exp, p, group=None, games_left=None):
+    """Teilt den Wert in (laufende Saison, Zukunft) -- beide schon durch die Gewichtssumme normiert.
+    Laufende Saison = reine Projektion in unserem Scoring. Zukunft = Modell (Alterskurve + Draft-Bonus);
+    wird spaeter durch den FantasyPros-Dynasty-Rang ersetzt, wo einer existiert."""
+    frac = season_fraction_left()
+    age = np.where(np.isnan(np.asarray(age, dtype=float)), p["peak"], age)
+    weights = [frac] + [DISCOUNT ** t for t in range(1, HORIZON + 1)]
+    total = sum(weights)
+    f_all = multi_year_factor(age, p["peak"], group, frac)          # inkl. laufender Saison
+    f_fut = f_all - frac / total
+    # Laufende Saison: nur verbleibende Spiele MIT Projektion (Sleeper). Ohne Projektion = 0 --
+    # bewusst kein Rueckfall auf eine andere Quelle.
+    if games_left is None:
+        f_now = frac / total
+    else:
+        f_now = np.nan_to_num(np.asarray(games_left, dtype=float), nan=0.0) / 17 / total
     bonus = p["draft_scale"] * draft_capital_score * np.clip(1 - years_exp / p["draft_decay"], 0, 1)
-    return production + bonus
+    now = np.where(np.asarray(f_now) > 0, scr * f_now, 0.0)
+    fut = np.where(scr >= 0, scr * f_fut, 0.0) + bonus * f_fut   # unter Replacement: keine Zukunft aus der Projektion
+    return now, fut
+
+
+def apply_modifiers(scr, age, draft_capital_score, years_exp, p, group=None):
+    now, fut = components(scr, age, draft_capital_score, years_exp, p, group)
+    return now + fut
+
+
+def rank_future(vt, dyn_df, fp_pos, pos_mask):
+    """Zukunftsteil aus dem Markt, je EIGENER Position (S, CB, EDR, IL, LB, QB ...): die Spieler der
+    Position werden nach ihrem FantasyPros-Rang geordnet, der k-te bekommt den k-hoechsten Modell-
+    Zukunftsteil dieser Position in unserem Scoring. Der Rang bestimmt die Reihenfolge (Vertrag, Rolle,
+    Alter ...), unsere Skala den Wert. Je eigener Position statt je FP-Topf, weil FantasyPros S+CB und
+    EDR+IL gemeinsam rankt -- in dieser Liga sind CBs aber deutlich weniger wert als Safeties."""
+    sub = dyn_df[dyn_df["position"] == fp_pos].copy()
+    sub["prank"] = sub["pos_rank"].str.extract(r"(\d+)").astype(float)
+    sub = sub.sort_values("prank").drop_duplicates("norm_name")
+    scale = np.sort(vt.loc[pos_mask, "future_model"].dropna().values)[::-1]
+    if not len(scale):
+        return
+    pr = vt.loc[pos_mask, "norm_name"].map(sub.set_index("norm_name")["prank"])
+    ranked = pr.dropna().sort_values(kind="stable")
+    k = np.arange(len(ranked))                         # 0 = bester dieser Position laut FP
+    vt.loc[ranked.index, "future_rank"] = scale[np.clip(k, 0, len(scale) - 1)]
+    vt.loc[ranked.index, "fp_pos_rank"] = ranked.values
 
 
 def compute_draft_capital(roster_df: pd.DataFrame, current_season: int) -> pd.DataFrame:
@@ -127,6 +204,8 @@ def build_dynasty_values(value_table: pd.DataFrame, dynasty_rankings: list, rost
     vt["SCR"] = np.nan
     vt["scr_source"] = "none"
     vt["dynasty_value"] = np.nan
+    vt["now_value"] = np.nan
+    vt["future_model"] = np.nan
 
     for group, (our_positions, fp_pos) in group_defs.items():
         p = params[group]
@@ -162,12 +241,27 @@ def build_dynasty_values(value_table: pd.DataFrame, dynasty_rankings: list, rost
             vt.loc[idx[has_rank_only], "scr_source"] = "rank_imputed"
 
         scr_valid = pos_mask & vt["SCR"].notna()
-        vt.loc[scr_valid, "dynasty_value"] = apply_modifiers(
+        now, fut = components(
             vt.loc[scr_valid, "SCR"].values, vt.loc[scr_valid, "age"].values,
-            vt.loc[scr_valid, "draft_capital_score"].values, vt.loc[scr_valid, "years_exp"].values, p
+            vt.loc[scr_valid, "draft_capital_score"].values, vt.loc[scr_valid, "years_exp"].values, p, group,
+            vt.loc[scr_valid, "proj_games"].values if "proj_games" in vt.columns else None
         )
+        # Rang-Imputation (keine Projektion): laufende Saison = 0
+        imp = scr_valid & (vt["scr_source"] == "rank_imputed")
+        vt.loc[scr_valid, "now_value"] = now
+        vt.loc[imp, "now_value"] = 0.0
+        vt.loc[scr_valid, "future_model"] = fut
 
-    return vt.drop(columns=["norm_name", "fp_pct"], errors="ignore")
+    # Zukunft aus dem Dynasty-Rang (je FantasyPros-Pool, z.B. S+CB = DB), sonst Modell
+    vt["future_rank"] = np.nan
+    vt["fp_pos_rank"] = np.nan
+    for group, (ours, fp_pos) in group_defs.items():
+        rank_future(vt, dyn_df, fp_pos, vt["position"].isin(ours))
+    vt["future_value"] = vt["future_rank"].where(vt["future_rank"].notna(), vt["future_model"])
+    ok = vt["now_value"].notna()
+    vt.loc[ok, "dynasty_value"] = vt.loc[ok, "now_value"] + vt.loc[ok, "future_value"]
+
+    return vt.drop(columns=["norm_name", "fp_pct", "future_model", "future_rank"], errors="ignore")
 
 
 def build_offense_dynasty_values(value_table, dynasty_rankings, roster_df, current_season=2026):

@@ -9,7 +9,7 @@ import datetime
 import pandas as pd
 
 sys.path.insert(0, ".")
-from engine.pick_curve import pick_value
+from engine.pick_curve import pick_value, fit_pick_curve
 
 NUM_ROOKIE_ROUNDS = 4
 NUM_TEAMS = 16
@@ -97,6 +97,29 @@ for i, p in enumerate(players):
         if isinstance(v, float) and v != v:
             p[k] = None
 
+# --- Pick-Kurve bei jedem Lauf neu fitten: ein Pick ist so viel wert wie der Spieler, den man an
+# der Stelle im Schnitt bekommt -- gemessen an den HEUTIGEN Werten der letzten 4 Rookie-Jahrgaenge
+# (aeltere sind ueber den Peak hinaus). Bust = 0 (wird geschnitten). So passen Picks und Spieler
+# immer auf dieselbe Skala, auch wenn sich das Spielermodell aendert.
+PICK_CLASSES = 4
+_pick_params = None
+_hist_path = "data/rookie_picks_with_values.json"
+if os.path.exists(_hist_path):
+    import re as _re2
+    _n = lambda n: _re2.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", _re2.sub(r"[^a-z ]", "", __import__("unicodedata").normalize("NFKD", str(n)).encode("ascii", "ignore").decode().lower())).strip()
+    _side = lambda pos: "O" if pos in ("QB", "RB", "WR", "TE", "K") else "D"
+    _vals = {}
+    for _, r in df.dropna(subset=["primary_value"]).iterrows():
+        k = (_n(r["full_name"]), _side(r["position"]))
+        _vals[k] = max(_vals.get(k, -1e9), float(r["primary_value"]))
+    with open(_hist_path, encoding="utf-8") as f:
+        _hist = json.load(f)
+    _last = max(h["season"] for h in _hist)
+    _hist = [h for h in _hist if h["season"] > _last - PICK_CLASSES]
+    _pts = [{"overall": h["overall"], "value": _vals.get((_n(h["name"]), _side(h["position"])), 0.0)} for h in _hist]
+    _pick_params = fit_pick_curve(_pts)
+    print(f"Pick-Kurve neu gefittet ({len(_pts)} Picks, Jahrgaenge {_last - PICK_CLASSES + 1}-{_last}): {_pick_params}")
+
 picks = []
 for year in TRADEABLE_YEARS:
     for rnd in range(1, NUM_ROOKIE_ROUNDS + 1):
@@ -105,7 +128,7 @@ for year in TRADEABLE_YEARS:
             picks.append({
                 "id": f"{year}-{rnd}.{slot:02d}",
                 "label": f"{year} {rnd}.{slot:02d}", "year": year, "round": rnd, "slot": slot,
-                "overall": overall, "value": pick_value(overall),
+                "overall": overall, "value": pick_value(overall, _pick_params) if _pick_params else pick_value(overall),
             })
 
 with open("output/calculator_players.json", "w") as f:

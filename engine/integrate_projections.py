@@ -41,6 +41,9 @@ def load_projections(path: str) -> pd.DataFrame:
     # FantasyPros liefert vereinzelt echte Duplikate (~7% der Eintraege, gleicher
     # Name+Position, identische Werte) -- vor der Replacement-Level-Berechnung
     # entfernen, sonst zaehlen diese Spieler doppelt in der Baseline.
+    # Sleeper laesst Kategorien mit 0 weg -> fehlende Werte sind 0, nicht "unbekannt"
+    num = [c for c in df.columns if c not in ("name", "position", "team", "source", "season", "games")]
+    df[num] = df[num].apply(pd.to_numeric, errors="coerce").fillna(0)
     before = len(df)
     df = df.drop_duplicates(subset=["name", "position"], keep="first")
     if len(df) < before:
@@ -66,7 +69,10 @@ def compute_projected_ppg(df: pd.DataFrame, cfg: dict) -> pd.DataFrame:
     # Kicker (K) bleiben aussen vor -> proj_season_pts bleibt NaN, faellt beim
     # dropna() in build_projected_vorp raus, kein Projected-VORP fuer K.
 
-    df["proj_ppg"] = df["proj_season_pts"] / GAMES_ASSUMED
+    # Sleeper-ROS liefert die Zahl der verbleibenden Spiele je Spieler; FantasyPros-Saison = 17
+    games = df["games"] if "games" in df.columns else GAMES_ASSUMED
+    df["proj_games"] = games
+    df["proj_ppg"] = df["proj_season_pts"] / df["proj_games"].where(df["proj_games"] > 0)
     return df
 
 
@@ -118,8 +124,12 @@ def build_projected_vorp(fp_json_path: str, roster_cfg: dict, flea_group_by_name
 
     off_ranks = {}
     for pos in ["QB", "RB", "WR", "TE"]:
-        heuristic_rank = NUM_TEAMS * slots["QB"] if pos == "QB" else \
-            round(NUM_TEAMS * (slots[pos] + slots["FLEX_RB_WR_TE"] * flex_share[pos]))
+        if pos == "QB":
+            # 1-QB-Liga: Backups sitzen nur fuer Byes/Verletzungen im Kader, nie in der Aufstellung ->
+            # gerosterte Zahl zaehlt nicht mit, Ersatzniveau = QB ~20
+            off_ranks[pos] = round(NUM_TEAMS * slots["QB"] * 1.25) + 1
+            continue
+        heuristic_rank = round(NUM_TEAMS * (slots[pos] + slots["FLEX_RB_WR_TE"] * flex_share[pos]))
         if _rostered:
             off_ranks[pos] = round((_rostered.get(pos, heuristic_rank) + heuristic_rank) / 2) + 1
         else:
@@ -144,7 +154,7 @@ def build_projected_vorp(fp_json_path: str, roster_cfg: dict, flea_group_by_name
         for _, r in sub.iterrows():
             out_rows.append({
                 "name": r["name"], "position": pos, "group": pos,
-                "proj_ppg": round(r["proj_ppg"], 3),
+                "proj_ppg": round(r["proj_ppg"], 3), "proj_games": r["proj_games"],
                 "proj_replacement": round(repl, 3),
                 "proj_vorp": round(r["proj_ppg"] - repl, 3),
             })
@@ -157,7 +167,7 @@ def build_projected_vorp(fp_json_path: str, roster_cfg: dict, flea_group_by_name
         for _, r in sub.iterrows():
             out_rows.append({
                 "name": r["name"], "position": fp_pos, "group": group,
-                "proj_ppg": round(r["proj_ppg"], 3),
+                "proj_ppg": round(r["proj_ppg"], 3), "proj_games": r["proj_games"],
                 "proj_replacement": round(repl, 3),
                 "proj_vorp": round(r["proj_ppg"] - repl, 3),
             })
