@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [tools/probe_fp.py, tools/probe_sleeper.py, .github/workflows/probe-fp.yml]
+    paths: [tools/probe_fp.py, tools/probe_sleeper.py, engine/fetch_sleeper.py, .github/workflows/probe-fp.yml]
 
 permissions:
   contents: write
@@ -20,17 +20,17 @@ jobs:
       - name: Probe
         env:
           FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
-        run: python tools/probe_fp.py || true
-      - name: Probe Sleeper
-        run: python tools/probe_sleeper.py
+        run: "true"
+      - name: Sleeper ROS
+        run: python engine/fetch_sleeper.py && cp data/sleeper_ros_*.json probe/
       - name: Ergebnis in Branch probe (ueberschreiben)
         run: |
-          cp probe/*.json /tmp/
+          mkdir -p /tmp/o && cp probe/*.json /tmp/o/
           git config user.name "github-actions"; git config user.email "actions@github.com"
           git checkout --orphan probe-tmp
           git rm -rf --cached . -q
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
-          cp /tmp/*_probe.json .
-          git add *_probe.json
+          cp /tmp/o/*.json .
+          git add *.json
           git commit -q -m "FP probe $(date -u +%Y-%m-%d_%H%M)"
           git push -f origin HEAD:probe
