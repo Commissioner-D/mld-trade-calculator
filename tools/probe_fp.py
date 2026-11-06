@@ -4,24 +4,16 @@ import json, os, urllib.request, urllib.error
 
 KEY = os.environ.get("FANTASYPROS_API_KEY", "")
 BASE = "https://api.fantasypros.com/public/v2/json/nfl/2026"
-TEST = ["Anthony Hill", "Josiah Trotter", "Jack Campbell", "Kendal Daniels", "Demario Davis", "Bucky Irving"]
+TEST = ["Anthony Hill", "Josiah Trotter", "Jack Campbell", "Kendal Daniels", "Demario Davis", "Trenton Simpson", "Payton Wilson", "Kyle Hamilton", "Kam Curl"]
 VARIANTS = [
-    "projections?position=LB&week=0",
-    "projections?position=LB&week=ros",
-    "projections?position=LB&week=ROS",
-    "projections?position=LB&type=ros",
-    "projections?position=LB&type=ROS",
-    "projections?position=LB&week=0&type=ros",
-    "projections?position=LB&projection_type=ros",
-    "projections?position=LB&ros=true",
     "projections?position=LB&week=10",
+    "projections?position=DB&week=10",
     "projections?position=LB&week=11",
-    "projections?position=LB",
-    "ros-projections?position=LB",
-    "projections/ros?position=LB",
 ]
 out = {"key_set": bool(KEY), "results": []}
+import time
 for v in VARIANTS:
+    time.sleep(8)
     r = {"variant": v}
     try:
         req = urllib.request.Request(f"{BASE}/{v}", headers={"x-api-key": KEY})
