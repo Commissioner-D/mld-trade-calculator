@@ -11,7 +11,7 @@ import pandas as pd
 sys.path.insert(0, ".")
 from engine.pick_curve import pick_value, fit_pick_curve
 
-NUM_ROOKIE_ROUNDS = 4
+NUM_ROOKIE_ROUNDS = 5   # MLD-Rookie-Draft: 5 Runden
 NUM_TEAMS = 16
 
 # Naechster noch nicht stattgefundener Rookie-Draft: Deadline laut Liga-Regelwerk
