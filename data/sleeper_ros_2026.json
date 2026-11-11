@@ -87,7 +87,7 @@
   "rec_td": 0.88,
   "rec_yards": 97.62,
   "rush_td": 1.79,
-  "rush_yards": 191.95
+  "rush_yards": 191.98
  },
  {
   "name": "Shy Tuttle",
@@ -179,10 +179,10 @@
   "pass_2pt": 0.64,
   "pass_int": 3.12,
   "pass_td": 10.44,
-  "pass_yards": 1733.75,
+  "pass_yards": 1733.62,
   "rush_2pt": 0.16,
   "rush_td": 2.95,
-  "rush_yards": 372.47
+  "rush_yards": 372.51
  },
  {
   "name": "Theo Johnson",
@@ -196,7 +196,7 @@
   "receptions": 8.55,
   "rush_2pt": 0.08,
   "rec_td": 0.72,
-  "rec_yards": 114.54
+  "rec_yards": 114.53
  },
  {
   "name": "Tyler Owens",
@@ -307,7 +307,7 @@
   "receptions": 15.09,
   "rush_2pt": 0.08,
   "rec_td": 1.49,
-  "rec_yards": 240.73,
+  "rec_yards": 240.71,
   "rush_td": 0.08,
   "rush_yards": 8.04
  },
@@ -337,9 +337,9 @@
   "receptions": 16.44,
   "rush_2pt": 0.19,
   "rec_td": 0.75,
-  "rec_yards": 138.95,
+  "rec_yards": 138.94,
   "rush_td": 1.74,
-  "rush_yards": 371.23
+  "rush_yards": 371.28
  },
  {
   "name": "Dominic Zvada",
@@ -386,9 +386,9 @@
   "receptions": 5.09,
   "rush_2pt": 0.08,
   "rec_td": 0.22,
-  "rec_yards": 42.22,
+  "rec_yards": 42.21,
   "rush_td": 0.95,
-  "rush_yards": 135.11
+  "rush_yards": 135.14
  },
  {
   "name": "Dorance Armstrong",
@@ -498,9 +498,9 @@
   "receptions": 18.74,
   "rush_2pt": 0.16,
   "rec_td": 1.09,
-  "rec_yards": 122.5,
+  "rec_yards": 122.49,
   "rush_td": 1.21,
-  "rush_yards": 231.72
+  "rush_yards": 231.76
  },
  {
   "name": "Micah McFadden",
@@ -541,7 +541,7 @@
   "receptions": 3.85,
   "rush_2pt": 0.0,
   "rec_td": 0.19,
-  "rec_yards": 34.74
+  "rec_yards": 34.73
  },
  {
   "name": "Tyler Nubin",
@@ -638,7 +638,7 @@
   "receptions": 35.52,
   "rush_2pt": 0.24,
   "rec_td": 3.94,
-  "rec_yards": 414.31,
+  "rec_yards": 414.28,
   "rush_td": 0.0,
   "rush_yards": 2.9
  },
@@ -737,10 +737,10 @@
   "pass_2pt": 0.4,
   "pass_int": 8.64,
   "pass_td": 7.14,
-  "pass_yards": 2002.78,
+  "pass_yards": 2002.6,
   "rush_2pt": 0.08,
   "rush_td": 1.42,
-  "rush_yards": 140.44
+  "rush_yards": 140.45
  },
  {
   "name": "Malik Nabers",
@@ -751,10 +751,10 @@
   "games": 8,
   "fumbles": 0.48,
   "fumbles_lost": 0.23,
-  "receptions": 48.93,
+  "receptions": 48.92,
   "rush_2pt": 0.16,
   "rec_td": 2.69,
-  "rec_yards": 678.49,
+  "rec_yards": 678.43,
   "rush_td": 0.08,
   "rush_yards": 8.01
  },
@@ -795,7 +795,7 @@
   "receptions": 15.76,
   "rush_2pt": 0.08,
   "rec_td": 1.17,
-  "rec_yards": 244.82,
+  "rec_yards": 244.8,
   "rush_td": 0.0,
   "rush_yards": 1.09
  },
@@ -824,7 +824,7 @@
   "receptions": 8.62,
   "rush_2pt": 0.0,
   "rec_td": 0.39,
-  "rec_yards": 128.69,
+  "rec_yards": 128.68,
   "rush_td": 0.0,
   "rush_yards": 0.55
  },
@@ -840,7 +840,7 @@
   "receptions": 37.24,
   "rush_2pt": 0.24,
   "rec_td": 3.4,
-  "rec_yards": 396.84
+  "rec_yards": 396.8
  },
  {
   "name": "Chig Okonkwo",
@@ -854,7 +854,7 @@
   "receptions": 29.9,
   "rush_2pt": 0.15,
   "rec_td": 1.91,
-  "rec_yards": 293.57
+  "rec_yards": 293.55
  },
  {
   "name": "C.J. Okoye",
@@ -904,10 +904,10 @@
   "games": 8,
   "fumbles": 0.24,
   "fumbles_lost": 0.08,
-  "receptions": 24.72,
+  "receptions": 24.71,
   "rush_2pt": 0.08,
   "rec_td": 1.51,
-  "rec_yards": 295.76,
+  "rec_yards": 295.74,
   "rush_td": 0.04,
   "rush_yards": 4.9
  },
@@ -984,7 +984,7 @@
   "receptions": 0.78,
   "rush_2pt": 0.0,
   "rec_td": 0.05,
-  "rec_yards": 10.1
+  "rec_yards": 10.09
  },
  {
   "name": "Amik Robertson",
@@ -1035,7 +1035,7 @@
   "games": 7,
   "receptions": 0.95,
   "rec_td": 0.07,
-  "rec_yards": 9.36
+  "rec_yards": 9.35
  },
  {
   "name": "Rashee Rice",
@@ -1046,12 +1046,12 @@
   "games": 8,
   "fumbles": 0.48,
   "fumbles_lost": 0.16,
-  "receptions": 43.79,
+  "receptions": 43.78,
   "rush_2pt": 0.24,
   "rec_td": 3.65,
-  "rec_yards": 563.87,
+  "rec_yards": 563.78,
   "rush_td": 0.16,
-  "rush_yards": 14.79
+  "rush_yards": 14.8
  },
  {
   "name": "Elijah Higgins",
@@ -1118,9 +1118,9 @@
   "pass_defended": 0.41,
   "sack": 1.95,
   "sack_yards": 12.54,
-  "assisted_tackle": 9.41,
+  "assisted_tackle": 9.4,
   "tackle_for_loss": 1.95,
-  "solo_tackle": 8.64
+  "solo_tackle": 8.63
  },
  {
   "name": "DeMarvion Overshown",
@@ -1186,10 +1186,10 @@
   "games": 7,
   "fumbles": 0.07,
   "fumbles_lost": 0.0,
-  "receptions": 6.09,
+  "receptions": 6.08,
   "rush_2pt": 0.06,
   "rec_td": 0.64,
-  "rec_yards": 60.82
+  "rec_yards": 60.81
  },
  {
   "name": "Andre Szmyt",
@@ -1284,12 +1284,12 @@
   "games": 8,
   "fumbles": 0.4,
   "fumbles_lost": 0.16,
-  "receptions": 30.97,
+  "receptions": 30.96,
   "rush_2pt": 0.08,
   "rec_td": 1.25,
-  "rec_yards": 365.41,
+  "rec_yards": 365.03,
   "rush_td": 0.34,
-  "rush_yards": 41.86
+  "rush_yards": 41.84
  },
  {
   "name": "Jared Verse",
@@ -1302,10 +1302,10 @@
   "fumble_recovered": 0.35,
   "pass_defended": 0.76,
   "sack": 1.8,
-  "sack_yards": 19.41,
+  "sack_yards": 19.42,
   "assisted_tackle": 5.46,
   "tackle_for_loss": 4.01,
-  "solo_tackle": 12.78
+  "solo_tackle": 12.79
  },
  {
   "name": "Kool-Aid McKinstry",
@@ -1328,10 +1328,10 @@
   "season": "2026",
   "games": 8,
   "interception": 1.83,
-  "pass_defended": 6.71,
-  "assisted_tackle": 6.71,
+  "pass_defended": 6.72,
+  "assisted_tackle": 6.72,
   "tackle_for_loss": 2.24,
-  "solo_tackle": 24.68
+  "solo_tackle": 24.7
  },
  {
   "name": "Javon Bullard",
@@ -1359,7 +1359,7 @@
   "interception": 1.68,
   "pass_defended": 4.23,
   "assisted_tackle": 9.27,
-  "solo_tackle": 20.29
+  "solo_tackle": 20.3
  },
  {
   "name": "Jaylan Ford",
@@ -1426,8 +1426,8 @@
   "season": "2026",
   "games": 7,
   "assisted_tackle": 7.39,
-  "tackle_for_loss": 14.37,
-  "solo_tackle": 4.69
+  "tackle_for_loss": 14.38,
+  "solo_tackle": 4.7
  },
  {
   "name": "Josh Wallace",
@@ -1491,10 +1491,10 @@
   "fumbles_lost": 0.45,
   "receptions": 11.96,
   "rush_2pt": 0.32,
-  "rec_td": 0.61,
-  "rec_yards": 73.7,
-  "rush_td": 4.97,
-  "rush_yards": 455.53
+  "rec_td": 0.6,
+  "rec_yards": 73.63,
+  "rush_td": 4.96,
+  "rush_yards": 455.23
  },
  {
   "name": "Isaiah Bond",
@@ -1510,7 +1510,7 @@
   "rec_td": 0.14,
   "rec_yards": 34.9,
   "rush_td": 0.06,
-  "rush_yards": 5.87
+  "rush_yards": 5.88
  },
  {
   "name": "Tetairoa McMillan",
@@ -1572,10 +1572,10 @@
   "interception": 0.41,
   "pass_defended": 1.6,
   "sack": 2.16,
-  "sack_yards": 12.96,
-  "assisted_tackle": 3.91,
-  "tackle_for_loss": 3.14,
-  "solo_tackle": 5.86
+  "sack_yards": 12.95,
+  "assisted_tackle": 3.9,
+  "tackle_for_loss": 3.13,
+  "solo_tackle": 5.85
  },
  {
   "name": "Mykel Williams",
@@ -1600,10 +1600,10 @@
   "season": "2026",
   "games": 8,
   "sack": 0.48,
-  "sack_yards": 8.1,
-  "assisted_tackle": 0.88,
+  "sack_yards": 8.11,
+  "assisted_tackle": 0.89,
   "tackle_for_loss": 0.48,
-  "solo_tackle": 0.88
+  "solo_tackle": 0.89
  },
  {
   "name": "Justin Walley",
@@ -1616,7 +1616,7 @@
   "interception": 0.41,
   "pass_defended": 2.72,
   "assisted_tackle": 5.09,
-  "solo_tackle": 7.46
+  "solo_tackle": 7.45
  },
  {
   "name": "Quincy Riley",
@@ -1658,7 +1658,7 @@
   "receptions": 2.57,
   "rush_2pt": 0.0,
   "rec_td": 0.22,
-  "rec_yards": 29.74
+  "rec_yards": 29.75
  },
  {
   "name": "Ahmed Hassanein",
@@ -1787,10 +1787,10 @@
   "forced_fumble": 0.76,
   "fumble_recovered": 0.35,
   "sack": 3.35,
-  "sack_yards": 17.03,
+  "sack_yards": 17.02,
   "assisted_tackle": 9.98,
   "tackle_for_loss": 4.05,
-  "solo_tackle": 17.74
+  "solo_tackle": 17.73
  },
  {
   "name": "Caleb Downs",
@@ -1818,9 +1818,9 @@
   "games": 7,
   "interception": 0.49,
   "pass_defended": 2.37,
-  "assisted_tackle": 13.39,
+  "assisted_tackle": 13.38,
   "tackle_for_loss": 0.49,
-  "solo_tackle": 20.14
+  "solo_tackle": 20.13
  },
  {
   "name": "Christen Miller",
@@ -1845,7 +1845,7 @@
   "interception": 0.41,
   "pass_defended": 2.37,
   "assisted_tackle": 4.73,
-  "solo_tackle": 7.46
+  "solo_tackle": 7.45
  },
  {
   "name": "Peter Woods",
@@ -1855,8 +1855,8 @@
   "season": "2026",
   "games": 8,
   "fumble_recovered": 0.48,
-  "pass_defended": 0.88,
-  "sack": 0.88,
+  "pass_defended": 0.89,
+  "sack": 0.89,
   "sack_yards": 4.09,
   "assisted_tackle": 5.86,
   "tackle_for_loss": 2.25,
@@ -1870,7 +1870,7 @@
   "season": "2026",
   "games": 8,
   "pass_defended": 1.38,
-  "assisted_tackle": 5.44,
+  "assisted_tackle": 5.45,
   "solo_tackle": 9.58
  },
  {
@@ -1995,9 +1995,9 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 7,
-  "assisted_tackle": 7.46,
+  "assisted_tackle": 7.45,
   "tackle_for_loss": 0.41,
-  "solo_tackle": 10.18
+  "solo_tackle": 10.17
  },
  {
   "name": "Xavier Nwankpa",
@@ -2096,10 +2096,10 @@
   "forced_fumble": 0.87,
   "pass_defended": 1.28,
   "sack": 4.23,
-  "sack_yards": 30.43,
+  "sack_yards": 30.45,
   "assisted_tackle": 7.19,
   "tackle_for_loss": 4.23,
-  "solo_tackle": 11.82
+  "solo_tackle": 11.83
  },
  {
   "name": "Tyler Higbee",
@@ -2143,11 +2143,11 @@
   "fumbles_lost": 0.18,
   "pass_2pt": 0.06,
   "pass_int": 0.29,
-  "pass_td": 0.86,
-  "pass_yards": 222.65,
+  "pass_td": 0.88,
+  "pass_yards": 222.42,
   "rush_2pt": 0.02,
   "rush_td": 0.21,
-  "rush_yards": 31.96
+  "rush_yards": 32.07
  },
  {
   "name": "Samaje Perine",
@@ -2206,10 +2206,10 @@
   "fumble_recovered": 0.41,
   "pass_defended": 0.41,
   "sack": 3.41,
-  "sack_yards": 20.61,
-  "assisted_tackle": 10.71,
+  "sack_yards": 20.62,
+  "assisted_tackle": 10.72,
   "tackle_for_loss": 3.89,
-  "solo_tackle": 10.71
+  "solo_tackle": 10.72
  },
  {
   "name": "Josh Sweat",
@@ -2382,10 +2382,10 @@
   "fumbles_lost": 0.4,
   "receptions": 17.09,
   "rush_2pt": 0.32,
-  "rec_td": 1.13,
-  "rec_yards": 125.24,
-  "rush_td": 3.75,
-  "rush_yards": 263.93
+  "rec_td": 1.14,
+  "rec_yards": 125.19,
+  "rush_td": 3.76,
+  "rush_yards": 264.11
  },
  {
   "name": "Jamel Dean",
@@ -2413,9 +2413,9 @@
   "receptions": 1.92,
   "rush_2pt": 0.0,
   "rec_td": 0.18,
-  "rec_yards": 20.85,
+  "rec_yards": 20.86,
   "rush_td": 0.07,
-  "rush_yards": 4.07
+  "rush_yards": 4.08
  },
  {
   "name": "Maxx Crosby",
@@ -2445,7 +2445,7 @@
   "receptions": 5.74,
   "rush_2pt": 0.01,
   "rec_td": 0.46,
-  "rec_yards": 68.56,
+  "rec_yards": 68.55,
   "rush_td": 0.07,
   "rush_yards": 7.01
  },
@@ -2474,12 +2474,12 @@
   "games": 7,
   "fumbles": 0.07,
   "fumbles_lost": 0.07,
-  "receptions": 10.25,
+  "receptions": 10.24,
   "rush_2pt": 0.0,
   "rec_td": 0.5,
-  "rec_yards": 129.45,
+  "rec_yards": 129.43,
   "rush_td": 0.0,
-  "rush_yards": 0.91
+  "rush_yards": 0.92
  },
  {
   "name": "Jordan Love",
@@ -2493,10 +2493,10 @@
   "pass_2pt": 0.78,
   "pass_int": 4.99,
   "pass_td": 13.58,
-  "pass_yards": 1834.11,
+  "pass_yards": 1834.01,
   "rush_2pt": 0.07,
-  "rush_td": 0.95,
-  "rush_yards": 84.76
+  "rush_td": 0.96,
+  "rush_yards": 84.77
  },
  {
   "name": "A.J. Terrell Jr.",
@@ -2510,7 +2510,7 @@
   "pass_defended": 2.72,
   "assisted_tackle": 5.09,
   "tackle_for_loss": 0.41,
-  "solo_tackle": 6.69
+  "solo_tackle": 6.68
  },
  {
   "name": "Anfernee Jennings",
@@ -2549,10 +2549,10 @@
   "forced_fumble": 0.35,
   "fumble_recovered": 0.35,
   "interception": 0.35,
-  "pass_defended": 1.47,
-  "assisted_tackle": 18.47,
+  "pass_defended": 1.46,
+  "assisted_tackle": 18.45,
   "tackle_for_loss": 0.76,
-  "solo_tackle": 29.54
+  "solo_tackle": 29.53
  },
  {
   "name": "Willie Gay Jr.",
@@ -2561,9 +2561,9 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "assisted_tackle": 11.15,
+  "assisted_tackle": 11.14,
   "tackle_for_loss": 1.34,
-  "solo_tackle": 11.15
+  "solo_tackle": 11.14
  },
  {
   "name": "Tyler Bass",
@@ -2727,10 +2727,10 @@
   "games": 7,
   "forced_fumble": 0.41,
   "interception": 0.76,
-  "pass_defended": 5.04,
-  "assisted_tackle": 8.15,
+  "pass_defended": 5.05,
+  "assisted_tackle": 8.16,
   "tackle_for_loss": 0.76,
-  "solo_tackle": 19.41
+  "solo_tackle": 19.43
  },
  {
   "name": "Patrick Jones II",
@@ -2804,10 +2804,10 @@
   "forced_fumble": 0.48,
   "fumble_recovered": 0.48,
   "interception": 0.9,
-  "pass_defended": 5.51,
+  "pass_defended": 5.52,
   "sack": 0.48,
   "sack_yards": 2.27,
-  "assisted_tackle": 8.68,
+  "assisted_tackle": 8.69,
   "tackle_for_loss": 0.9,
   "solo_tackle": 13.23
  },
@@ -2820,9 +2820,9 @@
   "games": 7,
   "receptions": 2.41,
   "rec_td": 0.13,
-  "rec_yards": 19.76,
+  "rec_yards": 19.75,
   "rush_td": 0.29,
-  "rush_yards": 39.29
+  "rush_yards": 39.31
  },
  {
   "name": "Jalen Tolbert",
@@ -2836,7 +2836,7 @@
   "receptions": 2.36,
   "rush_2pt": 0.0,
   "rec_td": 0.17,
-  "rec_yards": 34.94
+  "rec_yards": 34.91
  },
  {
   "name": "Wan'Dale Robinson",
@@ -2863,10 +2863,10 @@
   "games": 8,
   "fumbles": 0.32,
   "fumbles_lost": 0.16,
-  "receptions": 30.08,
+  "receptions": 30.07,
   "rush_2pt": 0.16,
-  "rec_td": 2.46,
-  "rec_yards": 389.75,
+  "rec_td": 2.47,
+  "rec_yards": 389.99,
   "rush_td": 0.0,
   "rush_yards": 3.44
  },
@@ -2879,12 +2879,12 @@
   "games": 8,
   "fumbles": 1.3,
   "fumbles_lost": 0.57,
-  "receptions": 14.01,
+  "receptions": 14.0,
   "rush_2pt": 0.41,
   "rec_td": 0.89,
-  "rec_yards": 111.47,
+  "rec_yards": 111.54,
   "rush_td": 5.92,
-  "rush_yards": 649.99
+  "rush_yards": 650.71
  },
  {
   "name": "Garrett Wilson",
@@ -2898,7 +2898,7 @@
   "receptions": 36.79,
   "rush_2pt": 0.14,
   "rec_td": 3.06,
-  "rec_yards": 483.95,
+  "rec_yards": 483.91,
   "rush_td": 0.07,
   "rush_yards": 4.92
  },
@@ -2925,14 +2925,14 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "fumbles": 1.48,
+  "fumbles": 1.49,
   "fumbles_lost": 0.65,
   "receptions": 29.0,
   "rush_2pt": 0.52,
   "rec_td": 2.34,
-  "rec_yards": 194.28,
-  "rush_td": 6.03,
-  "rush_yards": 711.14
+  "rec_yards": 194.25,
+  "rush_td": 6.05,
+  "rush_yards": 711.32
  },
  {
   "name": "Jalen Nailor",
@@ -3044,9 +3044,9 @@
   "pass_defended": 1.96,
   "sack": 0.42,
   "sack_yards": 2.37,
-  "assisted_tackle": 20.45,
+  "assisted_tackle": 20.44,
   "tackle_for_loss": 0.77,
-  "solo_tackle": 22.77
+  "solo_tackle": 22.75
  },
  {
   "name": "James Houston",
@@ -3125,7 +3125,7 @@
   "receptions": 11.58,
   "rush_2pt": 0.08,
   "rec_td": 0.81,
-  "rec_yards": 167.75
+  "rec_yards": 167.68
  },
  {
   "name": "Tyjae Spears",
@@ -3155,7 +3155,7 @@
   "receptions": 22.77,
   "rush_2pt": 0.08,
   "rec_td": 1.87,
-  "rec_yards": 338.21,
+  "rec_yards": 338.19,
   "rush_td": 0.14,
   "rush_yards": 16.29
  },
@@ -3195,8 +3195,8 @@
   "season": "2026",
   "games": 8,
   "interception": 0.47,
-  "pass_defended": 2.69,
-  "assisted_tackle": 12.49,
+  "pass_defended": 2.68,
+  "assisted_tackle": 12.48,
   "tackle_for_loss": 0.87,
   "solo_tackle": 14.23
  },
@@ -3222,7 +3222,7 @@
   "games": 7,
   "pass_defended": 0.41,
   "assisted_tackle": 9.82,
-  "solo_tackle": 11.78
+  "solo_tackle": 11.77
  },
  {
   "name": "Jake Moody",
@@ -3269,9 +3269,9 @@
   "pass_defended": 1.83,
   "sack": 0.64,
   "sack_yards": 4.07,
-  "assisted_tackle": 6.71,
+  "assisted_tackle": 6.72,
   "tackle_for_loss": 2.71,
-  "solo_tackle": 17.97
+  "solo_tackle": 17.98
  },
  {
   "name": "Ameer Speed",
@@ -3308,7 +3308,7 @@
   "games": 8,
   "receptions": 3.43,
   "rec_td": 0.23,
-  "rec_yards": 41.1
+  "rec_yards": 41.05
  },
  {
   "name": "Ty Okada",
@@ -3334,9 +3334,9 @@
   "games": 7,
   "interception": 0.76,
   "pass_defended": 2.35,
-  "assisted_tackle": 18.24,
+  "assisted_tackle": 18.25,
   "tackle_for_loss": 0.41,
-  "solo_tackle": 17.13
+  "solo_tackle": 17.14
  },
  {
   "name": "Drake Thomas",
@@ -3381,7 +3381,7 @@
   "receptions": 3.2,
   "rush_2pt": 0.0,
   "rec_td": 0.17,
-  "rec_yards": 27.53,
+  "rec_yards": 27.51,
   "rush_td": 0.0,
   "rush_yards": 3.16
  },
@@ -3397,7 +3397,7 @@
   "receptions": 1.68,
   "rush_2pt": 0.0,
   "rec_td": 0.12,
-  "rec_yards": 20.06,
+  "rec_yards": 20.05,
   "rush_td": 0.0,
   "rush_yards": 3.08
  },
@@ -3506,10 +3506,10 @@
   "season": "2026",
   "games": 1,
   "pass_int": 0.57,
-  "pass_td": 0.92,
-  "pass_yards": 206.15,
+  "pass_td": 0.9,
+  "pass_yards": 204.41,
   "rush_td": 0.07,
-  "rush_yards": 8.67
+  "rush_yards": 8.63
  },
  {
   "name": "Mason Taylor",
@@ -3522,8 +3522,8 @@
   "fumbles_lost": 0.07,
   "receptions": 24.48,
   "rush_2pt": 0.07,
-  "rec_td": 1.64,
-  "rec_yards": 215.92
+  "rec_td": 1.63,
+  "rec_yards": 215.9
  },
  {
   "name": "TreVeyon Henderson",
@@ -3594,10 +3594,10 @@
   "season": "2026",
   "games": 7,
   "interception": 0.77,
-  "pass_defended": 7.89,
-  "assisted_tackle": 7.89,
+  "pass_defended": 7.88,
+  "assisted_tackle": 7.88,
   "tackle_for_loss": 1.6,
-  "solo_tackle": 17.67
+  "solo_tackle": 17.66
  },
  {
   "name": "Demetrius Knight Jr.",
@@ -3683,7 +3683,7 @@
   "pass_defended": 3.09,
   "assisted_tackle": 8.93,
   "tackle_for_loss": 0.87,
-  "solo_tackle": 13.36
+  "solo_tackle": 13.35
  },
  {
   "name": "Rayuan Lane III",
@@ -3719,7 +3719,7 @@
   "receptions": 2.17,
   "rush_2pt": 0.0,
   "rec_td": 0.19,
-  "rec_yards": 27.28
+  "rec_yards": 27.27
  },
  {
   "name": "Zemaiah Vaughn",
@@ -3773,7 +3773,7 @@
   "games": 7,
   "assisted_tackle": 7.39,
   "tackle_for_loss": 0.41,
-  "solo_tackle": 4.69
+  "solo_tackle": 4.7
  },
  {
   "name": "Fernando Mendoza",
@@ -3820,7 +3820,7 @@
   "receptions": 23.85,
   "rush_2pt": 0.13,
   "rec_td": 1.91,
-  "rec_yards": 345.74,
+  "rec_yards": 345.71,
   "rush_td": 0.07,
   "rush_yards": 6.02
  },
@@ -3833,10 +3833,10 @@
   "games": 8,
   "fumbles": 0.23,
   "fumbles_lost": 0.08,
-  "receptions": 22.17,
+  "receptions": 22.16,
   "rush_2pt": 0.08,
   "rec_td": 1.53,
-  "rec_yards": 328.17,
+  "rec_yards": 327.83,
   "rush_td": 0.0,
   "rush_yards": 1.75
  },
@@ -3864,9 +3864,9 @@
   "fumbles": 0.08,
   "fumbles_lost": 0.0,
   "receptions": 6.43,
-  "rush_2pt": 0.08,
+  "rush_2pt": 0.07,
   "rec_td": 0.81,
-  "rec_yards": 85.02
+  "rec_yards": 84.93
  },
  {
   "name": "Romello Height",
@@ -3890,9 +3890,9 @@
   "forced_fumble": 0.4,
   "interception": 0.87,
   "pass_defended": 3.79,
-  "assisted_tackle": 16.76,
+  "assisted_tackle": 16.75,
   "tackle_for_loss": 1.26,
-  "solo_tackle": 18.82
+  "solo_tackle": 18.81
  },
  {
   "name": "Treydan Stukes",
@@ -3931,10 +3931,10 @@
   "games": 8,
   "fumbles": 0.0,
   "fumbles_lost": 0.0,
-  "receptions": 4.32,
+  "receptions": 4.31,
   "rush_2pt": 0.0,
   "rec_td": 0.29,
-  "rec_yards": 42.29
+  "rec_yards": 42.24
  },
  {
   "name": "Caleb Banks",
@@ -4032,10 +4032,10 @@
   "games": 8,
   "forced_fumble": 0.87,
   "interception": 0.87,
-  "pass_defended": 2.69,
-  "assisted_tackle": 19.14,
+  "pass_defended": 2.68,
+  "assisted_tackle": 19.12,
   "tackle_for_loss": 0.47,
-  "solo_tackle": 18.66
+  "solo_tackle": 18.65
  },
  {
   "name": "Zakee Wheatley",
@@ -4058,10 +4058,10 @@
   "fumble_recovered": 0.41,
   "pass_defended": 0.76,
   "sack": 0.41,
-  "sack_yards": 1.58,
-  "assisted_tackle": 5.04,
+  "sack_yards": 1.59,
+  "assisted_tackle": 5.05,
   "tackle_for_loss": 1.17,
-  "solo_tackle": 8.56
+  "solo_tackle": 8.57
  },
  {
   "name": "Gabriel Rubio",
@@ -4111,11 +4111,11 @@
   "fumbles_lost": 1.26,
   "pass_2pt": 0.56,
   "pass_int": 3.77,
-  "pass_td": 10.16,
-  "pass_yards": 1686.88,
+  "pass_td": 10.14,
+  "pass_yards": 1686.73,
   "rush_2pt": 0.0,
   "rush_td": 0.54,
-  "rush_yards": 79.32
+  "rush_yards": 79.29
  },
  {
   "name": "Maximus Pulley",
@@ -4148,7 +4148,7 @@
   "games": 8,
   "receptions": 3.73,
   "rec_td": 0.22,
-  "rec_yards": 39.14,
+  "rec_yards": 39.09,
   "rush_td": 0.0,
   "rush_yards": 2.17
  },
@@ -4306,9 +4306,9 @@
   "fumble_recovered": 0.42,
   "interception": 0.77,
   "pass_defended": 1.6,
-  "assisted_tackle": 17.67,
+  "assisted_tackle": 17.66,
   "tackle_for_loss": 0.77,
-  "solo_tackle": 17.67
+  "solo_tackle": 17.66
  },
  {
   "name": "Calvin Ridley",
@@ -4364,8 +4364,8 @@
   "fumble_recovered": 0.35,
   "pass_defended": 0.76,
   "sack": 0.56,
-  "sack_yards": 2.94,
-  "assisted_tackle": 10.75,
+  "sack_yards": 2.93,
+  "assisted_tackle": 10.74,
   "tackle_for_loss": 1.47,
   "solo_tackle": 4.05
  },
@@ -4425,7 +4425,7 @@
   "season": "2026",
   "games": 7,
   "interception": 0.41,
-  "pass_defended": 3.91,
+  "pass_defended": 3.9,
   "assisted_tackle": 4.32,
   "tackle_for_loss": 0.41,
   "solo_tackle": 7.87
@@ -4497,15 +4497,15 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 7,
-  "fumbles": 2.78,
-  "fumbles_lost": 1.25,
+  "fumbles": 2.77,
+  "fumbles_lost": 1.24,
   "pass_2pt": 0.35,
   "pass_int": 6.06,
-  "pass_td": 5.93,
-  "pass_yards": 1338.85,
+  "pass_td": 5.92,
+  "pass_yards": 1338.39,
   "rush_2pt": 0.07,
   "rush_td": 0.97,
-  "rush_yards": 103.99
+  "rush_yards": 104.02
  },
  {
   "name": "Amani Hooker",
@@ -4518,9 +4518,9 @@
   "fumble_recovered": 0.48,
   "interception": 1.38,
   "pass_defended": 3.65,
-  "assisted_tackle": 15.5,
+  "assisted_tackle": 15.51,
   "tackle_for_loss": 1.38,
-  "solo_tackle": 37.0
+  "solo_tackle": 37.02
  },
  {
   "name": "Bobby Okereke",
@@ -4573,12 +4573,12 @@
   "games": 8,
   "forced_fumble": 0.48,
   "fumble_recovered": 0.48,
-  "pass_defended": 0.88,
+  "pass_defended": 0.89,
   "sack": 1.36,
-  "sack_yards": 8.1,
-  "assisted_tackle": 25.75,
+  "sack_yards": 8.11,
+  "assisted_tackle": 25.76,
   "tackle_for_loss": 5.45,
-  "solo_tackle": 26.15
+  "solo_tackle": 26.17
  },
  {
   "name": "Troy Reeder",
@@ -4589,7 +4589,7 @@
   "games": 1,
   "assisted_tackle": 0.99,
   "tackle_for_loss": 0.06,
-  "solo_tackle": 1.33
+  "solo_tackle": 1.32
  },
  {
   "name": "Andrew Wingard",
@@ -4614,10 +4614,10 @@
   "games": 7,
   "fumbles": 0.02,
   "fumbles_lost": 0.01,
-  "receptions": 4.18,
+  "receptions": 4.17,
   "rush_2pt": 0.01,
   "rec_td": 0.37,
-  "rec_yards": 60.43,
+  "rec_yards": 60.35,
   "rush_td": 0.0,
   "rush_yards": 3.25
  },
@@ -4645,7 +4645,7 @@
   "receptions": 50.47,
   "rush_2pt": 0.31,
   "rec_td": 4.94,
-  "rec_yards": 652.74,
+  "rec_yards": 652.7,
   "rush_td": 0.04,
   "rush_yards": 3.1
  },
@@ -4661,9 +4661,9 @@
   "receptions": 14.64,
   "rush_2pt": 0.38,
   "rec_td": 0.44,
-  "rec_yards": 106.68,
-  "rush_td": 6.52,
-  "rush_yards": 568.11
+  "rec_yards": 106.64,
+  "rush_td": 6.51,
+  "rush_yards": 568.27
  },
  {
   "name": "Kristian Fulton",
@@ -4674,7 +4674,7 @@
   "games": 8,
   "interception": 0.48,
   "pass_defended": 1.84,
-  "assisted_tackle": 4.97,
+  "assisted_tackle": 4.98,
   "tackle_for_loss": 0.48,
   "solo_tackle": 9.06
  },
@@ -4778,7 +4778,7 @@
   "pass_defended": 0.9,
   "sack": 1.38,
   "sack_yards": 8.2,
-  "assisted_tackle": 5.51,
+  "assisted_tackle": 5.52,
   "tackle_for_loss": 0.9,
   "solo_tackle": 10.06
  },
@@ -4794,7 +4794,7 @@
   "receptions": 0.19,
   "rush_2pt": 0.0,
   "rec_td": 0.02,
-  "rec_yards": 3.28
+  "rec_yards": 3.27
  },
  {
   "name": "Kyle Pitts Sr.",
@@ -4805,10 +4805,10 @@
   "games": 7,
   "fumbles": 0.21,
   "fumbles_lost": 0.07,
-  "receptions": 21.78,
+  "receptions": 21.77,
   "rush_2pt": 0.14,
   "rec_td": 2.43,
-  "rec_yards": 227.5
+  "rec_yards": 227.48
  },
  {
   "name": "Eric Stokes",
@@ -4875,7 +4875,7 @@
   "sack_yards": 5.43,
   "assisted_tackle": 10.31,
   "tackle_for_loss": 2.24,
-  "solo_tackle": 9.02
+  "solo_tackle": 9.03
  },
  {
   "name": "Kene Nwangwu",
@@ -4958,12 +4958,12 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "fumbles": 0.24,
+  "fumbles": 0.23,
   "fumbles_lost": 0.08,
-  "receptions": 25.54,
+  "receptions": 25.53,
   "rush_2pt": 0.08,
   "rec_td": 0.89,
-  "rec_yards": 289.56
+  "rec_yards": 289.26
  },
  {
   "name": "Brock Purdy",
@@ -4991,7 +4991,7 @@
   "games": 7,
   "receptions": 1.72,
   "rec_td": 0.1,
-  "rec_yards": 17.45
+  "rec_yards": 17.44
  },
  {
   "name": "Devonte Wyatt",
@@ -5089,7 +5089,7 @@
   "games": 8,
   "sack": 0.88,
   "sack_yards": 2.24,
-  "assisted_tackle": 3.59,
+  "assisted_tackle": 3.6,
   "tackle_for_loss": 0.48,
   "solo_tackle": 0.88
  },
@@ -5121,9 +5121,9 @@
   "pass_defended": 3.65,
   "sack": 0.48,
   "sack_yards": 2.27,
-  "assisted_tackle": 5.92,
+  "assisted_tackle": 5.93,
   "tackle_for_loss": 1.38,
-  "solo_tackle": 15.5
+  "solo_tackle": 15.51
  },
  {
   "name": "Dareke Young",
@@ -5174,9 +5174,9 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "assisted_tackle": 10.83,
+  "assisted_tackle": 10.84,
   "tackle_for_loss": 0.48,
-  "solo_tackle": 10.35
+  "solo_tackle": 10.36
  },
  {
   "name": "Isaiah Pola-Mao",
@@ -5248,10 +5248,10 @@
   "games": 8,
   "fumbles": 0.15,
   "fumbles_lost": 0.08,
-  "receptions": 12.16,
+  "receptions": 12.15,
   "rush_2pt": 0.0,
   "rec_td": 0.67,
-  "rec_yards": 173.75,
+  "rec_yards": 173.68,
   "rush_td": 0.0,
   "rush_yards": 2.58
  },
@@ -5363,7 +5363,7 @@
   "games": 7,
   "forced_fumble": 0.41,
   "sack": 1.73,
-  "sack_yards": 5.45,
+  "sack_yards": 5.46,
   "assisted_tackle": 5.81,
   "tackle_for_loss": 3.11,
   "solo_tackle": 9.74
@@ -5428,9 +5428,9 @@
   "receptions": 5.04,
   "rush_2pt": 0.0,
   "rec_td": 0.24,
-  "rec_yards": 37.27,
+  "rec_yards": 37.25,
   "rush_td": 0.14,
-  "rush_yards": 24.41
+  "rush_yards": 24.42
  },
  {
   "name": "Shaka Heyward",
@@ -5439,7 +5439,7 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "assisted_tackle": 7.99,
+  "assisted_tackle": 7.98,
   "tackle_for_loss": 0.47,
   "solo_tackle": 4.43
  },
@@ -5496,7 +5496,7 @@
   "receptions": 5.39,
   "rush_2pt": 0.0,
   "rec_td": 0.47,
-  "rec_yards": 92.7
+  "rec_yards": 92.74
  },
  {
   "name": "Drake Maye",
@@ -5527,9 +5527,9 @@
   "receptions": 0.97,
   "rush_2pt": 0.0,
   "rec_td": 0.08,
-  "rec_yards": 8.62,
+  "rec_yards": 8.63,
   "rush_td": 0.26,
-  "rush_yards": 37.49
+  "rush_yards": 37.54
  },
  {
   "name": "AJ Barner",
@@ -5561,7 +5561,7 @@
   "rec_td": 0.0,
   "rec_yards": 3.22,
   "rush_td": 0.0,
-  "rush_yards": 6.59
+  "rush_yards": 6.6
  },
  {
   "name": "Jaylen Wright",
@@ -5575,9 +5575,9 @@
   "receptions": 5.72,
   "rush_2pt": 0.07,
   "rec_td": 0.3,
-  "rec_yards": 49.69,
+  "rec_yards": 49.65,
   "rush_td": 1.04,
-  "rush_yards": 114.9
+  "rush_yards": 114.85
  },
  {
   "name": "Jalen Coker",
@@ -5626,7 +5626,7 @@
   "interception": 0.41,
   "pass_defended": 1.6,
   "sack": 2.57,
-  "sack_yards": 15.27,
+  "sack_yards": 15.26,
   "assisted_tackle": 6.27,
   "tackle_for_loss": 5.09,
   "solo_tackle": 10.59
@@ -5712,9 +5712,9 @@
   "games": 7,
   "interception": 0.41,
   "pass_defended": 1.17,
-  "assisted_tackle": 5.04,
+  "assisted_tackle": 5.05,
   "tackle_for_loss": 0.41,
-  "solo_tackle": 8.91
+  "solo_tackle": 8.92
  },
  {
   "name": "PJ Jules",
@@ -5735,7 +5735,7 @@
   "season": "2026",
   "games": 8,
   "assisted_tackle": 3.09,
-  "solo_tackle": 2.69
+  "solo_tackle": 2.68
  },
  {
   "name": "Harrison Smith",
@@ -5774,9 +5774,9 @@
   "receptions": 12.45,
   "rush_2pt": 0.16,
   "rec_td": 0.63,
-  "rec_yards": 87.57,
+  "rec_yards": 87.54,
   "rush_td": 1.99,
-  "rush_yards": 278.68
+  "rush_yards": 278.87
  },
  {
   "name": "Bhayshul Tuten",
@@ -5803,10 +5803,10 @@
   "games": 7,
   "fumbles": 0.35,
   "fumbles_lost": 0.14,
-  "receptions": 37.01,
+  "receptions": 36.99,
   "rush_2pt": 0.14,
   "rec_td": 2.19,
-  "rec_yards": 291.09,
+  "rec_yards": 290.99,
   "rush_td": 0.12,
   "rush_yards": 7.93
  },
@@ -5877,7 +5877,7 @@
   "games": 8,
   "interception": 0.9,
   "pass_defended": 5.03,
-  "assisted_tackle": 5.92,
+  "assisted_tackle": 5.93,
   "tackle_for_loss": 0.48,
   "solo_tackle": 11.44
  },
@@ -5904,7 +5904,7 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "assisted_tackle": 2.72,
+  "assisted_tackle": 2.73,
   "tackle_for_loss": 0.48,
   "solo_tackle": 2.25
  },
@@ -5977,9 +5977,9 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "assisted_tackle": 10.83,
+  "assisted_tackle": 10.84,
   "tackle_for_loss": 0.48,
-  "solo_tackle": 10.35
+  "solo_tackle": 10.36
  },
  {
   "name": "Ty Hamilton",
@@ -6139,7 +6139,7 @@
   "receptions": 0.78,
   "rush_2pt": 0.0,
   "rec_td": 0.07,
-  "rec_yards": 6.91
+  "rec_yards": 6.9
  },
  {
   "name": "Payton Page",
@@ -6195,7 +6195,7 @@
   "receptions": 17.25,
   "rush_2pt": 0.08,
   "rec_td": 1.15,
-  "rec_yards": 251.25,
+  "rec_yards": 250.99,
   "rush_td": 0.0,
   "rush_yards": 1.84
  },
@@ -6208,10 +6208,10 @@
   "games": 7,
   "fumbles": 0.08,
   "fumbles_lost": 0.01,
-  "receptions": 7.29,
+  "receptions": 7.28,
   "rush_2pt": 0.01,
   "rec_td": 0.44,
-  "rec_yards": 80.97
+  "rec_yards": 80.9
  },
  {
   "name": "Brandon Cisse",
@@ -6262,9 +6262,9 @@
   "games": 8,
   "interception": 0.88,
   "pass_defended": 4.25,
-  "assisted_tackle": 8.5,
+  "assisted_tackle": 8.51,
   "tackle_for_loss": 0.4,
-  "solo_tackle": 21.26
+  "solo_tackle": 21.27
  },
  {
   "name": "Skyler Bell",
@@ -6278,7 +6278,7 @@
   "receptions": 0.57,
   "rush_2pt": 0.0,
   "rec_td": 0.08,
-  "rec_yards": 8.95,
+  "rec_yards": 8.96,
   "rush_td": 0.0,
   "rush_yards": 1.13
  },
@@ -6294,9 +6294,9 @@
   "receptions": 1.14,
   "rush_2pt": 0.01,
   "rec_td": 0.08,
-  "rec_yards": 11.79,
+  "rec_yards": 11.75,
   "rush_td": 0.41,
-  "rush_yards": 60.17
+  "rush_yards": 60.11
  },
  {
   "name": "Kamari Ramsey",
@@ -6364,10 +6364,10 @@
   "games": 8,
   "fumbles": 0.0,
   "fumbles_lost": 0.0,
-  "receptions": 0.32,
+  "receptions": 0.31,
   "rush_2pt": 0.0,
   "rec_td": 0.0,
-  "rec_yards": 3.29
+  "rec_yards": 3.28
  },
  {
   "name": "Jacob Rodriguez",
@@ -6381,9 +6381,9 @@
   "interception": 0.87,
   "pass_defended": 0.4,
   "sack": 0.4,
-  "assisted_tackle": 31.39,
+  "assisted_tackle": 31.38,
   "tackle_for_loss": 3.32,
-  "solo_tackle": 33.52
+  "solo_tackle": 33.51
  },
  {
   "name": "Albert Regis",
@@ -6474,7 +6474,7 @@
   "sack": 0.56,
   "assisted_tackle": 7.87,
   "tackle_for_loss": 1.6,
-  "solo_tackle": 17.63
+  "solo_tackle": 17.62
  },
  {
   "name": "Deven Eastern",
@@ -6498,8 +6498,8 @@
   "games": 7,
   "interception": 0.41,
   "pass_defended": 3.11,
-  "assisted_tackle": 1.58,
-  "solo_tackle": 1.58
+  "assisted_tackle": 1.59,
+  "solo_tackle": 1.59
  },
  {
   "name": "Sabastian Harsh",
@@ -6523,7 +6523,7 @@
   "games": 8,
   "sack": 0.47,
   "sack_yards": 0.47,
-  "assisted_tackle": 6.65,
+  "assisted_tackle": 6.64,
   "tackle_for_loss": 0.87,
   "solo_tackle": 4.43
  },
@@ -6535,7 +6535,7 @@
   "season": "2026",
   "games": 7,
   "forced_fumble": 0.42,
-  "assisted_tackle": 7.89,
+  "assisted_tackle": 7.88,
   "tackle_for_loss": 0.42,
   "solo_tackle": 6.7
  },
@@ -6558,8 +6558,8 @@
   "fumbles_lost": 0.0,
   "receptions": 8.8,
   "rush_2pt": 0.07,
-  "rec_td": 0.8,
-  "rec_yards": 85.44
+  "rec_td": 0.79,
+  "rec_yards": 85.43
  },
  {
   "name": "Andrew Billings",
@@ -6583,10 +6583,10 @@
   "games": 7,
   "fumble_recovered": 0.41,
   "sack": 1.73,
-  "sack_yards": 12.84,
+  "sack_yards": 12.85,
   "assisted_tackle": 5.81,
   "tackle_for_loss": 3.11,
-  "solo_tackle": 8.56
+  "solo_tackle": 8.57
  },
  {
   "name": "Cooper Kupp",
@@ -6658,7 +6658,7 @@
   "pass_defended": 1.95,
   "assisted_tackle": 7.87,
   "tackle_for_loss": 1.18,
-  "solo_tackle": 17.63
+  "solo_tackle": 17.62
  },
  {
   "name": "Dalton Schultz",
@@ -6669,10 +6669,10 @@
   "games": 8,
   "fumbles": 0.24,
   "fumbles_lost": 0.08,
-  "receptions": 30.12,
+  "receptions": 30.1,
   "rush_2pt": 0.08,
   "rec_td": 0.98,
-  "rec_yards": 317.12
+  "rec_yards": 317.0
  },
  {
   "name": "Carlton Davis III",
@@ -6780,7 +6780,7 @@
   "receptions": 9.98,
   "rush_2pt": 0.08,
   "rec_td": 1.06,
-  "rec_yards": 98.09
+  "rec_yards": 98.06
  },
  {
   "name": "Drew Sample",
@@ -6942,10 +6942,10 @@
   "games": 8,
   "fumbles": 0.08,
   "fumbles_lost": 0.08,
-  "receptions": 10.22,
+  "receptions": 10.21,
   "rush_2pt": 0.08,
   "rec_td": 0.92,
-  "rec_yards": 106.51
+  "rec_yards": 106.5
  },
  {
   "name": "Alohi Gilman",
@@ -6955,12 +6955,12 @@
   "season": "2026",
   "games": 8,
   "forced_fumble": 0.48,
-  "fumble_recovered": 0.88,
-  "interception": 0.88,
+  "fumble_recovered": 0.89,
+  "interception": 0.89,
   "pass_defended": 4.09,
-  "assisted_tackle": 17.16,
+  "assisted_tackle": 17.17,
   "tackle_for_loss": 0.48,
-  "solo_tackle": 22.14
+  "solo_tackle": 22.15
  },
  {
   "name": "Brevin Jordan",
@@ -7011,7 +7011,7 @@
   "forced_fumble": 0.42,
   "pass_defended": 0.42,
   "sack": 1.19,
-  "sack_yards": 8.66,
+  "sack_yards": 8.65,
   "assisted_tackle": 3.91,
   "tackle_for_loss": 1.6,
   "solo_tackle": 5.87
@@ -7077,12 +7077,12 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "pass_defended": 0.88,
+  "pass_defended": 0.89,
   "sack": 0.48,
   "sack_yards": 2.25,
   "assisted_tackle": 3.61,
-  "tackle_for_loss": 0.88,
-  "solo_tackle": 6.74
+  "tackle_for_loss": 0.89,
+  "solo_tackle": 6.75
  },
  {
   "name": "Isaiah McDuffie",
@@ -7110,7 +7110,7 @@
   "receptions": 14.88,
   "rush_2pt": 0.08,
   "rec_td": 0.91,
-  "rec_yards": 161.35
+  "rec_yards": 161.33
  },
  {
   "name": "Jamien Sherwood",
@@ -7122,9 +7122,9 @@
   "pass_defended": 1.82,
   "sack": 0.76,
   "sack_yards": 4.46,
-  "assisted_tackle": 25.14,
+  "assisted_tackle": 25.12,
   "tackle_for_loss": 2.58,
-  "solo_tackle": 24.78
+  "solo_tackle": 24.77
  },
  {
   "name": "Charles Snowden",
@@ -7277,9 +7277,9 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "assisted_tackle": 20.21,
+  "assisted_tackle": 20.22,
   "tackle_for_loss": 3.12,
-  "solo_tackle": 20.21
+  "solo_tackle": 20.22
  },
  {
   "name": "Jermaine Johnson II",
@@ -7307,7 +7307,7 @@
   "receptions": 1.9,
   "rush_2pt": 0.0,
   "rec_td": 0.13,
-  "rec_yards": 17.26
+  "rec_yards": 17.25
  },
  {
   "name": "Mike Brown",
@@ -7405,10 +7405,10 @@
   "games": 8,
   "fumbles": 0.29,
   "fumbles_lost": 0.16,
-  "receptions": 31.89,
+  "receptions": 31.88,
   "rush_2pt": 0.16,
-  "rec_td": 2.23,
-  "rec_yards": 431.36
+  "rec_td": 2.24,
+  "rec_yards": 431.62
  },
  {
   "name": "Christian Gonzalez",
@@ -7446,7 +7446,7 @@
   "forced_fumble": 0.42,
   "pass_defended": 0.42,
   "sack": 2.16,
-  "sack_yards": 19.27,
+  "sack_yards": 19.26,
   "assisted_tackle": 6.28,
   "tackle_for_loss": 2.37,
   "solo_tackle": 6.28
@@ -7600,9 +7600,9 @@
   "receptions": 7.27,
   "rush_2pt": 0.07,
   "rec_td": 0.42,
-  "rec_yards": 58.34,
+  "rec_yards": 58.33,
   "rush_td": 1.17,
-  "rush_yards": 127.96
+  "rush_yards": 127.98
  },
  {
   "name": "Xavier Legette",
@@ -7630,11 +7630,11 @@
   "forced_fumble": 0.47,
   "fumble_recovered": 0.47,
   "pass_defended": 0.87,
-  "sack": 2.69,
-  "sack_yards": 16.92,
+  "sack": 2.68,
+  "sack_yards": 16.91,
   "assisted_tackle": 8.93,
   "tackle_for_loss": 1.81,
-  "solo_tackle": 6.65
+  "solo_tackle": 6.64
  },
  {
   "name": "Byron Murphy II",
@@ -7679,9 +7679,9 @@
   "pass_defended": 3.89,
   "sack": 0.41,
   "sack_yards": 1.71,
-  "assisted_tackle": 15.9,
+  "assisted_tackle": 15.91,
   "tackle_for_loss": 1.71,
-  "solo_tackle": 25.32
+  "solo_tackle": 25.33
  },
  {
   "name": "DeWayne Carter",
@@ -7778,7 +7778,7 @@
   "receptions": 1.18,
   "rush_2pt": 0.0,
   "rec_td": 0.06,
-  "rec_yards": 12.09
+  "rec_yards": 12.07
  },
  {
   "name": "Jaylon Carlies",
@@ -7787,9 +7787,9 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 7,
-  "assisted_tackle": 7.46,
+  "assisted_tackle": 7.45,
   "tackle_for_loss": 0.41,
-  "solo_tackle": 10.18
+  "solo_tackle": 10.17
  },
  {
   "name": "Levi Drake Rodriguez",
@@ -7960,7 +7960,7 @@
   "receptions": 33.34,
   "rush_2pt": 0.21,
   "rec_td": 3.25,
-  "rec_yards": 542.66,
+  "rec_yards": 542.63,
   "rush_td": 0.06,
   "rush_yards": 6.31
  },
@@ -7978,7 +7978,7 @@
   "rec_td": 0.04,
   "rec_yards": 6.92,
   "rush_td": 0.23,
-  "rush_yards": 35.91
+  "rush_yards": 35.93
  },
  {
   "name": "Harold Fannin Jr.",
@@ -7989,10 +7989,10 @@
   "games": 7,
   "fumbles": 0.28,
   "fumbles_lost": 0.14,
-  "receptions": 30.82,
+  "receptions": 30.81,
   "rush_2pt": 0.2,
   "rec_td": 3.13,
-  "rec_yards": 344.16,
+  "rec_yards": 344.11,
   "rush_td": 0.07,
   "rush_yards": 2.76
  },
@@ -8036,10 +8036,10 @@
   "forced_fumble": 0.47,
   "pass_defended": 0.87,
   "sack": 1.58,
-  "sack_yards": 11.15,
+  "sack_yards": 11.14,
   "assisted_tackle": 5.37,
   "tackle_for_loss": 1.81,
-  "solo_tackle": 7.99
+  "solo_tackle": 7.98
  },
  {
   "name": "Jordan Burch",
@@ -8076,9 +8076,9 @@
   "forced_fumble": 0.35,
   "fumble_recovered": 0.35,
   "interception": 1.11,
-  "pass_defended": 4.46,
-  "assisted_tackle": 16.59,
-  "solo_tackle": 22.86
+  "pass_defended": 4.45,
+  "assisted_tackle": 16.58,
+  "solo_tackle": 22.85
  },
  {
   "name": "Jaylahn Tuimoloau",
@@ -8087,8 +8087,8 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 7,
-  "sack": 1.75,
-  "sack_yards": 11.01,
+  "sack": 1.74,
+  "sack_yards": 11.0,
   "assisted_tackle": 5.5,
   "tackle_for_loss": 1.18,
   "solo_tackle": 5.09
@@ -8105,7 +8105,7 @@
   "sack_yards": 2.76,
   "assisted_tackle": 5.03,
   "tackle_for_loss": 1.38,
-  "solo_tackle": 5.51
+  "solo_tackle": 5.52
  },
  {
   "name": "Nohl Williams",
@@ -8117,10 +8117,10 @@
   "interception": 0.88,
   "pass_defended": 4.66,
   "sack": 0.64,
-  "sack_yards": 2.56,
-  "assisted_tackle": 10.59,
+  "sack_yards": 2.57,
+  "assisted_tackle": 10.6,
   "tackle_for_loss": 1.69,
-  "solo_tackle": 21.26
+  "solo_tackle": 21.27
  },
  {
   "name": "Deone Walker",
@@ -8131,7 +8131,7 @@
   "games": 8,
   "forced_fumble": 0.41,
   "fumble_recovered": 0.41,
-  "pass_defended": 2.11,
+  "pass_defended": 2.12,
   "sack": 1.71,
   "sack_yards": 5.19,
   "assisted_tackle": 9.9,
@@ -8212,7 +8212,7 @@
   "games": 7,
   "pass_defended": 0.41,
   "assisted_tackle": 1.95,
-  "solo_tackle": 3.14
+  "solo_tackle": 3.13
  },
  {
   "name": "Carson Bruener",
@@ -8273,9 +8273,9 @@
   "games": 8,
   "sack": 0.48,
   "sack_yards": 0.48,
-  "assisted_tackle": 0.88,
+  "assisted_tackle": 0.89,
   "tackle_for_loss": 0.48,
-  "solo_tackle": 0.88
+  "solo_tackle": 0.89
  },
  {
   "name": "CJ Donaldson",
@@ -8349,8 +8349,8 @@
   "fumbles_lost": 0.07,
   "receptions": 10.77,
   "rush_2pt": 0.07,
-  "rec_td": 0.8,
-  "rec_yards": 119.23,
+  "rec_td": 0.79,
+  "rec_yards": 119.22,
   "rush_td": 0.07,
   "rush_yards": 2.78
  },
@@ -8363,10 +8363,10 @@
   "games": 7,
   "fumbles": 0.21,
   "fumbles_lost": 0.07,
-  "receptions": 20.69,
+  "receptions": 20.68,
   "rush_2pt": 0.14,
-  "rec_td": 2.66,
-  "rec_yards": 362.31,
+  "rec_td": 2.67,
+  "rec_yards": 362.26,
   "rush_td": 0.06,
   "rush_yards": 4.58
  },
@@ -8411,7 +8411,7 @@
   "receptions": 3.64,
   "rush_2pt": 0.0,
   "rec_td": 0.29,
-  "rec_yards": 47.98
+  "rec_yards": 47.96
  },
  {
   "name": "Seth McGowan",
@@ -8425,9 +8425,9 @@
   "receptions": 7.9,
   "rush_2pt": 0.07,
   "rec_td": 0.38,
-  "rec_yards": 51.45,
+  "rec_yards": 51.42,
   "rush_td": 0.9,
-  "rush_yards": 160.13
+  "rush_yards": 160.17
  },
  {
   "name": "Tacario Davis",
@@ -8478,7 +8478,7 @@
   "sack_yards": 2.27,
   "assisted_tackle": 4.55,
   "tackle_for_loss": 1.38,
-  "solo_tackle": 9.16
+  "solo_tackle": 9.17
  },
  {
   "name": "Kaden Wetjen",
@@ -8538,7 +8538,7 @@
   "receptions": 38.05,
   "rush_2pt": 0.16,
   "rec_td": 2.8,
-  "rec_yards": 505.53
+  "rec_yards": 505.45
  },
  {
   "name": "Jadeveon Clowney",
@@ -8549,7 +8549,7 @@
   "games": 8,
   "sack": 2.24,
   "sack_yards": 11.26,
-  "assisted_tackle": 6.71,
+  "assisted_tackle": 6.72,
   "tackle_for_loss": 1.36,
   "solo_tackle": 4.48
  },
@@ -8653,11 +8653,11 @@
   "fumbles_lost": 1.65,
   "pass_2pt": 0.8,
   "pass_int": 4.41,
-  "pass_td": 13.47,
-  "pass_yards": 2114.48,
+  "pass_td": 13.49,
+  "pass_yards": 2114.16,
   "rush_2pt": 0.08,
   "rush_td": 1.6,
-  "rush_yards": 181.47
+  "rush_yards": 181.51
  },
  {
   "name": "T.J. Watt",
@@ -8709,11 +8709,11 @@
   "fumbles_lost": 1.54,
   "pass_2pt": 0.81,
   "pass_int": 6.36,
-  "pass_td": 14.05,
-  "pass_yards": 2154.9,
+  "pass_td": 14.06,
+  "pass_yards": 2156.24,
   "rush_2pt": 0.57,
-  "rush_td": 9.05,
-  "rush_yards": 314.14
+  "rush_td": 9.06,
+  "rush_yards": 314.49
  },
  {
   "name": "B.J. Hill",
@@ -8776,7 +8776,7 @@
   "season": "2026",
   "games": 8,
   "interception": 0.48,
-  "pass_defended": 6.71,
+  "pass_defended": 6.72,
   "assisted_tackle": 1.83,
   "solo_tackle": 1.83
  },
@@ -8802,7 +8802,7 @@
   "games": 7,
   "pass_defended": 0.41,
   "assisted_tackle": 1.95,
-  "solo_tackle": 3.14
+  "solo_tackle": 3.13
  },
  {
   "name": "Rashan Gary",
@@ -8832,7 +8832,7 @@
   "receptions": 10.01,
   "rush_2pt": 0.08,
   "rec_td": 1.08,
-  "rec_yards": 94.51
+  "rec_yards": 94.58
  },
  {
   "name": "Tony Pollard",
@@ -8862,9 +8862,9 @@
   "receptions": 13.09,
   "rush_2pt": 0.09,
   "rec_td": 0.71,
-  "rec_yards": 126.23,
-  "rush_td": 0.63,
-  "rush_yards": 101.97
+  "rec_yards": 126.31,
+  "rush_td": 0.64,
+  "rush_yards": 102.09
  },
  {
   "name": "Matt Gay",
@@ -8886,9 +8886,9 @@
   "pass_defended": 2.35,
   "sack": 0.76,
   "sack_yards": 4.28,
-  "assisted_tackle": 14.37,
+  "assisted_tackle": 14.38,
   "tackle_for_loss": 3.87,
-  "solo_tackle": 27.57
+  "solo_tackle": 27.58
  },
  {
   "name": "Nick Scott",
@@ -9002,9 +9002,9 @@
   "games": 7,
   "interception": 0.41,
   "pass_defended": 0.41,
-  "assisted_tackle": 8.64,
+  "assisted_tackle": 8.63,
   "tackle_for_loss": 1.18,
-  "solo_tackle": 14.91
+  "solo_tackle": 14.9
  },
  {
   "name": "Grant Delpit",
@@ -9017,9 +9017,9 @@
   "interception": 0.41,
   "pass_defended": 1.17,
   "sack": 0.56,
-  "assisted_tackle": 15.95,
+  "assisted_tackle": 15.96,
   "tackle_for_loss": 1.17,
-  "solo_tackle": 18.24
+  "solo_tackle": 18.25
  },
  {
   "name": "Juwan Johnson",
@@ -9125,11 +9125,11 @@
   "games": 8,
   "forced_fumble": 2.27,
   "fumble_recovered": 0.48,
-  "sack": 5.68,
-  "sack_yards": 16.88,
-  "assisted_tackle": 9.16,
+  "sack": 5.69,
+  "sack_yards": 16.89,
+  "assisted_tackle": 9.17,
   "tackle_for_loss": 6.82,
-  "solo_tackle": 15.98
+  "solo_tackle": 15.99
  },
  {
   "name": "Pete Werner",
@@ -9187,12 +9187,12 @@
   "forced_fumble": 0.41,
   "fumble_recovered": 0.41,
   "interception": 0.41,
-  "pass_defended": 3.14,
+  "pass_defended": 3.13,
   "sack": 0.41,
   "sack_yards": 1.95,
-  "assisted_tackle": 17.63,
+  "assisted_tackle": 17.62,
   "tackle_for_loss": 2.37,
-  "solo_tackle": 17.63
+  "solo_tackle": 17.62
  },
  {
   "name": "Brandon Stephens",
@@ -9219,7 +9219,7 @@
   "pass_defended": 3.34,
   "assisted_tackle": 5.51,
   "tackle_for_loss": 0.76,
-  "solo_tackle": 27.67
+  "solo_tackle": 27.65
  },
  {
   "name": "Chris Rumph II",
@@ -9339,9 +9339,9 @@
   "receptions": 16.72,
   "rush_2pt": 0.15,
   "rec_td": 0.7,
-  "rec_yards": 145.05,
+  "rec_yards": 145.04,
   "rush_td": 1.52,
-  "rush_yards": 252.52
+  "rush_yards": 252.43
  },
  {
   "name": "Connor Heyward",
@@ -9386,7 +9386,7 @@
   "pass_defended": 4.73,
   "assisted_tackle": 6.27,
   "tackle_for_loss": 0.41,
-  "solo_tackle": 15.68
+  "solo_tackle": 15.67
  },
  {
   "name": "Derek Stingley Jr.",
@@ -9399,7 +9399,7 @@
   "pass_defended": 6.79,
   "assisted_tackle": 5.11,
   "tackle_for_loss": 0.4,
-  "solo_tackle": 11.82
+  "solo_tackle": 11.83
  },
  {
   "name": "Cameron Thomas",
@@ -9409,9 +9409,9 @@
   "season": "2026",
   "games": 7,
   "sack": 1.95,
-  "assisted_tackle": 5.86,
+  "assisted_tackle": 5.85,
   "tackle_for_loss": 1.95,
-  "solo_tackle": 11.78
+  "solo_tackle": 11.77
  },
  {
   "name": "George Karlaftis",
@@ -9423,10 +9423,10 @@
   "fumble_recovered": 0.48,
   "pass_defended": 1.36,
   "sack": 3.37,
-  "sack_yards": 16.28,
+  "sack_yards": 16.29,
   "assisted_tackle": 11.31,
   "tackle_for_loss": 4.09,
-  "solo_tackle": 13.55
+  "solo_tackle": 13.56
  },
  {
   "name": "KaVontae Turpin",
@@ -9469,7 +9469,7 @@
   "receptions": 31.89,
   "rush_2pt": 0.14,
   "rec_td": 2.56,
-  "rec_yards": 353.19
+  "rec_yards": 353.17
  },
  {
   "name": "Cameron Jordan",
@@ -9524,10 +9524,10 @@
   "fumble_recovered": 0.48,
   "pass_defended": 0.88,
   "sack": 5.83,
-  "sack_yards": 26.51,
-  "assisted_tackle": 9.9,
-  "tackle_for_loss": 7.66,
-  "solo_tackle": 21.56
+  "sack_yards": 26.53,
+  "assisted_tackle": 9.91,
+  "tackle_for_loss": 7.67,
+  "solo_tackle": 21.58
  },
  {
   "name": "Mekhi Blackmon",
@@ -9562,14 +9562,14 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 8,
-  "forced_fumble": 0.88,
+  "forced_fumble": 0.89,
   "interception": 0.48,
-  "pass_defended": 2.72,
-  "sack": 0.88,
-  "sack_yards": 4.97,
+  "pass_defended": 2.73,
+  "sack": 0.89,
+  "sack_yards": 4.98,
   "assisted_tackle": 9.06,
   "tackle_for_loss": 1.84,
-  "solo_tackle": 22.54
+  "solo_tackle": 22.56
  },
  {
   "name": "Colby Wooden",
@@ -9711,22 +9711,6 @@
   "solo_tackle": 2.74
  },
  {
-  "name": "Nikko Remigio",
-  "position": "WR",
-  "team": "KC",
-  "source": "sleeper_rotowire_ros",
-  "season": "2026",
-  "games": 8,
-  "fumbles": 0.0,
-  "fumbles_lost": 0.0,
-  "receptions": 0.4,
-  "rush_2pt": 0.0,
-  "rec_td": 0.01,
-  "rec_yards": 5.98,
-  "rush_td": 0.0,
-  "rush_yards": 1.14
- },
- {
   "name": "Emanuel Wilson",
   "position": "RB",
   "team": "SEA",
@@ -9756,7 +9740,7 @@
   "rec_td": 0.0,
   "rec_yards": 3.05,
   "rush_td": 0.35,
-  "rush_yards": 42.31
+  "rush_yards": 42.35
  },
  {
   "name": "Jake Bates",
@@ -9777,11 +9761,11 @@
   "fumbles_lost": 1.25,
   "pass_2pt": 0.56,
   "pass_int": 5.39,
-  "pass_td": 9.53,
-  "pass_yards": 1601.8,
+  "pass_td": 9.52,
+  "pass_yards": 1601.66,
   "rush_2pt": 0.07,
   "rush_td": 0.73,
-  "rush_yards": 79.92
+  "rush_yards": 79.91
  },
  {
   "name": "Braelon Allen",
@@ -9790,14 +9774,14 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 7,
-  "fumbles": 0.88,
+  "fumbles": 0.87,
   "fumbles_lost": 0.4,
   "receptions": 13.94,
   "rush_2pt": 0.13,
   "rec_td": 0.57,
-  "rec_yards": 90.24,
+  "rec_yards": 90.23,
   "rush_td": 2.07,
-  "rush_yards": 373.19
+  "rush_yards": 373.12
  },
  {
   "name": "Blake Corum",
@@ -9843,7 +9827,7 @@
   "receptions": 19.36,
   "rush_2pt": 0.07,
   "rec_td": 1.34,
-  "rec_yards": 309.19,
+  "rec_yards": 309.16,
   "rush_td": 0.0,
   "rush_yards": 1.23
  },
@@ -9874,8 +9858,8 @@
   "fumbles_lost": 0.08,
   "receptions": 23.01,
   "rush_2pt": 0.09,
-  "rec_td": 2.06,
-  "rec_yards": 334.6,
+  "rec_td": 2.07,
+  "rec_yards": 334.83,
   "rush_td": 0.0,
   "rush_yards": 1.35
  },
@@ -9891,7 +9875,7 @@
   "pass_2pt": 0.82,
   "pass_int": 5.94,
   "pass_td": 13.13,
-  "pass_yards": 1791.27,
+  "pass_yards": 1791.17,
   "rush_2pt": 0.07,
   "rush_td": 0.72,
   "rush_yards": 45.93
@@ -9949,9 +9933,9 @@
   "forced_fumble": 0.41,
   "fumble_recovered": 0.41,
   "sack": 2.57,
-  "sack_yards": 16.1,
+  "sack_yards": 16.09,
   "assisted_tackle": 5.09,
-  "tackle_for_loss": 3.14,
+  "tackle_for_loss": 3.13,
   "solo_tackle": 6.27
  },
  {
@@ -10005,8 +9989,8 @@
   "season": "2026",
   "games": 8,
   "pass_defended": 0.47,
-  "assisted_tackle": 2.22,
-  "solo_tackle": 2.22
+  "assisted_tackle": 2.21,
+  "solo_tackle": 2.21
  },
  {
   "name": "Kamal Hadden",
@@ -10092,12 +10076,12 @@
   "games": 7,
   "fumbles": 1.04,
   "fumbles_lost": 0.48,
-  "receptions": 13.8,
+  "receptions": 13.79,
   "rush_2pt": 0.14,
   "rec_td": 0.39,
-  "rec_yards": 88.94,
-  "rush_td": 3.08,
-  "rush_yards": 376.85
+  "rec_yards": 88.92,
+  "rush_td": 3.09,
+  "rush_yards": 377.16
  },
  {
   "name": "Travis Hunter",
@@ -10227,8 +10211,8 @@
   "forced_fumble": 0.47,
   "interception": 0.87,
   "pass_defended": 1.81,
-  "assisted_tackle": 18.66,
-  "solo_tackle": 17.79
+  "assisted_tackle": 18.65,
+  "solo_tackle": 17.78
  },
  {
   "name": "Jordan Phillips",
@@ -10239,7 +10223,7 @@
   "games": 8,
   "pass_defended": 0.47,
   "sack": 0.47,
-  "sack_yards": 2.22,
+  "sack_yards": 2.21,
   "assisted_tackle": 10.2,
   "tackle_for_loss": 0.87,
   "solo_tackle": 4.03
@@ -10264,7 +10248,7 @@
   "games": 1,
   "receptions": 0.23,
   "rec_td": 0.02,
-  "rec_yards": 2.37
+  "rec_yards": 2.38
  },
  {
   "name": "Nazir Stackhouse",
@@ -10401,7 +10385,7 @@
   "receptions": 6.49,
   "rush_2pt": 0.0,
   "rec_td": 0.35,
-  "rec_yards": 64.15
+  "rec_yards": 64.12
  },
  {
   "name": "Emmett Johnson",
@@ -10415,9 +10399,9 @@
   "receptions": 13.87,
   "rush_2pt": 0.16,
   "rec_td": 0.82,
-  "rec_yards": 168.66,
+  "rec_yards": 168.63,
   "rush_td": 1.05,
-  "rush_yards": 124.53
+  "rush_yards": 124.57
  },
  {
   "name": "Lee Hunter",
@@ -10540,7 +10524,7 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 7,
-  "assisted_tackle": 11.01,
+  "assisted_tackle": 11.0,
   "tackle_for_loss": 0.77,
   "solo_tackle": 10.59
  },
@@ -10564,7 +10548,7 @@
   "season": "2026",
   "games": 8,
   "pass_defended": 0.9,
-  "assisted_tackle": 7.3,
+  "assisted_tackle": 7.31,
   "tackle_for_loss": 0.48,
   "solo_tackle": 9.58
  },
@@ -10669,9 +10653,9 @@
   "forced_fumble": 0.48,
   "pass_defended": 1.36,
   "sack": 2.49,
-  "sack_yards": 20.77,
-  "assisted_tackle": 6.33,
-  "tackle_for_loss": 2.72,
+  "sack_yards": 20.79,
+  "assisted_tackle": 6.34,
+  "tackle_for_loss": 2.73,
   "solo_tackle": 7.7
  },
  {
@@ -10712,9 +10696,9 @@
   "receptions": 18.75,
   "rush_2pt": 0.16,
   "rec_td": 0.86,
-  "rec_yards": 112.58,
+  "rec_yards": 112.57,
   "rush_td": 1.48,
-  "rush_yards": 374.35
+  "rush_yards": 374.38
  },
  {
   "name": "Harrison Butker",
@@ -10750,7 +10734,7 @@
   "receptions": 0.61,
   "rush_2pt": 0.0,
   "rec_td": 0.0,
-  "rec_yards": 4.83,
+  "rec_yards": 4.82,
   "rush_td": 0.0,
   "rush_yards": 1.79
  },
@@ -10787,10 +10771,10 @@
   "forced_fumble": 0.9,
   "pass_defended": 0.48,
   "sack": 1.86,
-  "sack_yards": 12.33,
+  "sack_yards": 12.34,
   "assisted_tackle": 6.82,
   "tackle_for_loss": 4.55,
-  "solo_tackle": 10.47
+  "solo_tackle": 10.48
  },
  {
   "name": "Noah Fant",
@@ -10966,11 +10950,11 @@
   "games": 8,
   "forced_fumble": 0.47,
   "pass_defended": 0.87,
-  "sack": 2.22,
-  "sack_yards": 17.79,
+  "sack": 2.21,
+  "sack_yards": 17.78,
   "assisted_tackle": 13.76,
-  "tackle_for_loss": 2.69,
-  "solo_tackle": 10.68
+  "tackle_for_loss": 2.68,
+  "solo_tackle": 10.67
  },
  {
   "name": "Trevis Gipson",
@@ -11077,12 +11061,12 @@
   "games": 8,
   "forced_fumble": 0.48,
   "interception": 0.48,
-  "pass_defended": 2.72,
-  "sack": 0.88,
-  "sack_yards": 6.33,
-  "assisted_tackle": 27.11,
-  "tackle_for_loss": 4.97,
-  "solo_tackle": 31.6
+  "pass_defended": 2.73,
+  "sack": 0.89,
+  "sack_yards": 6.34,
+  "assisted_tackle": 27.12,
+  "tackle_for_loss": 4.98,
+  "solo_tackle": 31.62
  },
  {
   "name": "Levi Onwuzurike",
@@ -11136,7 +11120,7 @@
   "season": "2026",
   "games": 8,
   "pass_defended": 0.48,
-  "assisted_tackle": 10.95,
+  "assisted_tackle": 10.96,
   "tackle_for_loss": 0.48,
   "solo_tackle": 10.06
  },
@@ -11204,8 +11188,8 @@
   "season": "2026",
   "games": 8,
   "pass_defended": 0.47,
-  "assisted_tackle": 7.12,
-  "solo_tackle": 7.59
+  "assisted_tackle": 7.11,
+  "solo_tackle": 7.58
  },
  {
   "name": "Jameson Williams",
@@ -11367,7 +11351,7 @@
   "sack_yards": 0.42,
   "assisted_tackle": 7.05,
   "tackle_for_loss": 2.73,
-  "solo_tackle": 11.8
+  "solo_tackle": 11.79
  },
  {
   "name": "Markquese Bell",
@@ -11391,7 +11375,7 @@
   "interception": 0.88,
   "pass_defended": 2.24,
   "assisted_tackle": 13.5,
-  "solo_tackle": 24.28
+  "solo_tackle": 24.29
  },
  {
   "name": "Jordan Mason",
@@ -11407,7 +11391,7 @@
   "rec_td": 0.41,
   "rec_yards": 51.19,
   "rush_td": 3.22,
-  "rush_yards": 387.86
+  "rush_yards": 387.89
  },
  {
   "name": "Joshua Williams",
@@ -11529,7 +11513,7 @@
   "receptions": 24.41,
   "rush_2pt": 0.07,
   "rec_td": 1.06,
-  "rec_yards": 304.65,
+  "rec_yards": 304.61,
   "rush_td": 0.0,
   "rush_yards": 2.55
  },
@@ -11577,9 +11561,9 @@
   "pass_defended": 0.77,
   "sack": 1.39,
   "sack_yards": 1.96,
-  "assisted_tackle": 23.18,
+  "assisted_tackle": 23.17,
   "tackle_for_loss": 2.37,
-  "solo_tackle": 21.58
+  "solo_tackle": 21.57
  },
  {
   "name": "DJ Turner II",
@@ -11606,9 +11590,9 @@
   "forced_fumble": 0.48,
   "fumble_recovered": 0.48,
   "pass_defended": 0.48,
-  "assisted_tackle": 20.53,
+  "assisted_tackle": 20.54,
   "tackle_for_loss": 2.76,
-  "solo_tackle": 25.08
+  "solo_tackle": 25.09
  },
  {
   "name": "Jay Ward",
@@ -11669,9 +11653,9 @@
   "games": 7,
   "forced_fumble": 1.18,
   "fumble_recovered": 0.77,
-  "assisted_tackle": 7.46,
+  "assisted_tackle": 7.45,
   "tackle_for_loss": 0.41,
-  "solo_tackle": 10.18
+  "solo_tackle": 10.17
  },
  {
   "name": "Ivan Pace Jr.",
@@ -11770,8 +11754,8 @@
   "fumbles_lost": 0.08,
   "receptions": 12.49,
   "rush_2pt": 0.08,
-  "rec_td": 1.49,
-  "rec_yards": 196.44
+  "rec_td": 1.5,
+  "rec_yards": 196.37
  },
  {
   "name": "Charlie Smyth",
@@ -11926,7 +11910,7 @@
   "sack_yards": 0.42,
   "assisted_tackle": 9.84,
   "tackle_for_loss": 1.6,
-  "solo_tackle": 7.89
+  "solo_tackle": 7.88
  },
  {
   "name": "Omar Speights",
@@ -11957,12 +11941,12 @@
   "games": 7,
   "fumbles": 0.48,
   "fumbles_lost": 0.21,
-  "receptions": 16.26,
+  "receptions": 16.25,
   "rush_2pt": 0.14,
   "rec_td": 0.82,
-  "rec_yards": 132.42,
+  "rec_yards": 132.4,
   "rush_td": 1.16,
-  "rush_yards": 167.27
+  "rush_yards": 167.4
  },
  {
   "name": "Mitchell Evans",
@@ -11990,7 +11974,7 @@
   "receptions": 11.36,
   "rush_2pt": 0.07,
   "rec_td": 0.72,
-  "rec_yards": 111.47,
+  "rec_yards": 111.46,
   "rush_td": 0.13,
   "rush_yards": 18.25
  },
@@ -12035,7 +12019,7 @@
   "receptions": 4.97,
   "rush_2pt": 0.0,
   "rec_td": 0.51,
-  "rec_yards": 51.71,
+  "rec_yards": 51.7,
   "rush_td": 0.0,
   "rush_yards": 1.57
  },
@@ -12110,12 +12094,12 @@
   "season": "2026",
   "games": 7,
   "interception": 0.41,
-  "pass_defended": 1.58,
+  "pass_defended": 1.59,
   "sack": 1.38,
   "sack_yards": 6.63,
-  "assisted_tackle": 29.56,
-  "tackle_for_loss": 4.69,
-  "solo_tackle": 25.28
+  "assisted_tackle": 29.58,
+  "tackle_for_loss": 4.7,
+  "solo_tackle": 25.29
  },
  {
   "name": "Joshua Farmer",
@@ -12228,7 +12212,7 @@
   "sack_yards": 7.04,
   "assisted_tackle": 3.55,
   "tackle_for_loss": 0.77,
-  "solo_tackle": 10.18
+  "solo_tackle": 10.17
  },
  {
   "name": "Cody Simon",
@@ -12367,12 +12351,12 @@
   "games": 7,
   "fumbles": 0.28,
   "fumbles_lost": 0.14,
-  "receptions": 28.94,
+  "receptions": 28.92,
   "rush_2pt": 0.07,
   "rec_td": 1.14,
-  "rec_yards": 339.88,
+  "rec_yards": 339.83,
   "rush_td": 0.28,
-  "rush_yards": 35.34
+  "rush_yards": 35.37
  },
  {
   "name": "Malik Benson",
@@ -12399,7 +12383,7 @@
   "pass_defended": 0.76,
   "assisted_tackle": 9.74,
   "tackle_for_loss": 1.94,
-  "solo_tackle": 13.61
+  "solo_tackle": 13.62
  },
  {
   "name": "Anthony Hill Jr.",
@@ -12426,11 +12410,11 @@
   "games": 8,
   "forced_fumble": 0.48,
   "fumble_recovered": 0.48,
-  "pass_defended": 0.88,
+  "pass_defended": 0.89,
   "sack": 2.49,
-  "sack_yards": 14.92,
-  "assisted_tackle": 2.72,
-  "tackle_for_loss": 2.72,
+  "sack_yards": 14.93,
+  "assisted_tackle": 2.73,
+  "tackle_for_loss": 2.73,
   "solo_tackle": 5.45
  },
  {
@@ -12445,7 +12429,7 @@
   "sack": 0.77,
   "assisted_tackle": 10.59,
   "tackle_for_loss": 1.18,
-  "solo_tackle": 12.96
+  "solo_tackle": 12.95
  },
  {
   "name": "Jake Golday",
@@ -12500,7 +12484,7 @@
   "receptions": 1.58,
   "rush_2pt": 0.0,
   "rec_td": 0.08,
-  "rec_yards": 17.49
+  "rec_yards": 17.47
  },
  {
   "name": "TJ Parker",
@@ -12536,8 +12520,8 @@
   "interception": 0.41,
   "sack": 0.98,
   "assisted_tackle": 12.54,
-  "tackle_for_loss": 3.14,
-  "solo_tackle": 28.99
+  "tackle_for_loss": 3.13,
+  "solo_tackle": 28.98
  },
  {
   "name": "Dani Dennis-Sutton",
@@ -12667,9 +12651,9 @@
   "games": 7,
   "pass_defended": 0.41,
   "sack": 2.72,
-  "sack_yards": 11.01,
+  "sack_yards": 11.0,
   "assisted_tackle": 4.73,
-  "tackle_for_loss": 3.91,
+  "tackle_for_loss": 3.9,
   "solo_tackle": 7.04
  },
  {
@@ -12700,9 +12684,9 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 7,
-  "receptions": 10.16,
+  "receptions": 10.15,
   "rec_td": 0.47,
-  "rec_yards": 130.16
+  "rec_yards": 130.07
  },
  {
   "name": "Sheldon Rankins",
@@ -12714,9 +12698,9 @@
   "forced_fumble": 0.48,
   "sack": 1.83,
   "sack_yards": 10.31,
-  "assisted_tackle": 7.66,
+  "assisted_tackle": 7.67,
   "tackle_for_loss": 1.83,
-  "solo_tackle": 8.54
+  "solo_tackle": 8.55
  },
  {
   "name": "Mo Alie-Cox",
@@ -12730,7 +12714,7 @@
   "receptions": 2.58,
   "rush_2pt": 0.0,
   "rec_td": 0.22,
-  "rec_yards": 25.33
+  "rec_yards": 25.32
  },
  {
   "name": "Derek Barnett",
@@ -12740,8 +12724,8 @@
   "season": "2026",
   "games": 7,
   "sack": 0.56,
-  "assisted_tackle": 5.04,
-  "solo_tackle": 4.69
+  "assisted_tackle": 5.05,
+  "solo_tackle": 4.7
  },
  {
   "name": "Jourdan Lewis",
@@ -12769,9 +12753,9 @@
   "pass_defended": 1.11,
   "sack": 1.11,
   "sack_yards": 6.27,
-  "assisted_tackle": 9.97,
+  "assisted_tackle": 9.96,
   "tackle_for_loss": 1.82,
-  "solo_tackle": 8.5
+  "solo_tackle": 8.49
  },
  {
   "name": "Eric Saubert",
@@ -12843,7 +12827,7 @@
   "receptions": 2.34,
   "rush_2pt": 0.0,
   "rec_td": 0.1,
-  "rec_yards": 19.73
+  "rec_yards": 19.72
  },
  {
   "name": "Denzel Ward",
@@ -12857,7 +12841,7 @@
   "pass_defended": 4.28,
   "assisted_tackle": 2.7,
   "tackle_for_loss": 0.76,
-  "solo_tackle": 11.26
+  "solo_tackle": 11.27
  },
  {
   "name": "DJ Moore",
@@ -12870,10 +12854,10 @@
   "fumbles_lost": 0.16,
   "receptions": 36.05,
   "rush_2pt": 0.24,
-  "rec_td": 4.24,
-  "rec_yards": 550.88,
+  "rec_td": 4.25,
+  "rec_yards": 551.2,
   "rush_td": 0.08,
-  "rush_yards": 11.44
+  "rush_yards": 11.45
  },
  {
   "name": "Mike Gesicki",
@@ -12944,7 +12928,7 @@
   "receptions": 39.32,
   "rush_2pt": 0.16,
   "rec_td": 2.58,
-  "rec_yards": 354.89
+  "rec_yards": 354.87
  },
  {
   "name": "Carl Granderson",
@@ -13016,9 +13000,9 @@
   "pass_defended": 2.71,
   "sack": 0.48,
   "sack_yards": 2.71,
-  "assisted_tackle": 24.68,
+  "assisted_tackle": 24.7,
   "tackle_for_loss": 2.24,
-  "solo_tackle": 35.94
+  "solo_tackle": 35.96
  },
  {
   "name": "Khalid Kareem",
@@ -13104,9 +13088,9 @@
   "pass_defended": 1.26,
   "sack": 0.87,
   "sack_yards": 5.85,
-  "assisted_tackle": 27.2,
+  "assisted_tackle": 27.19,
   "tackle_for_loss": 3.32,
-  "solo_tackle": 31.39
+  "solo_tackle": 31.38
  },
  {
   "name": "Rico Dowdle",
@@ -13158,7 +13142,7 @@
   "season": "2026",
   "games": 7,
   "sack": 0.77,
-  "sack_yards": 3.91,
+  "sack_yards": 3.9,
   "assisted_tackle": 1.18,
   "tackle_for_loss": 0.41,
   "solo_tackle": 1.18
@@ -13204,10 +13188,10 @@
   "games": 8,
   "fumbles": 0.4,
   "fumbles_lost": 0.16,
-  "receptions": 43.51,
+  "receptions": 43.49,
   "rush_2pt": 0.31,
-  "rec_td": 5.03,
-  "rec_yards": 659.71,
+  "rec_td": 5.04,
+  "rec_yards": 659.46,
   "rush_td": 0.08,
   "rush_yards": 8.39
  },
@@ -13219,10 +13203,10 @@
   "season": "2026",
   "games": 7,
   "receptions": 4.94,
-  "rec_td": 0.28,
+  "rec_td": 0.27,
   "rec_yards": 33.85,
   "rush_td": 1.06,
-  "rush_yards": 169.93
+  "rush_yards": 169.89
  },
  {
   "name": "Tre'von Moehrig",
@@ -13299,7 +13283,7 @@
   "games": 8,
   "sack": 0.47,
   "sack_yards": 0.47,
-  "assisted_tackle": 7.12,
+  "assisted_tackle": 7.11,
   "tackle_for_loss": 0.87,
   "solo_tackle": 6.24
  },
@@ -13312,10 +13296,10 @@
   "games": 7,
   "fumbles": 0.41,
   "fumbles_lost": 0.14,
-  "receptions": 40.5,
+  "receptions": 40.49,
   "rush_2pt": 0.14,
   "rec_td": 1.96,
-  "rec_yards": 679.93,
+  "rec_yards": 679.87,
   "rush_td": 0.0,
   "rush_yards": 1.6
  },
@@ -13331,7 +13315,7 @@
   "receptions": 14.09,
   "rush_2pt": 0.07,
   "rec_td": 1.52,
-  "rec_yards": 264.18,
+  "rec_yards": 264.15,
   "rush_td": 0.0,
   "rush_yards": 0.85
  },
@@ -13379,7 +13363,7 @@
   "receptions": 32.21,
   "rush_2pt": 0.28,
   "rec_td": 5.17,
-  "rec_yards": 599.5,
+  "rec_yards": 599.47,
   "rush_td": 0.01,
   "rush_yards": 3.68
  },
@@ -13411,9 +13395,9 @@
   "pass_defended": 1.38,
   "sack": 0.48,
   "sack_yards": 2.27,
-  "assisted_tackle": 20.53,
+  "assisted_tackle": 20.54,
   "tackle_for_loss": 3.17,
-  "solo_tackle": 34.24
+  "solo_tackle": 34.26
  },
  {
   "name": "Jalen Pitre",
@@ -13424,10 +13408,10 @@
   "games": 8,
   "forced_fumble": 0.48,
   "interception": 0.88,
-  "pass_defended": 3.59,
-  "assisted_tackle": 17.09,
+  "pass_defended": 3.6,
+  "assisted_tackle": 17.1,
   "tackle_for_loss": 1.36,
-  "solo_tackle": 18.85
+  "solo_tackle": 18.86
  },
  {
   "name": "Devin Lloyd",
@@ -13619,7 +13603,7 @@
   "receptions": 8.51,
   "rush_2pt": 0.0,
   "rec_td": 0.66,
-  "rec_yards": 102.32,
+  "rec_yards": 102.28,
   "rush_td": 0.0,
   "rush_yards": 1.85
  },
@@ -13634,10 +13618,10 @@
   "fumbles_lost": 0.63,
   "receptions": 23.11,
   "rush_2pt": 0.28,
-  "rec_td": 1.19,
-  "rec_yards": 170.61,
-  "rush_td": 4.08,
-  "rush_yards": 701.55
+  "rec_td": 1.18,
+  "rec_yards": 170.6,
+  "rush_td": 4.07,
+  "rush_yards": 701.38
  },
  {
   "name": "C.J. Stroud",
@@ -13650,11 +13634,11 @@
   "fumbles_lost": 1.52,
   "pass_2pt": 0.72,
   "pass_int": 2.84,
-  "pass_td": 11.89,
-  "pass_yards": 2086.02,
+  "pass_td": 11.9,
+  "pass_yards": 2085.18,
   "rush_2pt": 0.08,
-  "rush_td": 0.91,
-  "rush_yards": 107.44
+  "rush_td": 0.92,
+  "rush_yards": 107.53
  },
  {
   "name": "Nate Wiggins",
@@ -17123,6 +17107,22 @@
   "source": "sleeper_rotowire_ros",
   "season": "2026",
   "games": 7
+ },
+ {
+  "name": "Nikko Remigio",
+  "position": "WR",
+  "team": "KC",
+  "source": "sleeper_rotowire_ros",
+  "season": "2026",
+  "games": 7,
+  "fumbles": 0.0,
+  "fumbles_lost": 0.0,
+  "receptions": 0.35,
+  "rush_2pt": 0.0,
+  "rec_td": 0.01,
+  "rec_yards": 5.26,
+  "rush_td": 0.0,
+  "rush_yards": 0.99
  },
  {
   "name": "Rome Odunze",
