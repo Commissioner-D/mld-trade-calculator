@@ -985,7 +985,7 @@
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "Shemar James",
+    "player_name": "Nick Niemann",
     "position": "LB",
     "roster_group": null
   },
@@ -1057,8 +1057,20 @@
   },
   {
     "team": "Vienna Seahawks",
+    "player_name": "Reed Blankenship",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
     "player_name": "Hunter Wohler",
     "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna Seahawks",
+    "player_name": "Shemar James",
+    "position": "LB",
     "roster_group": null
   },
   {
@@ -1087,18 +1099,6 @@
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "Eli Heidenreich",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna Seahawks",
-    "player_name": "Reed Blankenship",
-    "position": "S",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna Seahawks",
     "player_name": "Cade Klubnik",
     "position": "QB",
     "roster_group": null
@@ -1117,7 +1117,7 @@
   },
   {
     "team": "Vienna Seahawks",
-    "player_name": "Gregory Desrosiers",
+    "player_name": "Eli Heidenreich",
     "position": "RB",
     "roster_group": null
   },
@@ -1591,7 +1591,7 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Chad Ryland",
+    "player_name": "Andre Szmyt",
     "position": "K",
     "roster_group": null
   },
@@ -2239,13 +2239,13 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Trey McBride",
+    "player_name": "Isaiah Likely",
     "position": "TE",
     "roster_group": null
   },
   {
     "team": "AlohaHe",
-    "player_name": "Isaiah Likely",
+    "player_name": "Trey McBride",
     "position": "TE",
     "roster_group": null
   },
@@ -2281,7 +2281,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Terrel Bernard",
+    "player_name": "Micah McFadden",
     "position": "LB",
     "roster_group": null
   },
@@ -2293,7 +2293,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Micah McFadden",
+    "player_name": "Terrel Bernard",
     "position": "LB",
     "roster_group": null
   },
@@ -2329,19 +2329,13 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Chris Brooks",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "AlohaHe",
-    "player_name": "KC Concepcion",
+    "player_name": "Mike Evans",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "AlohaHe",
-    "player_name": "DeVonta Smith",
+    "player_name": "KC Concepcion",
     "position": "WR",
     "roster_group": null
   },
@@ -2371,8 +2365,20 @@
   },
   {
     "team": "AlohaHe",
+    "player_name": "Zaire Franklin",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
     "player_name": "DeMarvion Overshown",
     "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Chris Brooks",
+    "position": "RB",
     "roster_group": null
   },
   {
@@ -2383,7 +2389,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Mike Evans",
+    "player_name": "DeVonta Smith",
     "position": "WR",
     "roster_group": null
   },
@@ -2397,12 +2403,6 @@
     "team": "AlohaHe",
     "player_name": "Derwin James",
     "position": "S",
-    "roster_group": null
-  },
-  {
-    "team": "AlohaHe",
-    "player_name": "Zaire Franklin",
-    "position": "LB",
     "roster_group": null
   },
   {
@@ -2443,86 +2443,8 @@
   },
   {
     "team": "New Fernitz Dudemeisters",
-    "player_name": "J.K. Dobbins",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
     "player_name": "Kaelon Black",
     "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Kenny Gainwell",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Omar Cooper",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Colby Parkinson",
-    "position": "TE",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Spencer Shrader",
-    "position": "K",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Jacob Parrish",
-    "position": "CB",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Devon Witherspoon",
-    "position": "CB",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Xavier Watts",
-    "position": "S",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Quinnen Williams",
-    "position": "IL",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Christian Elliss",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Devin Bush",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Gabe Jacas",
-    "position": "EDR",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
-    "player_name": "Tua Tagovailoa",
-    "position": "QB",
     "roster_group": null
   },
   {
@@ -2539,6 +2461,90 @@
   },
   {
     "team": "New Fernitz Dudemeisters",
+    "player_name": "Omar Cooper",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Colby Parkinson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Hunter Henry",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Spencer Shrader",
+    "position": "K",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Devon Witherspoon",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Travis Hunter",
+    "position": "WR/CB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Xavier Watts",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Cameron Heyward",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Quinnen Williams",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Christian Elliss",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Mack Wilson",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Tua Tagovailoa",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "Kenny Gainwell",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
+    "player_name": "J.K. Dobbins",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "New Fernitz Dudemeisters",
     "player_name": "Elic Ayomanor",
     "position": "WR",
     "roster_group": null
@@ -2551,26 +2557,20 @@
   },
   {
     "team": "New Fernitz Dudemeisters",
-    "player_name": "Hunter Henry",
-    "position": "TE",
-    "roster_group": null
-  },
-  {
-    "team": "New Fernitz Dudemeisters",
     "player_name": "Darnell Washington",
     "position": "TE",
     "roster_group": null
   },
   {
     "team": "New Fernitz Dudemeisters",
-    "player_name": "Riley Moss",
+    "player_name": "Jacob Parrish",
     "position": "CB",
     "roster_group": null
   },
   {
     "team": "New Fernitz Dudemeisters",
-    "player_name": "Travis Hunter",
-    "position": "WR/CB",
+    "player_name": "Riley Moss",
+    "position": "CB",
     "roster_group": null
   },
   {
@@ -2587,13 +2587,13 @@
   },
   {
     "team": "New Fernitz Dudemeisters",
-    "player_name": "Cameron Heyward",
-    "position": "IL",
+    "player_name": "Gabe Jacas",
+    "position": "EDR",
     "roster_group": null
   },
   {
     "team": "New Fernitz Dudemeisters",
-    "player_name": "Mack Wilson",
+    "player_name": "Devin Bush",
     "position": "LB",
     "roster_group": null
   },
@@ -3457,14 +3457,14 @@
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "Isaiah Bond",
+    "player_name": "Treylon Burks",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "Eli Raridon",
-    "position": "TE",
+    "player_name": "Isaiah Bond",
+    "position": "WR",
     "roster_group": null
   },
   {
@@ -3505,12 +3505,6 @@
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "Treylon Burks",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Stehbuffet Seagulls",
     "player_name": "Kendrick Bourne",
     "position": "WR",
     "roster_group": null
@@ -3518,6 +3512,12 @@
   {
     "team": "Stehbuffet Seagulls",
     "player_name": "Leonard Williams",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Stehbuffet Seagulls",
+    "player_name": "Gracen Halton",
     "position": "IL",
     "roster_group": null
   },
@@ -3535,6 +3535,12 @@
   },
   {
     "team": "Stehbuffet Seagulls",
+    "player_name": "Eli Raridon",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Stehbuffet Seagulls",
     "player_name": "Sam Roush",
     "position": "TE",
     "roster_group": null
@@ -3543,12 +3549,6 @@
     "team": "Stehbuffet Seagulls",
     "player_name": "Keionte Scott",
     "position": "CB",
-    "roster_group": null
-  },
-  {
-    "team": "Stehbuffet Seagulls",
-    "player_name": "Gracen Halton",
-    "position": "IL",
     "roster_group": null
   }
 ]
