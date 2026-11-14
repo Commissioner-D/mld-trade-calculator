@@ -691,12 +691,6 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Kenneth Walker",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Trash Pandas",
     "player_name": "Ashton Jeanty",
     "position": "RB",
     "roster_group": null
@@ -709,13 +703,19 @@
   },
   {
     "team": "Graz Trash Pandas",
+    "player_name": "Kenneth Walker",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Trash Pandas",
     "player_name": "Christian Watson",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Germie Bernard",
+    "player_name": "Jordyn Tyson",
     "position": "WR",
     "roster_group": null
   },
@@ -757,7 +757,7 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Dre Greenlaw",
+    "player_name": "Dee Winters",
     "position": "LB",
     "roster_group": null
   },
@@ -769,7 +769,7 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Dee Winters",
+    "player_name": "Dre Greenlaw",
     "position": "LB",
     "roster_group": null
   },
@@ -883,13 +883,13 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Isaac TeSlaa",
+    "player_name": "Germie Bernard",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Jordyn Tyson",
+    "player_name": "Isaac TeSlaa",
     "position": "WR",
     "roster_group": null
   },
@@ -1633,7 +1633,7 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Akheem Mesidor",
+    "player_name": "Trey Hendrickson",
     "position": "EDR",
     "roster_group": null
   },
@@ -1693,12 +1693,6 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Bobby Okereke",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Styrian Sombreros",
     "player_name": "Alex Anzalone",
     "position": "LB",
     "roster_group": null
@@ -1735,6 +1729,12 @@
   },
   {
     "team": "Styrian Sombreros",
+    "player_name": "Bobby Okereke",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
     "player_name": "Jordan James",
     "position": "RB",
     "roster_group": null
@@ -1743,6 +1743,12 @@
     "team": "Styrian Sombreros",
     "player_name": "KeAndre Lambert-Smith",
     "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "Akheem Mesidor",
+    "position": "EDR",
     "roster_group": null
   },
   {
@@ -2047,7 +2053,7 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Danielle Hunter",
+    "player_name": "Jared Verse",
     "position": "EDR",
     "roster_group": null
   },
@@ -2137,7 +2143,7 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Jared Verse",
+    "player_name": "Danielle Hunter",
     "position": "EDR",
     "roster_group": null
   },
@@ -3115,13 +3121,13 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Josh Downs",
+    "player_name": "Adonai Mitchell",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Adonai Mitchell",
+    "player_name": "Tutu Atwell",
     "position": "WR",
     "roster_group": null
   },
@@ -3151,8 +3157,14 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Ronnie Hickman",
+    "player_name": "Treydan Stukes",
     "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Jaylahn Tuimoloau",
+    "position": "EDR",
     "roster_group": null
   },
   {
@@ -3165,12 +3177,6 @@
     "team": "Graz Moeflers",
     "player_name": "Barrett Carter",
     "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Moeflers",
-    "player_name": "Donovan Ezeiruaku",
-    "position": "EDR",
     "roster_group": null
   },
   {
@@ -3199,7 +3205,19 @@
   },
   {
     "team": "Graz Moeflers",
+    "player_name": "Tyjae Spears",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
     "player_name": "Jahan Dotson",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Josh Downs",
     "position": "WR",
     "roster_group": null
   },
@@ -3217,26 +3235,20 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Tutu Atwell",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Moeflers",
     "player_name": "Gunnar Helm",
     "position": "TE",
     "roster_group": null
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Cooper DeJean",
-    "position": "DB",
+    "player_name": "Ronnie Hickman",
+    "position": "S",
     "roster_group": null
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Jaylahn Tuimoloau",
-    "position": "EDR",
+    "player_name": "Cooper DeJean",
+    "position": "DB",
     "roster_group": null
   },
   {
@@ -3253,20 +3265,8 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Jihaad Campbell",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Moeflers",
     "player_name": "Ty'Ron Hopper",
     "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Moeflers",
-    "player_name": "Drew Allar",
-    "position": "QB",
     "roster_group": null
   },
   {
@@ -3283,14 +3283,26 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Tyjae Spears",
-    "position": "RB",
+    "player_name": "Dontayvion Wicks",
+    "position": "WR",
     "roster_group": null
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Dontayvion Wicks",
-    "position": "WR",
+    "player_name": "Donovan Ezeiruaku",
+    "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Jihaad Campbell",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Drew Allar",
+    "position": "QB",
     "roster_group": null
   },
   {
@@ -3315,12 +3327,6 @@
     "team": "Graz Moeflers",
     "player_name": "Josh Cuevas",
     "position": "TE",
-    "roster_group": null
-  },
-  {
-    "team": "Graz Moeflers",
-    "player_name": "Treydan Stukes",
-    "position": "S",
     "roster_group": null
   },
   {
