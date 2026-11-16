@@ -265,7 +265,7 @@
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "T.J. Hockenson",
+    "player_name": "Tyler Higbee",
     "position": "TE",
     "roster_group": null
   },
@@ -277,13 +277,13 @@
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Jessie Bates",
+    "player_name": "Malaki Starks",
     "position": "S",
     "roster_group": null
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Malaki Starks",
+    "player_name": "Javon Bullard",
     "position": "S",
     "roster_group": null
   },
@@ -361,19 +361,19 @@
   },
   {
     "team": "Semmel Warriors",
+    "player_name": "T.J. Hockenson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Semmel Warriors",
     "player_name": "Marlin Klein",
     "position": "TE",
     "roster_group": null
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Jason Sanders",
-    "position": "K",
-    "roster_group": null
-  },
-  {
-    "team": "Semmel Warriors",
-    "player_name": "Javon Bullard",
+    "player_name": "Jessie Bates",
     "position": "S",
     "roster_group": null
   },
@@ -709,7 +709,7 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Germie Bernard",
+    "player_name": "Jordyn Tyson",
     "position": "WR",
     "roster_group": null
   },
@@ -883,13 +883,13 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Isaac TeSlaa",
+    "player_name": "Germie Bernard",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Jordyn Tyson",
+    "player_name": "Isaac TeSlaa",
     "position": "WR",
     "roster_group": null
   },
@@ -1801,7 +1801,7 @@
   },
   {
     "team": "Ragnitz Couchpotatos",
-    "player_name": "Jordan Addison",
+    "player_name": "Rashid Shaheed",
     "position": "WR",
     "roster_group": null
   },
@@ -1873,7 +1873,7 @@
   },
   {
     "team": "Ragnitz Couchpotatos",
-    "player_name": "Rashid Shaheed",
+    "player_name": "Jordan Addison",
     "position": "WR",
     "roster_group": null
   },
@@ -2233,7 +2233,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Rico Dowdle",
+    "player_name": "Rhamondre Stevenson",
     "position": "RB",
     "roster_group": null
   },
@@ -2299,7 +2299,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Greg Rousseau",
+    "player_name": "Chase Young",
     "position": "EDR",
     "roster_group": null
   },
@@ -2317,7 +2317,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Rhamondre Stevenson",
+    "player_name": "Rico Dowdle",
     "position": "RB",
     "roster_group": null
   },
@@ -2359,7 +2359,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Chase Young",
+    "player_name": "Greg Rousseau",
     "position": "EDR",
     "roster_group": null
   },
@@ -2935,7 +2935,7 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "DaRon Bland",
+    "player_name": "Jamel Dean",
     "position": "CB",
     "roster_group": null
   },
@@ -2953,7 +2953,7 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Blake Cashman",
+    "player_name": "Dorian Williams",
     "position": "LB",
     "roster_group": null
   },
@@ -3001,6 +3001,12 @@
   },
   {
     "team": "Vienna BBB",
+    "player_name": "DaRon Bland",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
     "player_name": "Christian Gonzalez",
     "position": "CB",
     "roster_group": null
@@ -3043,12 +3049,6 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Dorian Williams",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna BBB",
     "player_name": "RJ Harvey",
     "position": "RB",
     "roster_group": null
@@ -3069,6 +3069,12 @@
     "team": "Vienna BBB",
     "player_name": "Tavius Robinson",
     "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Blake Cashman",
+    "position": "LB",
     "roster_group": null
   },
   {
@@ -3115,7 +3121,7 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Pierre Strong",
+    "player_name": "Tyjae Spears",
     "position": "RB",
     "roster_group": null
   },
@@ -3205,7 +3211,7 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Tyjae Spears",
+    "player_name": "Pierre Strong",
     "position": "RB",
     "roster_group": null
   },
