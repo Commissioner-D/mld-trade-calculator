@@ -1,7 +1,7 @@
 {
  "meta": {
-  "asOf": "2026-11-16T13:01:16.958Z",
-  "idpAsOf": "2026-11-15T13:01:20.023Z",
+  "asOf": "2026-11-17T13:01:12.264Z",
+  "idpAsOf": "2026-11-17T13:01:12.264Z",
   "format": "non_sf_dynasty",
   "idp": "std",
   "idpScoring": "tackle"
@@ -20,8 +20,8 @@
   "tep": "blend",
   "idp": "std",
   "idpScoring": "tackle",
-  "asOf": "2026-11-16T13:01:16.958Z",
-  "idpAsOf": "2026-11-15T13:01:20.023Z",
+  "asOf": "2026-11-17T13:01:12.264Z",
+  "idpAsOf": "2026-11-17T13:01:12.264Z",
   "total": 56,
   "limit": 1000,
   "offset": 0,
@@ -34,7 +34,7 @@
     "team": "BUF",
     "position": "QB",
     "positionRank": 1,
-    "value": 5683,
+    "value": 5627,
     "age": 30.5,
     "yearsExperience": 8
    },
@@ -46,20 +46,20 @@
     "team": "CIN",
     "position": "QB",
     "positionRank": 2,
-    "value": 3265,
+    "value": 3278,
     "age": 29.9,
     "yearsExperience": 6
    },
    {
-    "rank": 30,
-    "id": "11564",
-    "name": "Drake Maye",
-    "url": "https://statsguyfantasy.com/player/drake-maye-9mktnk",
-    "team": "NE",
+    "rank": 35,
+    "id": "11560",
+    "name": "Caleb Williams",
+    "url": "https://statsguyfantasy.com/player/caleb-williams-flfdak",
+    "team": "CHI",
     "position": "QB",
     "positionRank": 3,
-    "value": 2866,
-    "age": 24.2,
+    "value": 2641,
+    "age": 25,
     "yearsExperience": 2
    }
   ]
