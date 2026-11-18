@@ -55,12 +55,6 @@
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Mason Graham",
-    "position": "IL",
-    "roster_group": null
-  },
-  {
-    "team": "Tegetthoff Admirals",
     "player_name": "Nick Bolton",
     "position": "LB",
     "roster_group": null
@@ -121,14 +115,14 @@
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Kam Curl",
+    "player_name": "Brandon Jones",
     "position": "S",
     "roster_group": null
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Aidan Hutchinson",
-    "position": "EDR",
+    "player_name": "Kam Curl",
+    "position": "S",
     "roster_group": null
   },
   {
@@ -146,6 +140,12 @@
   {
     "team": "Tegetthoff Admirals",
     "player_name": "Jalen Carter",
+    "position": "IL",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
+    "player_name": "Mason Graham",
     "position": "IL",
     "roster_group": null
   },
@@ -187,8 +187,8 @@
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Brandon Jones",
-    "position": "S",
+    "player_name": "Aidan Hutchinson",
+    "position": "EDR",
     "roster_group": null
   },
   {
@@ -1232,6 +1232,12 @@
   {
     "team": "Mühlviertl Raiders",
     "player_name": "Jalen Coker",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Quentin Johnston",
     "position": "WR",
     "roster_group": null
   },
@@ -2281,7 +2287,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Drue Tranquill",
+    "player_name": "Jake Hansen",
     "position": "LB",
     "roster_group": null
   },
@@ -2299,7 +2305,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Derrick Barnes",
+    "player_name": "Drue Tranquill",
     "position": "LB",
     "roster_group": null
   },
@@ -2341,6 +2347,12 @@
   },
   {
     "team": "AlohaHe",
+    "player_name": "DeVonta Smith",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
     "player_name": "Andrew Mukuba",
     "position": "S",
     "roster_group": null
@@ -2365,13 +2377,7 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Jake Hansen",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "AlohaHe",
-    "player_name": "Zaire Franklin",
+    "player_name": "Derrick Barnes",
     "position": "LB",
     "roster_group": null
   },
@@ -2395,12 +2401,6 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "DeVonta Smith",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "AlohaHe",
     "player_name": "Romeo Doubs",
     "position": "WR",
     "roster_group": null
@@ -2409,6 +2409,12 @@
     "team": "AlohaHe",
     "player_name": "Derwin James",
     "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "AlohaHe",
+    "player_name": "Zaire Franklin",
+    "position": "LB",
     "roster_group": null
   },
   {
