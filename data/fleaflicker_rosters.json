@@ -355,7 +355,7 @@
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "Tyler Higbee",
+    "player_name": "Cade Otton",
     "position": "TE",
     "roster_group": null
   },
@@ -1555,12 +1555,6 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Jonathan Taylor",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Styrian Sombreros",
     "player_name": "James Cook",
     "position": "RB",
     "roster_group": null
@@ -1579,7 +1573,13 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Kyle Pitts",
+    "player_name": "Rashee Rice",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
+    "player_name": "David Njoku",
     "position": "TE",
     "roster_group": null
   },
@@ -1639,6 +1639,12 @@
   },
   {
     "team": "Styrian Sombreros",
+    "player_name": "Jonathan Taylor",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
     "player_name": "DK Metcalf",
     "position": "WR",
     "roster_group": null
@@ -1651,19 +1657,13 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Rashee Rice",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Styrian Sombreros",
     "player_name": "Tank Dell",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "David Njoku",
+    "player_name": "Kyle Pitts",
     "position": "TE",
     "roster_group": null
   },
@@ -2929,7 +2929,7 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Jamel Dean",
+    "player_name": "Alontae Taylor",
     "position": "CB",
     "roster_group": null
   },
@@ -2995,6 +2995,12 @@
   },
   {
     "team": "Vienna BBB",
+    "player_name": "Jamel Dean",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
     "player_name": "DaRon Bland",
     "position": "CB",
     "roster_group": null
@@ -3002,12 +3008,6 @@
   {
     "team": "Vienna BBB",
     "player_name": "Christian Gonzalez",
-    "position": "CB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna BBB",
-    "player_name": "Alontae Taylor",
     "position": "CB",
     "roster_group": null
   },
