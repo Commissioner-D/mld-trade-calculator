@@ -259,12 +259,6 @@
   },
   {
     "team": "Semmel Warriors",
-    "player_name": "T.J. Hockenson",
-    "position": "TE",
-    "roster_group": null
-  },
-  {
-    "team": "Semmel Warriors",
     "player_name": "Cam Little",
     "position": "K",
     "roster_group": null
@@ -715,7 +709,7 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Dalton Kincaid",
+    "player_name": "Dawson Knox",
     "position": "TE",
     "roster_group": null
   },
@@ -763,7 +757,7 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Dre Greenlaw",
+    "player_name": "Dee Winters",
     "position": "LB",
     "roster_group": null
   },
@@ -793,7 +787,7 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Dawson Knox",
+    "player_name": "Dalton Kincaid",
     "position": "TE",
     "roster_group": null
   },
@@ -823,7 +817,7 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Dee Winters",
+    "player_name": "Dre Greenlaw",
     "position": "LB",
     "roster_group": null
   },
@@ -1171,7 +1165,7 @@
   },
   {
     "team": "Mühlviertl Raiders",
-    "player_name": "Antoine Winfield",
+    "player_name": "Ar'Darius Washington",
     "position": "S",
     "roster_group": null
   },
@@ -1255,12 +1249,6 @@
   },
   {
     "team": "Mühlviertl Raiders",
-    "player_name": "Ar'Darius Washington",
-    "position": "S",
-    "roster_group": null
-  },
-  {
-    "team": "Mühlviertl Raiders",
     "player_name": "Tyler Nubin",
     "position": "S",
     "roster_group": null
@@ -1299,6 +1287,12 @@
     "team": "Mühlviertl Raiders",
     "player_name": "Alec Pierce",
     "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
+    "player_name": "Antoine Winfield",
+    "position": "S",
     "roster_group": null
   },
   {
@@ -1663,6 +1657,12 @@
   },
   {
     "team": "Styrian Sombreros",
+    "player_name": "T.J. Hockenson",
+    "position": "TE",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
     "player_name": "Kyle Pitts",
     "position": "TE",
     "roster_group": null
@@ -1683,12 +1683,6 @@
     "team": "Styrian Sombreros",
     "player_name": "Julian Love",
     "position": "S",
-    "roster_group": null
-  },
-  {
-    "team": "Styrian Sombreros",
-    "player_name": "Trey Hendrickson",
-    "position": "EDR",
     "roster_group": null
   },
   {
@@ -2239,13 +2233,13 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "Isaiah Likely",
-    "position": "TE",
+    "player_name": "DeVonta Smith",
+    "position": "WR",
     "roster_group": null
   },
   {
     "team": "AlohaHe",
-    "player_name": "Trey McBride",
+    "player_name": "Isaiah Likely",
     "position": "TE",
     "roster_group": null
   },
@@ -2335,8 +2329,8 @@
   },
   {
     "team": "AlohaHe",
-    "player_name": "DeVonta Smith",
-    "position": "WR",
+    "player_name": "Trey McBride",
+    "position": "TE",
     "roster_group": null
   },
   {
@@ -2965,6 +2959,12 @@
   },
   {
     "team": "Vienna BBB",
+    "player_name": "Joe Milton",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
     "player_name": "Jadarian Price",
     "position": "RB",
     "roster_group": null
@@ -3031,12 +3031,6 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Dorian Williams",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna BBB",
     "player_name": "Akeem Davis-Gaither",
     "position": "LB",
     "roster_group": null
@@ -3063,6 +3057,12 @@
     "team": "Vienna BBB",
     "player_name": "Tavius Robinson",
     "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Dorian Williams",
+    "position": "LB",
     "roster_group": null
   },
   {
@@ -3415,12 +3415,6 @@
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "Kyler Murray",
-    "position": "QB",
-    "roster_group": null
-  },
-  {
-    "team": "Stehbuffet Seagulls",
     "player_name": "Kyren Williams",
     "position": "RB",
     "roster_group": null
@@ -3435,6 +3429,12 @@
     "team": "Stehbuffet Seagulls",
     "player_name": "Ronnie Rivers",
     "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Stehbuffet Seagulls",
+    "player_name": "Puka Nacua",
+    "position": "WR",
     "roster_group": null
   },
   {
@@ -3493,14 +3493,14 @@
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "James Conner",
-    "position": "RB",
+    "player_name": "Kyler Murray",
+    "position": "QB",
     "roster_group": null
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "Puka Nacua",
-    "position": "WR",
+    "player_name": "James Conner",
+    "position": "RB",
     "roster_group": null
   },
   {

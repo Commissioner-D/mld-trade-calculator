@@ -1,7 +1,7 @@
 {
  "meta": {
-  "asOf": "2026-11-20T13:01:44.556Z",
-  "idpAsOf": "2026-11-20T13:01:44.556Z",
+  "asOf": "2026-11-21T13:01:49.260Z",
+  "idpAsOf": "2026-11-21T13:01:49.260Z",
   "format": "non_sf_dynasty",
   "idp": "std",
   "idpScoring": "tackle"
@@ -13,7 +13,7 @@
   "TE": 58,
   "LB": 101,
   "DB": 68,
-  "DL": 61
+  "DL": 62
  },
  "raw_sample": {
   "format": "non_sf_dynasty",
@@ -21,8 +21,8 @@
   "passTd": "blend",
   "idp": "std",
   "idpScoring": "tackle",
-  "asOf": "2026-11-20T13:01:44.556Z",
-  "idpAsOf": "2026-11-20T13:01:44.556Z",
+  "asOf": "2026-11-21T13:01:49.260Z",
+  "idpAsOf": "2026-11-21T13:01:49.260Z",
   "total": 56,
   "limit": 1000,
   "offset": 0,
@@ -35,7 +35,7 @@
     "team": "BUF",
     "position": "QB",
     "positionRank": 1,
-    "value": 5672,
+    "value": 5599,
     "age": 30.5,
     "yearsExperience": 8
    },
@@ -47,19 +47,19 @@
     "team": "CIN",
     "position": "QB",
     "positionRank": 2,
-    "value": 3402,
+    "value": 3449,
     "age": 29.9,
     "yearsExperience": 6
    },
    {
-    "rank": 31,
+    "rank": 32,
     "id": "11560",
     "name": "Caleb Williams",
     "url": "https://statsguyfantasy.com/player/caleb-williams-flfdak",
     "team": "CHI",
     "position": "QB",
     "positionRank": 3,
-    "value": 2804,
+    "value": 2766,
     "age": 25,
     "yearsExperience": 2
    }
