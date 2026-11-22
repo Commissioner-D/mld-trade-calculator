@@ -177,7 +177,7 @@
   "pos_rank": "QB18",
   "value": 762,
   "sleeper_id": "12545",
-  "age": 27.1
+  "age": 27.2
  },
  {
   "name": "Justin Herbert",
@@ -382,7 +382,7 @@
  {
   "name": "Daniel Jones",
   "position": "QB",
-  "team": "IND",
+  "team": null,
   "rank_ecr": 229,
   "pos_rank": "QB39",
   "value": 195,
@@ -867,7 +867,7 @@
   "pos_rank": "RB31",
   "value": 836,
   "sleeper_id": "12495",
-  "age": 22.8
+  "age": 22.9
  },
  {
   "name": "Travis Etienne Jr.",
@@ -1307,7 +1307,7 @@
   "pos_rank": "RB75",
   "value": 138,
   "sleeper_id": "4137",
-  "age": 31.5
+  "age": 31.6
  },
  {
   "name": "Dameon Pierce",
@@ -2187,7 +2187,7 @@
   "pos_rank": "WR50",
   "value": 378,
   "sleeper_id": "5872",
-  "age": 30.8
+  "age": 30.9
  },
  {
   "name": "Tank Dell",
@@ -2287,7 +2287,7 @@
   "pos_rank": "WR60",
   "value": 280,
   "sleeper_id": "12492",
-  "age": 23.9
+  "age": 24
  },
  {
   "name": "Jayden Reed",
@@ -2757,7 +2757,7 @@
   "pos_rank": "WR107",
   "value": 123,
   "sleeper_id": "12535",
-  "age": 24.7
+  "age": 24.8
  },
  {
   "name": "Marvin Mims Jr.",
@@ -4437,7 +4437,7 @@
   "pos_rank": "LB65",
   "value": 27,
   "sleeper_id": "10947",
-  "age": 27.8
+  "age": 27.9
  },
  {
   "name": "Kendal Daniels",
@@ -5357,7 +5357,7 @@
   "pos_rank": "DB56",
   "value": 4,
   "sleeper_id": "8293",
-  "age": 27.6
+  "age": 27.7
  },
  {
   "name": "Calen Bullock",
@@ -5517,7 +5517,7 @@
   "pos_rank": "DL4",
   "value": 449,
   "sleeper_id": "5991",
-  "age": 29.2
+  "age": 29.3
  },
  {
   "name": "Greg Rousseau",
@@ -5837,7 +5837,7 @@
   "pos_rank": "DL36",
   "value": 16,
   "sleeper_id": "4999",
-  "age": 29.6
+  "age": 29.7
  },
  {
   "name": "Jonathan Greenard",
