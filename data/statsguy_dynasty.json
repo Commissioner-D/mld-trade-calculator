@@ -157,7 +157,7 @@
   "pos_rank": "QB16",
   "value": 890,
   "sleeper_id": "11563",
-  "age": 26.7
+  "age": 26.8
  },
  {
   "name": "Bryce Young",
@@ -287,7 +287,7 @@
   "pos_rank": "QB29",
   "value": 268,
   "sleeper_id": "11559",
-  "age": 26.5
+  "age": 26.6
  },
  {
   "name": "Kyler Murray",
@@ -647,7 +647,7 @@
   "pos_rank": "RB9",
   "value": 3232,
   "sleeper_id": "6813",
-  "age": 27.8
+  "age": 27.9
  },
  {
   "name": "Bhayshul Tuten",
@@ -1007,7 +1007,7 @@
   "pos_rank": "RB45",
   "value": 296,
   "sleeper_id": "7021",
-  "age": 28.4
+  "age": 28.5
  },
  {
   "name": "Chris Rodriguez Jr.",
@@ -1037,7 +1037,7 @@
   "pos_rank": "RB48",
   "value": 269,
   "sleeper_id": "11583",
-  "age": 23.3
+  "age": 23.4
  },
  {
   "name": "Jordan Mason",
@@ -1577,7 +1577,7 @@
   "pos_rank": "RB102",
   "value": 31,
   "sleeper_id": "12471",
-  "age": 23.2
+  "age": 23.3
  },
  {
   "name": "Devin Neal",
@@ -1867,7 +1867,7 @@
   "pos_rank": "WR20",
   "value": 2302,
   "sleeper_id": "13279",
-  "age": 21.8
+  "age": 21.9
  },
  {
   "name": "Jordyn Tyson",
@@ -1967,7 +1967,7 @@
   "pos_rank": "WR30",
   "value": 1027,
   "sleeper_id": "13276",
-  "age": 22.9
+  "age": 23
  },
  {
   "name": "DJ Moore",
@@ -2197,7 +2197,7 @@
   "pos_rank": "WR53",
   "value": 331,
   "sleeper_id": "13285",
-  "age": 23.2
+  "age": 23.3
  },
  {
   "name": "Pat Bryant",
@@ -3087,7 +3087,7 @@
   "pos_rank": "WR142",
   "value": 57,
   "sleeper_id": "3155",
-  "age": 31.4
+  "age": 31.5
  },
  {
   "name": "Tai Felton",
@@ -3197,7 +3197,7 @@
   "pos_rank": "WR153",
   "value": 1,
   "sleeper_id": "11650",
-  "age": 25.6
+  "age": 25.7
  },
  {
   "name": "Darius Slayton",
@@ -3257,7 +3257,7 @@
   "pos_rank": "TE5",
   "value": 1743,
   "sleeper_id": "12506",
-  "age": 22.3
+  "age": 22.4
  },
  {
   "name": "Tyler Warren",
@@ -3547,7 +3547,7 @@
   "pos_rank": "TE34",
   "value": 139,
   "sleeper_id": "12498",
-  "age": 22.5
+  "age": 22.6
  },
  {
   "name": "Matt Hibner",
@@ -3737,7 +3737,7 @@
   "pos_rank": "TE53",
   "value": 11,
   "sleeper_id": "11596",
-  "age": 24.4
+  "age": 24.5
  },
  {
   "name": "Erick All Jr.",
@@ -3917,7 +3917,7 @@
   "pos_rank": "LB13",
   "value": 289,
   "sleeper_id": "8267",
-  "age": 25.9
+  "age": 26
  },
  {
   "name": "Ernest Jones IV",
@@ -4067,7 +4067,7 @@
   "pos_rank": "LB28",
   "value": 164,
   "sleeper_id": "8266",
-  "age": 26.5
+  "age": 26.6
  },
  {
   "name": "Payton Wilson",
@@ -4257,7 +4257,7 @@
   "pos_rank": "LB47",
   "value": 63,
   "sleeper_id": "7782",
-  "age": 27.3
+  "age": 27.4
  },
  {
   "name": "Devin White",
@@ -4417,7 +4417,7 @@
   "pos_rank": "LB63",
   "value": 34,
   "sleeper_id": "10935",
-  "age": 25.4
+  "age": 25.5
  },
  {
   "name": "Robert Spillane",
@@ -4427,7 +4427,7 @@
   "pos_rank": "LB64",
   "value": 33,
   "sleeper_id": "5726",
-  "age": 30.9
+  "age": 31
  },
  {
   "name": "Ventrell Miller",
@@ -4767,7 +4767,7 @@
   "pos_rank": "LB98",
   "value": 2,
   "sleeper_id": "11470",
-  "age": 26.7
+  "age": 26.8
  },
  {
   "name": "Bobby Wagner",
@@ -4927,7 +4927,7 @@
   "pos_rank": "DB15",
   "value": 75,
   "sleeper_id": "5908",
-  "age": 28.4
+  "age": 28.5
  },
  {
   "name": "Budda Baker",
@@ -5037,7 +5037,7 @@
   "pos_rank": "DB26",
   "value": 39,
   "sleeper_id": "6911",
-  "age": 28.6
+  "age": 28.7
  },
  {
   "name": "Jordan Battle",
@@ -5327,7 +5327,7 @@
   "pos_rank": "DB55",
   "value": 4,
   "sleeper_id": "11674",
-  "age": 25.4
+  "age": 25.5
  },
  {
   "name": "Kamren Kinchens",
@@ -5657,7 +5657,7 @@
   "pos_rank": "DL25",
   "value": 51,
   "sleeper_id": "11760",
-  "age": 23.9
+  "age": 24
  },
  {
   "name": "James Pearce Jr.",
@@ -5807,7 +5807,7 @@
   "pos_rank": "DL40",
   "value": 15,
   "sleeper_id": "13359",
-  "age": 23.3
+  "age": 23.4
  },
  {
   "name": "Leonard Williams",
@@ -5937,7 +5937,7 @@
   "pos_rank": "DL53",
   "value": 4,
   "sleeper_id": "12562",
-  "age": 22.2
+  "age": 22.3
  },
  {
   "name": "Mykel Williams",

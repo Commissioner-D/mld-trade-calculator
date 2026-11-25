@@ -91,13 +91,19 @@
   },
   {
     "team": "Tegetthoff Admirals",
+    "player_name": "Mason Rudolph",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Tegetthoff Admirals",
     "player_name": "Kaleb Johnson",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Wan'Dale Robinson",
+    "player_name": "Zachariah Branch",
     "position": "WR",
     "roster_group": null
   },
@@ -169,7 +175,7 @@
   },
   {
     "team": "Tegetthoff Admirals",
-    "player_name": "Zachariah Branch",
+    "player_name": "Wan'Dale Robinson",
     "position": "WR",
     "roster_group": null
   },
@@ -685,13 +691,13 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Kenneth Walker",
+    "player_name": "Ashton Jeanty",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Ashton Jeanty",
+    "player_name": "Jordan Mason",
     "position": "RB",
     "roster_group": null
   },
@@ -775,13 +781,13 @@
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "MarShawn Lloyd",
+    "player_name": "Kenneth Walker",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Graz Trash Pandas",
-    "player_name": "Jordan Mason",
+    "player_name": "MarShawn Lloyd",
     "position": "RB",
     "roster_group": null
   },
@@ -1197,12 +1203,6 @@
     "team": "Mühlviertl Raiders",
     "player_name": "Tyler Shough",
     "position": "QB",
-    "roster_group": null
-  },
-  {
-    "team": "Mühlviertl Raiders",
-    "player_name": "Emanuel Wilson",
-    "position": "RB",
     "roster_group": null
   },
   {
@@ -2863,6 +2863,12 @@
   },
   {
     "team": "Vienna BBB",
+    "player_name": "Joe Milton",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
     "player_name": "Aaron Jones",
     "position": "RB",
     "roster_group": null
@@ -2947,19 +2953,7 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Aaron Rodgers",
-    "position": "QB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna BBB",
     "player_name": "Daniel Jones",
-    "position": "QB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna BBB",
-    "player_name": "Joe Milton",
     "position": "QB",
     "roster_group": null
   },
@@ -2995,13 +2989,13 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "D.J. Reed",
+    "player_name": "Brandon Cisse",
     "position": "CB",
     "roster_group": null
   },
   {
     "team": "Vienna BBB",
-    "player_name": "DaRon Bland",
+    "player_name": "D.J. Reed",
     "position": "CB",
     "roster_group": null
   },
@@ -3025,13 +3019,19 @@
   },
   {
     "team": "Vienna BBB",
+    "player_name": "Dorian Williams",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
     "player_name": "Akeem Davis-Gaither",
     "position": "LB",
     "roster_group": null
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Ty Simpson",
+    "player_name": "Aaron Rodgers",
     "position": "QB",
     "roster_group": null
   },
@@ -3049,20 +3049,20 @@
   },
   {
     "team": "Vienna BBB",
+    "player_name": "DaRon Bland",
+    "position": "CB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
     "player_name": "Tavius Robinson",
     "position": "EDR",
     "roster_group": null
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Dorian Williams",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna BBB",
-    "player_name": "Brandon Cisse",
-    "position": "CB",
+    "player_name": "Ty Simpson",
+    "position": "QB",
     "roster_group": null
   },
   {
