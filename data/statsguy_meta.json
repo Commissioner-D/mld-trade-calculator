@@ -1,7 +1,7 @@
 {
  "meta": {
-  "asOf": "2026-11-24T13:01:42.976Z",
-  "idpAsOf": "2026-11-24T13:01:42.976Z",
+  "asOf": "2026-11-25T13:01:53.296Z",
+  "idpAsOf": "2026-11-25T13:01:53.296Z",
   "format": "non_sf_dynasty",
   "idp": "std",
   "idpScoring": "tackle"
@@ -9,8 +9,8 @@
  "counts": {
   "QB": 56,
   "RB": 111,
-  "WR": 155,
-  "TE": 57,
+  "WR": 154,
+  "TE": 58,
   "LB": 99,
   "DB": 63,
   "DL": 60
@@ -21,45 +21,45 @@
   "passTd": "blend",
   "idp": "std",
   "idpScoring": "tackle",
-  "asOf": "2026-11-24T13:01:42.976Z",
-  "idpAsOf": "2026-11-24T13:01:42.976Z",
+  "asOf": "2026-11-25T13:01:53.296Z",
+  "idpAsOf": "2026-11-25T13:01:53.296Z",
   "total": 56,
   "limit": 1000,
   "offset": 0,
   "rankings": [
    {
-    "rank": 10,
+    "rank": 9,
     "id": "4984",
     "name": "Josh Allen",
     "url": "https://statsguyfantasy.com/player/josh-allen-ntn4px",
     "team": "BUF",
     "position": "QB",
     "positionRank": 1,
-    "value": 5411,
+    "value": 5456,
     "age": 30.5,
     "yearsExperience": 8
    },
    {
-    "rank": 19,
+    "rank": 20,
     "id": "6770",
     "name": "Joe Burrow",
     "url": "https://statsguyfantasy.com/player/joe-burrow-sfyixi",
     "team": "CIN",
     "position": "QB",
     "positionRank": 2,
-    "value": 3519,
+    "value": 3504,
     "age": 30,
     "yearsExperience": 6
    },
    {
-    "rank": 32,
+    "rank": 33,
     "id": "11560",
     "name": "Caleb Williams",
     "url": "https://statsguyfantasy.com/player/caleb-williams-flfdak",
     "team": "CHI",
     "position": "QB",
     "positionRank": 3,
-    "value": 2705,
+    "value": 2714,
     "age": 25,
     "yearsExperience": 2
    }
