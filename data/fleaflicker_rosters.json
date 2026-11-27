@@ -1291,6 +1291,12 @@
   },
   {
     "team": "Mühlviertl Raiders",
+    "player_name": "Bud Clark",
+    "position": "S",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
     "player_name": "Pete Werner",
     "position": "LB",
     "roster_group": null
@@ -1333,13 +1339,13 @@
   },
   {
     "team": "Gries Goats",
-    "player_name": "Ollie Gordon",
+    "player_name": "Cam Skattebo",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Gries Goats",
-    "player_name": "Cam Skattebo",
+    "player_name": "Saquon Barkley",
     "position": "RB",
     "roster_group": null
   },
@@ -1351,13 +1357,13 @@
   },
   {
     "team": "Gries Goats",
-    "player_name": "Stefon Diggs",
+    "player_name": "DJ Moore",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Gries Goats",
-    "player_name": "DJ Moore",
+    "player_name": "Jaylen Waddle",
     "position": "WR",
     "roster_group": null
   },
@@ -1381,8 +1387,8 @@
   },
   {
     "team": "Gries Goats",
-    "player_name": "Brandon Stephens",
-    "position": "CB",
+    "player_name": "Kevin Byard",
+    "position": "S",
     "roster_group": null
   },
   {
@@ -1423,19 +1429,19 @@
   },
   {
     "team": "Gries Goats",
-    "player_name": "Saquon Barkley",
+    "player_name": "Ollie Gordon",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Gries Goats",
-    "player_name": "Darius Cooper",
+    "player_name": "Stefon Diggs",
     "position": "WR",
     "roster_group": null
   },
   {
     "team": "Gries Goats",
-    "player_name": "Jaylen Waddle",
+    "player_name": "Darius Cooper",
     "position": "WR",
     "roster_group": null
   },
@@ -1453,8 +1459,8 @@
   },
   {
     "team": "Gries Goats",
-    "player_name": "Kevin Byard",
-    "position": "S",
+    "player_name": "Brandon Stephens",
+    "position": "CB",
     "roster_group": null
   },
   {
@@ -2953,6 +2959,12 @@
   },
   {
     "team": "Vienna BBB",
+    "player_name": "Aaron Rodgers",
+    "position": "QB",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
     "player_name": "Daniel Jones",
     "position": "QB",
     "roster_group": null
@@ -2989,13 +3001,13 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Brandon Cisse",
+    "player_name": "Deonte Banks",
     "position": "CB",
     "roster_group": null
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Alontae Taylor",
+    "player_name": "Brandon Cisse",
     "position": "CB",
     "roster_group": null
   },
@@ -3025,18 +3037,6 @@
   },
   {
     "team": "Vienna BBB",
-    "player_name": "Akeem Davis-Gaither",
-    "position": "LB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna BBB",
-    "player_name": "Aaron Rodgers",
-    "position": "QB",
-    "roster_group": null
-  },
-  {
-    "team": "Vienna BBB",
     "player_name": "RJ Harvey",
     "position": "RB",
     "roster_group": null
@@ -3057,6 +3057,12 @@
     "team": "Vienna BBB",
     "player_name": "Tavius Robinson",
     "position": "EDR",
+    "roster_group": null
+  },
+  {
+    "team": "Vienna BBB",
+    "player_name": "Akeem Davis-Gaither",
+    "position": "LB",
     "roster_group": null
   },
   {
@@ -3331,6 +3337,12 @@
   },
   {
     "team": "Stehbuffet Seagulls",
+    "player_name": "Justice Hill",
+    "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Stehbuffet Seagulls",
     "player_name": "Tee Higgins",
     "position": "WR",
     "roster_group": null
@@ -3338,12 +3350,6 @@
   {
     "team": "Stehbuffet Seagulls",
     "player_name": "George Pickens",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Stehbuffet Seagulls",
-    "player_name": "Jakobi Meyers",
     "position": "WR",
     "roster_group": null
   },
@@ -3415,12 +3421,6 @@
   },
   {
     "team": "Stehbuffet Seagulls",
-    "player_name": "Justice Hill",
-    "position": "RB",
-    "roster_group": null
-  },
-  {
-    "team": "Stehbuffet Seagulls",
     "player_name": "Ronnie Rivers",
     "position": "RB",
     "roster_group": null
@@ -3434,6 +3434,12 @@
   {
     "team": "Stehbuffet Seagulls",
     "player_name": "Ryan Flournoy",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Stehbuffet Seagulls",
+    "player_name": "Jakobi Meyers",
     "position": "WR",
     "roster_group": null
   },

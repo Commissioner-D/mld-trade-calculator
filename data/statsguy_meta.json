@@ -1,7 +1,7 @@
 {
  "meta": {
-  "asOf": "2026-11-26T13:01:17.120Z",
-  "idpAsOf": "2026-11-26T13:01:17.120Z",
+  "asOf": "2026-11-27T13:01:51.141Z",
+  "idpAsOf": "2026-11-27T13:01:51.141Z",
   "format": "non_sf_dynasty",
   "idp": "std",
   "idpScoring": "tackle"
@@ -9,9 +9,9 @@
  "counts": {
   "QB": 56,
   "RB": 111,
-  "WR": 155,
-  "TE": 57,
-  "LB": 98,
+  "WR": 154,
+  "TE": 58,
+  "LB": 99,
   "DB": 63,
   "DL": 60
  },
@@ -21,8 +21,8 @@
   "passTd": "blend",
   "idp": "std",
   "idpScoring": "tackle",
-  "asOf": "2026-11-26T13:01:17.120Z",
-  "idpAsOf": "2026-11-26T13:01:17.120Z",
+  "asOf": "2026-11-27T13:01:51.141Z",
+  "idpAsOf": "2026-11-27T13:01:51.141Z",
   "total": 56,
   "limit": 1000,
   "offset": 0,
@@ -35,7 +35,7 @@
     "team": "BUF",
     "position": "QB",
     "positionRank": 1,
-    "value": 5535,
+    "value": 5456,
     "age": 30.5,
     "yearsExperience": 8
    },
@@ -47,7 +47,7 @@
     "team": "CIN",
     "position": "QB",
     "positionRank": 2,
-    "value": 3584,
+    "value": 3526,
     "age": 30,
     "yearsExperience": 6
    },
@@ -59,7 +59,7 @@
     "team": "CHI",
     "position": "QB",
     "positionRank": 3,
-    "value": 2738,
+    "value": 2709,
     "age": 25,
     "yearsExperience": 2
    }
