@@ -1267,6 +1267,12 @@
   },
   {
     "team": "Mühlviertl Raiders",
+    "player_name": "Pete Werner",
+    "position": "LB",
+    "roster_group": null
+  },
+  {
+    "team": "Mühlviertl Raiders",
     "player_name": "Jeremiah Trotter",
     "position": "LB",
     "roster_group": null
@@ -1293,12 +1299,6 @@
     "team": "Mühlviertl Raiders",
     "player_name": "Bud Clark",
     "position": "S",
-    "roster_group": null
-  },
-  {
-    "team": "Mühlviertl Raiders",
-    "player_name": "Pete Werner",
-    "position": "LB",
     "roster_group": null
   },
   {
@@ -1567,7 +1567,7 @@
   },
   {
     "team": "Styrian Sombreros",
-    "player_name": "Parker Washington",
+    "player_name": "Tank Dell",
     "position": "WR",
     "roster_group": null
   },
@@ -1639,6 +1639,12 @@
   },
   {
     "team": "Styrian Sombreros",
+    "player_name": "Parker Washington",
+    "position": "WR",
+    "roster_group": null
+  },
+  {
+    "team": "Styrian Sombreros",
     "player_name": "Khalil Shakir",
     "position": "WR",
     "roster_group": null
@@ -1652,12 +1658,6 @@
   {
     "team": "Styrian Sombreros",
     "player_name": "Rashee Rice",
-    "position": "WR",
-    "roster_group": null
-  },
-  {
-    "team": "Styrian Sombreros",
-    "player_name": "Tank Dell",
     "position": "WR",
     "roster_group": null
   },
@@ -1993,13 +1993,13 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Bhayshul Tuten",
+    "player_name": "Omarion Hampton",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Omarion Hampton",
+    "player_name": "Quinshon Judkins",
     "position": "RB",
     "roster_group": null
   },
@@ -2083,7 +2083,7 @@
   },
   {
     "team": "Purple Cobras",
-    "player_name": "Quinshon Judkins",
+    "player_name": "Bhayshul Tuten",
     "position": "RB",
     "roster_group": null
   },
@@ -3103,13 +3103,13 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Keaton Mitchell",
+    "player_name": "Lan Larison",
     "position": "RB",
     "roster_group": null
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Lan Larison",
+    "player_name": "DJ Giddens",
     "position": "RB",
     "roster_group": null
   },
@@ -3193,13 +3193,13 @@
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Myles Price",
-    "position": "WR",
+    "player_name": "Keaton Mitchell",
+    "position": "RB",
     "roster_group": null
   },
   {
     "team": "Graz Moeflers",
-    "player_name": "Jahan Dotson",
+    "player_name": "Myles Price",
     "position": "WR",
     "roster_group": null
   },
@@ -3279,6 +3279,12 @@
     "team": "Graz Moeflers",
     "player_name": "Tyjae Spears",
     "position": "RB",
+    "roster_group": null
+  },
+  {
+    "team": "Graz Moeflers",
+    "player_name": "Jahan Dotson",
+    "position": "WR",
     "roster_group": null
   },
   {

@@ -56,13 +56,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17045,
-    "name": "Brock Purdy",
-    "position": "QB",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 13761,
     "name": "Josh Allen",
     "position": "QB",
@@ -105,13 +98,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 6038,
-    "name": "Matthew Stafford",
-    "position": "QB",
-    "team": "LAR",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16250,
     "name": "Ja'Marr Chase",
     "position": "WR",
@@ -119,10 +105,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12919,
-    "name": "Deshaun Watson",
+    "fleaflicker_id": 6038,
+    "name": "Matthew Stafford",
     "position": "QB",
-    "team": "CLE",
+    "team": "LAR",
     "is_rookie": false
   },
   {
@@ -133,10 +119,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16373,
-    "name": "Amon-Ra St. Brown",
-    "position": "WR",
-    "team": "DET",
+    "fleaflicker_id": 12919,
+    "name": "Deshaun Watson",
+    "position": "QB",
+    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -147,10 +133,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19361,
-    "name": "Cam Skattebo",
-    "position": "RB",
-    "team": "NYG",
+    "fleaflicker_id": 16373,
+    "name": "Amon-Ra St. Brown",
+    "position": "WR",
+    "team": "DET",
     "is_rookie": false
   },
   {
@@ -175,13 +161,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17738,
-    "name": "Parker Washington",
-    "position": "WR",
-    "team": "JAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16839,
     "name": "James Cook",
     "position": "RB",
@@ -189,10 +168,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12892,
-    "name": "Christian McCaffrey",
-    "position": "RB",
-    "team": "SF",
+    "fleaflicker_id": 18387,
+    "name": "J.J. McCarthy",
+    "position": "QB",
+    "team": "NYG",
     "is_rookie": false
   },
   {
@@ -203,17 +182,17 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 18387,
-    "name": "J.J. McCarthy",
-    "position": "QB",
-    "team": "NYG",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 15540,
     "name": "Justin Jefferson",
     "position": "WR",
     "team": "MIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19361,
+    "name": "Cam Skattebo",
+    "position": "RB",
+    "team": "NYG",
     "is_rookie": false
   },
   {
@@ -235,6 +214,13 @@
     "name": "George Pickens",
     "position": "WR",
     "team": "DAL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 12892,
+    "name": "Christian McCaffrey",
+    "position": "RB",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -266,17 +252,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17762,
+    "name": "Chris Rodriguez",
+    "position": "RB",
+    "team": "JAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 12042,
     "name": "Derrick Henry",
     "position": "RB",
     "team": "BAL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18362,
-    "name": "Bo Nix",
-    "position": "QB",
-    "team": "DEN",
     "is_rookie": false
   },
   {
@@ -287,6 +273,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18362,
+    "name": "Bo Nix",
+    "position": "QB",
+    "team": "DEN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20048,
     "name": "Fernando Mendoza",
     "position": "QB",
@@ -294,24 +287,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 19349,
-    "name": "Bhayshul Tuten",
-    "position": "RB",
-    "team": "JAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17004,
     "name": "Kyren Williams",
     "position": "RB",
     "team": "LAR",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19243,
-    "name": "Cam Ward",
-    "position": "QB",
-    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -329,17 +308,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 15516,
-    "name": "Justin Herbert",
+    "fleaflicker_id": 19243,
+    "name": "Cam Ward",
     "position": "QB",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13778,
-    "name": "Saquon Barkley",
-    "position": "RB",
-    "team": "PHI",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -350,6 +322,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 13778,
+    "name": "Saquon Barkley",
+    "position": "RB",
+    "team": "PHI",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18099,
     "name": "Tommy DeVito",
     "position": "QB",
@@ -357,17 +336,24 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20125,
-    "name": "Carson Beck",
+    "fleaflicker_id": 5479,
+    "name": "Josh Johnson",
     "position": "QB",
     "team": "ARI",
-    "is_rookie": true
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 13770,
     "name": "Sam Darnold",
     "position": "QB",
     "team": "SEA",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19488,
+    "name": "DJ Uiagalelei",
+    "position": "QB",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -385,20 +371,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14759,
-    "name": "Tony Pollard",
-    "position": "RB",
-    "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17756,
-    "name": "Chase Brown",
-    "position": "RB",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19424,
     "name": "Kyle McCord",
     "position": "QB",
@@ -406,10 +378,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 14759,
+    "name": "Tony Pollard",
+    "position": "RB",
+    "team": "TEN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19303,
     "name": "Quinshon Judkins",
     "position": "RB",
     "team": "CLE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17756,
+    "name": "Chase Brown",
+    "position": "RB",
+    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -462,6 +448,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16235,
+    "name": "Mac Jones",
+    "position": "QB",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19266,
     "name": "Matthew Golden",
     "position": "WR",
@@ -476,10 +469,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19247,
-    "name": "Ashton Jeanty",
-    "position": "RB",
-    "team": "LV",
+    "fleaflicker_id": 16824,
+    "name": "Chris Olave",
+    "position": "WR",
+    "team": "NO",
     "is_rookie": false
   },
   {
@@ -497,10 +490,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18369,
-    "name": "Malik Nabers",
-    "position": "WR",
-    "team": "NYG",
+    "fleaflicker_id": 19247,
+    "name": "Ashton Jeanty",
+    "position": "RB",
+    "team": "LV",
     "is_rookie": false
   },
   {
@@ -511,10 +504,24 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16824,
-    "name": "Chris Olave",
+    "fleaflicker_id": 18369,
+    "name": "Malik Nabers",
     "position": "WR",
-    "team": "NO",
+    "team": "NYG",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16339,
+    "name": "Rhamondre Stevenson",
+    "position": "RB",
+    "team": "NE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 11124,
+    "name": "Jason Myers",
+    "position": "K",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -532,20 +539,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 11124,
-    "name": "Jason Myers",
-    "position": "K",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16241,
-    "name": "Travis Etienne",
-    "position": "RB",
-    "team": "NO",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18967,
     "name": "Spencer Shrader",
     "position": "K",
@@ -560,13 +553,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16339,
-    "name": "Rhamondre Stevenson",
-    "position": "RB",
-    "team": "NE",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19685,
     "name": "Ryan Fitzgerald",
     "position": "K",
@@ -574,10 +560,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14848,
-    "name": "Matt Gay",
-    "position": "K",
-    "team": "LV",
+    "fleaflicker_id": 16241,
+    "name": "Travis Etienne",
+    "position": "RB",
+    "team": "NO",
     "is_rookie": false
   },
   {
@@ -588,17 +574,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 14848,
+    "name": "Matt Gay",
+    "position": "K",
+    "team": "LV",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16798,
     "name": "Garrett Wilson",
     "position": "WR",
     "team": "NYJ",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16895,
-    "name": "Trey McBride",
-    "position": "TE",
-    "team": "ARI",
     "is_rookie": false
   },
   {
@@ -613,6 +599,27 @@
     "name": "Jameson Williams",
     "position": "WR",
     "team": "DET",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16895,
+    "name": "Trey McBride",
+    "position": "TE",
+    "team": "ARI",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16823,
+    "name": "Drake London",
+    "position": "WR",
+    "team": "ATL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17667,
+    "name": "Zach Charbonnet",
+    "position": "RB",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -637,17 +644,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16823,
-    "name": "Drake London",
-    "position": "WR",
-    "team": "ATL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 10252,
-    "name": "Mike Evans",
-    "position": "WR",
-    "team": "SF",
+    "fleaflicker_id": 14716,
+    "name": "David Montgomery",
+    "position": "RB",
+    "team": "HOU",
     "is_rookie": false
   },
   {
@@ -655,13 +655,6 @@
     "name": "Tyler Bass",
     "position": "K",
     "team": "BUF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18046,
-    "name": "Andre Szmyt",
-    "position": "K",
-    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -679,23 +672,30 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18364,
-    "name": "Brock Bowers",
-    "position": "TE",
-    "team": "LV",
+    "fleaflicker_id": 18046,
+    "name": "Andre Szmyt",
+    "position": "K",
+    "team": "CLE",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14716,
-    "name": "David Montgomery",
-    "position": "RB",
-    "team": "HOU",
+    "fleaflicker_id": 14949,
+    "name": "Jakobi Meyers",
+    "position": "WR",
+    "team": "JAC",
     "is_rookie": false
   },
   {
     "fleaflicker_id": 16873,
     "name": "Nakobe Dean",
     "position": "LB",
+    "team": "LV",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18364,
+    "name": "Brock Bowers",
+    "position": "TE",
     "team": "LV",
     "is_rookie": false
   },
@@ -707,10 +707,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17667,
-    "name": "Zach Charbonnet",
+    "fleaflicker_id": 19509,
+    "name": "Jacory Croskey-Merritt",
     "position": "RB",
-    "team": "SEA",
+    "team": "WAS",
     "is_rookie": false
   },
   {
@@ -735,10 +735,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16927,
-    "name": "Isaiah Likely",
-    "position": "TE",
-    "team": "NYG",
+    "fleaflicker_id": 18337,
+    "name": "Jake Bates",
+    "position": "K",
+    "team": "DET",
     "is_rookie": false
   },
   {
@@ -756,10 +756,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18337,
-    "name": "Jake Bates",
-    "position": "K",
-    "team": "DET",
+    "fleaflicker_id": 16927,
+    "name": "Isaiah Likely",
+    "position": "TE",
+    "team": "NYG",
     "is_rookie": false
   },
   {
@@ -777,10 +777,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 19509,
-    "name": "Jacory Croskey-Merritt",
-    "position": "RB",
-    "team": "WAS",
+    "fleaflicker_id": 17638,
+    "name": "Daiyan Henley",
+    "position": "LB",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -788,6 +788,13 @@
     "name": "Ka'imi Fairbairn",
     "position": "K",
     "team": "HOU",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 10252,
+    "name": "Mike Evans",
+    "position": "WR",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -830,20 +837,6 @@
     "name": "Nick Bolton",
     "position": "LB",
     "team": "KC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13023,
-    "name": "George Kittle",
-    "position": "TE",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17762,
-    "name": "Chris Rodriguez",
-    "position": "RB",
-    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -896,13 +889,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20054,
-    "name": "Arvell Reese",
-    "position": "LB",
-    "team": "NYG",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 19305,
     "name": "Harold Fannin",
     "position": "TE",
@@ -910,11 +896,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17315,
-    "name": "Cameron Dicker",
-    "position": "K",
-    "team": "LAC",
-    "is_rookie": false
+    "fleaflicker_id": 20054,
+    "name": "Arvell Reese",
+    "position": "LB",
+    "team": "NYG",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 15536,
@@ -931,24 +917,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20101,
-    "name": "Denzel Boston",
-    "position": "WR",
-    "team": "CLE",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 18456,
     "name": "Braelon Allen",
     "position": "RB",
     "team": "NYJ",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 14949,
-    "name": "Jakobi Meyers",
-    "position": "WR",
-    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -963,6 +935,13 @@
     "name": "Sam LaPorta",
     "position": "TE",
     "team": "DET",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17315,
+    "name": "Cameron Dicker",
+    "position": "K",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -987,17 +966,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 13023,
+    "name": "George Kittle",
+    "position": "TE",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16977,
     "name": "Micah McFadden",
     "position": "LB",
     "team": "NYG",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18407,
-    "name": "Ladd McConkey",
-    "position": "WR",
-    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -1008,24 +987,24 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 16993,
-    "name": "Tyler Allgeier",
-    "position": "RB",
-    "team": "ARI",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20044,
-    "name": "Carnell Tate",
+    "fleaflicker_id": 18407,
+    "name": "Ladd McConkey",
     "position": "WR",
-    "team": "TEN",
-    "is_rookie": true
+    "team": "LAC",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 20074,
     "name": "Caleb Douglas",
     "position": "WR",
     "team": "MIA",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 20044,
+    "name": "Carnell Tate",
+    "position": "WR",
+    "team": "TEN",
     "is_rookie": true
   },
   {
@@ -1043,10 +1022,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16993,
+    "name": "Tyler Allgeier",
+    "position": "RB",
+    "team": "ARI",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16382,
     "name": "Jamien Sherwood",
     "position": "LB",
     "team": "NYJ",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 13011,
+    "name": "Samaje Perine",
+    "position": "RB",
+    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -1061,13 +1054,6 @@
     "name": "Travis Kelce",
     "position": "TE",
     "team": "KC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13011,
-    "name": "Samaje Perine",
-    "position": "RB",
-    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -1092,18 +1078,25 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20109,
-    "name": "Antonio Williams",
-    "position": "WR",
-    "team": "WAS",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 14758,
     "name": "Amani Hooker",
     "position": "S",
     "team": "BUF",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18395,
+    "name": "Adonai Mitchell",
+    "position": "WR",
+    "team": "NYJ",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20109,
+    "name": "Antonio Williams",
+    "position": "WR",
+    "team": "WAS",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 17770,
@@ -1155,24 +1148,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17646,
-    "name": "Jordan Battle",
-    "position": "S",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17691,
     "name": "Ventrell Miller",
     "position": "LB",
     "team": "JAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18395,
-    "name": "Adonai Mitchell",
-    "position": "WR",
-    "team": "NYJ",
     "is_rookie": false
   },
   {
@@ -1183,11 +1162,25 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17646,
+    "name": "Jordan Battle",
+    "position": "S",
+    "team": "CIN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20079,
     "name": "CJ Allen",
     "position": "LB",
     "team": "IND",
     "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 14677,
+    "name": "T.J. Hockenson",
+    "position": "TE",
+    "team": "MIN",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 15619,
@@ -1211,6 +1204,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 15904,
+    "name": "Rico Dowdle",
+    "position": "RB",
+    "team": "PIT",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20166,
     "name": "Kendal Daniels",
     "position": "LB",
@@ -1225,24 +1225,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14677,
-    "name": "T.J. Hockenson",
+    "fleaflicker_id": 17626,
+    "name": "Brenton Strange",
     "position": "TE",
-    "team": "MIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13794,
-    "name": "Jessie Bates",
-    "position": "S",
     "team": "JAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18462,
-    "name": "Cedric Gray",
-    "position": "LB",
-    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -1253,10 +1239,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16236,
-    "name": "Jaylen Waddle",
-    "position": "WR",
-    "team": "DEN",
+    "fleaflicker_id": 18462,
+    "name": "Cedric Gray",
+    "position": "LB",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -1267,17 +1253,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14702,
-    "name": "Deebo Samuel",
+    "fleaflicker_id": 16236,
+    "name": "Jaylen Waddle",
     "position": "WR",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 15904,
-    "name": "Rico Dowdle",
-    "position": "RB",
-    "team": "PIT",
+    "team": "DEN",
     "is_rookie": false
   },
   {
@@ -1288,10 +1267,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17486,
-    "name": "Bam Knight",
-    "position": "RB",
-    "team": "ARI",
+    "fleaflicker_id": 13794,
+    "name": "Jessie Bates",
+    "position": "S",
+    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -1309,18 +1288,25 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13986,
-    "name": "Eddy Pineiro",
-    "position": "K",
-    "team": "SF",
+    "fleaflicker_id": 17486,
+    "name": "Bam Knight",
+    "position": "RB",
+    "team": "ARI",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17638,
-    "name": "Daiyan Henley",
-    "position": "LB",
-    "team": "LAC",
+    "fleaflicker_id": 17627,
+    "name": "Tank Dell",
+    "position": "WR",
+    "team": "HOU",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20193,
+    "name": "Josh Cameron",
+    "position": "WR",
+    "team": "JAC",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 18423,
@@ -1365,10 +1351,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 20062,
+    "name": "Jordyn Tyson",
+    "position": "WR",
+    "team": "NO",
+    "is_rookie": true
+  },
+  {
     "fleaflicker_id": 17675,
     "name": "Tucker Kraft",
     "position": "TE",
     "team": "GB",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 13986,
+    "name": "Eddy Pineiro",
+    "position": "K",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -1386,24 +1386,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17607,
+    "name": "Devon Witherspoon",
+    "position": "CB",
+    "team": "SEA",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19250,
     "name": "Malaki Starks",
     "position": "S",
     "team": "BAL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16912,
-    "name": "Chig Okonkwo",
-    "position": "TE",
-    "team": "WAS",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19488,
-    "name": "DJ Uiagalelei",
-    "position": "QB",
-    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -1442,11 +1435,18 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20062,
-    "name": "Jordyn Tyson",
+    "fleaflicker_id": 16912,
+    "name": "Chig Okonkwo",
+    "position": "TE",
+    "team": "WAS",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14702,
+    "name": "Deebo Samuel",
     "position": "WR",
-    "team": "NO",
-    "is_rookie": true
+    "team": "SF",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 18393,
@@ -1470,13 +1470,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17607,
-    "name": "Devon Witherspoon",
-    "position": "CB",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16931,
     "name": "Dane Belton",
     "position": "S",
@@ -1491,10 +1484,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17627,
-    "name": "Tank Dell",
-    "position": "WR",
-    "team": "HOU",
+    "fleaflicker_id": 16480,
+    "name": "Kenny Gainwell",
+    "position": "RB",
+    "team": "TB",
     "is_rookie": false
   },
   {
@@ -1502,20 +1495,6 @@
     "name": "Kevin Winston",
     "position": "S",
     "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 15660,
-    "name": "Amik Robertson",
-    "position": "CB",
-    "team": "WAS",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16480,
-    "name": "Kenny Gainwell",
-    "position": "RB",
-    "team": "TB",
     "is_rookie": false
   },
   {
@@ -1533,13 +1512,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14706,
-    "name": "DK Metcalf",
-    "position": "WR",
-    "team": "PIT",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 15572,
     "name": "Xavier McKinney",
     "position": "S",
@@ -1554,11 +1526,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17626,
-    "name": "Brenton Strange",
-    "position": "TE",
-    "team": "JAC",
-    "is_rookie": false
+    "fleaflicker_id": 20063,
+    "name": "Jadarian Price",
+    "position": "RB",
+    "team": "SEA",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 13153,
@@ -1568,17 +1540,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20063,
-    "name": "Jadarian Price",
-    "position": "RB",
-    "team": "SEA",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 16586,
     "name": "Christian Elliss",
     "position": "LB",
     "team": "NE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 13325,
+    "name": "Austin Ekeler",
+    "position": "RB",
+    "team": "WAS",
     "is_rookie": false
   },
   {
@@ -1600,6 +1572,13 @@
     "name": "Patrick Queen",
     "position": "LB",
     "team": "PIT",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 12939,
+    "name": "Rasul Douglas",
+    "position": "CB",
+    "team": "WAS",
     "is_rookie": false
   },
   {
@@ -1631,31 +1610,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20038,
-    "name": "Omar Cooper",
-    "position": "WR",
-    "team": "NYJ",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 13325,
-    "name": "Austin Ekeler",
-    "position": "RB",
-    "team": "WAS",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16855,
     "name": "Bryan Cook",
     "position": "S",
     "team": "CIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 15282,
-    "name": "Keisean Nixon",
-    "position": "CB",
-    "team": "GB",
     "is_rookie": false
   },
   {
@@ -1666,10 +1624,31 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 15282,
+    "name": "Keisean Nixon",
+    "position": "CB",
+    "team": "GB",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16836,
+    "name": "Marcus Jones",
+    "position": "CB",
+    "team": "NE",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 14037,
     "name": "Jeremy Reaves",
     "position": "S",
     "team": "WAS",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17740,
+    "name": "Xavier Hutchinson",
+    "position": "WR",
+    "team": "HOU",
     "is_rookie": false
   },
   {
@@ -1687,10 +1666,31 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 14706,
+    "name": "DK Metcalf",
+    "position": "WR",
+    "team": "PIT",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18361,
+    "name": "Brian Thomas",
+    "position": "WR",
+    "team": "JAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20080,
     "name": "Anthony Hill",
     "position": "LB",
     "team": "TEN",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 20101,
+    "name": "Denzel Boston",
+    "position": "WR",
+    "team": "CLE",
     "is_rookie": true
   },
   {
@@ -1708,13 +1708,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17740,
-    "name": "Xavier Hutchinson",
-    "position": "WR",
-    "team": "HOU",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16994,
     "name": "Zyon McCollum",
     "position": "CB",
@@ -1726,6 +1719,13 @@
     "name": "Mack Wilson",
     "position": "LB",
     "team": "ARI",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17590,
+    "name": "Will Anderson",
+    "position": "EDR",
+    "team": "HOU",
     "is_rookie": false
   },
   {
@@ -1743,24 +1743,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18481,
-    "name": "Malik Mustapha",
-    "position": "S",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17299,
     "name": "Reed Blankenship",
     "position": "S",
     "team": "HOU",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 14808,
-    "name": "Dre Greenlaw",
-    "position": "LB",
-    "team": "SF",
     "is_rookie": false
   },
   {
@@ -1785,10 +1771,17 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 17590,
-    "name": "Will Anderson",
-    "position": "EDR",
-    "team": "HOU",
+    "fleaflicker_id": 18481,
+    "name": "Malik Mustapha",
+    "position": "S",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14808,
+    "name": "Dre Greenlaw",
+    "position": "LB",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -1799,17 +1792,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16885,
+    "name": "Alontae Taylor",
+    "position": "CB",
+    "team": "TEN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19242,
     "name": "Tyler Warren",
     "position": "TE",
     "team": "IND",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16814,
-    "name": "Dax Hill",
-    "position": "CB",
-    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -1834,18 +1827,25 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16814,
+    "name": "Dax Hill",
+    "position": "CB",
+    "team": "CIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19809,
+    "name": "Corey Kiner",
+    "position": "RB",
+    "team": "NE",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16900,
     "name": "Jaquan Brisker",
     "position": "S",
     "team": "PIT",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20153,
-    "name": "Mike Washington",
-    "position": "RB",
-    "team": "LV",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 18498,
@@ -1876,11 +1876,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19809,
-    "name": "Corey Kiner",
+    "fleaflicker_id": 20153,
+    "name": "Mike Washington",
     "position": "RB",
-    "team": "NE",
-    "is_rookie": false
+    "team": "LV",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 12034,
@@ -1904,13 +1904,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17635,
-    "name": "Tre Tucker",
-    "position": "WR",
-    "team": "LV",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19300,
     "name": "Kaleb Johnson",
     "position": "RB",
@@ -1918,10 +1911,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16885,
-    "name": "Alontae Taylor",
-    "position": "CB",
-    "team": "TEN",
+    "fleaflicker_id": 18523,
+    "name": "Kimani Vidal",
+    "position": "RB",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17622,
+    "name": "Josh Downs",
+    "position": "WR",
+    "team": "KC",
     "is_rookie": false
   },
   {
@@ -1932,17 +1932,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17635,
+    "name": "Tre Tucker",
+    "position": "WR",
+    "team": "LV",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 17677,
     "name": "Tyrique Stevenson",
     "position": "CB",
     "team": "CHI",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13845,
-    "name": "Mike Gesicki",
-    "position": "TE",
-    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -1951,6 +1951,13 @@
     "position": "S",
     "team": "IND",
     "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 13845,
+    "name": "Mike Gesicki",
+    "position": "TE",
+    "team": "CIN",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 20183,
@@ -1978,6 +1985,13 @@
     "name": "T.J. Edwards",
     "position": "LB",
     "team": "CHI",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18381,
+    "name": "Marvin Harrison",
+    "position": "WR",
+    "team": "HOU",
     "is_rookie": false
   },
   {
@@ -2009,13 +2023,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17622,
-    "name": "Josh Downs",
-    "position": "WR",
-    "team": "KC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18995,
     "name": "Chris Roland-Wallace",
     "position": "CB",
@@ -2044,9 +2051,9 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13787,
-    "name": "Carlton Davis",
-    "position": "CB",
+    "fleaflicker_id": 17724,
+    "name": "DeMario Douglas",
+    "position": "WR",
     "team": "NE",
     "is_rookie": false
   },
@@ -2072,10 +2079,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17027,
-    "name": "Montaric Brown",
-    "position": "CB",
-    "team": "JAC",
+    "fleaflicker_id": 13008,
+    "name": "Mack Hollins",
+    "position": "WR",
+    "team": "NE",
     "is_rookie": false
   },
   {
@@ -2083,6 +2090,27 @@
     "name": "Tyson Campbell",
     "position": "CB",
     "team": "CLE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17027,
+    "name": "Montaric Brown",
+    "position": "CB",
+    "team": "JAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16256,
+    "name": "Kyle Pitts",
+    "position": "TE",
+    "team": "ATL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19378,
+    "name": "Andy Borregales",
+    "position": "K",
+    "team": "NE",
     "is_rookie": false
   },
   {
@@ -2114,24 +2142,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16274,
-    "name": "Elijah Molden",
-    "position": "S",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 13124,
     "name": "Harrison Butker",
     "position": "K",
     "team": "KC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 15560,
-    "name": "Grant Delpit",
-    "position": "S",
-    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -2142,6 +2156,20 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 15560,
+    "name": "Grant Delpit",
+    "position": "S",
+    "team": "CLE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16274,
+    "name": "Elijah Molden",
+    "position": "S",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18386,
     "name": "Dallas Turner",
     "position": "EDR",
@@ -2149,10 +2177,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19378,
-    "name": "Andy Borregales",
-    "position": "K",
-    "team": "NE",
+    "fleaflicker_id": 16374,
+    "name": "Cam Bynum",
+    "position": "S",
+    "team": "IND",
     "is_rookie": false
   },
   {
@@ -2170,20 +2198,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16374,
-    "name": "Cam Bynum",
-    "position": "S",
-    "team": "IND",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16256,
-    "name": "Kyle Pitts",
-    "position": "TE",
-    "team": "ATL",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19382,
     "name": "Dante Trader",
     "position": "S",
@@ -2198,6 +2212,20 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18587,
+    "name": "Devaughn Vele",
+    "position": "WR",
+    "team": "NO",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19279,
+    "name": "Justin Walley",
+    "position": "CB",
+    "team": "IND",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16522,
     "name": "Deommodore Lenoir",
     "position": "CB",
@@ -2205,24 +2233,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17724,
-    "name": "DeMario Douglas",
+    "fleaflicker_id": 13795,
+    "name": "Courtland Sutton",
     "position": "WR",
-    "team": "NE",
+    "team": "DEN",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13008,
-    "name": "Mack Hollins",
-    "position": "WR",
-    "team": "NE",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16836,
-    "name": "Marcus Jones",
-    "position": "CB",
-    "team": "NE",
+    "fleaflicker_id": 13853,
+    "name": "Dalton Schultz",
+    "position": "TE",
+    "team": "HOU",
     "is_rookie": false
   },
   {
@@ -2240,13 +2261,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18587,
-    "name": "Devaughn Vele",
-    "position": "WR",
-    "team": "NO",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19292,
     "name": "Nohl Williams",
     "position": "CB",
@@ -2259,6 +2273,13 @@
     "position": "CB",
     "team": "KC",
     "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 12088,
+    "name": "Hunter Henry",
+    "position": "TE",
+    "team": "NE",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 14780,
@@ -2275,17 +2296,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13795,
-    "name": "Courtland Sutton",
-    "position": "WR",
-    "team": "DEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18523,
-    "name": "Kimani Vidal",
-    "position": "RB",
-    "team": "LAC",
+    "fleaflicker_id": 17292,
+    "name": "Josh Jobe",
+    "position": "CB",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -2310,20 +2324,6 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 17292,
-    "name": "Josh Jobe",
-    "position": "CB",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13853,
-    "name": "Dalton Schultz",
-    "position": "TE",
-    "team": "HOU",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 14850,
     "name": "Andrew Van Ginkel",
     "position": "EDR",
@@ -2335,13 +2335,6 @@
     "name": "Quinnen Williams",
     "position": "IL",
     "team": "DAL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18437,
-    "name": "Renardo Green",
-    "position": "CB",
-    "team": "SF",
     "is_rookie": false
   },
   {
@@ -2366,18 +2359,18 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18437,
+    "name": "Renardo Green",
+    "position": "CB",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20058,
     "name": "Makai Lemon",
     "position": "WR",
     "team": "PHI",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 18521,
-    "name": "Cam Hart",
-    "position": "CB",
-    "team": "LAC",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 12140,
@@ -2387,10 +2380,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12088,
-    "name": "Hunter Henry",
-    "position": "TE",
-    "team": "NE",
+    "fleaflicker_id": 18521,
+    "name": "Cam Hart",
+    "position": "CB",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -2408,31 +2401,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 17593,
-    "name": "Quentin Johnston",
-    "position": "WR",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16853,
     "name": "Greg Dulcich",
     "position": "TE",
     "team": "MIA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19347,
-    "name": "Elic Ayomanor",
-    "position": "WR",
-    "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19346,
-    "name": "Chimere Dike",
-    "position": "WR",
-    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -2443,17 +2415,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18381,
-    "name": "Marvin Harrison",
-    "position": "WR",
-    "team": "HOU",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19339,
     "name": "Tai Felton",
     "position": "WR",
     "team": "MIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19347,
+    "name": "Elic Ayomanor",
+    "position": "WR",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -2478,20 +2450,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17664,
-    "name": "Ji'Ayir Brown",
-    "position": "S",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17833,
-    "name": "DeMarcco Hellams",
-    "position": "S",
-    "team": "ATL",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18522,
     "name": "Tarheeb Still",
     "position": "CB",
@@ -2513,13 +2471,6 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 20105,
-    "name": "Malachi Fields",
-    "position": "WR",
-    "team": "NYG",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 12902,
     "name": "Myles Garrett",
     "position": "EDR",
@@ -2532,6 +2483,20 @@
     "position": "K",
     "team": "ATL",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19346,
+    "name": "Chimere Dike",
+    "position": "WR",
+    "team": "TEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20105,
+    "name": "Malachi Fields",
+    "position": "WR",
+    "team": "NYG",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 16289,
@@ -2548,17 +2513,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17664,
+    "name": "Ji'Ayir Brown",
+    "position": "S",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18447,
     "name": "Javon Bullard",
     "position": "S",
     "team": "GB",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19288,
-    "name": "Pat Bryant",
-    "position": "WR",
-    "team": "DEN",
     "is_rookie": false
   },
   {
@@ -2569,10 +2534,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16821,
-    "name": "Jahan Dotson",
+    "fleaflicker_id": 17593,
+    "name": "Quentin Johnston",
     "position": "WR",
-    "team": "ATL",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19288,
+    "name": "Pat Bryant",
+    "position": "WR",
+    "team": "DEN",
     "is_rookie": false
   },
   {
@@ -2597,10 +2569,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16469,
-    "name": "Simi Fehoko",
+    "fleaflicker_id": 19298,
+    "name": "Tre' Harris",
     "position": "WR",
-    "team": "ARI",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -2611,24 +2583,31 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19279,
-    "name": "Justin Walley",
+    "fleaflicker_id": 13834,
+    "name": "Isaiah Oliver",
     "position": "CB",
-    "team": "IND",
+    "team": "TEN",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20095,
-    "name": "Germie Bernard",
-    "position": "WR",
-    "team": "PIT",
-    "is_rookie": true
+    "fleaflicker_id": 15669,
+    "name": "Jaylinn Hawkins",
+    "position": "S",
+    "team": "BAL",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 15751,
     "name": "Jauan Jennings",
     "position": "WR",
     "team": "MIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16293,
+    "name": "Pat Freiermuth",
+    "position": "TE",
+    "team": "PIT",
     "is_rookie": false
   },
   {
@@ -2653,6 +2632,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16469,
+    "name": "Simi Fehoko",
+    "position": "WR",
+    "team": "ARI",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 15574,
     "name": "Jaylon Johnson",
     "position": "CB",
@@ -2660,10 +2646,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16293,
-    "name": "Pat Freiermuth",
-    "position": "TE",
-    "team": "PIT",
+    "fleaflicker_id": 14736,
+    "name": "Devin Singletary",
+    "position": "RB",
+    "team": "NYG",
     "is_rookie": false
   },
   {
@@ -2672,13 +2658,6 @@
     "position": "CB",
     "team": "IND",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20118,
-    "name": "Kaelon Black",
-    "position": "RB",
-    "team": "SF",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 12918,
@@ -2695,11 +2674,18 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19298,
-    "name": "Tre' Harris",
-    "position": "WR",
-    "team": "LAC",
+    "fleaflicker_id": 18015,
+    "name": "Ty Okada",
+    "position": "S",
+    "team": "SEA",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20118,
+    "name": "Kaelon Black",
+    "position": "RB",
+    "team": "SF",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 18392,
@@ -2723,13 +2709,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16261,
-    "name": "Eric Stokes",
-    "position": "CB",
-    "team": "LV",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18417,
     "name": "Dru Phillips",
     "position": "CB",
@@ -2737,17 +2716,24 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18015,
-    "name": "Ty Okada",
-    "position": "S",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16937,
     "name": "Cade Otton",
     "position": "TE",
     "team": "TB",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20709,
+    "name": "Kenneth Harris",
+    "position": "CB",
+    "team": "IND",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 16261,
+    "name": "Eric Stokes",
+    "position": "CB",
+    "team": "LV",
     "is_rookie": false
   },
   {
@@ -2765,6 +2751,13 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 19270,
+    "name": "Mason Taylor",
+    "position": "TE",
+    "team": "NYJ",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16806,
     "name": "Derek Stingley",
     "position": "CB",
@@ -2772,25 +2765,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 9380,
-    "name": "Keenan Allen",
+    "fleaflicker_id": 20095,
+    "name": "Germie Bernard",
     "position": "WR",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17725,
-    "name": "Kayshon Boutte",
-    "position": "WR",
-    "team": "HOU",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19270,
-    "name": "Mason Taylor",
-    "position": "TE",
-    "team": "NYJ",
-    "is_rookie": false
+    "team": "PIT",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 15679,
@@ -2807,17 +2786,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12970,
-    "name": "Cooper Kupp",
-    "position": "WR",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17637,
     "name": "Tuli Tuipulotu",
     "position": "EDR",
     "team": "LAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 12970,
+    "name": "Cooper Kupp",
+    "position": "WR",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -2849,6 +2828,13 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 18484,
+    "name": "AJ Barner",
+    "position": "TE",
+    "team": "SEA",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18436,
     "name": "Kool-Aid McKinstry",
     "position": "CB",
@@ -2856,10 +2842,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14670,
-    "name": "Dexter Lawrence",
-    "position": "IL",
-    "team": "CIN",
+    "fleaflicker_id": 14665,
+    "name": "Noah Fant",
+    "position": "TE",
+    "team": "NO",
     "is_rookie": false
   },
   {
@@ -2877,10 +2863,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 18484,
-    "name": "AJ Barner",
-    "position": "TE",
-    "team": "SEA",
+    "fleaflicker_id": 14670,
+    "name": "Dexter Lawrence",
+    "position": "IL",
+    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -2912,27 +2898,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17243,
-    "name": "Rashid Shaheed",
-    "position": "WR",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18174,
-    "name": "Keaton Mitchell",
-    "position": "RB",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 11221,
-    "name": "Danielle Hunter",
-    "position": "EDR",
-    "team": "HOU",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16809,
     "name": "George Karlaftis",
     "position": "EDR",
@@ -2940,17 +2905,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19323,
-    "name": "Upton Stout",
-    "position": "CB",
-    "team": "SF",
+    "fleaflicker_id": 17243,
+    "name": "Rashid Shaheed",
+    "position": "WR",
+    "team": "SEA",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19411,
-    "name": "Tyler Loop",
-    "position": "K",
-    "team": "BAL",
+    "fleaflicker_id": 11207,
+    "name": "Ameer Abdullah",
+    "position": "RB",
+    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -2968,24 +2933,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16036,
-    "name": "Juwan Johnson",
-    "position": "TE",
-    "team": "NO",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19435,
-    "name": "Marques Sigle",
-    "position": "S",
+    "fleaflicker_id": 19323,
+    "name": "Upton Stout",
+    "position": "CB",
     "team": "SF",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18361,
-    "name": "Brian Thomas",
-    "position": "WR",
-    "team": "JAC",
+    "fleaflicker_id": 19411,
+    "name": "Tyler Loop",
+    "position": "K",
+    "team": "BAL",
     "is_rookie": false
   },
   {
@@ -3010,24 +2968,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18507,
-    "name": "Anthony Gould",
-    "position": "WR",
-    "team": "IND",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17669,
     "name": "Byron Young",
     "position": "EDR",
     "team": "LAR",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16868,
-    "name": "Cor'Dale Flott",
-    "position": "CB",
-    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -3045,11 +2989,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20193,
-    "name": "Josh Cameron",
-    "position": "WR",
-    "team": "JAC",
-    "is_rookie": true
+    "fleaflicker_id": 19435,
+    "name": "Marques Sigle",
+    "position": "S",
+    "team": "SF",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 20098,
@@ -3057,13 +3001,6 @@
     "position": "WR",
     "team": "BAL",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 9558,
-    "name": "Tony Jefferson",
-    "position": "S",
-    "team": "LAC",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 20132,
@@ -3077,6 +3014,13 @@
     "name": "Taron Johnson",
     "position": "CB",
     "team": "LV",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 9558,
+    "name": "Tony Jefferson",
+    "position": "S",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -3101,24 +3045,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18359,
-    "name": "Laiatu Latu",
-    "position": "EDR",
-    "team": "IND",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20144,
-    "name": "Bryce Boettcher",
-    "position": "LB",
-    "team": "IND",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 15710,
-    "name": "Isaiah Rodgers",
-    "position": "CB",
-    "team": "MIN",
+    "fleaflicker_id": 11176,
+    "name": "Leonard Williams",
+    "position": "IL",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -3129,17 +3059,31 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16917,
-    "name": "Joshua Williams",
-    "position": "CB",
-    "team": "TEN",
+    "fleaflicker_id": 20144,
+    "name": "Bryce Boettcher",
+    "position": "LB",
+    "team": "IND",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 18359,
+    "name": "Laiatu Latu",
+    "position": "EDR",
+    "team": "IND",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 11176,
-    "name": "Leonard Williams",
-    "position": "IL",
-    "team": "SEA",
+    "fleaflicker_id": 20419,
+    "name": "Harrison Wallace",
+    "position": "WR",
+    "team": "ARI",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 9380,
+    "name": "Keenan Allen",
+    "position": "WR",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -3147,6 +3091,13 @@
     "name": "Derrick Brown",
     "position": "IL",
     "team": "CAR",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16917,
+    "name": "Joshua Williams",
+    "position": "CB",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -3171,10 +3122,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20419,
-    "name": "Harrison Wallace",
-    "position": "WR",
-    "team": "ARI",
+    "fleaflicker_id": 20037,
+    "name": "Kenyon Sadiq",
+    "position": "TE",
+    "team": "NYJ",
     "is_rookie": true
   },
   {
@@ -3199,6 +3150,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18507,
+    "name": "Anthony Gould",
+    "position": "WR",
+    "team": "IND",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18476,
     "name": "Will Shipley",
     "position": "RB",
@@ -3206,10 +3164,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14736,
-    "name": "Devin Singletary",
-    "position": "RB",
-    "team": "NYG",
+    "fleaflicker_id": 15554,
+    "name": "Nnamdi Madubuike",
+    "position": "IL",
+    "team": "BAL",
     "is_rookie": false
   },
   {
@@ -3218,6 +3176,20 @@
     "position": "EDR",
     "team": "KC",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15544,
+    "name": "Jerry Jeudy",
+    "position": "WR",
+    "team": "CLE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20071,
+    "name": "Eli Raridon",
+    "position": "TE",
+    "team": "NE",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 17698,
@@ -3234,6 +3206,13 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 12965,
+    "name": "Alvin Kamara",
+    "position": "RB",
+    "team": "NO",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16314,
     "name": "Tommy Tremble",
     "position": "TE",
@@ -3248,45 +3227,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19332,
-    "name": "Savion Williams",
-    "position": "WR",
-    "team": "GB",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 14659,
     "name": "Nick Bosa",
     "position": "EDR",
     "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 15669,
-    "name": "Jaylinn Hawkins",
-    "position": "S",
-    "team": "BAL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20037,
-    "name": "Kenyon Sadiq",
-    "position": "TE",
-    "team": "NYJ",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 18409,
-    "name": "Roman Wilson",
-    "position": "WR",
-    "team": "PIT",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 12965,
-    "name": "Alvin Kamara",
-    "position": "RB",
-    "team": "NO",
     "is_rookie": false
   },
   {
@@ -3304,17 +3248,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 15963,
-    "name": "James Pierre",
-    "position": "CB",
-    "team": "MIN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17634,
     "name": "Michael Mayer",
     "position": "TE",
     "team": "LV",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15963,
+    "name": "James Pierre",
+    "position": "CB",
+    "team": "MIN",
     "is_rookie": false
   },
   {
@@ -3325,31 +3269,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17599,
-    "name": "Jalen Carter",
-    "position": "IL",
-    "team": "PHI",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18378,
     "name": "Byron Murphy",
     "position": "IL",
     "team": "SEA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16940,
-    "name": "Cobie Durant",
-    "position": "CB",
-    "team": "DAL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 12030,
-    "name": "DeForest Buckner",
-    "position": "IL",
-    "team": "SF",
     "is_rookie": false
   },
   {
@@ -3360,6 +3283,20 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17599,
+    "name": "Jalen Carter",
+    "position": "IL",
+    "team": "PHI",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16940,
+    "name": "Cobie Durant",
+    "position": "CB",
+    "team": "DAL",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 17609,
     "name": "Lukas Van Ness",
     "position": "EDR",
@@ -3367,10 +3304,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13834,
-    "name": "Isaiah Oliver",
-    "position": "CB",
-    "team": "TEN",
+    "fleaflicker_id": 19332,
+    "name": "Savion Williams",
+    "position": "WR",
+    "team": "GB",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 12030,
+    "name": "DeForest Buckner",
+    "position": "IL",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -3378,6 +3322,20 @@
     "name": "Tony Adams",
     "position": "S",
     "team": "TEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 13395,
+    "name": "Adam Butler",
+    "position": "IL",
+    "team": "LV",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18409,
+    "name": "Roman Wilson",
+    "position": "WR",
+    "team": "PIT",
     "is_rookie": false
   },
   {
@@ -3402,31 +3360,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12906,
-    "name": "Evan Engram",
-    "position": "TE",
-    "team": "DEN",
+    "fleaflicker_id": 19310,
+    "name": "Donovan Ezeiruaku",
+    "position": "EDR",
+    "team": "DAL",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20071,
-    "name": "Eli Raridon",
-    "position": "TE",
-    "team": "NE",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 12897,
     "name": "Jonathan Allen",
     "position": "IL",
     "team": "CIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19310,
-    "name": "Donovan Ezeiruaku",
-    "position": "EDR",
-    "team": "DAL",
     "is_rookie": false
   },
   {
@@ -3444,6 +3388,20 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 12906,
+    "name": "Evan Engram",
+    "position": "TE",
+    "team": "DEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18946,
+    "name": "Charles Woods",
+    "position": "CB",
+    "team": "NE",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20272,
     "name": "Robert Spears-Jennings",
     "position": "S",
@@ -3451,10 +3409,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 12939,
-    "name": "Rasul Douglas",
+    "fleaflicker_id": 19381,
+    "name": "Jason Marshall",
     "position": "CB",
-    "team": "WAS",
+    "team": "MIA",
     "is_rookie": false
   },
   {
@@ -3462,13 +3420,6 @@
     "name": "Joey Porter",
     "position": "CB",
     "team": "DAL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18379,
-    "name": "Jared Verse",
-    "position": "EDR",
-    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -3493,6 +3444,13 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 18379,
+    "name": "Jared Verse",
+    "position": "EDR",
+    "team": "CLE",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 15153,
     "name": "Carl Granderson",
     "position": "EDR",
@@ -3504,6 +3462,13 @@
     "name": "Isaac TeSlaa",
     "position": "WR",
     "team": "DET",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14842,
+    "name": "Ty Johnson",
+    "position": "RB",
+    "team": "BUF",
     "is_rookie": false
   },
   {
@@ -3521,31 +3486,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14842,
-    "name": "Ty Johnson",
-    "position": "RB",
-    "team": "BUF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 14665,
-    "name": "Noah Fant",
-    "position": "TE",
-    "team": "NO",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17597,
     "name": "Deonte Banks",
     "position": "CB",
     "team": "NYG",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 14223,
-    "name": "Charvarius Ward",
-    "position": "CB",
-    "team": "IND",
     "is_rookie": false
   },
   {
@@ -3570,17 +3514,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17621,
-    "name": "JuJu Brents",
+    "fleaflicker_id": 19313,
+    "name": "Trey Amos",
     "position": "CB",
-    "team": "MIA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19294,
-    "name": "Jack Bech",
-    "position": "WR",
-    "team": "LV",
+    "team": "WAS",
     "is_rookie": false
   },
   {
@@ -3595,6 +3532,13 @@
     "name": "Patrick Jones",
     "position": "EDR",
     "team": "CAR",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19520,
+    "name": "Tez Johnson",
+    "position": "WR",
+    "team": "TB",
     "is_rookie": false
   },
   {
@@ -3619,45 +3563,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19520,
-    "name": "Tez Johnson",
-    "position": "WR",
-    "team": "TB",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 15334,
     "name": "Azeez Al-Shaair",
     "position": "LB",
     "team": "HOU",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19313,
-    "name": "Trey Amos",
-    "position": "CB",
-    "team": "WAS",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19348,
-    "name": "Gunnar Helm",
-    "position": "TE",
-    "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20261,
-    "name": "Deion Burks",
-    "position": "WR",
-    "team": "IND",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 15658,
-    "name": "Darnell Mooney",
-    "position": "WR",
-    "team": "NYG",
     "is_rookie": false
   },
   {
@@ -3668,24 +3577,45 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 15544,
-    "name": "Jerry Jeudy",
-    "position": "WR",
-    "team": "CLE",
+    "fleaflicker_id": 19244,
+    "name": "Travis Hunter",
+    "position": "WR/CB",
+    "team": "JAC",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17754,
-    "name": "Andrei Iosivas",
+    "fleaflicker_id": 15658,
+    "name": "Darnell Mooney",
     "position": "WR",
-    "team": "CIN",
+    "team": "NYG",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13776,
-    "name": "Calvin Ridley",
+    "fleaflicker_id": 20261,
+    "name": "Deion Burks",
     "position": "WR",
+    "team": "IND",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 19738,
+    "name": "Efton Chism",
+    "position": "WR",
+    "team": "NE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19348,
+    "name": "Gunnar Helm",
+    "position": "TE",
     "team": "TEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 13768,
+    "name": "Mike Hughes",
+    "position": "CB",
+    "team": "ATL",
     "is_rookie": false
   },
   {
@@ -3696,10 +3626,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17754,
+    "name": "Andrei Iosivas",
+    "position": "WR",
+    "team": "CIN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16954,
     "name": "Theo Jackson",
     "position": "S",
     "team": "MIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18910,
+    "name": "Isaiah Williams",
+    "position": "WR",
+    "team": "NYJ",
     "is_rookie": false
   },
   {
@@ -3710,10 +3654,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17651,
+    "name": "Sydney Brown",
+    "position": "S",
+    "team": "ATL",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18428,
     "name": "Mike Sainristil",
     "position": "CB",
     "team": "WAS",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 13776,
+    "name": "Calvin Ridley",
+    "position": "WR",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -3752,10 +3710,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16941,
-    "name": "Romeo Doubs",
+    "fleaflicker_id": 19294,
+    "name": "Jack Bech",
     "position": "WR",
-    "team": "NE",
+    "team": "LV",
     "is_rookie": false
   },
   {
@@ -3787,17 +3745,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 12054,
+    "name": "Jarran Reed",
+    "position": "IL",
+    "team": "SEA",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18532,
     "name": "Josh Newton",
     "position": "CB",
     "team": "CIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18544,
-    "name": "Chau Smith-Wade",
-    "position": "CB",
-    "team": "CAR",
     "is_rookie": false
   },
   {
@@ -3808,10 +3766,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18544,
+    "name": "Chau Smith-Wade",
+    "position": "CB",
+    "team": "CAR",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 17650,
     "name": "DeMarvion Overshown",
     "position": "LB",
     "team": "DAL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17726,
+    "name": "Elijah Higgins",
+    "position": "TE",
+    "team": "ARI",
     "is_rookie": false
   },
   {
@@ -3822,6 +3794,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 19471,
+    "name": "LeQuint Allen",
+    "position": "RB",
+    "team": "JAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 8523,
     "name": "Harrison Smith",
     "position": "S",
@@ -3829,17 +3808,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16882,
-    "name": "Rachaad White",
-    "position": "RB",
-    "team": "WAS",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19390,
     "name": "DJ Giddens",
     "position": "RB",
     "team": "IND",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16882,
+    "name": "Rachaad White",
+    "position": "RB",
+    "team": "WAS",
     "is_rookie": false
   },
   {
@@ -3892,6 +3871,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16351,
+    "name": "Tommy Togiai",
+    "position": "IL",
+    "team": "HOU",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 17956,
     "name": "Xavier Smith",
     "position": "WR",
@@ -3920,31 +3906,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16351,
-    "name": "Tommy Togiai",
-    "position": "IL",
-    "team": "HOU",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 12904,
-    "name": "David Njoku",
-    "position": "TE",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 14678,
     "name": "Ed Oliver",
     "position": "IL",
     "team": "BUF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 5479,
-    "name": "Josh Johnson",
-    "position": "QB",
-    "team": "ARI",
     "is_rookie": false
   },
   {
@@ -3976,10 +3941,31 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 17726,
-    "name": "Elijah Higgins",
+    "fleaflicker_id": 12904,
+    "name": "David Njoku",
     "position": "TE",
-    "team": "ARI",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15603,
+    "name": "Michael Pittman",
+    "position": "WR",
+    "team": "PIT",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 10235,
+    "name": "Jadeveon Clowney",
+    "position": "EDR",
+    "team": "HOU",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19541,
+    "name": "Micah Robinson",
+    "position": "CB",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -4004,24 +3990,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 10389,
+    "name": "Shelby Harris",
+    "position": "IL",
+    "team": "NYG",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 17009,
     "name": "Kingsley Enagbare",
     "position": "EDR",
     "team": "NYJ",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19404,
-    "name": "Oronde Gadsden",
-    "position": "TE",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16819,
-    "name": "Jordan Davis",
-    "position": "IL",
-    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -4039,13 +4018,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20239,
-    "name": "Reggie Virgil",
-    "position": "WR",
-    "team": "ARI",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 17018,
     "name": "Jalen Nailor",
     "position": "WR",
@@ -4053,17 +4025,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16819,
+    "name": "Jordan Davis",
+    "position": "IL",
+    "team": "JAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 14691,
     "name": "Rock Ya-Sin",
     "position": "CB",
     "team": "DET",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 10245,
-    "name": "Khalil Mack",
-    "position": "EDR",
-    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -4081,31 +4053,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 19738,
-    "name": "Efton Chism",
-    "position": "WR",
-    "team": "NE",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 7377,
     "name": "Von Miller",
     "position": "EDR",
     "team": "DAL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13957,
-    "name": "Jacob Martin",
-    "position": "EDR",
-    "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 14721,
-    "name": "Dre'Mont Jones",
-    "position": "EDR",
-    "team": "NE",
     "is_rookie": false
   },
   {
@@ -4116,18 +4067,25 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16894,
-    "name": "Cameron Thomas",
+    "fleaflicker_id": 10245,
+    "name": "Khalil Mack",
     "position": "EDR",
-    "team": "ATL",
+    "team": "LAC",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18399,
-    "name": "Jarrian Jones",
-    "position": "CB",
-    "team": "JAC",
+    "fleaflicker_id": 14721,
+    "name": "Dre'Mont Jones",
+    "position": "EDR",
+    "team": "NE",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20082,
+    "name": "Nate Boerkircher",
+    "position": "TE",
+    "team": "JAC",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 17666,
@@ -4135,6 +4093,34 @@
     "position": "EDR",
     "team": "SEA",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 13957,
+    "name": "Jacob Martin",
+    "position": "EDR",
+    "team": "TEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16894,
+    "name": "Cameron Thomas",
+    "position": "EDR",
+    "team": "ATL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19404,
+    "name": "Oronde Gadsden",
+    "position": "TE",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20239,
+    "name": "Reggie Virgil",
+    "position": "WR",
+    "team": "ARI",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 18169,
@@ -4151,18 +4137,18 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18399,
+    "name": "Jarrian Jones",
+    "position": "CB",
+    "team": "JAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 12055,
     "name": "Maliek Collins",
     "position": "IL",
     "team": "CLE",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20049,
-    "name": "Akheem Mesidor",
-    "position": "EDR",
-    "team": "LAC",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 13807,
@@ -4179,25 +4165,18 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 20049,
+    "name": "Akheem Mesidor",
+    "position": "EDR",
+    "team": "LAC",
+    "is_rookie": true
+  },
+  {
     "fleaflicker_id": 20077,
     "name": "TJ Parker",
     "position": "EDR",
     "team": "BUF",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 15554,
-    "name": "Nnamdi Madubuike",
-    "position": "IL",
-    "team": "BAL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13811,
-    "name": "Donte Jackson",
-    "position": "CB",
-    "team": "LAC",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 12083,
@@ -4211,6 +4190,13 @@
     "name": "Grover Stewart",
     "position": "IL",
     "team": "IND",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15107,
+    "name": "Olamide Zaccheaus",
+    "position": "WR",
+    "team": "ATL",
     "is_rookie": false
   },
   {
@@ -4228,10 +4214,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 13811,
+    "name": "Donte Jackson",
+    "position": "CB",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16141,
     "name": "Tershawn Wharton",
     "position": "IL",
     "team": "CAR",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17470,
+    "name": "Isaiah Pola-Mao",
+    "position": "S",
+    "team": "LV",
     "is_rookie": false
   },
   {
@@ -4242,10 +4242,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19381,
-    "name": "Jason Marshall",
-    "position": "CB",
-    "team": "MIA",
+    "fleaflicker_id": 20031,
+    "name": "Dohnte Meyers",
+    "position": "WR",
+    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -4256,20 +4256,6 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 17470,
-    "name": "Isaiah Pola-Mao",
-    "position": "S",
-    "team": "LV",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 12054,
-    "name": "Jarran Reed",
-    "position": "IL",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 12071,
     "name": "A'Shawn Robinson",
     "position": "IL",
@@ -4277,10 +4263,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16815,
-    "name": "Kayvon Thibodeaux",
+    "fleaflicker_id": 11221,
+    "name": "Danielle Hunter",
     "position": "EDR",
-    "team": "NYG",
+    "team": "HOU",
     "is_rookie": false
   },
   {
@@ -4305,6 +4291,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16815,
+    "name": "Kayvon Thibodeaux",
+    "position": "EDR",
+    "team": "NYG",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 17714,
     "name": "Colby Wooden",
     "position": "IL",
@@ -4319,31 +4312,17 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 15603,
-    "name": "Michael Pittman",
-    "position": "WR",
-    "team": "PIT",
+    "fleaflicker_id": 19355,
+    "name": "Tonka Hemingway",
+    "position": "IL",
+    "team": "LV",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20082,
-    "name": "Nate Boerkircher",
-    "position": "TE",
-    "team": "JAC",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 19265,
     "name": "Walter Nolen",
     "position": "IL",
     "team": "ARI",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 15701,
-    "name": "Troy Dye",
-    "position": "LB",
-    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -4358,6 +4337,13 @@
     "name": "Moro Ojomo",
     "position": "IL",
     "team": "PHI",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15701,
+    "name": "Troy Dye",
+    "position": "LB",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -4452,6 +4438,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 13787,
+    "name": "Carlton Davis",
+    "position": "CB",
+    "team": "NE",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 10250,
     "name": "Aaron Donald",
     "position": "IL",
@@ -4463,13 +4456,6 @@
     "name": "Michael Carter",
     "position": "RB",
     "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16923,
-    "name": "Charlie Kolar",
-    "position": "TE",
-    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -4487,20 +4473,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16304,
-    "name": "Osa Odighizuwa",
-    "position": "IL",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20276,
-    "name": "Jack Endries",
-    "position": "TE",
-    "team": "CIN",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 17558,
     "name": "KaVontae Turpin",
     "position": "WR",
@@ -4512,6 +4484,13 @@
     "name": "Cody Barton",
     "position": "LB",
     "team": "TEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16304,
+    "name": "Osa Odighizuwa",
+    "position": "IL",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -4527,6 +4506,20 @@
     "position": "IL",
     "team": "MIA",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17764,
+    "name": "Jammie Robinson",
+    "position": "S",
+    "team": "ATL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20276,
+    "name": "Jack Endries",
+    "position": "TE",
+    "team": "CIN",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 18651,
@@ -4557,10 +4550,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 16800,
-    "name": "Jermaine Johnson",
-    "position": "EDR",
-    "team": "TEN",
+    "fleaflicker_id": 16923,
+    "name": "Charlie Kolar",
+    "position": "TE",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -4571,17 +4564,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 13395,
-    "name": "Adam Butler",
-    "position": "IL",
-    "team": "LV",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19244,
-    "name": "Travis Hunter",
-    "position": "WR/CB",
-    "team": "JAC",
+    "fleaflicker_id": 16800,
+    "name": "Jermaine Johnson",
+    "position": "EDR",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -4599,13 +4585,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17596,
-    "name": "Myles Murphy",
-    "position": "EDR",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18478,
     "name": "Brandon Dorlus",
     "position": "IL",
@@ -4613,24 +4592,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17690,
-    "name": "Adetomiwa Adebawore",
-    "position": "IL",
-    "team": "IND",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20031,
-    "name": "Dohnte Meyers",
+    "fleaflicker_id": 16849,
+    "name": "John Metchie",
     "position": "WR",
-    "team": "CIN",
+    "team": "CAR",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16287,
-    "name": "Malcolm Koonce",
+    "fleaflicker_id": 17596,
+    "name": "Myles Murphy",
     "position": "EDR",
-    "team": "LV",
+    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -4641,10 +4613,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16287,
+    "name": "Malcolm Koonce",
+    "position": "EDR",
+    "team": "LV",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 17604,
     "name": "Calijah Kancey",
     "position": "IL",
     "team": "TB",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17690,
+    "name": "Adetomiwa Adebawore",
+    "position": "IL",
+    "team": "IND",
     "is_rookie": false
   },
   {
@@ -4653,6 +4639,13 @@
     "position": "EDR",
     "team": "GB",
     "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 13798,
+    "name": "Arden Key",
+    "position": "EDR",
+    "team": "IND",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 14868,
@@ -4666,20 +4659,6 @@
     "name": "D'Marco Jackson",
     "position": "LB",
     "team": "CHI",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13798,
-    "name": "Arden Key",
-    "position": "EDR",
-    "team": "IND",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 12179,
-    "name": "DJ Reader",
-    "position": "IL",
-    "team": "NYG",
     "is_rookie": false
   },
   {
@@ -4704,13 +4683,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13768,
-    "name": "Mike Hughes",
-    "position": "CB",
-    "team": "ATL",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17631,
     "name": "Marvin Mims",
     "position": "WR",
@@ -4725,10 +4697,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17616,
-    "name": "Keion White",
-    "position": "EDR",
-    "team": "SF",
+    "fleaflicker_id": 12179,
+    "name": "DJ Reader",
+    "position": "IL",
+    "team": "NYG",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 11181,
+    "name": "Arik Armstead",
+    "position": "IL",
+    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -4753,17 +4732,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18475,
-    "name": "Theo Johnson",
-    "position": "TE",
-    "team": "NYG",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 11181,
-    "name": "Arik Armstead",
-    "position": "IL",
-    "team": "JAC",
+    "fleaflicker_id": 16972,
+    "name": "Tyler Badie",
+    "position": "RB",
+    "team": "DEN",
     "is_rookie": false
   },
   {
@@ -4771,6 +4743,13 @@
     "name": "D.J. Jones",
     "position": "IL",
     "team": "DEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17197,
+    "name": "Darrell Baker",
+    "position": "CB",
+    "team": "MIA",
     "is_rookie": false
   },
   {
@@ -4788,18 +4767,25 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19405,
-    "name": "RJ Mickens",
-    "position": "S",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 20148,
     "name": "Wade Woodaz",
     "position": "LB",
     "team": "HOU",
     "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 20570,
+    "name": "Kapena Gushiken",
+    "position": "CB",
+    "team": "IND",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 17616,
+    "name": "Keion White",
+    "position": "EDR",
+    "team": "SF",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 17788,
@@ -4809,10 +4795,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18515,
-    "name": "Audric Estime",
-    "position": "RB",
-    "team": "NO",
+    "fleaflicker_id": 19405,
+    "name": "RJ Mickens",
+    "position": "S",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -4830,13 +4816,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20155,
-    "name": "Genesis Smith",
-    "position": "S",
-    "team": "LAC",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 15594,
     "name": "Willie Gay",
     "position": "LB",
@@ -4851,6 +4830,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 19453,
+    "name": "Gavin Bartholomew",
+    "position": "TE",
+    "team": "MIN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20069,
     "name": "D'Angelo Ponds",
     "position": "CB",
@@ -4858,10 +4844,24 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 20155,
+    "name": "Genesis Smith",
+    "position": "S",
+    "team": "LAC",
+    "is_rookie": true
+  },
+  {
     "fleaflicker_id": 13752,
     "name": "Vita Vea",
     "position": "IL",
     "team": "TB",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18515,
+    "name": "Audric Estime",
+    "position": "RB",
+    "team": "NO",
     "is_rookie": false
   },
   {
@@ -4879,6 +4879,13 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 18475,
+    "name": "Theo Johnson",
+    "position": "TE",
+    "team": "NYG",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19263,
     "name": "Mykel Williams",
     "position": "EDR",
@@ -4886,38 +4893,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19453,
-    "name": "Gavin Bartholomew",
-    "position": "TE",
-    "team": "MIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 15785,
-    "name": "Teair Tart",
-    "position": "IL",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17824,
-    "name": "DJ Ivey",
-    "position": "CB",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19824,
     "name": "Shaun Dolac",
     "position": "LB",
     "team": "LAR",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 10389,
-    "name": "Shelby Harris",
-    "position": "IL",
-    "team": "NYG",
     "is_rookie": false
   },
   {
@@ -4935,6 +4914,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 15785,
+    "name": "Teair Tart",
+    "position": "IL",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 15937,
     "name": "Salvon Ahmed",
     "position": "RB",
@@ -4942,10 +4928,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 11238,
-    "name": "Denzel Perryman",
-    "position": "LB",
-    "team": "LAC",
+    "fleaflicker_id": 17824,
+    "name": "DJ Ivey",
+    "position": "CB",
+    "team": "CIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19393,
+    "name": "Marcus Harris",
+    "position": "CB",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -4953,6 +4946,13 @@
     "name": "Dondrea Tillman",
     "position": "EDR",
     "team": "DEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 11238,
+    "name": "Denzel Perryman",
+    "position": "LB",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -4998,17 +4998,38 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14714,
-    "name": "Drew Sample",
-    "position": "TE",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17649,
     "name": "Luke Schoonmaker",
     "position": "TE",
     "team": "DAL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 12069,
+    "name": "Austin Hooper",
+    "position": "TE",
+    "team": "ATL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14781,
+    "name": "Foster Moreau",
+    "position": "TE",
+    "team": "HOU",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15667,
+    "name": "Quez Watkins",
+    "position": "WR",
+    "team": "IND",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19847,
+    "name": "Myles Price",
+    "position": "WR",
+    "team": "MIN",
     "is_rookie": false
   },
   {
@@ -5040,10 +5061,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14781,
-    "name": "Foster Moreau",
+    "fleaflicker_id": 14714,
+    "name": "Drew Sample",
     "position": "TE",
-    "team": "HOU",
+    "team": "CIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16871,
+    "name": "Sam Williams",
+    "position": "EDR",
+    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -5061,13 +5089,6 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 19669,
-    "name": "Branson Combs",
-    "position": "LB",
-    "team": "JAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 14798,
     "name": "Charles Omenihu",
     "position": "IL",
@@ -5075,10 +5096,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19847,
-    "name": "Myles Price",
-    "position": "WR",
-    "team": "MIN",
+    "fleaflicker_id": 19669,
+    "name": "Branson Combs",
+    "position": "LB",
+    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -5103,13 +5124,6 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 15596,
-    "name": "Alex Highsmith",
-    "position": "EDR",
-    "team": "PIT",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16516,
     "name": "K.J. Britt",
     "position": "LB",
@@ -5131,6 +5145,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16220,
+    "name": "Chris Blair",
+    "position": "WR",
+    "team": "ATL",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20210,
     "name": "Josh Cuevas",
     "position": "TE",
@@ -5138,31 +5159,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 19366,
-    "name": "Billy Bowman",
-    "position": "CB",
-    "team": "ATL",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19439,
     "name": "Tory Horton",
     "position": "WR",
     "team": "SEA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 13839,
-    "name": "B.J. Hill",
-    "position": "IL",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18470,
-    "name": "Justin Eboigbe",
-    "position": "IL",
-    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -5180,6 +5180,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18470,
+    "name": "Justin Eboigbe",
+    "position": "IL",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19705,
     "name": "Keith Cooper",
     "position": "IL",
@@ -5187,24 +5194,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20235,
-    "name": "Jaden Dugger",
-    "position": "LB",
-    "team": "SF",
-    "is_rookie": true
+    "fleaflicker_id": 13839,
+    "name": "B.J. Hill",
+    "position": "IL",
+    "team": "CIN",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 15549,
     "name": "Kristian Fulton",
     "position": "CB",
     "team": "KC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17651,
-    "name": "Sydney Brown",
-    "position": "S",
-    "team": "ATL",
     "is_rookie": false
   },
   {
@@ -5215,25 +5215,11 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 12958,
-    "name": "Dalvin Tomlinson",
-    "position": "IL",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 20203,
     "name": "Hezekiah Masses",
     "position": "CB",
     "team": "LV",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 15615,
-    "name": "Kyle Dugger",
-    "position": "S",
-    "team": "CIN",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 19352,
@@ -5250,6 +5236,13 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 15615,
+    "name": "Kyle Dugger",
+    "position": "S",
+    "team": "CIN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16419,
     "name": "Roy Lopez",
     "position": "IL",
@@ -5257,11 +5250,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20260,
-    "name": "Seth McGowan",
-    "position": "RB",
-    "team": "IND",
-    "is_rookie": true
+    "fleaflicker_id": 12958,
+    "name": "Dalvin Tomlinson",
+    "position": "IL",
+    "team": "LAC",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 19268,
@@ -5271,11 +5264,25 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 12951,
+    "name": "James Conner",
+    "position": "RB",
+    "team": "ARI",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18648,
     "name": "Tatum Bethune",
     "position": "LB",
     "team": "SF",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20235,
+    "name": "Jaden Dugger",
+    "position": "LB",
+    "team": "SF",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 17692,
@@ -5306,13 +5313,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18531,
-    "name": "Cedric Johnson",
-    "position": "EDR",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 20047,
     "name": "Peter Woods",
     "position": "IL",
@@ -5320,24 +5320,17 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 18531,
+    "name": "Cedric Johnson",
+    "position": "EDR",
+    "team": "CIN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19311,
     "name": "Shavon Revel",
     "position": "CB",
     "team": "DAL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16972,
-    "name": "Tyler Badie",
-    "position": "RB",
-    "team": "DEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18910,
-    "name": "Isaiah Williams",
-    "position": "WR",
-    "team": "NYJ",
     "is_rookie": false
   },
   {
@@ -5355,25 +5348,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 10235,
-    "name": "Jadeveon Clowney",
-    "position": "EDR",
-    "team": "HOU",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 20111,
     "name": "Lee Hunter",
     "position": "IL",
     "team": "CAR",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 15107,
-    "name": "Olamide Zaccheaus",
-    "position": "WR",
-    "team": "ATL",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 16249,
@@ -5411,6 +5390,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16555,
+    "name": "Sam Kamara",
+    "position": "IL",
+    "team": "CLE",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20086,
     "name": "Kayden McDonald",
     "position": "IL",
@@ -5425,45 +5411,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 16555,
-    "name": "Sam Kamara",
-    "position": "IL",
-    "team": "CLE",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16871,
-    "name": "Sam Williams",
-    "position": "EDR",
-    "team": "CLE",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18222,
     "name": "Christian Izien",
     "position": "S",
     "team": "DET",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18466,
-    "name": "Troy Franklin",
-    "position": "WR",
-    "team": "DEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19471,
-    "name": "LeQuint Allen",
-    "position": "RB",
-    "team": "JAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18946,
-    "name": "Charles Woods",
-    "position": "CB",
-    "team": "NE",
     "is_rookie": false
   },
   {
@@ -5474,18 +5425,18 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18466,
+    "name": "Troy Franklin",
+    "position": "WR",
+    "team": "DEN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20087,
     "name": "Tyler Onyedim",
     "position": "IL",
     "team": "DEN",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 18432,
-    "name": "Ruke Orhorhoro",
-    "position": "IL",
-    "team": "JAC",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 20159,
@@ -5495,27 +5446,6 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 16932,
-    "name": "Daniel Bellinger",
-    "position": "TE",
-    "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16849,
-    "name": "John Metchie",
-    "position": "WR",
-    "team": "CAR",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 9410,
-    "name": "Kyle Juszczyk",
-    "position": "RB",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 15557,
     "name": "Devin Duvernay",
     "position": "WR",
@@ -5523,10 +5453,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17613,
-    "name": "Jordan Addison",
-    "position": "WR",
-    "team": "MIN",
+    "fleaflicker_id": 18432,
+    "name": "Ruke Orhorhoro",
+    "position": "IL",
+    "team": "JAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16932,
+    "name": "Daniel Bellinger",
+    "position": "TE",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -5544,11 +5481,11 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 15575,
-    "name": "Adam Trautman",
-    "position": "TE",
-    "team": "DEN",
-    "is_rookie": false
+    "fleaflicker_id": 20524,
+    "name": "West Weeks",
+    "position": "LB",
+    "team": "IND",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 13960,
@@ -5558,10 +5495,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17010,
+    "name": "Dominique Robinson",
+    "position": "EDR",
+    "team": "HOU",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18638,
     "name": "Jowon Briggs",
     "position": "IL",
     "team": "NYJ",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15575,
+    "name": "Adam Trautman",
+    "position": "TE",
+    "team": "DEN",
     "is_rookie": false
   },
   {
@@ -5586,32 +5537,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20524,
-    "name": "West Weeks",
-    "position": "LB",
-    "team": "IND",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 15632,
     "name": "Broderick Washington",
     "position": "IL",
     "team": "BAL",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20119,
-    "name": "Romello Height",
-    "position": "EDR",
-    "team": "SF",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 20112,
-    "name": "Zachariah Branch",
-    "position": "WR",
-    "team": "ATL",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 18579,
@@ -5621,10 +5551,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 15564,
-    "name": "Van Jefferson",
+    "fleaflicker_id": 19371,
+    "name": "Jordan Watkins",
     "position": "WR",
-    "team": "WAS",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -5642,6 +5572,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 15564,
+    "name": "Van Jefferson",
+    "position": "WR",
+    "team": "WAS",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16701,
     "name": "Malik Herring",
     "position": "EDR",
@@ -5649,10 +5586,24 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12069,
-    "name": "Austin Hooper",
-    "position": "TE",
-    "team": "ATL",
+    "fleaflicker_id": 18556,
+    "name": "Nehemiah Pritchett",
+    "position": "CB",
+    "team": "SEA",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20119,
+    "name": "Romello Height",
+    "position": "EDR",
+    "team": "SF",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 16868,
+    "name": "Cor'Dale Flott",
+    "position": "CB",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -5684,17 +5635,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18556,
-    "name": "Nehemiah Pritchett",
-    "position": "CB",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 7373,
     "name": "Cameron Jordan",
     "position": "IL",
     "team": "NO",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 12058,
+    "name": "Sterling Shepard",
+    "position": "WR",
+    "team": "NYJ",
     "is_rookie": false
   },
   {
@@ -5740,17 +5691,24 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20160,
-    "name": "Colbie Young",
-    "position": "WR",
-    "team": "CIN",
-    "is_rookie": true
+    "fleaflicker_id": 19586,
+    "name": "Raheim Sanders",
+    "position": "RB",
+    "team": "CLE",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 13823,
     "name": "Nathan Shepherd",
     "position": "IL",
     "team": "NO",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14223,
+    "name": "Charvarius Ward",
+    "position": "CB",
+    "team": "IND",
     "is_rookie": false
   },
   {
@@ -5768,11 +5726,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19586,
-    "name": "Raheim Sanders",
-    "position": "RB",
-    "team": "CLE",
-    "is_rookie": false
+    "fleaflicker_id": 20160,
+    "name": "Colbie Young",
+    "position": "WR",
+    "team": "CIN",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 18397,
@@ -5787,6 +5745,13 @@
     "position": "CB",
     "team": "NYG",
     "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 9410,
+    "name": "Kyle Juszczyk",
+    "position": "RB",
+    "team": "SF",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 15149,
@@ -5810,13 +5775,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13076,
-    "name": "Davon Godchaux",
-    "position": "IL",
-    "team": "JAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 12116,
     "name": "David Onyemata",
     "position": "IL",
@@ -5831,17 +5789,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18413,
-    "name": "Mike Hall",
-    "position": "IL",
-    "team": "CLE",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19451,
     "name": "Tyrion Ingram-Dawkins",
     "position": "IL",
     "team": "MIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 13076,
+    "name": "Davon Godchaux",
+    "position": "IL",
+    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -5852,10 +5810,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19371,
-    "name": "Jordan Watkins",
-    "position": "WR",
-    "team": "SF",
+    "fleaflicker_id": 19389,
+    "name": "Tim Smith",
+    "position": "IL",
+    "team": "IND",
     "is_rookie": false
   },
   {
@@ -5866,10 +5824,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19355,
-    "name": "Tonka Hemingway",
+    "fleaflicker_id": 18413,
+    "name": "Mike Hall",
     "position": "IL",
-    "team": "LV",
+    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -5877,13 +5835,6 @@
     "name": "Carson Bruener",
     "position": "LB",
     "team": "PIT",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16421,
-    "name": "Garret Wallow",
-    "position": "LB",
-    "team": "SF",
     "is_rookie": false
   },
   {
@@ -5901,13 +5852,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19752,
-    "name": "Xavier Restrepo",
-    "position": "WR",
-    "team": "TEN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 20097,
     "name": "Zion Young",
     "position": "EDR",
@@ -5915,10 +5859,24 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 16421,
+    "name": "Garret Wallow",
+    "position": "LB",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18244,
     "name": "Nate Adkins",
     "position": "TE",
     "team": "DEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19752,
+    "name": "Xavier Restrepo",
+    "position": "WR",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -5941,6 +5899,13 @@
     "position": "EDR",
     "team": "NE",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20085,
+    "name": "Marlin Klein",
+    "position": "TE",
+    "team": "HOU",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 18224,
@@ -5978,13 +5943,6 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 20484,
-    "name": "J. Michael Sturdivant",
-    "position": "WR",
-    "team": "GB",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 9376,
     "name": "Zach Ertz",
     "position": "TE",
@@ -5997,6 +5955,13 @@
     "position": "LB",
     "team": "KC",
     "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20484,
+    "name": "J. Michael Sturdivant",
+    "position": "WR",
+    "team": "GB",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 5317,
@@ -6013,11 +5978,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17865,
-    "name": "Caleb Murphy",
-    "position": "EDR",
-    "team": "LAC",
-    "is_rookie": false
+    "fleaflicker_id": 20526,
+    "name": "Tahj Chambers",
+    "position": "LB",
+    "team": "IND",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 16331,
@@ -6041,11 +6006,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20526,
-    "name": "Tahj Chambers",
-    "position": "LB",
-    "team": "IND",
-    "is_rookie": true
+    "fleaflicker_id": 17865,
+    "name": "Caleb Murphy",
+    "position": "EDR",
+    "team": "LAC",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 20216,
@@ -6066,13 +6031,6 @@
     "name": "Hunter Wohler",
     "position": "S",
     "team": "IND",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17981,
-    "name": "Blake Whiteheart",
-    "position": "TE",
-    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -6104,6 +6062,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 19968,
+    "name": "Max Hurleman",
+    "position": "WR",
+    "team": "PIT",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 13098,
     "name": "Al-Quadin Muhammad",
     "position": "EDR",
@@ -6125,9 +6090,9 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12896,
-    "name": "Derek Barnett",
-    "position": "EDR",
+    "fleaflicker_id": 17981,
+    "name": "Blake Whiteheart",
+    "position": "TE",
     "team": "CLE",
     "is_rookie": false
   },
@@ -6139,13 +6104,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14857,
-    "name": "Cole Holcomb",
-    "position": "LB",
-    "team": "PIT",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 15864,
     "name": "Khalil Dorsey",
     "position": "CB",
@@ -6153,31 +6111,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19370,
-    "name": "C.J. West",
-    "position": "IL",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20690,
-    "name": "Rodney McGraw",
-    "position": "EDR",
-    "team": "MIA",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 18120,
-    "name": "Mohamoud Diabate",
-    "position": "LB",
-    "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19397,
-    "name": "Jaylen Reed",
+    "fleaflicker_id": 17026,
+    "name": "Rodney Thomas",
     "position": "S",
-    "team": "NE",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -6188,17 +6125,52 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 20690,
+    "name": "Rodney McGraw",
+    "position": "EDR",
+    "team": "MIA",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 12887,
+    "name": "Mo Alie-Cox",
+    "position": "TE",
+    "team": "IND",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18120,
+    "name": "Mohamoud Diabate",
+    "position": "LB",
+    "team": "TEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16350,
+    "name": "Tylan Wallace",
+    "position": "WR",
+    "team": "CLE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19370,
+    "name": "C.J. West",
+    "position": "IL",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19397,
+    "name": "Jaylen Reed",
+    "position": "S",
+    "team": "NE",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19336,
     "name": "Shemar Turner",
     "position": "IL",
     "team": "CHI",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 14681,
-    "name": "Jerry Tillery",
-    "position": "IL",
-    "team": "IND",
     "is_rookie": false
   },
   {
@@ -6230,10 +6202,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16959,
-    "name": "Teagan Quitoriano",
-    "position": "TE",
-    "team": "ARI",
+    "fleaflicker_id": 20023,
+    "name": "Isaiah Bond",
+    "position": "WR",
+    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -6241,13 +6213,6 @@
     "name": "Jay Ward",
     "position": "S",
     "team": "MIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17026,
-    "name": "Rodney Thomas",
-    "position": "S",
-    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -6272,24 +6237,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 19252,
-    "name": "Shemar Stewart",
-    "position": "EDR",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17737,
     "name": "Yasir Abdullah",
     "position": "LB",
     "team": "ATL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19389,
-    "name": "Tim Smith",
-    "position": "IL",
-    "team": "IND",
     "is_rookie": false
   },
   {
@@ -6307,10 +6258,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 19297,
-    "name": "Darien Porter",
-    "position": "CB",
-    "team": "LV",
+    "fleaflicker_id": 19252,
+    "name": "Shemar Stewart",
+    "position": "EDR",
+    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -6328,6 +6279,13 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 19297,
+    "name": "Darien Porter",
+    "position": "CB",
+    "team": "LV",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 10403,
     "name": "DaQuan Jones",
     "position": "IL",
@@ -6342,10 +6300,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19968,
-    "name": "Max Hurleman",
-    "position": "WR",
-    "team": "PIT",
+    "fleaflicker_id": 15057,
+    "name": "Kevin Givens",
+    "position": "EDR/IL",
+    "team": "IND",
     "is_rookie": false
   },
   {
@@ -6377,32 +6335,18 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 12940,
+    "name": "Fabian Moreau",
+    "position": "CB",
+    "team": "WAS",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18427,
     "name": "Ben Sinnott",
     "position": "TE",
     "team": "WAS",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19393,
-    "name": "Marcus Harris",
-    "position": "CB",
-    "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19394,
-    "name": "Rayuan Lane",
-    "position": "S",
-    "team": "JAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20709,
-    "name": "Kenneth Harris",
-    "position": "CB",
-    "team": "IND",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 18776,
@@ -6412,11 +6356,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20085,
-    "name": "Marlin Klein",
-    "position": "TE",
-    "team": "HOU",
-    "is_rookie": true
+    "fleaflicker_id": 19394,
+    "name": "Rayuan Lane",
+    "position": "S",
+    "team": "JAC",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 13397,
@@ -6475,24 +6419,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17730,
-    "name": "Will Mallory",
-    "position": "TE",
-    "team": "IND",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19909,
     "name": "Isas Waxter",
     "position": "CB",
     "team": "LAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 14733,
-    "name": "Jahlani Tavai",
-    "position": "LB",
-    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -6524,6 +6454,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 20117,
+    "name": "Oscar Delp",
+    "position": "TE",
+    "team": "NO",
+    "is_rookie": true
+  },
+  {
     "fleaflicker_id": 18373,
     "name": "Xavier Legette",
     "position": "WR",
@@ -6531,11 +6468,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19807,
-    "name": "Sebastian Valdez",
-    "position": "EDR/IL",
-    "team": "SF",
-    "is_rookie": false
+    "fleaflicker_id": 20112,
+    "name": "Zachariah Branch",
+    "position": "WR",
+    "team": "ATL",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 14341,
@@ -6566,18 +6503,18 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 19807,
+    "name": "Sebastian Valdez",
+    "position": "EDR/IL",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 15663,
     "name": "K'Von Wallace",
     "position": "S",
     "team": "BAL",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20195,
-    "name": "Tanner Koziol",
-    "position": "TE",
-    "team": "JAC",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 16907,
@@ -6594,17 +6531,38 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 15671,
+    "name": "Charlie Woerner",
+    "position": "TE",
+    "team": "ATL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18635,
+    "name": "Jacoby Windmon",
+    "position": "LB",
+    "team": "PIT",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20195,
+    "name": "Tanner Koziol",
+    "position": "TE",
+    "team": "JAC",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 20073,
+    "name": "Will Kacmarek",
+    "position": "TE",
+    "team": "MIA",
+    "is_rookie": true
+  },
+  {
     "fleaflicker_id": 11320,
     "name": "Rakeem Nunez-Roches",
     "position": "IL",
     "team": "TB",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16269,
-    "name": "Hunter Long",
-    "position": "TE",
-    "team": "ARI",
     "is_rookie": false
   },
   {
@@ -6636,32 +6594,39 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18816,
+    "name": "Jamree Kromah",
+    "position": "EDR",
+    "team": "CLE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20194,
+    "name": "CJ Williams",
+    "position": "WR",
+    "team": "JAC",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 14733,
+    "name": "Jahlani Tavai",
+    "position": "LB",
+    "team": "JAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18388,
+    "name": "Malachi Corley",
+    "position": "WR",
+    "team": "CLE",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18572,
     "name": "Mekhi Wingo",
     "position": "IL",
     "team": "DET",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18883,
-    "name": "Kendall Milton",
-    "position": "RB",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19507,
-    "name": "Phil Mafah",
-    "position": "RB",
-    "team": "NYG",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20073,
-    "name": "Will Kacmarek",
-    "position": "TE",
-    "team": "MIA",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 20187,
@@ -6678,17 +6643,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13110,
-    "name": "Eric Saubert",
-    "position": "TE",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19856,
-    "name": "Adin Huntington",
-    "position": "IL",
-    "team": "CLE",
+    "fleaflicker_id": 16872,
+    "name": "Jalen Tolbert",
+    "position": "WR",
+    "team": "MIA",
     "is_rookie": false
   },
   {
@@ -6706,6 +6664,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 13110,
+    "name": "Eric Saubert",
+    "position": "TE",
+    "team": "SEA",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16699,
     "name": "Zayne Anderson",
     "position": "S",
@@ -6713,10 +6678,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16872,
-    "name": "Jalen Tolbert",
-    "position": "WR",
-    "team": "MIA",
+    "fleaflicker_id": 19856,
+    "name": "Adin Huntington",
+    "position": "IL",
+    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -6734,10 +6699,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16431,
-    "name": "Nate Hobbs",
-    "position": "CB",
-    "team": "SF",
+    "fleaflicker_id": 16951,
+    "name": "Drew Ogletree",
+    "position": "TE",
+    "team": "IND",
     "is_rookie": false
   },
   {
@@ -6746,20 +6711,6 @@
     "position": "CB",
     "team": "SF",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 15671,
-    "name": "Charlie Woerner",
-    "position": "TE",
-    "team": "ATL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18482,
-    "name": "Isaac Guerendo",
-    "position": "RB",
-    "team": "SF",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 17769,
@@ -6776,10 +6727,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17728,
-    "name": "Evan Hull",
+    "fleaflicker_id": 16833,
+    "name": "Jeremy Ruckert",
+    "position": "TE",
+    "team": "NYJ",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18482,
+    "name": "Isaac Guerendo",
     "position": "RB",
-    "team": "ARI",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -6790,31 +6748,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16833,
-    "name": "Jeremy Ruckert",
-    "position": "TE",
-    "team": "NYJ",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 15566,
-    "name": "Terrell Burgess",
-    "position": "S",
-    "team": "TEN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16417,
-    "name": "Luke Farrell",
-    "position": "TE",
+    "fleaflicker_id": 16431,
+    "name": "Nate Hobbs",
+    "position": "CB",
     "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16951,
-    "name": "Drew Ogletree",
-    "position": "TE",
-    "team": "IND",
     "is_rookie": false
   },
   {
@@ -6881,13 +6818,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16360,
-    "name": "John Bates",
-    "position": "TE",
-    "team": "WAS",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16883,
     "name": "Logan Hall",
     "position": "IL",
@@ -6909,17 +6839,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 15680,
-    "name": "DeeJay Dallas",
-    "position": "RB",
-    "team": "MIN",
+    "fleaflicker_id": 16360,
+    "name": "John Bates",
+    "position": "TE",
+    "team": "WAS",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16142,
-    "name": "Cody White",
-    "position": "WR",
-    "team": "LV",
+    "fleaflicker_id": 16417,
+    "name": "Luke Farrell",
+    "position": "TE",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -6930,17 +6860,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 19933,
+    "name": "Easton Mascarenas-Arnold",
+    "position": "LB",
+    "team": "CLE",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 11179,
     "name": "Bud Dupree",
     "position": "EDR",
     "team": "LAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17197,
-    "name": "Darrell Baker",
-    "position": "CB",
-    "team": "MIA",
     "is_rookie": false
   },
   {
@@ -6951,10 +6881,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19933,
-    "name": "Easton Mascarenas-Arnold",
-    "position": "LB",
-    "team": "CLE",
+    "fleaflicker_id": 19438,
+    "name": "Rylie Mills",
+    "position": "IL",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -6969,6 +6899,13 @@
     "name": "Cody Lindenberg",
     "position": "LB",
     "team": "LV",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16269,
+    "name": "Hunter Long",
+    "position": "TE",
+    "team": "ARI",
     "is_rookie": false
   },
   {
@@ -6993,24 +6930,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19438,
-    "name": "Rylie Mills",
-    "position": "IL",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19658,
-    "name": "Patrick Herbert",
-    "position": "TE",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20398,
-    "name": "Robert Henry",
+    "fleaflicker_id": 20337,
+    "name": "Gregory Desrosiers",
     "position": "RB",
-    "team": "WAS",
+    "team": "NYG",
     "is_rookie": true
   },
   {
@@ -7021,13 +6944,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20214,
-    "name": "Joe Royer",
-    "position": "TE",
-    "team": "CLE",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 11168,
     "name": "Dante Fowler",
     "position": "EDR",
@@ -7035,24 +6951,24 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 15680,
+    "name": "DeeJay Dallas",
+    "position": "RB",
+    "team": "MIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20214,
+    "name": "Joe Royer",
+    "position": "TE",
+    "team": "CLE",
+    "is_rookie": true
+  },
+  {
     "fleaflicker_id": 18848,
     "name": "PJ Jules",
     "position": "S",
     "team": "CIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20117,
-    "name": "Oscar Delp",
-    "position": "TE",
-    "team": "NO",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 16350,
-    "name": "Tylan Wallace",
-    "position": "WR",
-    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -7070,24 +6986,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 11207,
-    "name": "Ameer Abdullah",
-    "position": "RB",
-    "team": "JAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 12887,
-    "name": "Mo Alie-Cox",
-    "position": "TE",
-    "team": "IND",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 16997,
     "name": "Jordan Jackson",
     "position": "IL",
     "team": "DEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 17943,
+    "name": "Brycen Tremayne",
+    "position": "WR",
+    "team": "CAR",
     "is_rookie": false
   },
   {
@@ -7112,13 +7021,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17943,
-    "name": "Brycen Tremayne",
-    "position": "WR",
-    "team": "CAR",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18082,
     "name": "E.J. Jenkins",
     "position": "TE",
@@ -7133,11 +7035,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20266,
-    "name": "Dallen Bentley",
-    "position": "TE",
-    "team": "DEN",
-    "is_rookie": true
+    "fleaflicker_id": 18238,
+    "name": "Jaleel McLaughlin",
+    "position": "RB",
+    "team": "CLE",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 15081,
@@ -7154,13 +7056,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18388,
-    "name": "Malachi Corley",
-    "position": "WR",
-    "team": "CLE",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18646,
     "name": "Devin Culp",
     "position": "TE",
@@ -7168,10 +7063,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18238,
-    "name": "Jaleel McLaughlin",
+    "fleaflicker_id": 17728,
+    "name": "Evan Hull",
     "position": "RB",
-    "team": "CLE",
+    "team": "ARI",
     "is_rookie": false
   },
   {
@@ -7186,6 +7081,13 @@
     "name": "Tyrel Dodson",
     "position": "LB",
     "team": "CAR",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16959,
+    "name": "Teagan Quitoriano",
+    "position": "TE",
+    "team": "ARI",
     "is_rookie": false
   },
   {
@@ -7210,17 +7112,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 19914,
+    "name": "Ben Yurosek",
+    "position": "TE",
+    "team": "MIN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18492,
     "name": "Isaiah Davis",
     "position": "RB",
     "team": "NYJ",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 15667,
-    "name": "Quez Watkins",
-    "position": "WR",
-    "team": "IND",
     "is_rookie": false
   },
   {
@@ -7231,10 +7133,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19914,
-    "name": "Ben Yurosek",
-    "position": "TE",
-    "team": "MIN",
+    "fleaflicker_id": 20179,
+    "name": "Karon Prunty",
+    "position": "CB",
+    "team": "NE",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 16711,
+    "name": "Adam Prentice",
+    "position": "RB",
+    "team": "DEN",
     "is_rookie": false
   },
   {
@@ -7245,24 +7154,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16711,
-    "name": "Adam Prentice",
-    "position": "RB",
-    "team": "DEN",
+    "fleaflicker_id": 16142,
+    "name": "Cody White",
+    "position": "WR",
+    "team": "LV",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20337,
-    "name": "Gregory Desrosiers",
+    "fleaflicker_id": 19507,
+    "name": "Phil Mafah",
     "position": "RB",
     "team": "NYG",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 19416,
-    "name": "Tahj Brooks",
-    "position": "RB",
-    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -7287,11 +7189,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 14980,
-    "name": "Joe Giles-Harris",
-    "position": "LB",
-    "team": "CIN",
-    "is_rookie": false
+    "fleaflicker_id": 20398,
+    "name": "Robert Henry",
+    "position": "RB",
+    "team": "WAS",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 16434,
@@ -7329,10 +7231,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18234,
-    "name": "Emanuel Wilson",
-    "position": "RB",
-    "team": "SEA",
+    "fleaflicker_id": 19658,
+    "name": "Patrick Herbert",
+    "position": "TE",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -7341,6 +7243,27 @@
     "position": "RB",
     "team": "BAL",
     "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 20232,
+    "name": "Barion Brown",
+    "position": "WR",
+    "team": "NO",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 14980,
+    "name": "Joe Giles-Harris",
+    "position": "LB",
+    "team": "CIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 11184,
+    "name": "Marcus Mariota",
+    "position": "QB",
+    "team": "WAS",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 15870,
@@ -7371,17 +7294,17 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 11184,
-    "name": "Marcus Mariota",
-    "position": "QB",
-    "team": "WAS",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19458,
     "name": "Quinn Ewers",
     "position": "QB",
     "team": "JAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18234,
+    "name": "Emanuel Wilson",
+    "position": "RB",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -7399,13 +7322,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20232,
-    "name": "Barion Brown",
-    "position": "WR",
-    "team": "NO",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 20365,
     "name": "Jacob Thomas",
     "position": "S",
@@ -7417,20 +7333,6 @@
     "name": "Chris Manhertz",
     "position": "TE",
     "team": "NYG",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16974,
-    "name": "Jerome Ford",
-    "position": "RB",
-    "team": "ARI",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 16220,
-    "name": "Chris Blair",
-    "position": "WR",
-    "team": "ATL",
     "is_rookie": false
   },
   {
@@ -7462,6 +7364,20 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 20350,
+    "name": "Avery Smith",
+    "position": "CB",
+    "team": "LAC",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 16974,
+    "name": "Jerome Ford",
+    "position": "RB",
+    "team": "ARI",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 13017,
     "name": "Joshua Dobbs",
     "position": "QB",
@@ -7469,17 +7385,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 13209,
+    "name": "Tim Patrick",
+    "position": "WR",
+    "team": "NYJ",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 16280,
     "name": "Davis Mills",
     "position": "QB",
     "team": "HOU",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19657,
-    "name": "Danny Striggow",
-    "position": "EDR",
-    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -7494,6 +7410,13 @@
     "name": "Spencer Rattler",
     "position": "QB",
     "team": "NO",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19403,
+    "name": "KeAndre Lambert-Smith",
+    "position": "WR",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -7515,6 +7438,13 @@
     "name": "T.J. Tampa",
     "position": "CB",
     "team": "BAL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19657,
+    "name": "Danny Striggow",
+    "position": "EDR",
+    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -7560,13 +7490,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19403,
-    "name": "KeAndre Lambert-Smith",
-    "position": "WR",
-    "team": "LAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 20137,
     "name": "Cade Klubnik",
     "position": "QB",
@@ -7595,10 +7518,24 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16235,
-    "name": "Mac Jones",
-    "position": "QB",
-    "team": "SF",
+    "fleaflicker_id": 20290,
+    "name": "Tim Keenan",
+    "position": "IL",
+    "team": "LV",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 15566,
+    "name": "Terrell Burgess",
+    "position": "S",
+    "team": "TEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16192,
+    "name": "Nick Westbrook-Ikhine",
+    "position": "WR",
+    "team": "IND",
     "is_rookie": false
   },
   {
@@ -7623,38 +7560,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 19890,
+    "name": "Carter Runyon",
+    "position": "TE",
+    "team": "LV",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18416,
     "name": "Kris Jenkins",
     "position": "IL",
     "team": "CIN",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20271,
-    "name": "Eli Heidenreich",
-    "position": "RB",
-    "team": "PIT",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 20335,
-    "name": "Bryan Thomas",
-    "position": "EDR",
-    "team": "JAC",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 16192,
-    "name": "Nick Westbrook-Ikhine",
-    "position": "WR",
-    "team": "IND",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17978,
-    "name": "Emari Demercado",
-    "position": "RB",
-    "team": "HOU",
     "is_rookie": false
   },
   {
@@ -7679,17 +7595,24 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17813,
-    "name": "Jared Wayne",
-    "position": "WR",
-    "team": "MIA",
+    "fleaflicker_id": 17978,
+    "name": "Emari Demercado",
+    "position": "RB",
+    "team": "HOU",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17010,
-    "name": "Dominique Robinson",
+    "fleaflicker_id": 20335,
+    "name": "Bryan Thomas",
     "position": "EDR",
-    "team": "HOU",
+    "team": "JAC",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 19634,
+    "name": "Beaux Collins",
+    "position": "WR",
+    "team": "ATL",
     "is_rookie": false
   },
   {
@@ -7700,25 +7623,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18660,
-    "name": "Isaiah Stalbird",
-    "position": "LB",
-    "team": "NO",
+    "fleaflicker_id": 18465,
+    "name": "Cade Stover",
+    "position": "TE",
+    "team": "HOU",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20084,
-    "name": "Albert Regis",
-    "position": "IL",
-    "team": "JAC",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 20570,
-    "name": "Kapena Gushiken",
-    "position": "CB",
-    "team": "IND",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 20773,
@@ -7728,24 +7637,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 15672,
-    "name": "Khalid Kareem",
-    "position": "EDR",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18465,
-    "name": "Cade Stover",
-    "position": "TE",
-    "team": "HOU",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20023,
-    "name": "Isaiah Bond",
-    "position": "WR",
-    "team": "CLE",
+    "fleaflicker_id": 18660,
+    "name": "Isaiah Stalbird",
+    "position": "LB",
+    "team": "NO",
     "is_rookie": false
   },
   {
@@ -7784,18 +7679,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19401,
-    "name": "JJ Pegues",
-    "position": "IL",
-    "team": "LV",
+    "fleaflicker_id": 15672,
+    "name": "Khalid Kareem",
+    "position": "EDR",
+    "team": "SF",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20168,
-    "name": "Bryce Lance",
-    "position": "WR",
-    "team": "NO",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 20476,
@@ -7812,10 +7700,45 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 18677,
+    "name": "Cody Schrader",
+    "position": "RB",
+    "team": "DEN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20513,
+    "name": "Channing Canada",
+    "position": "CB",
+    "team": "NE",
+    "is_rookie": true
+  },
+  {
     "fleaflicker_id": 19790,
     "name": "Jay Higgins",
     "position": "LB",
     "team": "BAL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 20168,
+    "name": "Bryce Lance",
+    "position": "WR",
+    "team": "NO",
+    "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 13377,
+    "name": "Pharaoh Brown",
+    "position": "TE",
+    "team": "IND",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19401,
+    "name": "JJ Pegues",
+    "position": "IL",
+    "team": "LV",
     "is_rookie": false
   },
   {
@@ -7889,13 +7812,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 15612,
-    "name": "Ashtyn Davis",
-    "position": "S",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17062,
     "name": "Nick Muse",
     "position": "TE",
@@ -7910,10 +7826,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 15057,
-    "name": "Kevin Givens",
-    "position": "EDR/IL",
-    "team": "IND",
+    "fleaflicker_id": 15612,
+    "name": "Ashtyn Davis",
+    "position": "S",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -7924,11 +7840,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12058,
-    "name": "Sterling Shepard",
-    "position": "WR",
-    "team": "NYJ",
-    "is_rookie": false
+    "fleaflicker_id": 20084,
+    "name": "Albert Regis",
+    "position": "IL",
+    "team": "JAC",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 16262,
@@ -7942,13 +7858,6 @@
     "name": "Jordan Magee",
     "position": "LB",
     "team": "WAS",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19541,
-    "name": "Micah Robinson",
-    "position": "CB",
-    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -7966,6 +7875,13 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 20253,
+    "name": "Behren Morton",
+    "position": "QB",
+    "team": "NE",
+    "is_rookie": true
+  },
+  {
     "fleaflicker_id": 16854,
     "name": "Skyy Moore",
     "position": "WR",
@@ -7980,13 +7896,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 15148,
-    "name": "Lil'Jordan Humphrey",
-    "position": "WR",
-    "team": "DEN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19010,
     "name": "Cam Lampkin",
     "position": "CB",
@@ -7994,11 +7903,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16898,
-    "name": "Velus Jones",
-    "position": "WR",
-    "team": "SEA",
-    "is_rookie": false
+    "fleaflicker_id": 20299,
+    "name": "Joey Aguilar",
+    "position": "QB",
+    "team": "ARI",
+    "is_rookie": true
   },
   {
     "fleaflicker_id": 18112,
@@ -8006,20 +7915,6 @@
     "position": "EDR",
     "team": "TEN",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18923,
-    "name": "Kedon Slovis",
-    "position": "QB",
-    "team": "ARI",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20290,
-    "name": "Tim Keenan",
-    "position": "IL",
-    "team": "LV",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 16909,
@@ -8033,13 +7928,6 @@
     "name": "Tanner McKee",
     "position": "QB",
     "team": "PHI",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17843,
-    "name": "Lew Nichols",
-    "position": "RB",
-    "team": "PIT",
     "is_rookie": false
   },
   {
@@ -8064,18 +7952,18 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20253,
-    "name": "Behren Morton",
-    "position": "QB",
-    "team": "NE",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 20734,
     "name": "Malcolm DeWalt",
     "position": "CB",
     "team": "CAR",
     "is_rookie": true
+  },
+  {
+    "fleaflicker_id": 17843,
+    "name": "Lew Nichols",
+    "position": "RB",
+    "team": "PIT",
+    "is_rookie": false
   },
   {
     "fleaflicker_id": 18420,
@@ -8089,13 +7977,6 @@
     "name": "Percy Butler",
     "position": "S",
     "team": "WAS",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 17764,
-    "name": "Jammie Robinson",
-    "position": "S",
-    "team": "ATL",
     "is_rookie": false
   },
   {
@@ -8113,17 +7994,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18677,
-    "name": "Cody Schrader",
-    "position": "RB",
-    "team": "DEN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19017,
     "name": "Eric Watts",
     "position": "EDR/IL",
     "team": "MIA",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19416,
+    "name": "Tahj Brooks",
+    "position": "RB",
+    "team": "CIN",
     "is_rookie": false
   },
   {
@@ -8169,10 +8050,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19890,
-    "name": "Carter Runyon",
-    "position": "TE",
-    "team": "LV",
+    "fleaflicker_id": 18012,
+    "name": "Patrick O'Connell",
+    "position": "LB",
+    "team": "SEA",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18483,
+    "name": "Tyrice Knight",
+    "position": "LB",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -8183,10 +8071,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 17663,
-    "name": "Cameron Latu",
+    "fleaflicker_id": 16340,
+    "name": "Kylen Granson",
     "position": "TE",
-    "team": "NE",
+    "team": "TEN",
     "is_rookie": false
   },
   {
@@ -8211,17 +8099,10 @@
     "is_rookie": true
   },
   {
-    "fleaflicker_id": 18012,
-    "name": "Patrick O'Connell",
-    "position": "LB",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18483,
-    "name": "Tyrice Knight",
-    "position": "LB",
-    "team": "SEA",
+    "fleaflicker_id": 17663,
+    "name": "Cameron Latu",
+    "position": "TE",
+    "team": "NE",
     "is_rookie": false
   },
   {
@@ -8246,10 +8127,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16654,
-    "name": "Quintin Morris",
-    "position": "TE",
-    "team": "JAC",
+    "fleaflicker_id": 12106,
+    "name": "Demarcus Robinson",
+    "position": "WR",
+    "team": "SF",
     "is_rookie": false
   },
   {
@@ -8313,6 +8194,13 @@
     "name": "Tremon Smith",
     "position": "CB",
     "team": "HOU",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14906,
+    "name": "Jake Browning",
+    "position": "QB",
+    "team": "LAC",
     "is_rookie": false
   },
   {
@@ -8393,6 +8281,13 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 18007,
+    "name": "Jacob Saylors",
+    "position": "RB",
+    "team": "DET",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18504,
     "name": "Jaylin Simpson",
     "position": "CB",
@@ -8414,20 +8309,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19634,
-    "name": "Beaux Collins",
-    "position": "WR",
-    "team": "ATL",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20179,
-    "name": "Karon Prunty",
-    "position": "CB",
-    "team": "NE",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 14240,
     "name": "Elijah Campbell",
     "position": "S",
@@ -8439,13 +8320,6 @@
     "name": "Jason Pinnock",
     "position": "S",
     "team": "NYG",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18816,
-    "name": "Jamree Kromah",
-    "position": "EDR",
-    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -8463,18 +8337,18 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 16654,
+    "name": "Quintin Morris",
+    "position": "TE",
+    "team": "JAC",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 20283,
     "name": "Jackson Kuwatch",
     "position": "LB",
     "team": "CAR",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 13377,
-    "name": "Pharaoh Brown",
-    "position": "TE",
-    "team": "IND",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 16384,
@@ -8491,10 +8365,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12893,
-    "name": "Mitchell Trubisky",
-    "position": "QB",
-    "team": "TEN",
+    "fleaflicker_id": 16334,
+    "name": "Chazz Surratt",
+    "position": "LB",
+    "team": "SEA",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 19820,
+    "name": "Connor O'Toole",
+    "position": "EDR",
+    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -8512,17 +8393,17 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 12893,
+    "name": "Mitchell Trubisky",
+    "position": "QB",
+    "team": "TEN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 14935,
     "name": "Greg Dortch",
     "position": "WR",
     "team": "BUF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 14964,
-    "name": "Stephen Carlson",
-    "position": "TE",
-    "team": "CHI",
     "is_rookie": false
   },
   {
@@ -8533,24 +8414,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16334,
-    "name": "Chazz Surratt",
-    "position": "LB",
-    "team": "SEA",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18085,
     "name": "Xavier Gipson",
     "position": "WR",
     "team": "NYG",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19820,
-    "name": "Connor O'Toole",
-    "position": "EDR",
-    "team": "SEA",
     "is_rookie": false
   },
   {
@@ -8561,31 +8428,10 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20207,
-    "name": "Gabriel Rubio",
-    "position": "IL",
-    "team": "PIT",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 17846,
     "name": "Kendall Williamson",
     "position": "S",
     "team": "LAC",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 19436,
-    "name": "Jordan James",
-    "position": "RB",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 18847,
-    "name": "Winston Reid",
-    "position": "LB",
-    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -8617,20 +8463,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20513,
-    "name": "Channing Canada",
-    "position": "CB",
-    "team": "NE",
-    "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 14101,
-    "name": "Matt Dickerson",
-    "position": "IL",
-    "team": "JAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 15847,
     "name": "Reggie Gilliam",
     "position": "RB",
@@ -8659,6 +8491,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 18113,
+    "name": "Nikko Remigio",
+    "position": "WR",
+    "team": "HOU",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 18429,
     "name": "Trevin Wallace",
     "position": "LB",
@@ -8673,6 +8512,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 19436,
+    "name": "Jordan James",
+    "position": "RB",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19600,
     "name": "Ricky Barber",
     "position": "IL",
@@ -8680,25 +8526,11 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 20146,
-    "name": "Wesley Williams",
-    "position": "EDR",
-    "team": "JAC",
-    "is_rookie": true
-  },
-  {
     "fleaflicker_id": 20229,
     "name": "DeMonte Capehart",
     "position": "IL",
     "team": "TB",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 14741,
-    "name": "Sean Murphy-Bunting",
-    "position": "CB",
-    "team": "PIT",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 17773,
@@ -8729,6 +8561,13 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17048,
+    "name": "Russ Yeast",
+    "position": "S",
+    "team": "CIN",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 17227,
     "name": "Julius Chestnut",
     "position": "RB",
@@ -8747,6 +8586,13 @@
     "name": "Kameron Johnson",
     "position": "WR",
     "team": "TB",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 18847,
+    "name": "Winston Reid",
+    "position": "LB",
+    "team": "CLE",
     "is_rookie": false
   },
   {
@@ -8771,13 +8617,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17048,
-    "name": "Russ Yeast",
-    "position": "S",
-    "team": "CIN",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19387,
     "name": "Dorian Strong",
     "position": "CB",
@@ -8799,17 +8638,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18007,
-    "name": "Jacob Saylors",
-    "position": "RB",
-    "team": "DET",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 19410,
     "name": "Aeneas Peebles",
     "position": "IL",
     "team": "BAL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14101,
+    "name": "Matt Dickerson",
+    "position": "IL",
+    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -8834,18 +8673,18 @@
     "is_rookie": true
   },
   {
+    "fleaflicker_id": 20146,
+    "name": "Wesley Williams",
+    "position": "EDR",
+    "team": "JAC",
+    "is_rookie": true
+  },
+  {
     "fleaflicker_id": 20468,
     "name": "Camden Brown",
     "position": "WR",
     "team": "DAL",
     "is_rookie": true
-  },
-  {
-    "fleaflicker_id": 12940,
-    "name": "Fabian Moreau",
-    "position": "CB",
-    "team": "WAS",
-    "is_rookie": false
   },
   {
     "fleaflicker_id": 18701,
@@ -8876,10 +8715,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 16340,
-    "name": "Kylen Granson",
+    "fleaflicker_id": 14964,
+    "name": "Stephen Carlson",
     "position": "TE",
-    "team": "TEN",
+    "team": "CHI",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15568,
+    "name": "AJ Dillon",
+    "position": "RB",
+    "team": "CAR",
     "is_rookie": false
   },
   {
@@ -8897,13 +8743,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 19395,
-    "name": "Jalen McLeod",
-    "position": "LB",
-    "team": "JAC",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 18527,
     "name": "Rasheen Ali",
     "position": "RB",
@@ -8918,17 +8757,17 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 17835,
-    "name": "Brayden Willis",
-    "position": "TE",
-    "team": "SF",
+    "fleaflicker_id": 16898,
+    "name": "Velus Jones",
+    "position": "WR",
+    "team": "SEA",
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 18113,
-    "name": "Nikko Remigio",
-    "position": "WR",
-    "team": "HOU",
+    "fleaflicker_id": 19395,
+    "name": "Jalen McLeod",
+    "position": "LB",
+    "team": "JAC",
     "is_rookie": false
   },
   {
@@ -8960,13 +8799,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 13209,
-    "name": "Tim Patrick",
-    "position": "WR",
-    "team": "NYJ",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 17293,
     "name": "Britain Covey",
     "position": "WR",
@@ -8981,18 +8813,18 @@
     "is_rookie": false
   },
   {
+    "fleaflicker_id": 17835,
+    "name": "Brayden Willis",
+    "position": "TE",
+    "team": "SF",
+    "is_rookie": false
+  },
+  {
     "fleaflicker_id": 19108,
     "name": "David Martin-Robinson",
     "position": "TE",
     "team": "TEN",
     "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 20157,
-    "name": "Kaden Wetjen",
-    "position": "WR",
-    "team": "PIT",
-    "is_rookie": true
   },
   {
     "fleaflicker_id": 13489,
@@ -9100,13 +8932,6 @@
     "is_rookie": false
   },
   {
-    "fleaflicker_id": 12106,
-    "name": "Demarcus Robinson",
-    "position": "WR",
-    "team": "SF",
-    "is_rookie": false
-  },
-  {
     "fleaflicker_id": 12153,
     "name": "Chris Moore",
     "position": "WR",
@@ -9125,13 +8950,6 @@
     "name": "Roy Robertson-Harris",
     "position": "IL",
     "team": "NYG",
-    "is_rookie": false
-  },
-  {
-    "fleaflicker_id": 12951,
-    "name": "James Conner",
-    "position": "RB",
-    "team": "ARI",
     "is_rookie": false
   },
   {
@@ -9237,6 +9055,188 @@
     "name": "KhaDarel Hodge",
     "position": "WR",
     "team": "SF",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14681,
+    "name": "Jerry Tillery",
+    "position": "IL",
+    "team": "IND",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14749,
+    "name": "Josh Oliver",
+    "position": "TE",
+    "team": "MIN",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14860,
+    "name": "Gardner Minshew",
+    "position": "QB",
+    "team": "ARI",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 14915,
+    "name": "David Sills",
+    "position": "WR",
+    "team": "TB",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15136,
+    "name": "Alex Bachman",
+    "position": "WR",
+    "team": "LAR",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15279,
+    "name": "Alec Ingold",
+    "position": "RB",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15455,
+    "name": "Gunner Olszewski",
+    "position": "WR",
+    "team": "NYG",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15528,
+    "name": "Jalen Reagor",
+    "position": "WR",
+    "team": "MIA",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15535,
+    "name": "Noah Igbinoghene",
+    "position": "CB",
+    "team": "CLE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15655,
+    "name": "Darnay Holmes",
+    "position": "CB",
+    "team": "ATL",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15659,
+    "name": "Kindle Vildor",
+    "position": "CB",
+    "team": "NE",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15660,
+    "name": "Amik Robertson",
+    "position": "CB",
+    "team": "WAS",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15690,
+    "name": "L'Jarius Sneed",
+    "position": "CB",
+    "team": "KC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15713,
+    "name": "Leki Fotu",
+    "position": "IL",
+    "team": "PHI",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 15734,
+    "name": "Geno Stone",
+    "position": "S",
+    "team": "BUF",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16036,
+    "name": "Juwan Johnson",
+    "position": "TE",
+    "team": "NO",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16075,
+    "name": "Myles Bryant",
+    "position": "CB",
+    "team": "DET",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16097,
+    "name": "Chris Williams",
+    "position": "IL",
+    "team": "LV",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16259,
+    "name": "Trey Lance",
+    "position": "QB",
+    "team": "LAC",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16301,
+    "name": "Azeez Ojulari",
+    "position": "EDR",
+    "team": "LV",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16306,
+    "name": "Chauncey Golston",
+    "position": "EDR/IL",
+    "team": "NYG",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16309,
+    "name": "Dyami Brown",
+    "position": "WR",
+    "team": "WAS",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16353,
+    "name": "Cameron Sample",
+    "position": "EDR",
+    "team": "IND",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16370,
+    "name": "Marco Wilson",
+    "position": "CB",
+    "team": "CAR",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16475,
+    "name": "Brandon Smith",
+    "position": "WR",
+    "team": "PIT",
+    "is_rookie": false
+  },
+  {
+    "fleaflicker_id": 16477,
+    "name": "Patrick Johnson",
+    "position": "EDR",
+    "team": "LV",
     "is_rookie": false
   }
 ]
